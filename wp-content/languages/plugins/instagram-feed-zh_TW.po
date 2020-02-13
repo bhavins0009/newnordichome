@@ -1,0 +1,1759 @@
+# Translation of Plugins - Smash Balloon Social Photo Feed - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Smash Balloon Social Photo Feed - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-17 15:21:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Smash Balloon Social Photo Feed - Stable (latest release)\n"
+
+#: inc/admin/main.php:1157
+msgid "Medium (320x320)"
+msgstr "中型尺寸 (320x320)"
+
+#: inc/admin/main.php:2580
+msgid "Check out our other free plugins: <a href=\"https://wordpress.org/plugins/custom-facebook-feed/\" target=\"_blank\">Facebook</a>, <a href=\"https://wordpress.org/plugins/custom-twitter-feeds/\" target=\"_blank\">Twitter</a>, and <a href=\"https://wordpress.org/plugins/feeds-for-youtube/\" target=\"_blank\">YouTube</a>."
+msgstr "請參考我們開發的其他免費外掛: <a href=\"https://wordpress.org/plugins/custom-facebook-feed/\" target=\"_blank\">Facebook</a>、<a href=\"https://wordpress.org/plugins/custom-twitter-feeds/\" target=\"_blank\">Twitter</a> 及 <a href=\"https://wordpress.org/plugins/feeds-for-youtube/\" target=\"_blank\">YouTube</a>。"
+
+#: inc/admin/main.php:1766
+msgid "If your feed contains a lot of IG TV posts or your feed is not displaying any posts despite there being posts available on Instagram.com, try increasing this number to 25 or more."
+msgstr "如果使用的資訊提供包含大量 IG TV 貼文，或即使 Instagram.com 上有貼文、但資訊提供並未顯示任何貼文，請試著將這項數值增加至 25 或更高。"
+
+#: inc/admin/main.php:1771
+msgid "Enqueue JS file in head"
+msgstr "將 JS 檔案加入 head 佇列"
+
+#: inc/admin/main.php:1775
+msgid "Check this box if you'd like to enqueue the JavaScript file for the plugin in the head instead of the footer."
+msgstr "啟用這項設定後，便會將這個外掛的 JavaScript 檔案改為加入 head 佇列，而不會加入 footer 佇列。"
+
+#: inc/admin/main.php:1780
+msgid "Enqueue CSS file with shortcode"
+msgstr "使用短代碼將 CSS 檔案加入佇列"
+
+#: inc/admin/main.php:1784
+msgid "Check this box if you'd like to only include the CSS file for the plugin when the feed is on the page."
+msgstr "啟用這項設定後，便能只在包含資訊提供的頁面才載入外掛的 CSS 檔案。"
+
+#: inc/admin/main.php:1789
+msgid "Disable JS Image Loading"
+msgstr "停用 JS 圖片載入方式"
+
+#: inc/admin/main.php:1793
+msgid "Check this box to have images loaded server side instead of with JS."
+msgstr "啟用這項設定後，會改由伺服器端載入圖片，而不是透過 JS 載入圖片。"
+
+#: inc/admin/main.php:1809
+msgid "Load initial posts with AJAX"
+msgstr "以 AJAX 載入最新貼文"
+
+#: inc/admin/main.php:1814
+msgid "Initial posts will be loaded using AJAX instead of added to the page directly. If you use page caching, this will allow the feed to update according to the \"Check for new posts every\" setting on the \"Configure\" tab."
+msgstr "最新貼文會使用 AJAX 載入，而不會直接加入頁面。如果這個網站使用頁面快取，便會依據 [設定資訊提供] 分頁中的 [檢查新貼文週期] 設定更新資訊提供資料。"
+
+#: inc/admin/main.php:1855
+msgid "Enable Custom Templates"
+msgstr "啟用自訂範本:"
+
+#: inc/admin/main.php:1860
+msgid "The default HTML for the feed can be replaced with custom templates added to your theme's folder. Enable this setting to use these templates. See <a href=\"https://smashballoon.com/guide-to-creating-custom-templates/\" target=\"_blank\">this guide</a>"
+msgstr "資訊提供的 HTML 可以改用加入佈景主題資料夾中的自訂範本。啟用這項設定後，便能使用這些範本。如需進一步瞭解，請參閱<a href=\"https://smashballoon.com/guide-to-creating-custom-templates/\" target=\"_blank\">這份線上說明</a>。"
+
+#: inc/admin/main.php:1913
+msgid "Your Instagram User Name. This must be from a connected account on the \"Configure\" tab."
+msgstr "要使用的 Instagram 使用者名稱。這個使用者名稱必須是在 [設定資訊提供] 分頁中已完成連接的帳號。"
+
+#: inc/admin/main.php:2563
+msgid "Reset Error Log"
+msgstr "重設錯誤記錄"
+
+#: inc/class-sb-instagram-api-connect.php:181
+#: inc/class-sb-instagram-api-connect.php:217
+msgid "API error %s:"
+msgstr "API 錯誤代碼 %s:"
+
+#: inc/class-sb-instagram-api-connect.php:250
+msgid "Error: Hashtag limit of 30 unique hashtags per week has been reached."
+msgstr "錯誤: 已達每週 30 個個別主題標籤的數量限制上限。"
+
+#: inc/class-sb-instagram-api-connect.php:250
+msgid "Feed may not display until %s."
+msgstr "在 %s前，不會展示資訊提供。"
+
+#: inc/class-sb-instagram-api-connect.php:251
+msgid "If you need to display more than 30 hashtag feeds on your site, consider connecting an additional business account from a separate Instagram and Facebook account."
+msgstr "如果這個網站需要展示超過 30 個主題標籤的資訊提供，請連接個別的 Instagram 商業帳號及 Facebook 帳號。"
+
+#: inc/class-sb-instagram-api-connect.php:258
+msgid "Error: Connected account for the user %s does not have permission to use this feed type."
+msgstr "錯誤: 使用者 %s 已連接的帳號沒有使用這個資訊提供類型的權限。"
+
+#: inc/class-sb-instagram-api-connect.php:259
+msgid "Try using the big blue button on the \"Configure\" tab to reconnect the account and update its permissions."
+msgstr "請使用 [設定資訊提供] 分頁中藍色大型按鈕以連接帳號並更新對應的權限。"
+
+#: inc/class-sb-instagram-api-connect.php:265
+msgid "Error: Hashtag does not exist."
+msgstr "錯誤: 主題標籤不存在。"
+
+#: inc/class-sb-instagram-api-connect.php:266
+msgid "Please make a post that uses this hashtag to display this feed."
+msgstr "請發佈使用這個主題標籤的貼文，以便展示這個資訊提供。"
+
+#: inc/class-sb-instagram-api-connect.php:291
+msgid "There's an issue with the Instagram Access Token that you are using. Please obtain a new Access Token on the plugin's Settings page."
+msgstr "目前使用的 Instagram 存取權杖發生問題，請前往外掛的設定頁面取得新的存取權杖。"
+
+#: inc/class-sb-instagram-api-connect.php:325
+msgid "Error connecting to %s."
+msgstr "連接至 %s 發生錯誤。"
+
+#: inc/class-sb-instagram-post.php:395
+msgid "Error updating post."
+msgstr "更新貼文時發生錯誤。"
+
+#: inc/class-sb-instagram-post.php:450 inc/class-sb-instagram-post.php:462
+msgid "Error inserting post."
+msgstr "插入貼文時發生錯誤。"
+
+#: inc/class-sb-instagram-post.php:450
+msgid "No database ID."
+msgstr "找不到指定的資料庫 ID。"
+
+#: inc/class-sb-instagram-settings.php:389
+msgid "Error: There is no connected account for the user %s."
+msgstr "錯誤: 尚未連接至使用者 ID 為 %s 的帳號。"
+
+#: inc/class-sb-instagram-settings.php:439
+msgid "Error: There is no connected account for the user %s"
+msgstr "錯誤: 尚未連接至使用者 ID 為 %s 的帳號。"
+
+#: inc/admin/main.php:802
+msgid "Every"
+msgstr "檢查頻率"
+
+#: inc/admin/main.php:799
+msgid "<b>2. In the background</b><br>Selecting this option means that the plugin will check for new data in the background so that the feed is updated behind the scenes. You can select at what time and how often the plugin should check for new data using the settings below. <b>Please note</b> that the plugin will initially check for data from Instagram when the page first loads, but then after that will check in the background on the schedule selected - unless the cache is cleared.</p>"
+msgstr "<b>2. 背景執行檢查</b><br>啟用這項設定後，外掛會在背景執行檢查是否有新貼文；網站管理員可以在下方為外掛設定檢查頻率，因此資訊提供在背景會依據設定進行更新。<b>請注意</b>，外掛會在頁面首次載入時對 Instagram 的資料進行初始檢查，除非快取已清除，否則外掛便會在背景依據排程設定進行檢查。</p>"
+
+#: inc/admin/main.php:815
+msgid "In the background"
+msgstr "背景執行檢查"
+
+#: inc/admin/main.php:821
+msgid "Every hour"
+msgstr "每小時"
+
+#: inc/admin/main.php:822
+msgid "Every 12 hours"
+msgstr "每 12 小時"
+
+#: inc/admin/main.php:823
+msgid "Every 24 hours"
+msgstr "每 24 小時"
+
+#: inc/admin/main.php:827
+msgid "at"
+msgstr "於"
+
+#: inc/admin/main.php:858
+msgid "every 30 minutes"
+msgstr "每 30 分鐘"
+
+#: inc/admin/main.php:859
+msgid "every 12 hours"
+msgstr "每 12 小時"
+
+#: inc/admin/main.php:861
+msgid "Next check"
+msgstr "下次檢查時間"
+
+#: inc/admin/main.php:861
+msgid "Note: Saving the settings on this page will clear the cache and reset this schedule"
+msgstr "請注意，在這個頁面儲存設定會清除快取並重設排程。"
+
+#: inc/admin/main.php:863
+msgid "Nothing currently scheduled"
+msgstr "目前尚無排程工作"
+
+#: inc/admin/main.php:1089
+msgid "Number of photos to show initially."
+msgstr "最新照片的展示數量。"
+
+#: inc/admin/main.php:1309
+msgid "milliseconds"
+msgstr "毫秒"
+
+#: inc/admin/main.php:1746
+msgid "Image Resizing"
+msgstr "調整圖片大小"
+
+#: inc/admin/main.php:1749
+msgid "Disable Local Image Storing and Resizing"
+msgstr "停用本機圖片儲存及調整大小"
+
+#: inc/admin/main.php:1751
+msgid "Favor Local Images"
+msgstr "使用本機圖片"
+
+#: inc/admin/main.php:1753
+msgid "Reset Resized Images"
+msgstr "重設已調整大小的圖片"
+
+#: inc/admin/main.php:1755
+msgid "The plugin creates and stores resized versions of images in order to serve a more optimized resolution size in the feed. Click this button to clear all data related to resized images. Enable the setting to favor local images to always use a local, resized image if one is available."
+msgstr "這個外掛為了展示資訊提供，會對圖片進行尺寸最佳化處理，然後會建立並儲存經過調整大小的圖片。點擊上方按鈕便會清除已調整大小圖片的全部資料。啟用 [使用本機圖片] 設定後，如果圖片具備本機版本，便會優先使用本機圖片。"
+
+#: inc/admin/main.php:1760
+msgid "API request size"
+msgstr "API 要求大小"
+
+#: inc/admin/main.php:1764
+msgid "Leave at \"0\" for default"
+msgstr "輸入 0 代表使用預設值"
+
+#: inc/admin/main.php:797
+msgid "<b>1. When the page loads</b><br>Selecting this option means that when the cache expires then the plugin will check Facebook for new posts the next time that the feed is loaded. You can choose how long this data should be cached for. If you set the time to 60 minutes then the plugin will clear the cached data after that length of time, and the next time the page is viewed it will check for new data. <b>Tip:</b> If you're experiencing an issue with the plugin not updating automatically then try enabling the setting labeled <b>'Force cache to clear on interval'</b> which is located on the 'Customize' tab."
+msgstr "<b>1. 載入頁面時檢查</b><br>啟用這項設定後，代表外掛在快取過期並再次載入資訊提供時，會檢查 Instagram 是否有新貼文。網站管理員可已設定資料的快取存活時間，舉例來說，如果將時間設定為 60 分鐘，這個快取便會在 60 分鐘後清除快取資料，並在使用者檢視時再次檢查有無新貼文。<b>請注意</b>，如果網站遇到外掛無法自動更新的問題，請啟用 [自訂資訊提供] 分頁中的 <b>[定期強制清除快取]</b> 設定。"
+
+#: inc/admin/actions.php:715
+msgid "It's great to see that you've been using the <strong style='font-weight: 700;'>Instagram Feed</strong> plugin for a while now. Hopefully you're happy with it!&nbsp; If so, would you consider leaving a positive review? It really helps to support the plugin and helps others to discover it too!"
+msgstr "很高興這個網站已使用 <strong style='font-weight: 700;'>Smash Balloon Social Photo Feed</strong> 一段時間，希望它已為網站帶來幫助。如果外掛對這個網站真的帶來幫助，還請為外掛撰寫評等，這是對外掛的最佳支持，並能協助其他人發現這個外掛的好處。"
+
+#: inc/admin/actions.php:719
+msgid "Sure, I'd love to!"
+msgstr "我願意撰寫評論"
+
+#: inc/admin/actions.php:721
+msgid "No thanks"
+msgstr "不用！謝謝"
+
+#: inc/admin/actions.php:723
+msgid "I've already given a review"
+msgstr "已發佈過評論"
+
+#: inc/admin/actions.php:725
+msgid "Ask Me Later"
+msgstr "稍後提醒我"
+
+#: inc/admin/actions.php:742
+msgid "<b style=\"font-weight: 700;\">Exclusive offer!</b>  We don't run promotions very often, but for a limited time we're offering <b style=\"font-weight: 700;\">20% off</b> our Pro version to all users of our free Instagram Feed plugin."
+msgstr "<b style=\"font-weight: 700;\">獨家優惠！</b>我們不常舉辦優惠活動，但我們目前為全部免費版外掛使用者提供 Pro 版的限時 <b style=\"font-weight: 700;\">8 折優惠</b>。"
+
+#: inc/admin/actions.php:744
+msgid "Get this offer"
+msgstr "取得這項優惠"
+
+#: inc/admin/actions.php:745 inc/admin/actions.php:763
+msgid "I'm not interested"
+msgstr "不感興趣"
+
+#: inc/admin/actions.php:760
+msgid "<b style=\"font-weight: 700;\">Black Friday/Cyber Monday Deal!</b> Thank you for using our free Instagram Feed plugin. For a limited time, we're offering <b style=\"font-weight: 700;\">20% off</b> the Pro version for all of our users."
+msgstr "<b style=\"font-weight: 700;\">黑色星期五/網購星期一優惠！</b>感謝使用 Smash Balloon Social Photo Feed，我們目前為全部使用者提供 Pro 版的 <b style=\"font-weight: 700;\">8 折優惠</b>。"
+
+#: inc/admin/actions.php:762
+msgid "Get this offer!"
+msgstr "取得這項優惠！"
+
+#: inc/admin/main.php:542
+msgid "Click on the %s tab to learn more about shortcodes"
+msgstr "點擊 [%s] 分頁以進一步瞭解短代碼"
+
+#: inc/admin/main.php:542
+msgid "Display Your Feed"
+msgstr "展示資訊提供"
+
+#: inc/admin/main.php:557
+msgid "Business Profile"
+msgstr "商業帳號"
+
+#: inc/admin/main.php:559
+msgid "Please enter the User ID for this Business Profile:"
+msgstr "請輸入這個商業帳號的使用者 ID:"
+
+#: inc/admin/main.php:742
+msgid "Upgrade to the Pro version to display Hashtag and Tagged feeds"
+msgstr "升級至 Pro 版以展示主題標籤及已標註帳號名稱貼文的資訊提供"
+
+#: inc/admin/main.php:755
+msgid "Tagged:"
+msgstr "已標註帳號名稱:"
+
+#: inc/admin/main.php:761
+msgid "Display posts that your account has been tagged in."
+msgstr "顯示標註你的帳號的貼文。"
+
+#: inc/admin/main.php:789
+msgid "Check for new posts"
+msgstr "貼文檢查頻率"
+
+#: inc/admin/main.php:794
+msgid "When the page loads"
+msgstr "載入頁面時檢查"
+
+#: inc/admin/main.php:796
+msgid "Your Instagram post data is temporarily cached by the plugin in your WordPress database. There are two ways that you can set the plugin to check for new data"
+msgstr "這個外掛會將已擷取的 Instagram 貼文資料，暫時快取在 WordPress 網站資料庫中。這個外掛提供兩種檢查新貼文資料的方式"
+
+#: inc/admin/actions.php:134 inc/class-sb-instagram-post.php:247
+msgid "Error saving edited image."
+msgstr "儲存已編輯圖片時發生錯誤。"
+
+#: inc/admin/actions.php:143 inc/class-sb-instagram-post.php:256
+msgid "Error editing image."
+msgstr "編輯圖片時發生錯誤。"
+
+#: inc/admin/actions.php:537
+msgid "Note for support"
+msgstr "支援注意事項"
+
+#: inc/admin/actions.php:563
+msgid "Unable to use admin-ajax.php when displaying feeds. Some features of the plugin will be unavailable."
+msgstr "展示資訊提供時無法使用 admin-ajax.php。這個外掛的部分功能會因此無法正常執行。"
+
+#: inc/admin/actions.php:563 inc/class-sb-instagram-feed.php:988
+msgid "this page"
+msgstr "這個頁面"
+
+#: inc/admin/actions.php:697
+msgid "PS. We currently have a <a href=\"https://smashballoon.com/instagram-feed/?utm_source=plugin-free&utm_campaign=sbi&discount="
+msgstr "貼心提醒: 目前正在進行<a href=\"https://smashballoon.com/instagram-feed/?utm_source=plugin-free&utm_campaign=sbi&discount="
+
+#: instagram-feed.php:123 inc/admin/main.php:820
+msgid "Every 30 minutes"
+msgstr "每 30 分鐘"
+
+#: inc/class-sb-instagram-feed.php:674
+msgid "Error: API requests are being delayed for this account."
+msgstr "錯誤: 這個帳號的 API 要求已延遲。"
+
+#: inc/class-sb-instagram-posts-manager.php:385
+#: inc/class-sb-instagram-feed.php:674
+msgid "New posts will not be retrieved."
+msgstr "不會擷取新貼文。"
+
+#: inc/class-sb-instagram-feed.php:682 inc/class-sb-instagram-feed.php:1160
+msgid "Click here to troubleshoot"
+msgstr "點擊這裡以進行疑難排解"
+
+#: inc/class-sb-instagram-posts-manager.php:394
+#: inc/class-sb-instagram-feed.php:684
+msgid "There may be an issue with the Instagram access token that you are using. Your server might also be unable to connect to Instagram at this time."
+msgstr "這個網站使用的 Instagram 存取權杖發生問題，目前網站伺服器無法連結至 Instagram。"
+
+#: inc/class-sb-instagram-feed.php:987
+msgid "Error: admin-ajax.php test was not successful. Some features may not be available."
+msgstr "錯誤: admin-ajax.php 測試無法通過。這個外掛的部分功能會因此無法正常執行。"
+
+#: inc/class-sb-instagram-feed.php:1028
+msgid "No posts found."
+msgstr "找不到符合條件的貼文。"
+
+#: inc/class-sb-instagram-feed.php:1157
+msgid "Error: No posts found."
+msgstr "錯誤: 找不到符合條件的貼文。"
+
+#: inc/class-sb-instagram-feed.php:1158
+msgid "Make sure this account has posts available on instagram.com."
+msgstr "請確認這個帳號在 instagram.com 有可用的貼文。"
+
+#: instagram-feed.php:176 instagram-feed.php:198
+#: inc/class-sb-instagram-posts-manager.php:292
+msgid "There was an error creating the folder for storing resized images."
+msgstr "建立儲存調整大小圖片的資料夾時發生錯誤。"
+
+#: inc/class-sb-instagram-posts-manager.php:385
+msgid "Error: API requests are being delayed."
+msgstr "錯誤: API 要求已延遲。"
+
+#: inc/if-functions.php:44
+msgid "Error: No connected account."
+msgstr "錯誤: 尚無已連接的帳號。"
+
+#: inc/if-functions.php:45
+msgid "Please go to the Instagram Feed settings page to connect an account."
+msgstr "請前往 Instagram Feed 設定頁面連接帳號。"
+
+#: instagram-feed.php:303 instagram-feed.php:327
+msgid "There was an error when trying to create the database tables used for resizing images."
+msgstr "建立用於調整大小圖片的資料表時發生錯誤。"
+
+#: templates/item.php:34 templates/item.php:45
+msgid "Instagram post %s"
+msgstr "Instagram 貼文 ID: %s"
+
+#. Plugin Name of the plugin
+msgid "Smash Balloon Instagram Feed"
+msgstr "Smash Balloon Instagram Feed"
+
+#: inc/admin/main.php:965
+msgid "Layout Type"
+msgstr "版面配置"
+
+#: inc/admin/main.php:2026
+msgid "Choose from 3 different ways of highlighting posts including by pattern, hashtag, post id or. Options:"
+msgstr "從 3 種不同的強調顯示方式 (固定間隔、主題標籤及貼文 ID) 選取其中一種顯示方式，參數為"
+
+#: inc/admin/main.php:2057
+msgid "The resolution/size of the photos including full, medium, thumbnail, and auto (based on size of image on page). Options:"
+msgstr "設定照片的解析度/尺寸，共計有 [完整尺寸]、[中型尺寸]、[縮圖] 及 [自動偵測] (基於圖片在頁面中的尺寸)，參數為"
+
+#: inc/admin/main.php:2072
+msgid "Disable the mobile layout. Options:"
+msgstr "停用行動版版面配置，參數為"
+
+#: inc/admin/main.php:2106
+msgid "The info to display when hovering over the photo such as the user name, post date, Instagram icon, location, caption, and like counts. Options:"
+msgstr "設定游標暫留照片上時顯示的資訊，例如使用者名稱、貼文發佈日期、Instagram 圖示、地點、說明文字及說讚次數，參數為"
+
+#: inc/admin/main.php:2113
+msgid "Whether to show the feed Header. Options:"
+msgstr "設定是否顯示資訊提供標題，參數為"
+
+#: inc/admin/main.php:2118
+msgid "Display the bio in the header. Options:"
+msgstr "設定是否在頁首顯示 [個人簡介]，參數為"
+
+#: inc/admin/main.php:2123
+msgid "Size of the header including small, medium and large. Options:"
+msgstr "標題尺寸可設定為小型尺寸、中型尺寸及大型尺寸，參數為"
+
+#: inc/admin/main.php:2135
+msgid "Whether to show the 'Load More' button. Options:"
+msgstr "設定是否顯示 [載入更多] 按鈕，參數為"
+
+#: inc/admin/main.php:2157
+msgid "Whether to show the 'Follow on Instagram' button. Options:"
+msgstr "設定是否顯示 [在 Instagram 上追蹤] 按鈕，參數為"
+
+#: inc/admin/main.php:2179
+msgid "Whether to show the photo caption. Options:"
+msgstr "設定是否顯示照片說明文字，參數為"
+
+#: inc/admin/main.php:2201
+msgid "Whether to show the Likes &amp; Comments. Options:"
+msgstr "設定是否顯示說讚及留言，參數為"
+
+#: inc/admin/main.php:2282
+msgid "FAQs"
+msgstr "常見問題集"
+
+#: inc/admin/main.php:2571
+msgid "Display your feed"
+msgstr "展示資訊提供"
+
+#: inc/admin/main.php:2572
+msgid "Copy and paste this shortcode directly into the page, post or widget where you'd like to display the feed:"
+msgstr "複製這裡提供的短代碼，並在想要展示資訊提供的頁面、文章或小工具中直接貼上:"
+
+#: inc/admin/main.php:2573
+msgid "Find out how to display <a href=\"?page=sb-instagram-feed&amp;tab=display\">multiple feeds</a>."
+msgstr "進一步瞭解如何展示<a href=\"?page=sb-instagram-feed&amp;tab=display\">多個資訊提供</a>。"
+
+#: inc/admin/main.php:965
+msgid "Click for shortcode option"
+msgstr "點擊以瞭解短代碼參數"
+
+#: inc/admin/main.php:1957
+msgid "How posts are arranged visually in the feed. There are four layouts: Grid, Carousel Slider, Masonry Grid, or Highlight Grid.  Options:"
+msgstr "設定貼文在資訊提供中的視覺排列方式，共計有 [格狀顯示]、[輪轉顯示]、[柱狀顯示] 及 [強調顯示] 4 種版面配置，參數為"
+
+#: inc/admin/main.php:2283
+msgid "<a href=\"https://smashballoon.com/my-photos-wont-load/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">My Instagram Feed Won't Load</a>"
+msgstr "<a href=\"https://smashballoon.com/my-photos-wont-load/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">我的 Instagram 資訊提供無法載入</a>"
+
+#: inc/admin/main.php:2284
+msgid "<a href=\"https://smashballoon.com/my-instagram-access-token-keep-expiring/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">My Access Token Keeps Expiring</a>"
+msgstr "<a href=\"https://smashballoon.com/my-instagram-access-token-keep-expiring/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">如何處理存取權杖過期</a>"
+
+#: inc/admin/main.php:2285
+msgid "See All"
+msgstr "檢視全部"
+
+#: inc/admin/main.php:2289
+msgid "Documentation"
+msgstr "線上說明"
+
+#: inc/admin/main.php:2290
+msgid "<a href=\"https://smashballoon.com/instagram-feed/free?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">Installation and Configuration</a>"
+msgstr "<a href=\"https://smashballoon.com/instagram-feed/free?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">安裝及設定</a>"
+
+#: inc/admin/main.php:2291
+msgid "<a href=\"https://smashballoon.com/display-multiple-instagram-feeds/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">Displaying multiple feeds</a>"
+msgstr "<a href=\"https://smashballoon.com/display-multiple-instagram-feeds/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">展示多個資訊提供</a>"
+
+#: inc/admin/main.php:2292
+msgid "<a href=\"https://smashballoon.com/instagram-feed-faq/customization/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">Customizing your Feed</a>"
+msgstr "<a href=\"https://smashballoon.com/instagram-feed-faq/customization/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">自訂資訊提供</a>"
+
+#: inc/admin/main.php:2252
+msgid "Need help?"
+msgstr "需要協助？"
+
+#: inc/admin/main.php:1212
+msgid "Upgrade to Pro to enable Photo Hover styles"
+msgstr "升級至 Pro 版以啟用 [游標暫留照片上時的樣式]"
+
+#: inc/admin/main.php:1450
+msgid "Upgrade to Pro to enable Likes &amp; Comments"
+msgstr "升級至 Pro 版以啟用 [說讚及留言]"
+
+#: inc/admin/main.php:1499
+msgid "Upgrade to Pro to enable Comments"
+msgstr "升級至 Pro 版以啟用 [燈箱效果留言]"
+
+#: inc/admin/main.php:1608
+msgid "Upgrade to Pro to enable Post Filtering options"
+msgstr "升級至 Pro 版以啟用 [篩選貼文] 功能"
+
+#: inc/admin/main.php:1620 inc/admin/main.php:1637
+msgid "Apply to:"
+msgstr "套用目標:"
+
+#: inc/admin/main.php:1621 inc/admin/main.php:1638
+msgid "All feeds"
+msgstr "全部資訊提供"
+
+#: inc/admin/main.php:1622 inc/admin/main.php:1639
+msgid "One feed"
+msgstr "其中一個資訊提供"
+
+#: inc/admin/main.php:1658
+msgid "Upgrade to Pro to enable Moderation options"
+msgstr "升級至 Pro 版以啟用 [貼文審核] 設定"
+
+#: inc/admin/main.php:1668
+msgid "Visual"
+msgstr "視覺化審核"
+
+#: inc/admin/main.php:1669
+msgid "Manual"
+msgstr "手動審核"
+
+#: inc/admin/main.php:1394
+msgid "Upgrade to Pro to enable Photo Captions"
+msgstr "升級至 Pro 版以啟用照片說明文字"
+
+#: inc/admin/main.php:1273
+msgid "Upgrade to Pro to enable Carousels"
+msgstr "升級至 Pro 版以啟用 [輪轉顯示]"
+
+#: inc/admin/main.php:459
+msgid "Use the button above to connect an Instagram account"
+msgstr "使用上方的按鈕以連接 Instagram 帳號"
+
+#: inc/admin/main.php:521
+msgid "Show Access Token"
+msgstr "顯示存取權杖"
+
+#: inc/admin/main.php:562
+msgid "Connect This Account"
+msgstr "連接這個帳號"
+
+#: inc/admin/main.php:726
+msgid "Connect a user account above"
+msgstr "連接上方列出的使用者帳號"
+
+#: inc/admin/main.php:880 inc/admin/main.php:1872 inc/admin/main.php:2242
+msgid "Need help setting up the plugin? Check out our <a href=\"https://smashballoon.com/instagram-feed/free/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">setup directions</a>"
+msgstr "設定外掛需要協助？請參閱<a href=\"https://smashballoon.com/instagram-feed/free/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">設定指南</a>"
+
+#: inc/admin/main.php:974
+msgid "Upgrade to the Pro version to unlock these layouts"
+msgstr "升級至 Pro 版以啟用這些版面配置"
+
+#: inc/admin/main.php:1046
+msgid "Hashtag"
+msgstr "主題標籤"
+
+#: inc/admin/main.php:1169 inc/admin/main.php:1213 inc/admin/main.php:1274
+#: inc/admin/main.php:1359 inc/admin/main.php:1395 inc/admin/main.php:1451
+#: inc/admin/main.php:1500 inc/admin/main.php:1609 inc/admin/main.php:1659
+msgid "Show Pro Options"
+msgstr "顯示 Pro 版設定"
+
+#: inc/admin/main.php:769
+msgid "Please note: this is only available in the <a href=\"https://smashballoon.com/instagram-feed/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">Pro version</a>"
+msgstr "請注意，這項功能僅於 <a href=\"https://smashballoon.com/instagram-feed/?utm_source=plugin-free&utm_campaign=sbi\" target=\"_blank\">Pro 版</a>中提供。"
+
+#: inc/admin/main.php:981
+msgid "A uniform grid of square-cropped images."
+msgstr "以整齊格狀顯示裁剪為正方形的圖片。"
+
+#: inc/admin/main.php:984
+msgid "Images in their original aspect ratios with no vertical space between posts."
+msgstr "貼文的圖片會以原始外觀比例顯示，且貼文間不含垂直間距。"
+
+#: inc/admin/main.php:992
+msgid "Number of Rows"
+msgstr "貼文列數"
+
+#: inc/admin/main.php:1003
+msgid "Loop Type"
+msgstr "循環播放方式"
+
+#: inc/admin/main.php:1008
+msgid "Rewind"
+msgstr "倒轉播放"
+
+#: inc/admin/main.php:1009
+msgid "Infinity"
+msgstr "無限循環播放"
+
+#: inc/admin/main.php:1037
+msgid "Masonry style, square-cropped, image only (no captions or likes/comments below image). \"Highlighted\" posts are twice as large."
+msgstr "以柱狀風格顯示裁剪為正方形的貼文圖片 (圖片下方不包含說明文字、說讚及留言)。強調顯示的貼文會是一般貼文的兩倍大。"
+
+#: inc/admin/main.php:1040
+msgid "Highlighting Type"
+msgstr "強調顯示方式"
+
+#: inc/admin/main.php:1044 inc/admin/main.php:1056
+msgid "Pattern"
+msgstr "固定間隔"
+
+#: inc/admin/main.php:1045
+msgid "Post ID"
+msgstr "貼文 ID"
+
+#: inc/admin/main.php:1059
+msgid "Highlight every"
+msgstr "強調顯示間隔數量為每"
+
+#: inc/admin/main.php:1059
+msgid "posts"
+msgstr "篇貼文"
+
+#: inc/admin/main.php:1062
+msgid "Highlight Posts with these Hashtags"
+msgstr "依照主題標籤強調顯示貼文"
+
+#: inc/admin/main.php:1068
+msgid "You can use this setting to highlight posts by a hashtag. Use a specified hashtag in your posts and they will be automatically highlighted in your feed."
+msgstr "使用這項設定可以強調顯示指定主題標籤的貼文。在貼文中使用了指定主題標籤後，這類貼文在資訊提供中便會自動強調顯示。"
+
+#: inc/admin/main.php:1071
+msgid "Highlight Posts by ID"
+msgstr "依照 ID 強調顯示貼文"
+
+#: inc/admin/main.php:1077
+msgid "You can use this setting to highlight posts by their ID. Enable and use \"moderation mode\", check the box to show post IDs underneath posts, then copy and paste IDs into this text box."
+msgstr "使用這項設定可以強調顯示指定貼文 ID 的貼文。啟用貼文審核模式後，便會在貼文下方顯示貼文 ID，然後複製所需的貼文 ID 並在這個文字方塊中貼上。"
+
+#: inc/admin/main.php:743 inc/admin/main.php:975
+msgid "Pro"
+msgstr "升級至 Pro 版"
+
+#: inc/admin/main.php:988
+msgid "Posts are displayed in a slideshow carousel."
+msgstr "選取這個版面配置後，貼文會以投影片輪轉方式顯示。"
+
+#: inc/admin/main.php:995
+msgid "Use the \"Number of Columns\" setting below this section to set how many posts are visible in the carousel at a given time."
+msgstr "使用下方的下拉式選單設定 [顯示列數]，便可控制指定時間間隔內輪轉顯示的貼文數量。"
+
+#: inc/admin/main.php:527
+msgid "Copy and paste this shortcode into your page or widget area"
+msgstr "複製這個短代碼，並在頁面或小工具區域貼上"
+
+#: inc/admin/main.php:535
+msgid "To add multiple users in the same feed, simply separate them using commas"
+msgstr "如需在同一個資訊提供中新增多個使用者，請使用逗號分隔多個使用者"
+
+#: inc/admin/main.php:1074
+msgid "Separate IDs using commas"
+msgstr "請使用逗號分隔多個 ID。"
+
+#: inc/admin/main.php:1908
+msgid "Display photos from a User ID (user)<br />Display posts from a Hashtag (hashtag)"
+msgstr "user: 依據使用者 ID 展示照片。<br />hashtag: 依據主題標籤展示照片。"
+
+#: inc/admin/main.php:1954
+msgid "Layout Options"
+msgstr "版面配置設定"
+
+#: inc/admin/main.php:2081
+msgid "Lightbox Comments Options"
+msgstr "燈箱效果留言設定"
+
+#: inc/admin/main.php:2093
+msgid "Photos Hover Style Options"
+msgstr "游標暫留照片上時的樣式設定"
+
+#: inc/admin/main.php:2227
+msgid "Auto Load More on Scroll"
+msgstr "頁面捲動時自動載入更多貼文"
+
+#: inc/admin/main.php:1967
+msgid "The number of photos to display initially for mobile screens (smaller than 480 pixels)."
+msgstr "設定最新照片在行動版中的展示數量 (外掛將螢幕寬度小於 480 像素定義為行動版)。"
+
+#: inc/admin/main.php:1977
+msgid "The number of columns in your feed for mobile screens (smaller than 480 pixels)."
+msgstr "設定內容提供在行動版中的照片顯示行數 (外掛將螢幕寬度小於 480 像素定義為行動版)。"
+
+#: inc/admin/main.php:1999
+msgid "Infinitely loop through posts or rewind"
+msgstr "設定照片輪播方式為無限循環播放或倒轉播放。"
+
+#: inc/admin/main.php:2023
+msgid "Highlight Options"
+msgstr "[強調顯示] 設定"
+
+#: inc/admin/main.php:2031
+msgid "How often a post is highlighted."
+msgstr "設定每隔多少篇貼文便進行強調顯示。"
+
+#: inc/admin/main.php:2036
+msgid "When to start the highlight pattern."
+msgstr "設定從第幾篇貼文後套用強調顯示貼文間隔數量設定。"
+
+#: inc/admin/main.php:2041
+msgid "Highlight posts with these hashtags."
+msgstr "依照主題標籤強調顯示貼文。"
+
+#: inc/admin/main.php:2062
+msgid "Display all media, only photos, or only videos"
+msgstr "設定展示全部貼文、僅展示照片貼文或僅展示影片貼文。"
+
+#: inc/admin/main.php:2077
+msgid "Whether to use urls in captions for the photo's link instead of linking to instagram.com."
+msgstr "以 true/false 啟用或停用取代連結至 instagram.com 的照片連結說明文字網址。"
+
+#: inc/admin/main.php:2084
+msgid "Whether to show comments in the lightbox for this feed."
+msgstr "以 true/false 啟用或停用這個內容提供的燈箱效果留言。"
+
+#: inc/admin/main.php:2089
+msgid "Number of comments to show starting from the most recent."
+msgstr "設定要顯示的最新留言數量。"
+
+#: inc/admin/main.php:2230
+msgid "Load more posts automatically as the user scrolls down the page."
+msgstr "使用者捲動頁面時自動載入更多貼文。"
+
+#: inc/admin/main.php:2235
+msgid "Distance before the end of feed or page that triggers the loading of more posts."
+msgstr "設定在離資訊提供或頁面結尾前多少距離便觸發以載入更多貼文。"
+
+#: inc/admin/main.php:1994
+msgid "Choose 1 or 2 rows of posts in the carousel"
+msgstr "設定輪轉顯示的貼文列數為 1 列或 2 列。"
+
+#: inc/admin/main.php:767
+msgid "Combine multiple feed types into a single feed"
+msgstr "將多個資訊提供合併為單一資訊提供"
+
+#: inc/admin/main.php:965
+msgid "Select a layout to see associated<br />options"
+msgstr "選取版面配置便會顯示對應的設定"
+
+#: inc/admin/main.php:1330
+msgid "Header Size"
+msgstr "標題文字大小"
+
+#: inc/admin/main.php:1334
+msgid "Small"
+msgstr "小型"
+
+#: inc/admin/main.php:1335
+msgid "Medium"
+msgstr "中型"
+
+#: inc/admin/main.php:1336
+msgid "Large"
+msgstr "大型"
+
+#: inc/admin/main.php:1346
+msgid "Only applies for Instagram accounts with bios"
+msgstr "僅套用至含有 [個人簡介] 內容的使用者 ID"
+
+#: inc/admin/main.php:1371
+msgid "Standard"
+msgstr "標準"
+
+#: inc/admin/main.php:1373
+msgid "Centered"
+msgstr "置中"
+
+#: inc/admin/main.php:770
+msgid "To display multiple feed types in a single feed, use %s in your shortcode and then add each user name or hashtag of each feed into the shortcode, like so: %s. This will combine a user feed and a hashtag feed into the same feed."
+msgstr "如需在單一資訊提供中展示多個資訊提供類型，請在短代碼中使用 %s，並在短代碼中加入必要的使用者名稱或主題標籤 (例如 %s)。這樣的短代碼會將使用者資訊提供及主題標籤合併為同一資訊提供。"
+
+#: inc/admin/main.php:952
+msgid "Grid"
+msgstr "格狀顯示"
+
+#: inc/admin/main.php:954
+msgid "Masonry"
+msgstr "柱狀顯示"
+
+#: inc/admin/main.php:955
+msgid "Highlight"
+msgstr "強調顯示"
+
+#: inc/admin/main.php:730
+msgid "<p><b>Displaying Posts from Your User Account</b><br />Simply connect an account using the button above.</p><p style='padding-top:8px;'><b>Displaying Posts from Other Instagram Accounts</b><br />Due to recent changes in the Instagram API it is no longer possible to display photos from other Instagram accounts which you do not have access to. You can only display the user feed of an account which you connect above. You can connect as many account as you like by logging in using the button above, or manually copy/pasting an Access Token by selecting the 'Manually Connect an Account' option.</p><p style='padding-top:10px;'><b>Multiple Acounts</b><br />It is only possible to display feeds from Instagram accounts which you own. In order to display feeds from multiple accounts, first connect them above and then use the buttons to add the account either to your primary feed or to another feed on your site.</p>"
+msgstr "<p><b>展示來自使用者帳號的貼文</b><br />請先點擊上方按鈕以連接 Instagram 帳號。</p><p style='padding-top:8px;'><b>展示來自其他 Instagram 帳號的貼文</b><br />由於 Instagram API 的變更，所以無法展示非自有的 Instagram 帳號的照片，只能展示你具備存取權限的 Instagram 帳號貼文。你可以透過上方按鈕連線至多個你可以登入的帳號，或點擊 [手動連線至 Instagram 帳號 ] 按鈕以便手動複製/貼上各個帳號的存取權杖。</p><p style='padding-top:10px;'><b>多個使用者帳號</b><br />現在只能展示來自自有 Instagram 帳號的資訊提供，如需展示來自多個帳號的資訊提供，請先為各個帳號一一進行連線，然後使用上方按鈕為這個網站將各個帳號加入主要資訊提供或其他資訊提供。</p>"
+
+#: inc/admin/main.php:459
+msgid "Instagram Accounts"
+msgstr "Instagram 帳號"
+
+#: inc/admin/main.php:506
+msgid "Remove"
+msgstr "移除"
+
+#: inc/admin/main.php:516
+msgid "Add to Primary Feed"
+msgstr "新增至主要資訊提供"
+
+#: inc/admin/main.php:518
+msgid "Remove from Primary Feed"
+msgstr "從主要資訊提供中移除"
+
+#: inc/admin/main.php:520
+msgid "Add to another Feed"
+msgstr "新增至其他資訊提供"
+
+#: inc/admin/main.php:706
+msgid "User Account:"
+msgstr "使用者帳號:"
+
+#: inc/admin/main.php:729
+msgid "How to display User feeds"
+msgstr "如何展示使用者資訊提供"
+
+#: inc/admin/main.php:436 inc/admin/main.php:438
+msgid "Connect an Instagram Account"
+msgstr "連接 Instagram 帳號"
+
+#: inc/admin/main.php:462
+msgid "No Instagram accounts connected. Click the button above to connect an account."
+msgstr "尚未連接任何 Instagram 帳號，請點擊上方按鈕以連接 Instagram 帳號。"
+
+#: inc/admin/main.php:555
+msgid "Manually Connect an Account"
+msgstr "手動連接 Instagram 帳號"
+
+#: inc/admin/main.php:501
+msgid "The Access Token for this account is expired or invalid. Click the button above to attempt to renew it."
+msgstr "這個帳號的存取權杖已過期或無效，請點擊上方按鈕以進行更新。"
+
+#: inc/admin/main.php:805
+msgid "Minutes"
+msgstr "分鐘"
+
+#: inc/admin/main.php:806
+msgid "Hours"
+msgstr "小時"
+
+#: inc/admin/main.php:807
+msgid "Days"
+msgstr "天"
+
+#: inc/admin/main.php:810
+msgid "Your Instagram posts are temporarily cached by the plugin in your WordPress database. You can choose how long the posts should be cached for. If you set the time to 1 hour then the plugin will clear the cache after that length of time and check Instagram for posts again."
+msgstr "Instagram 的貼文會由這個外掛暫時快取至 WordPress 網站資料庫中，並可設定為貼文進行快取的週期；如果將週期設定為 1 小時，這個外掛每隔 1 小時清除貼文快取並再次檢查 Instagram 的貼文。"
+
+#: inc/admin/main.php:1798
+msgid "Enable Backup Caching"
+msgstr "啟用備用快取"
+
+#: inc/admin/main.php:1801
+msgid "Clear Backup Cache"
+msgstr "清除備用快取"
+
+#: inc/admin/main.php:1803
+msgid "Every feed will save a duplicate version of itself in the database to be used if the normal cache is not available."
+msgstr "每項資訊提供都會在資料庫中儲存一份副本以供一般快取無法正常運作時使用。"
+
+#: inc/admin/main.php:1820
+msgid "Force cache to clear on interval"
+msgstr "定期強制清除快取"
+
+#: inc/admin/main.php:1826
+msgid "No"
+msgstr "否"
+
+#: inc/admin/main.php:1830
+msgid "If you're experiencing an issue with the plugin not auto-updating then you can set this to 'Yes' to run a scheduled event behind the scenes which forces the plugin cache to clear on a regular basis and retrieve new data from Instagram."
+msgstr "如果持續遇到這個外掛無法自動更新資訊提供的問題，請在這裡設定為 [是]，便能在背景執行排程事件，以定期強制清除外掛產生的快取並從 Instagram 擷取新資料。"
+
+#: inc/admin/main.php:1838
+msgid "Disable Icon Font"
+msgstr "停用圖示字型"
+
+#: inc/admin/main.php:1844
+msgid "Icon Method"
+msgstr "圖示來源"
+
+#: inc/admin/main.php:1848
+msgid "Font File"
+msgstr "字型檔案"
+
+#: inc/admin/main.php:1851
+msgid "This plugin uses SVGs for all icons in the feed. Use this setting to switch to font icons."
+msgstr "資訊提供中的圖示均採用 SVG 檔，透過這項設定便能變更為採用圖示字型。"
+
+#: inc/class-sb-instagram-api-connect.php:204
+#: inc/class-sb-instagram-api-connect.php:290
+#: inc/class-sb-instagram-settings.php:389
+#: inc/class-sb-instagram-settings.php:439
+msgid "Feed will not update."
+msgstr "資訊提供不會進行更新。"
+
+#: inc/class-sb-instagram-api-connect.php:205
+msgid "There's an issue with the Instagram Access Token that you are using. Please obtain a new Access Token on the plugin's Settings page.<br />If you continue to have an issue with your Access Token then please see <a href=\"https://smashballoon.com/my-instagram-access-token-keep-expiring/\" target=\"_blank\" rel=\"noopener\">this FAQ</a> for more information."
+msgstr "目前使用的 Instagram 存取權杖發生問題，請前往外掛的設定頁面取得新的存取權杖。<br />如果持續發生存取權杖相關問題，請參考<a href=\"https://smashballoon.com/my-instagram-access-token-keep-expiring/\" target=\"_blank\" rel=\"noopener\">這份常見問題集</a>以進一步瞭解相關資訊。"
+
+#: inc/class-sb-instagram-api-connect.php:204
+#: inc/class-sb-instagram-api-connect.php:290
+msgid "Error: Access Token for %s is not valid or has expired."
+msgstr "錯誤: %s 的存取權杖無效或已過期。"
+
+#: inc/if-functions.php:43 inc/if-functions.php:424
+msgid "This error message is only visible to WordPress admins"
+msgstr "只有 WordPress 網站管理員能看到這項錯誤訊息"
+
+#: inc/admin/main.php:15 inc/admin/main.php:16 inc/admin/main.php:411
+#: inc/admin/actions.php:713
+msgid "Instagram Feed"
+msgstr "Instagram Feed"
+
+#: inc/admin/main.php:23 inc/admin/main.php:24 inc/admin/actions.php:54
+msgid "Settings"
+msgstr "設定"
+
+#: inc/admin/main.php:65 inc/if-functions.php:556
+msgid "Load More..."
+msgstr "載入更多..."
+
+#: inc/admin/main.php:75 inc/if-functions.php:566
+msgid "Follow on Instagram"
+msgstr "在 Instagram 上追蹤"
+
+#: inc/admin/main.php:402
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: inc/admin/main.php:420
+msgid "1. Configure"
+msgstr "1. 設定資訊提供"
+
+#: inc/admin/main.php:421
+msgid "2. Customize"
+msgstr "2. 自訂資訊提供"
+
+#: inc/admin/main.php:422
+msgid "3. Display Your Feed"
+msgstr "3. 展示資訊提供"
+
+#: inc/admin/main.php:423
+msgid "Support"
+msgstr "技術支援"
+
+#: inc/admin/main.php:431
+msgid "Configure"
+msgstr "設定資訊提供"
+
+#: inc/admin/main.php:440
+msgid "Button not working?"
+msgstr "按鈕沒有作用？"
+
+#: inc/admin/main.php:746 inc/admin/main.php:759 inc/admin/main.php:1063
+#: inc/admin/main.php:1076 inc/admin/main.php:1284 inc/admin/main.php:1411
+#: inc/admin/main.php:1512 inc/admin/main.php:1521 inc/admin/main.php:1628
+#: inc/admin/main.php:1645 inc/admin/main.php:1682 inc/admin/main.php:1694
+msgid "What is this?"
+msgstr "這是什麼？"
+
+#: inc/admin/main.php:738
+msgid "Hashtag:"
+msgstr "主題標籤 (#):"
+
+#: inc/admin/main.php:748
+msgid "Display posts from a specific hashtag instead of from a user"
+msgstr "展示指定主題標籤的貼文，而非指定使用者的貼文。"
+
+#: inc/admin/main.php:778
+msgid "Preserve settings when plugin is removed"
+msgstr "移除外掛後保留設定"
+
+#: inc/admin/main.php:781 inc/admin/main.php:1739 inc/admin/main.php:1825
+#: inc/admin/main.php:1840 inc/admin/main.php:1858
+msgid "Yes"
+msgstr "是 "
+
+#: inc/admin/main.php:782 inc/admin/main.php:809 inc/admin/main.php:918
+#: inc/admin/main.php:1125 inc/admin/main.php:1740 inc/admin/main.php:1754
+#: inc/admin/main.php:1765 inc/admin/main.php:1774 inc/admin/main.php:1783
+#: inc/admin/main.php:1792 inc/admin/main.php:1802 inc/admin/main.php:1813
+#: inc/admin/main.php:1829 inc/admin/main.php:1850 inc/admin/main.php:1859
+msgid "What does this mean?"
+msgstr "這是什麼？"
+
+#: inc/admin/main.php:783
+msgid "When removing the plugin your settings are automatically erased. Checking this box will prevent any settings from being deleted. This means that you can uninstall and reinstall the plugin without losing your settings."
+msgstr "移除外掛時，會從資料庫中自動清除外掛設定資料；啟用這項設定後，移除外掛會避免設定遭到刪除。這表示你可以將外掛解除安裝再重新安裝，卻不會失去原先的設定。"
+
+#: inc/admin/main.php:878
+msgid "Next Step: <a href=\"?page=sb-instagram-feed&tab=customize\">Customize your Feed</a>"
+msgstr "下一步: <a href=\"?page=sb-instagram-feed&tab=customize\">自訂資訊提供</a>"
+
+#: inc/admin/main.php:890
+msgid "Quick links:"
+msgstr "快速連結:"
+
+#: inc/admin/main.php:891 inc/admin/main.php:903
+msgid "General"
+msgstr "一般"
+
+#: inc/admin/main.php:892 inc/admin/main.php:945
+msgid "Layout"
+msgstr "版面配置"
+
+#: inc/admin/main.php:893 inc/admin/main.php:1135
+msgid "Photos"
+msgstr "照片"
+
+#: inc/admin/main.php:894 inc/admin/main.php:1319
+msgid "Header"
+msgstr "標題"
+
+#: inc/admin/main.php:895 inc/admin/main.php:1532
+msgid "'Load More' Button"
+msgstr "[載入更多] 按鈕"
+
+#: inc/admin/main.php:896 inc/admin/main.php:1569
+msgid "'Follow' Button"
+msgstr "[追蹤] 按鈕"
+
+#: inc/admin/main.php:897
+msgid "Custom CSS"
+msgstr "自訂 CSS"
+
+#: inc/admin/main.php:898
+msgid "Custom JavaScript"
+msgstr "自訂 JavaScript"
+
+#: inc/admin/main.php:908
+msgid "Width of Feed"
+msgstr "資訊提供寬度"
+
+#: inc/admin/main.php:913 inc/admin/main.php:929 inc/admin/main.php:1115
+msgid "px"
+msgstr "px"
+
+#: inc/admin/main.php:914 inc/admin/main.php:930 inc/admin/main.php:1116
+msgid "%"
+msgstr "%"
+
+#: inc/admin/main.php:917
+msgid "Set to be 100% width on mobile?"
+msgstr "在行動裝置上將寬度設定為 100%"
+
+#: inc/admin/main.php:924
+msgid "Height of Feed"
+msgstr "資訊提供高度"
+
+#: inc/admin/main.php:935
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: inc/admin/main.php:1097
+msgid "1"
+msgstr "1"
+
+#: inc/admin/main.php:1098
+msgid "2"
+msgstr "2"
+
+#: inc/admin/main.php:1099
+msgid "3"
+msgstr "3"
+
+#: inc/admin/main.php:1100
+msgid "4"
+msgstr "4"
+
+#: inc/admin/main.php:1101
+msgid "5"
+msgstr "5"
+
+#: inc/admin/main.php:1102
+msgid "6"
+msgstr "6"
+
+#: inc/admin/main.php:1103
+msgid "7"
+msgstr "7"
+
+#: inc/admin/main.php:1104
+msgid "8"
+msgstr "8"
+
+#: inc/admin/main.php:1105
+msgid "9"
+msgstr "9"
+
+#: inc/admin/main.php:1106
+msgid "10"
+msgstr "10"
+
+#: inc/admin/main.php:1111
+msgid "Padding around Images"
+msgstr "照片邊框間距"
+
+#: inc/admin/main.php:1121
+msgid "Disable mobile layout"
+msgstr "停用行動版版面配置"
+
+#: inc/admin/main.php:1126
+msgid "By default on mobile devices the layout automatically changes to use fewer columns. Checking this setting disables the mobile layout."
+msgstr "依照預設，版面配置設定在行動裝置上會自動變更為較少顯示行數，啟用這項設定便能停用行動版版面配置。"
+
+#: inc/admin/main.php:1140
+msgid "Sort Photos By"
+msgstr "照片排序方式"
+
+#: inc/admin/main.php:1144
+msgid "Newest to oldest"
+msgstr "最新到最舊"
+
+#: inc/admin/main.php:1145
+msgid "Random"
+msgstr "隨機"
+
+#: inc/admin/main.php:1150
+msgid "Image Resolution"
+msgstr "照片解析度"
+
+#: inc/admin/main.php:1155
+msgid "Auto-detect (recommended)"
+msgstr "自動偵測 (建議)"
+
+#: inc/admin/main.php:1158
+msgid "Full size (640x640)"
+msgstr "完整尺寸 (640x640)"
+
+#: inc/admin/main.php:1161
+msgid "What does Auto-detect mean?"
+msgstr "[自動偵測] 功能的運作方式為何？"
+
+#: inc/admin/main.php:1162
+msgid "Auto-detect means that the plugin automatically sets the image resolution based on the size of your feed."
+msgstr "這個外掛的 [自動偵測] 功能，會依照資訊提供尺寸自動設定照片解析度。"
+
+#: inc/admin/main.php:1173 inc/admin/main.php:1363
+msgid "Upgrade to Pro to enable these settings"
+msgstr "升級至 Pro 版以啟用這些設定"
+
+#: inc/admin/main.php:1178
+msgid "Media Type to Display"
+msgstr "展示的媒體類型"
+
+#: inc/admin/main.php:1181
+msgid "All"
+msgstr "展示照片及影片"
+
+#: inc/admin/main.php:1182
+msgid "Photos only"
+msgstr "僅展示照片"
+
+#: inc/admin/main.php:1183
+msgid "Videos only"
+msgstr "僅展示影片"
+
+#: inc/admin/main.php:1189
+msgid "Enable Pop-up Lightbox"
+msgstr "啟用快顯燈箱效果"
+
+#: inc/admin/main.php:1199
+msgid "What will this do?"
+msgstr "這項設定的作用為何？"
+
+#: inc/admin/main.php:1232
+msgid "Information to display"
+msgstr "顯示資訊項目"
+
+#: inc/admin/main.php:1236
+msgid "Username"
+msgstr "使用者名稱"
+
+#: inc/admin/main.php:1240
+msgid "Expand Icon"
+msgstr "展開圖示"
+
+#: inc/admin/main.php:1248
+msgid "Instagram Icon/Link"
+msgstr "Instagram 圖示/連結"
+
+#: inc/admin/main.php:1252
+msgid "Location"
+msgstr "地點"
+
+#: inc/admin/main.php:1260
+msgid "Like/Comment Icons"
+msgstr "已說讚/留言圖示"
+
+#: inc/admin/main.php:1014 inc/admin/main.php:1289
+msgid "Show Navigation Arrows"
+msgstr "顯示導覽箭號"
+
+#: inc/admin/main.php:1019 inc/admin/main.php:1295
+msgid "Show Pagination"
+msgstr "顯示頁次"
+
+#: inc/admin/main.php:1024 inc/admin/main.php:1301
+msgid "Enable Autoplay"
+msgstr "啟用自動播放"
+
+#: inc/admin/main.php:1028 inc/admin/main.php:1307
+msgid "Interval Time"
+msgstr "間隔時間"
+
+#: inc/admin/main.php:1031
+msgid "miliseconds"
+msgstr "毫秒 (ms)"
+
+#: inc/admin/main.php:1341
+msgid "Show Bio Text"
+msgstr "顯示 [個人簡介]"
+
+#: inc/admin/main.php:1350
+msgid "Header Text Color"
+msgstr "標題文字色彩"
+
+#: inc/admin/main.php:1368
+msgid "Header Style"
+msgstr "標題樣式"
+
+#: inc/admin/main.php:1372
+msgid "Boxed"
+msgstr "方格"
+
+#: inc/admin/main.php:1378
+msgid "Show Number of Followers"
+msgstr "顯示粉絲數量"
+
+#: inc/admin/main.php:1381
+msgid "This only applies when displaying photos from a User ID"
+msgstr "這項設定僅套用至照片來源為使用者 ID。"
+
+#: inc/admin/main.php:1408
+msgid "Maximum Text Length"
+msgstr "最大顯示字元數"
+
+#: inc/admin/main.php:1416
+msgid "Text Color"
+msgstr "文字色彩"
+
+#: inc/admin/main.php:1422
+msgid "Text Size"
+msgstr "文字大小"
+
+#: inc/admin/main.php:1425 inc/admin/main.php:1473
+msgid "Inherit from theme"
+msgstr "從佈景主題繼承"
+
+#: inc/admin/main.php:1448
+msgid "Likes &amp; Comments"
+msgstr "說讚及留言"
+
+#: inc/admin/main.php:1458
+msgid "Show Icons"
+msgstr "顯示圖示"
+
+#: inc/admin/main.php:1464
+msgid "Icon Color"
+msgstr "圖示色彩"
+
+#: inc/admin/main.php:1470
+msgid "Icon Size"
+msgstr "圖示尺寸"
+
+#: inc/admin/main.php:1496
+msgid "Lightbox Comments"
+msgstr "燈箱效果留言"
+
+#: inc/admin/main.php:1508
+msgid "Show Comments in Lightbox"
+msgstr "以燈箱效果展示留言"
+
+#: inc/admin/main.php:1513
+msgid "This will remove the cached comments saved in the database"
+msgstr "這項設定會清除所有儲存於資料庫中的留言快取。"
+
+#: inc/admin/main.php:1517
+msgid "Number of Comments"
+msgstr "留言展示筆數"
+
+#: inc/admin/main.php:1520
+msgid "Max number of latest comments."
+msgstr "最新留言顯示數量。"
+
+#: inc/admin/main.php:1522
+msgid "This is the maximum number of comments that will be shown in the lightbox. If there are more comments available than the number set, only the latest comments will be shown"
+msgstr "顯示於燈箱效果中的留言最大數量。當留言數量高過這項設定時，僅會顯示與這項設定值相等的最新留言。"
+
+#: inc/admin/main.php:1536
+msgid "Show the 'Load More' button"
+msgstr "顯示 [載入更多] 按鈕"
+
+#: inc/admin/main.php:1543 inc/admin/main.php:1581
+msgid "Button Background Color"
+msgstr "按鈕背景色彩"
+
+#: inc/admin/main.php:1573
+msgid "Show the Follow button"
+msgstr "顯示 [追蹤] 按鈕"
+
+#: inc/admin/main.php:1605
+msgid "Post Filtering"
+msgstr "篩選貼文"
+
+#: inc/admin/main.php:1655
+msgid "Moderation"
+msgstr "貼文審核"
+
+#: inc/admin/main.php:1666
+msgid "Moderation Type"
+msgstr "貼文審核方式"
+
+#: inc/admin/main.php:1677
+msgid "Only show posts by these users"
+msgstr "僅顯示特定使用者的貼文"
+
+#: inc/admin/main.php:1687
+msgid "White lists"
+msgstr "允許清單"
+
+#: inc/admin/main.php:1690
+msgid "No white lists currently created"
+msgstr "目前尚未建立任何允許清單。"
+
+#: inc/admin/main.php:1693
+msgid "Clear White Lists"
+msgstr "清除允許清單"
+
+#: inc/admin/main.php:1695
+msgid "This will remove all of the white lists from the database"
+msgstr "這項操作會清除網站資料庫中的所有允許清單。"
+
+#: inc/admin/main.php:1706
+msgid "Misc"
+msgstr "其他設定"
+
+#: inc/admin/main.php:1712
+msgid "<strong style=\"font-size: 15px;\">Custom CSS</strong><br />Enter your own custom CSS in the box below"
+msgstr "<strong style=\"font-size: 15px;\">自訂 CSS</strong><br />請在下方輸入自訂 CSS。"
+
+#: inc/admin/main.php:1722
+msgid "<strong style=\"font-size: 15px;\">Custom JavaScript</strong><br />Enter your own custom JavaScript/jQuery in the box below"
+msgstr "<strong style=\"font-size: 15px;\">自訂 JavaScript</strong><br />請在下方輸入自訂 JavaScript/jQuery。"
+
+#: inc/admin/main.php:1870
+msgid "Next Step: <a href=\"?page=sb-instagram-feed&tab=display\">Display your Feed</a>"
+msgstr "下一步: <a href=\"?page=sb-instagram-feed&tab=display\">展示資訊提供</a>"
+
+#: inc/admin/main.php:1881
+msgid "Display your Feed"
+msgstr "展示資訊提供"
+
+#: inc/admin/main.php:1882
+msgid "Copy and paste the following shortcode directly into the page, post or widget where you'd like the feed to show up:"
+msgstr "複製下方的短代碼，並在想要展示資訊提供的頁面、文章或小工具中直接貼上。"
+
+#: inc/admin/main.php:1885
+msgid "Multiple Feeds"
+msgstr "展示多個資訊提供"
+
+#: inc/admin/main.php:1886
+msgid "If you'd like to display multiple feeds then you can set different settings directly in the shortcode like so:"
+msgstr "如需在網站上展示多個資訊提供，請直接為短代碼設定不同的參數，例如:"
+
+#: inc/admin/main.php:1893
+msgid "See the table below for a full list of available shortcode options:"
+msgstr "請參考以下表格，表格中詳列了短代碼的可用參數:"
+
+#: inc/admin/main.php:1895
+msgid "Pro version only"
+msgstr "代表僅供 Pro 版使用"
+
+#: inc/admin/main.php:1900
+msgid "Shortcode option"
+msgstr "短代碼可用參數"
+
+#: inc/admin/main.php:1901
+msgid "Description"
+msgstr "參數設定值說明"
+
+#: inc/admin/main.php:1902
+msgid "Example"
+msgstr "範例"
+
+#: inc/admin/main.php:1905
+msgid "Configure Options"
+msgstr "[設定資訊提供] 參數"
+
+#: inc/admin/main.php:1922
+msgid "Customize Options"
+msgstr "[自訂資訊提供] 參數"
+
+#: inc/admin/main.php:1950
+msgid "Add a CSS class to the feed container"
+msgstr "新增 CSS 類別至資訊提供容器。"
+
+#: inc/admin/main.php:2049
+msgid "Photos Options"
+msgstr "[照片] 參數"
+
+#: inc/admin/main.php:2052
+msgid "Sort the posts by Newest to Oldest (none) or Random (random)"
+msgstr "參數值 none 代表排序方式為最新到最舊，random 則代表隨機排序。"
+
+#: inc/admin/main.php:2019
+msgid "The interval time between slides for autoplay. Time in miliseconds."
+msgstr "自動播放時投影片間的間隔時間，單位為毫秒。"
+
+#: inc/admin/main.php:2110
+msgid "Header Options"
+msgstr "[標題] 參數"
+
+#: inc/admin/main.php:2128
+msgid "The color of the Header text. Any hex color code."
+msgstr "標題文字的色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:2132
+msgid "'Load More' Button Options"
+msgstr "[載入更多] 按鈕參數"
+
+#: inc/admin/main.php:2140 inc/admin/main.php:2162
+msgid "The background color of the button. Any hex color code."
+msgstr "按鈕的背景色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:2145 inc/admin/main.php:2167
+msgid "The text color of the button. Any hex color code."
+msgstr "按鈕的文字色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:2150 inc/admin/main.php:2172
+msgid "The text used for the button."
+msgstr "設定按鈕文字內容。"
+
+#: inc/admin/main.php:2154
+msgid "'Follow on Instagram' Button Options"
+msgstr "[在 Instagram 上追蹤] 按鈕參數"
+
+#: inc/admin/main.php:2198
+msgid "Likes &amp; Comments Options"
+msgstr "[說讚及留言] 參數"
+
+#: inc/admin/main.php:2206
+msgid "The color of the Likes &amp; Comments. Any hex color code."
+msgstr "說讚及留言的色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:2211
+msgid "The size of the Likes &amp; Comments. Any number."
+msgstr "說讚及留言的尺寸，可以為任何整數。"
+
+#: inc/admin/main.php:2215
+msgid "Post Filtering Options"
+msgstr "[篩選貼文] 參數"
+
+#: inc/admin/main.php:2257
+msgid "Setup Directions"
+msgstr "設定指南"
+
+#: inc/admin/main.php:2258
+msgid "A step-by-step guide on how to setup and use the plugin."
+msgstr "一份關於如何設定及使用這個外掛的逐步指南。"
+
+#: inc/admin/main.php:2264
+msgid "Watch a Video"
+msgstr "觀看介紹影片"
+
+#: inc/admin/main.php:2275
+msgid "FAQs and Docs"
+msgstr "常見問題集及線上說明"
+
+#: inc/admin/main.php:2276
+msgid "View our expansive library of FAQs and documentation to help solve your problem as quickly as possible."
+msgstr "請參閱我們豐富的常見問題集及線上文件，以盡快解決你的使用問題。"
+
+#: inc/admin/main.php:2299
+msgid "Request Support"
+msgstr "要求技術支援"
+
+#: inc/admin/main.php:2300
+msgid "Still need help? Submit a ticket and one of our support experts will get back to you as soon as possible.<br /><b>Important:</b> Please include your <b>System Info</b> below with all support requests."
+msgstr "使用問題還是沒得到解決？請傳送技術支援需求給我們，我們的技術支援專家會盡快回覆你的使用問題。<br /><b>請注意</b>，傳送任何技術支援需求時，請包含下方 <b>[系統資訊]</b> 中的資訊。"
+
+#: inc/admin/main.php:2577
+msgid "Instagram Feed Pro"
+msgstr "Instagram Feed Pro"
+
+#: inc/admin/main.php:2583
+msgid "Like the plugin? Help spread the word!"
+msgstr "喜歡這個外掛嗎？記得幫我們宣傳一下！"
+
+#. Plugin URI of the plugin
+msgid "https://smashballoon.com/instagram-feed"
+msgstr "https://smashballoon.com/instagram-feed"
+
+#. Author of the plugin
+msgid "Smash Balloon"
+msgstr "Smash Balloon"
+
+#. Author URI of the plugin
+msgid "https://smashballoon.com/"
+msgstr "https://smashballoon.com/"
+
+#: inc/admin/main.php:699
+msgid "Show Photos From:"
+msgstr "照片來源:"
+
+#: inc/admin/main.php:2306
+msgid "System Info &nbsp; <i style=\"color: #666; font-size: 11px; font-weight: normal;\">Click the text below to select all</i>"
+msgstr "系統資訊 &nbsp; <i style=\"color: #666; font-size: 11px; font-weight: normal;\">點擊下方文字便能全選</i>"
+
+#: inc/admin/main.php:1093
+msgid "Number of Columns"
+msgstr "照片每列展示數量"
+
+#: inc/admin/main.php:1323
+msgid "Show Feed Header"
+msgstr "顯示資訊提供標題"
+
+#: inc/admin/main.php:1550 inc/admin/main.php:1588
+msgid "Button Text Color"
+msgstr "按鈕文字色彩"
+
+#: inc/admin/main.php:1557 inc/admin/main.php:1595
+msgid "Button Text"
+msgstr "按鈕文字"
+
+#: inc/admin/main.php:1209
+msgid "Photo Hover Style"
+msgstr "游標暫留照片上時的樣式"
+
+#: inc/admin/main.php:1220
+msgid "Hover Background Color"
+msgstr "游標暫留時的背景色彩"
+
+#: inc/admin/main.php:1226
+msgid "Hover Text Color"
+msgstr "游標暫留時的文字色彩"
+
+#: inc/admin/main.php:1888
+msgid "You can display as many different feeds as you like, on either the same page or on different pages, by just using the shortcode options below. For example:"
+msgstr "只要使用下方的短代碼參數，就可以在相同或不同頁面上展示多個不同的資訊提供。例如:"
+
+#: inc/admin/main.php:1982
+msgid "The spacing around your photos"
+msgstr "設定照片的邊框間距。"
+
+#: inc/admin/main.php:2096
+msgid "The background color when hovering over a photo. Any hex color code."
+msgstr "游標暫留於照片時的照片背景色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:2101
+msgid "The text/icon color when hovering over a photo. Any hex color code."
+msgstr "游標暫留於照片時的文字/圖示色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:1617
+msgid "Remove photos containing these words or hashtags"
+msgstr "移除包含這些關鍵字或主題標籤的照片"
+
+#: inc/admin/main.php:1634
+msgid "Show photos containing these words or hashtags"
+msgstr "展示包含這些關鍵字或主題標籤的照片"
+
+#: inc/admin/main.php:1671
+msgid "<b>Visual Moderation Mode</b><br />This adds a button to each feed that will allow you to hide posts, block users, and create white lists from the front end using a visual interface. Visit <a href='https://smashballoon.com/guide-to-moderation-mode/?utm_source=plugin-free&utm_campaign=sbi' target='_blank'>this page</a> for details"
+msgstr "<b>視覺化審核模式</b>這個模式會為全部資訊提供加上功能按鈕，讓你能在網站前端使用視覺化界面隱藏貼文、封鎖使用者，並建立允許清單。<br />請參考<a href='https://smashballoon.com/guide-to-moderation-mode/?utm_source=plugin-free&utm_campaign=sbi' target='_blank'>這篇線上說明</a>，以進一步瞭解相關資訊。"
+
+#: inc/admin/main.php:919
+msgid "If you set a width on the feed then this will be used on mobile as well as desktop. Check this setting to set the feed width to be 100% on mobile so that it is responsive."
+msgstr "資訊提供的寬度設定值會同時套用至行動版及桌面版網站。啟用這項設定並將寬度設定為 100%，行動版網站的資訊提供便會以回應式設計顯示。"
+
+#: inc/admin/main.php:1196
+msgid "Link Posts to URL in Caption (Shoppable feed)"
+msgstr "在說明文字中將貼文連結至網址 (購物資訊提供)"
+
+#: inc/admin/main.php:1200
+msgid "Checking this box will change the link for each post to any url included in the caption for that Instagram post. The lightbox will be disabled. Visit <a href='https://smashballoon.com/make-a-shoppable-feed?utm_source=plugin-free&utm_campaign=sbi'>this link</a> to learn how this works."
+msgstr "啟用這項設定後，會將每篇 Instagram 貼文的連結變更為該篇說明文字中包含的任何網址，但會停用燈箱效果。請參考<a href='https://smashballoon.com/make-a-shoppable-feed?utm_source=plugin-free&utm_campaign=sbi'>這篇線上說明</a>，以瞭解它如何運作。"
+
+#: inc/admin/main.php:1256 inc/admin/main.php:1392
+msgid "Caption"
+msgstr "說明文字"
+
+#: inc/admin/main.php:1402
+msgid "Show Caption"
+msgstr "顯示說明文字"
+
+#: inc/admin/main.php:1412
+msgid "The number of characters of text to display in the caption. An elipsis link will be added to allow the user to reveal more text if desired."
+msgstr "說明文字可顯示的最大字元數。內容超過這項設定的說明文字會顯示一個省略符號，如果使用者需要的話，點擊該連結便可檢視完整說明文字。"
+
+#: inc/admin/main.php:1925
+msgid "The width of your feed. Any number."
+msgstr "設定內容提供的寬度，可以為任何整數。"
+
+#: inc/admin/main.php:1930
+msgid "The unit of the width. 'px' or '%'"
+msgstr "寬度單位可設定為 px 或 %。"
+
+#: inc/admin/main.php:1935
+msgid "The height of your feed. Any number."
+msgstr "設定內容提供的高度，可以為任何整數。"
+
+#: inc/admin/main.php:1940
+msgid "The unit of the height. 'px' or '%'"
+msgstr "高度單位可設定為 px 或 %。"
+
+#: inc/admin/main.php:1945
+msgid "The background color of the feed. Any hex color code."
+msgstr "設定內容提供的背景色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:1962
+msgid "The number of photos to display initially. Maximum is 33."
+msgstr "設定最新照片的展示數量，最大值為 33。"
+
+#: inc/admin/main.php:1972
+msgid "The number of columns in your feed. 1 - 10."
+msgstr "設定內容提供中的照片顯示行數，可設定為 1 到 10 間的整數。"
+
+#: inc/admin/main.php:1987
+msgid "The unit of the padding. 'px' or '%'"
+msgstr "照片的邊框間距可設定為 px 或 %。"
+
+#: inc/admin/main.php:2067
+msgid "Whether to disable the photo Lightbox. It is enabled by default."
+msgstr "以 true/false 停用或啟用展示照片時的燈箱效果，true 代表停用，false 代表維持啟用 (預設值)。"
+
+#: inc/admin/main.php:2176
+msgid "Caption Options"
+msgstr "[說明文字] 參數"
+
+#: inc/admin/main.php:2184
+msgid "The number of characters of the caption to display"
+msgstr "說明文字可顯示的字元數。"
+
+#: inc/admin/main.php:2189
+msgid "The text color of the caption. Any hex color code."
+msgstr "說明文字的文字色彩，請使用 Hex 色彩碼。"
+
+#: inc/admin/main.php:2194
+msgid "The size of the caption text. Any number."
+msgstr "說明文字的文字尺寸，可以為任何整數。"
+
+#: inc/admin/main.php:2218
+msgid "Remove posts which contain certain words or hashtags in the caption."
+msgstr "移除說明文字中包含特定文字或主題標籤的貼文。"
+
+#: inc/admin/main.php:2223
+msgid "Only display posts which contain certain words or hashtags in the caption."
+msgstr "僅展示說明文字中包含特定文字或主題標籤的貼文。"
+
+#: inc/admin/main.php:2265
+msgid "Watch a short video demonstrating how to set up, customize and use the plugin.<br /><b>Please note</b> that the video shows the set up and use of the <b><a href='https://smashballoon.com/instagram-feed/?utm_source=plugin-free&utm_campaign=sbi' target='_blank'>Pro version</a></b> of the plugin, but the process is the same for this free version. The only difference is some of the features available."
+msgstr "觀看介紹如何設定、自訂即使用外掛的影片。<br /><b>請注意</b>，介紹影片中顯示的是設定及使用 <b><a href='https://smashballoon.com/instagram-feed/?utm_source=plugin-free&utm_campaign=sbi' target='_blank'>Instagram Feed Pro</a></b> 版外掛，但免費版外掛的設定及使用方式均與 Pro 版相同；唯一不同的是，某些功能僅於 Pro 版中提供。"
+
+#: inc/admin/main.php:546 inc/admin/main.php:1883
+msgid "To copy, click the field then press Ctrl + C (PC) or Cmd + C (Mac)."
+msgstr "如需複製短代碼，點擊這個欄位並按下 Ctrl + C (PC) 或 Cmd + C (Mac)。"
+
+#: inc/admin/main.php:953 inc/admin/main.php:1271
+msgid "Carousel"
+msgstr "輪轉顯示"
+
+#: inc/admin/main.php:1085
+msgid "Number of Photos"
+msgstr "照片展示數量"
+
+#: inc/admin/main.php:1281
+msgid "Enable Carousel"
+msgstr "啟用 [輪轉顯示]"
+
+#: inc/admin/main.php:1285
+msgid "Enable this setting to create a carousel slider out of your photos."
+msgstr "啟用這項設定後，便能為你的 Instagram 貼文建立輪轉顯示。"
+
+#: inc/admin/main.php:1736
+msgid "Are you using an Ajax powered theme?"
+msgstr "網站目前使用的佈景主題是否應用了 AJAX"
+
+#: inc/admin/main.php:1741
+msgid "When navigating your site, if your theme uses Ajax to load content into your pages (meaning your page doesn't refresh) then check this setting. If you're not sure then please check with the theme author."
+msgstr "使用者瀏覽這個網站時，如果使用中的佈景主題應用了 AJAX 將內容載入至頁面，便表示不必重新整理頁面，符合這個狀況請啟用這項設定。如果無法確定，請聯絡佈景主題開發者加以確認。"
+
+#: inc/admin/main.php:1991
+msgid "Carousel Options"
+msgstr "[輪轉顯示] 參數"
+
+#: inc/admin/main.php:2004
+msgid "Display directional arrows on the carousel"
+msgstr "在輪轉顯示上使用方向箭號，true 代表啟用， false 代表停用。"
+
+#: inc/admin/main.php:2009
+msgid "Display pagination links below the carousel"
+msgstr "在輪轉顯示下方使用頁次連結，true 代表啟用， false 代表停用。"
+
+#: inc/admin/main.php:2014
+msgid "Make the carousel autoplay"
+msgstr "將輪轉顯示設定為自動播放，true 代表啟用， false 代表停用。"
+
+#: inc/admin/main.php:546
+msgid "Access Token"
+msgstr "存取權杖"
+
+#: inc/if-functions.php:370
+msgid "Please connect an account on the Instagram Feed plugin Settings page."
+msgstr "請在 Instagram Feed 設定頁面連接帳號。"
+
+#. Description of the plugin
+msgid "Display beautifully clean, customizable, and responsive Instagram feeds."
+msgstr "這個外掛能在網站上展示美觀簡潔、可自訂的回應式設計 Instagram 資訊提供。"
+
+#: inc/admin/main.php:1065
+msgid "Separate multiple hashtags using commas"
+msgstr "請使用逗號分隔多個主題標籤。"
+
+#: inc/admin/main.php:1627 inc/admin/main.php:1644
+msgid "Separate words/hashtags using commas"
+msgstr "請使用逗號分隔多個關鍵字/主題標籤。"
+
+#: inc/admin/main.php:1629
+msgid "You can use this setting to remove photos which contain certain words or hashtags in the caption. Separate multiple words or hashtags using commas."
+msgstr "使用這項設定可以移除說明文字中包含特定關鍵字或主題標籤的照片。請使用逗號分隔多個關鍵字或主題標籤。"
+
+#: inc/admin/main.php:1646
+msgid "You can use this setting to only show photos which contain certain words or hashtags in the caption. For example, adding <code>sheep, cow, dog</code> will show any photos which contain either the word sheep, cow, or dog. Separate multiple words or hashtags using commas."
+msgstr "使用這項設定便能展示說明文字中包含特定關鍵字或主題的照片。舉例來說，在這裡輸入「<code>綿羊, 乳牛, 小狗</code>」，便會展示說明文字中包含綿羊、乳牛、小狗任一關鍵字或主題標籤的照片。請使用逗號分隔多個關鍵字或主題標籤。"
+
+#: inc/admin/main.php:1680
+msgid "Separate usernames using commas"
+msgstr "請使用逗號分隔多個使用者名稱。"
+
+#: inc/admin/main.php:1683
+msgid "You can use this setting to show photos only from certain users in your feed. Just enter the usernames here which you want to show. Separate multiple usernames using commas."
+msgstr "在這裡輸入使用者名稱，便能在資訊提供中僅顯示指定使用者的貼文。請使用逗號分隔多個使用者名稱。"
+
+#: inc/admin/main.php:1918
+msgid "Any hashtag. Separate multiple IDs by commas."
+msgstr "可設定一或多個主題標籤 (#)，請使用逗號分隔多個主題標籤。"
+
+#: inc/admin/main.php:1156
+msgid "Thumbnail (150x150)"
+msgstr "縮圖尺寸 (150x150)"
+
+#: inc/admin/main.php:1244
+msgid "Date"
+msgstr "發佈日期"

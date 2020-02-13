@@ -1,0 +1,1675 @@
+# Translation of Plugins - Advanced Dynamic Pricing for WooCommerce - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Advanced Dynamic Pricing for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-05 11:21:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Advanced Dynamic Pricing for WooCommerce - Stable (latest release)\n"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:25
+msgid "{{price}}, {{price_suffix}}, {{price_striked}}"
+msgstr "{{price}}, {{price_suffix}}, {{price_striked}}"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:25
+msgid "Available tags"
+msgstr "Tillgängliga etiketter"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:21
+msgid "Output template"
+msgstr "Mall för utmatning"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:52
+msgid "%s product(s) without custom fields: %s"
+msgstr "%s produkt(er) utan anpassade fält: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:51
+msgid "%s product(s) with custom fields: %s"
+msgstr "%s produkt(er) med anpassade fält: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:37
+msgid "%s product(s) not from categories with slug: %s"
+msgstr "%s produkt(er) som inte är kategoriserade med slug: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:36
+msgid "%s product(s) from categories with slug: %s"
+msgstr "%s produkt(er) som är kategoriserade med slug: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:27
+msgid "%s product(s) with SKUs not from list: %s"
+msgstr "%s produkt(er) med SKU som inte ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:26
+msgid "%s product(s) with SKUs from list: %s"
+msgstr "%s produkt(er) med SKU som ingår i listan: %s"
+
+#: classes/admin/class-wdp-customizer.php:322
+msgid "Category table layout"
+msgstr "Layout kategoritabell"
+
+#: classes/admin/class-wdp-customizer.php:115
+msgid "Display ranges as headers"
+msgstr "Visa intervall som kolumnhuvud"
+
+#: classes/admin/class-wdp-customizer.php:114
+#: classes/admin/class-wdp-customizer.php:326
+msgid "Display ranges as rows"
+msgstr "Visa intervall som rader"
+
+#: classes/admin/class-wdp-customizer.php:110
+msgid "Product table layout"
+msgstr "Layout produkttabell"
+
+#: classes/rules/class-wdp-rule-range-adjustments.php:45
+msgid "Impossible bulk rules detected for rule #"
+msgstr "Ogenomförbara bulkregler för regel #"
+
+#: templates/reporter/main.php:27
+msgid "Refresh"
+msgstr "Ladda om"
+
+#: views/tabs/options/show_debug_bar.php:9
+#: views/tabs/options/show_debug_bar.php:13
+msgid "Show debug panel at bottom of the page"
+msgstr "Visa felsökningspanel längst ned på sidan"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:16
+msgid "Enable"
+msgstr "Aktivera"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:10
+msgid "Replace price with lowest bulk price"
+msgstr "Ersätt pris med lägsta bulkpris"
+
+#: views/tabs/options/disable_external_coupons_only_if_items_updated.php:9
+#: views/tabs/options/disable_external_coupons_only_if_items_updated.php:12
+msgid "Disable external coupons only if any of cart items updated"
+msgstr "Inaktivera externa rabattkoder endast om någon av varukorgens varor har uppdaterats"
+
+#: views/tabs/options/hide_coupon_word_in_totals.php:9
+#: views/tabs/options/hide_coupon_word_in_totals.php:13
+msgid "Hide \"Coupon\" word in cart totals"
+msgstr "Dölj ordet ”rabattkod” i varukorgens totalbelopp"
+
+#: views/tabs/options/show_cross_out_subtotal_in_cart_totals.php:9
+#: views/tabs/options/show_cross_out_subtotal_in_cart_totals.php:12
+msgid "Show striked subtotal in cart totals"
+msgstr "Visa överstrukna delsummor i varukorgens totalbelopp"
+
+#: views/rules/rule.php:286
+msgid "Don't gift products and add discount to cart as coupon"
+msgstr "Lägg till gratisprodukter i varukorgen med normalt pris och lägg samtidigt till en rabattkod som drar av samma pris."
+
+#: views/rules/templates.php:218
+msgid "Exclude on sale products"
+msgstr "Exkludera på reaprodukter"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:139
+#: classes/reporter/class-wdp-calculation-profiler.php:176
+msgid "Wrong import key"
+msgstr "Fel importnyckel"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:136
+msgid "Import key not found"
+msgstr "Importnyckel hittades inte"
+
+#: classes/reporter/class-wdp-report-output.php:60
+msgid "Rule"
+msgstr "Regel"
+
+#: classes/reporter/class-wdp-report-output.php:59
+msgid "Rule ID"
+msgstr "Regel-ID"
+
+#: classes/reporter/class-wdp-report-output.php:58
+msgid "Replaced by fee"
+msgstr "Ersatt av avgift"
+
+#: classes/reporter/class-wdp-report-output.php:57
+msgid "Replaced by coupon"
+msgstr "Ersatt av rabattkod"
+
+#: classes/reporter/class-wdp-report-output.php:56
+msgid "Fees"
+msgstr "Avgifter"
+
+#: classes/reporter/class-wdp-report-output.php:55
+msgid "Coupons"
+msgstr "Rabattkoder"
+
+#: classes/reporter/class-wdp-report-output.php:54
+msgid "Items"
+msgstr "Varor"
+
+#: classes/reporter/class-wdp-report-output.php:36
+msgid "WDP report"
+msgstr "WDP-rapport"
+
+#: classes/reporter/collectors/class-wdp-reporter-wc-cart-collector.php:250
+msgid "Package"
+msgstr "Paket"
+
+#: classes/common/class-wdp-helpers.php:49
+msgid "From {{price}} {{price_suffix}}"
+msgstr "Från {{price}} {{price_suffix}}"
+
+#: classes/admin/tabs/class-wdp-collections-page.php:11
+msgid "Product Collections"
+msgstr "Produktkombinationer"
+
+#: classes/admin/tabs/class-wdp-options-page.php:84
+msgid "Debug"
+msgstr "Felsök"
+
+#: templates/reporter/tabs/reports.php:11
+msgid "Export all"
+msgstr "Exportera alla"
+
+#: templates/reporter/tabs/cart.php:125
+msgid "Free shipping!"
+msgstr "Gratis frakt!"
+
+#: templates/reporter/tabs/cart.php:106
+msgid "Cost"
+msgstr "Kostnad"
+
+#: templates/reporter/tabs/cart.php:105
+msgid "Initial cost"
+msgstr "Ursprunglig kostnad"
+
+#: templates/reporter/tabs/cart.php:104
+msgid "Label"
+msgstr "Etikett"
+
+#: templates/reporter/tabs/cart.php:78
+msgid "Fee amount"
+msgstr "Avgiftsbelopp"
+
+#: templates/reporter/tabs/cart.php:58 templates/reporter/tabs/cart.php:79
+#: templates/reporter/tabs/cart.php:107
+msgid "Affected rules"
+msgstr "Påverkade regler"
+
+#: templates/reporter/tabs/cart.php:57
+msgid "Coupon amount"
+msgstr "Rabattkodsbelopp"
+
+#: templates/reporter/tabs/cart.php:56
+msgid "Coupon code"
+msgstr "Rabattkod"
+
+#: templates/reporter/tabs/cart.php:33
+msgid "Initial price"
+msgstr "Ursprungligt pris"
+
+#: templates/reporter/tabs/cart.php:10
+msgid "Cart is empty"
+msgstr "Varukorg är tom"
+
+#: templates/reporter/tabs/base.php:25
+msgid "No changes!"
+msgstr "Inga ändringar!"
+
+#: templates/reporter/tabs/base.php:19
+msgid "Gifted!"
+msgstr "Gåva!"
+
+#: templates/reporter/tabs/rules.php:46
+msgctxt "seconds short"
+msgid "s"
+msgstr "s"
+
+#: templates/reporter/tabs/rules.php:32
+msgid "Applied to cart items"
+msgstr "Tillämpas på varukorgens varor"
+
+#: templates/reporter/tabs/rules.php:25 templates/reporter/tabs/rules.php:36
+msgid "Timing"
+msgstr "Tajming"
+
+#: templates/reporter/tabs/rules.php:21
+msgid "Applied to visible products"
+msgstr "Tillämpad på synliga produkter"
+
+#: templates/reporter/tabs/products.php:15 templates/reporter/tabs/cart.php:35
+msgid "History"
+msgstr "Historik"
+
+#: templates/reporter/tabs/products.php:13
+msgid "Original price"
+msgstr "Ordinarie pris"
+
+#: templates/reporter/tabs/products.php:12 templates/reporter/tabs/cart.php:77
+msgid "Name"
+msgstr "Namn"
+
+#: templates/reporter/main.php:20
+#: classes/reporter/class-wdp-report-output.php:62
+msgid "Get system report"
+msgstr "Få systemrapport"
+
+#: views/rules/rule.php:272
+msgid "Based on"
+msgstr "Baserat på"
+
+#: views/rules/rule.php:259
+msgid "Can be applied"
+msgstr "Kan tillämpas"
+
+#: views/tabs/common.php:17
+msgid "Rebuild Onsale List"
+msgstr "Återskapa lista med reavaror"
+
+#: views/tabs/options/support_shortcode_products_on_sale.php:17
+msgid "Read short guide"
+msgstr "Läs kort guide"
+
+#: views/tabs/options/support_shortcode_products_on_sale.php:9
+#: views/tabs/options/support_shortcode_products_on_sale.php:13
+msgid "Support shortcode [adp_products_on_sale]"
+msgstr "Stöder kortkod [adp_products_on_sale]"
+
+#: views/tabs/options/is_calculate_based_on_wc_precision.php:9
+#: views/tabs/options/is_calculate_based_on_wc_precision.php:12
+msgid "Calculate totals based on modified item price"
+msgstr "Beräkning av totalbelopp baserat på ändrat varupris"
+
+#: views/rules/rule.php:94
+msgid "Don't modify prices and add discount to cart as fee/coupon"
+msgstr "Ändra inte varupriset utan lägg till rabatt i varukorgen som avgift/rabattkod "
+
+#: views/rules/templates.php:148
+msgid "Any product"
+msgstr "Valfri produkt"
+
+#: classes/admin/tabs/class-wdp-tools-page.php:153
+msgid "All"
+msgstr "Alla"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:45
+msgid "Add fixed fee to each item line affected by rule"
+msgstr "Lägg till en fast avgift för varje varukorgsrad som omfattas av regel"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:39
+msgid "Add fixed fee on each rule execution"
+msgstr "Lägg till en fast avgift varje gång regeln tillämpas"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:33
+msgid "Fixed fee, once"
+msgstr "Fast avgift, en gång"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:27
+msgid "Add fixed discount to each item line affected by rule"
+msgstr "Lägg till ett fast rabattbelopp för varje varukorgsrad som omfattas av regel"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:21
+msgid "Add fixed discount on each rule execution"
+msgstr "Lägg till ett fast rabattbelopp varje gång regeln tillämpas"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:15
+msgid "Fixed discount, once"
+msgstr "Fast rabatt, en gång"
+
+#: views/tabs/help.php:16
+msgid "Variable products"
+msgstr "Variabla produkter"
+
+#: views/tabs/tools.php:66
+msgid "Import"
+msgstr "Importera"
+
+#: views/tabs/tools.php:58
+msgid "Clear all rules before import"
+msgstr "Rensa alla regler före import"
+
+#: views/tabs/tools.php:43
+msgid "Paste text into this field to import settings into the current WordPress install."
+msgstr "Klistra in text i detta fält för att importera inställningar till den nuvarande WordPress-installationen."
+
+#: views/tabs/tools.php:40
+msgid "Import tool"
+msgstr "Importverktyg"
+
+#: views/tabs/tools.php:20
+msgid "Copy these settings and use it to migrate plugin to another WordPress install."
+msgstr "Kopiera dessa inställningar och använd det för att migrera tillägget till en annan WordPress-installation."
+
+#: views/tabs/tools.php:16
+msgid "Export tool"
+msgstr "Exportverktyg"
+
+#: views/tabs/options/rules_per_page.php:9
+#: views/tabs/options/rules_per_page.php:13
+msgid "Rules per page"
+msgstr "Regler per sida"
+
+#: views/tabs/options/allow_to_exclude_products.php:9
+#: views/tabs/options/allow_to_exclude_products.php:13
+msgid "Allow to exclude products in filters"
+msgstr "Tillåt att exkludera produkter i filter"
+
+#: views/tabs/options/allow_to_edit_prices_in_po.php:9
+#: views/tabs/options/allow_to_edit_prices_in_po.php:13
+msgid "Still allow to edit prices in Phone Orders"
+msgstr "Tillåt ändå att priser ändras med tillägget ”Phone Order”"
+
+#: views/tabs/options/amount_saved_label.php:9
+#: views/tabs/options/amount_saved_label.php:13
+msgid "Label \"Amount Saved\""
+msgstr "Etikett ”Belopp sparat”"
+
+#: views/tabs/options/load_in_backend.php:15
+msgid "You should activate this option if the theme uses AJAX requests to show prices (for example, to support quickview popups)"
+msgstr "Du bör aktivera det här alternativet om temat använder AJAX-anrop för att visa priser (till exempel för att stödja snabbtitts-popups)"
+
+#: views/tabs/options/load_in_backend.php:12
+msgid "Use plugin %s to add backend orders"
+msgstr "Använd tillägget %s för att lägga order i back-end"
+
+#: views/tabs/options/disable_external_coupons.php:9
+#: views/tabs/options/disable_external_coupons.php:12
+msgid "Disable external coupons if any rule applied"
+msgstr "Inaktivera externa rabattkoder om någon regel tillämpas"
+
+#: views/tabs/options/rule_max_exec_time.php:9
+#: views/tabs/options/rule_max_exec_time.php:13
+msgid "Disable rule if it runs longer than X seconds"
+msgstr "Inaktivera regel om den körs längre än X sekunder"
+
+#: views/tabs/options/show_matched_bulk_table.php:24
+msgid "You can use shortcode [adp_product_bulk_rules_table] too"
+msgstr "Du kan använda kortkod [adp_product_bulk_rules_table] också"
+
+#: views/rules/templates.php:429 views/rules/rule.php:143
+msgid "Fixed price"
+msgstr "Fast pris"
+
+#: views/rules/templates.php:198
+msgid "Exclude products"
+msgstr "Exkludera produkter"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:199
+msgid "Last page"
+msgstr "Sista sidan"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:188
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:180
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s av %2$s"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:170
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:174
+msgid "Current Page"
+msgstr "Nuvarande sida"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:163
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:152
+msgid "First page"
+msgstr "Första sidan"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:115
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s vara"
+msgstr[1] "%s varor"
+
+#: classes/admin/class-wdp-customizer.php:194
+#: classes/admin/class-wdp-customizer.php:383
+msgid "Use bulk table message as table header"
+msgstr "Använd bulktabellens meddelande som tabellrubrik"
+
+#: classes/admin/class-wdp-settings.php:479
+msgid "exclusive rules were turned off, it were running too slow."
+msgstr "exkluderade regler stängdes av, det gick för långsamt."
+
+#: classes/admin/class-wdp-settings.php:477
+msgid "The exclusive rule was turned off, it was running too slow."
+msgstr "Den exklusiva regeln stängdes av, då den tog för lång tid att köra."
+
+#: classes/admin/class-wdp-settings.php:465
+msgid "common rules were turned off, it were running too slow."
+msgstr "allmänna regler stängdes av, då de tog för lång tid att köra."
+
+#: classes/admin/class-wdp-settings.php:463
+#: classes/admin/class-wdp-settings.php:465
+#: classes/admin/class-wdp-settings.php:477
+#: classes/admin/class-wdp-settings.php:479
+msgid "Edit rule"
+msgstr "Redigera regel"
+
+#: classes/admin/class-wdp-settings.php:463
+msgid "The common rule was turned off, it was running too slow."
+msgstr "Den allmänna regeln stängdes av, då den tog för lång tid att köra."
+
+#: classes/common/class-wdp-helpers.php:176
+msgid "Guest"
+msgstr "Gäst"
+
+#: classes/common/class-wdp-helpers.php:55
+msgid "Amount Saved"
+msgstr "Belopp sparat"
+
+#: classes/rules/discount_range/qty_based_calculators/product_categories/class-wdp-rule-range-adjustments-bulk-qty-based-product-categories.php:23
+msgid "Qty based on product categories in all cart"
+msgstr "Antal baserat på produktkategorier i hela varukorgen"
+
+#: classes/rules/discount_range/qty_based_calculators/abstract/abstract-class-wdp-rule-range-adjustments-qty-based-product-selected-categories.php:20
+msgid "Qty based on selected categories in all cart"
+msgstr "Antal baserat på valda kategorier i hela varukorgen"
+
+#: classes/rules/exceptions/class-wdp-rule-execution-timeout-exception.php:8
+msgid "Rule execution timeout"
+msgstr "Regelkörning timeout"
+
+#: classes/rules/class-wdp-rule-range-adjustments.php:27
+msgid "Invalid rule ID."
+msgstr "Ogiltigt regel-ID."
+
+#: classes/rules/class-wdp-rule-range-adjustments-qty-based-calculator.php:48
+msgid "Invalid quantity based parameter."
+msgstr "Ogiltig antalsbaserad parameter."
+
+#: classes/engine/product/class-wdp-product.php:52
+#: classes/rules/class-wdp-rule.php:963
+msgid "Product does not exists"
+msgstr "Produkt finns inte"
+
+#: views/tabs/options/do_not_modify_price_at_product_page.php:9
+#: views/tabs/options/do_not_modify_price_at_product_page.php:12
+msgid "Don't modify product price at product page"
+msgstr "Ändra inte produktens pris på dess sida"
+
+#: views/tabs/options/show_category_bulk_table.php:23
+msgid "You can use shortcode [adp_category_bulk_rules_table]"
+msgstr "Du kan använda kortkod [adp_category_bulk_rules_table]"
+
+#: classes/rules/discount_range/qty_based_calculators/total_qty_in_cart/class-wdp-rule-range-adjustments-bulk-qty-based-total-qty-in-cart.php:23
+msgid "Qty based on all items in the cart"
+msgstr "Kvantitetsbaserat på alla objekt i varukorgen"
+
+#: views/rules/rule.php:101
+msgid "Filter by products"
+msgstr "Sortera efter produkter"
+
+#: templates/reporter/tabs/rules.php:23 templates/reporter/tabs/rules.php:34
+#: templates/reporter/tabs/products.php:11 templates/reporter/tabs/cart.php:30
+#: templates/reporter/tabs/cart.php:55 templates/reporter/tabs/cart.php:76
+#: templates/reporter/tabs/cart.php:103 views/rules/rule.php:39
+msgid "#"
+msgstr "#"
+
+#: views/rules/templates.php:162
+msgid "Custom fields"
+msgstr "Anpassade fält"
+
+#: views/rules/templates.php:161
+msgid "SKUs"
+msgstr "SKU:s"
+
+#: views/rules/templates.php:153
+msgid "Tags"
+msgstr "Etiketter"
+
+#: views/rules/templates.php:152
+msgid "Attributes"
+msgstr "Attribut"
+
+#: views/rules/templates.php:151
+msgid "Category slugs"
+msgstr "Kategoripermalänkar"
+
+#: views/rules/templates.php:150
+msgid "Categories"
+msgstr "Kategorier"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:111
+#: classes/admin/class-wdp-customizer.php:612
+#: classes/class-wdp-functions.php:45
+msgid "%1$s should not be called before the %2$s action."
+msgstr "%1$s borde inte anropas före händelsen %2$s."
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:70
+#: classes/admin/class-wdp-settings.php:229
+msgid "Fixed price for set"
+msgstr "Fast pris för set"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:49
+#: classes/admin/class-wdp-settings.php:228
+msgid "Fixed discount for set"
+msgstr "Fast rabatt för set"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:63
+#: classes/admin/class-wdp-settings.php:227
+msgid "Fixed price for item"
+msgstr "Fast pris för objekt"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:42
+#: classes/admin/class-wdp-settings.php:226
+msgid "Fixed discount for item"
+msgstr "Fast rabatt för objekt"
+
+#: classes/admin/tabs/class-wdp-options-page.php:42
+msgid "Product page"
+msgstr "Produktsida"
+
+#: classes/admin/tabs/class-wdp-options-page.php:35
+msgid "Category page"
+msgstr "Kategorisida"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:56
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:57
+msgid "%s product(s) with "
+msgstr "%s produkt(er) med "
+
+#: views/tabs/options/limit_results_in_autocomplete.php:9
+#: views/tabs/options/limit_results_in_autocomplete.php:13
+msgid "Show first X results in autocomplete (setup rule)"
+msgstr "Visa de första X resultaten i autoslutför (inställningsregel)"
+
+#: views/rules/rule.php:317
+msgid "OR"
+msgstr "ELLER"
+
+#: views/rules/rule.php:316
+msgid "AND"
+msgstr "OCH"
+
+#: views/rules/rule.php:315
+msgid "Conditions relationship"
+msgstr "Villkorssamband"
+
+#: views/tabs/options/show_amount_save.php:16
+msgid "Checkout"
+msgstr "Kassa"
+
+#: views/tabs/options/load_in_backend.php:10
+#: views/tabs/options/load_in_backend.php:21
+msgid "Apply pricing rules to backend orders"
+msgstr "Verkställ prisregler på restnoterade orders"
+
+#: views/tabs/options.php:59
+msgid "Need more settings?"
+msgstr "Behöver du fler inställningar?"
+
+#: views/rules/rule.php:181
+msgid "Skip bulk rules if role rule was applied"
+msgstr "Hoppa över bulkregler om rollregel har verkställts"
+
+#: views/rules/rule.php:177
+msgid "Add role discount"
+msgstr "Lägg till rabatt för roll"
+
+#: views/rules/rule.php:173 views/rules/rule.php:342 views/tabs/help.php:13
+msgid "Role discounts"
+msgstr "Rabatt för roll"
+
+#: classes/admin/tabs/class-wdp-options-page.php:75
+msgid "System"
+msgstr "System"
+
+#: classes/admin/tabs/class-wdp-options-page.php:62
+msgid "Calculation"
+msgstr "Uträkning"
+
+#: classes/admin/class-wdp-customizer.php:144
+msgid "Below product meta"
+msgstr "Under produktmeta"
+
+#: classes/admin/class-wdp-customizer.php:142
+msgid "Above product meta"
+msgstr "Över produktmeta"
+
+#: views/tabs/options/default_fee_tax_class.php:28
+#: views/tabs/options/default_fee_tax_class.php:32
+msgid "Default Fee tax class"
+msgstr "Standardavgift momsklass"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:17
+msgid "Best between discounted and sale"
+msgstr "Bäst mellan nedsatt och rea"
+
+#: views/tabs/options/show_matched_bulk_table.php:22
+#: views/tabs/options/show_category_bulk_table.php:21
+msgid "Customize"
+msgstr "Anpassa"
+
+#: views/cart_adjustments/fee.php:12
+#: views/tabs/options/default_fee_tax_class.php:16
+msgid "Standard rate"
+msgstr "Standardtaxa"
+
+#: views/cart_adjustments/fee.php:8
+#: views/tabs/options/default_fee_tax_class.php:12
+msgid "Not taxable"
+msgstr "Ej momspliktig"
+
+#: classes/admin/customizer/controls/class-wdp-customizer-text-align-control.php:14
+msgid "Align right"
+msgstr "Högerjustera"
+
+#: classes/admin/customizer/controls/class-wdp-customizer-text-align-control.php:13
+msgid "Align center"
+msgstr "Centrera"
+
+#: classes/admin/customizer/controls/class-wdp-customizer-text-align-control.php:12
+msgid "Align left"
+msgstr "Vänsterjustera"
+
+#: classes/admin/class-wdp-customizer.php:503
+msgid "Category bulk table (Advanced Dynamic Pricing)"
+msgstr "Kategori bulktabell (Advanced Dynamic Pricing)"
+
+#: classes/admin/class-wdp-customizer.php:496
+msgid "Product bulk table (Advanced Dynamic Pricing)"
+msgstr "Produkt bulktabell (Advanced Dynamic Pricing)"
+
+#: classes/admin/class-wdp-customizer.php:343
+msgid "At bottom of the page"
+msgstr "På botten av sidan"
+
+#: classes/admin/class-wdp-customizer.php:341
+msgid "At top of the page"
+msgstr "På toppen av sidan"
+
+#: classes/admin/class-wdp-customizer.php:297
+#: classes/admin/class-wdp-customizer.php:477
+msgid "Style footer"
+msgstr "Förändra sidfot"
+
+#: classes/admin/class-wdp-customizer.php:279
+#: classes/admin/class-wdp-customizer.php:459
+msgid "Style body"
+msgstr "Förändra body"
+
+#: classes/admin/class-wdp-customizer.php:265
+#: classes/admin/class-wdp-customizer.php:283
+#: classes/admin/class-wdp-customizer.php:445
+#: classes/admin/class-wdp-customizer.php:463
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: classes/admin/class-wdp-customizer.php:256
+msgid "Discounted price column title"
+msgstr "Kolumntitel för nedsatt pris"
+
+#: classes/admin/class-wdp-customizer.php:247
+#: classes/admin/class-wdp-customizer.php:436
+msgid "Discount column title for fixed price"
+msgstr "Kolumntitel för nedsatt fast pris"
+
+#: classes/admin/class-wdp-customizer.php:238
+#: classes/admin/class-wdp-customizer.php:427
+msgid "Discount column title"
+msgstr "Kolumntitel för nedsatt"
+
+#: classes/admin/class-wdp-customizer.php:229
+#: classes/admin/class-wdp-customizer.php:418
+msgid "Quantity column title"
+msgstr "Kolumntitel för antal"
+
+#: classes/admin/class-wdp-customizer.php:225
+#: classes/admin/class-wdp-customizer.php:414
+msgid "Style columns"
+msgstr "Förändra kolumner"
+
+#: classes/admin/class-wdp-customizer.php:214
+#: classes/admin/class-wdp-customizer.php:403
+msgid "Header tier title"
+msgstr "Sidhuvuds titelrad"
+
+#: classes/admin/class-wdp-customizer.php:205
+#: classes/admin/class-wdp-customizer.php:394
+msgid "Header bulk title"
+msgstr "Sidhuvud bulktitel"
+
+#: classes/admin/class-wdp-customizer.php:190
+#: classes/admin/class-wdp-customizer.php:379
+msgid "Style header"
+msgstr "Förändra sidhuvud"
+
+#: classes/admin/class-wdp-customizer.php:176
+#: classes/admin/class-wdp-customizer.php:365
+msgid "Show footer"
+msgstr "Visa sidfot"
+
+#: classes/admin/class-wdp-customizer.php:165
+#: classes/admin/class-wdp-customizer.php:354
+msgid "Show discount column"
+msgstr "Visa kolumn nedsatt"
+
+#: classes/admin/class-wdp-customizer.php:138
+msgid "Above add to cart"
+msgstr "Över lägg i varukorg"
+
+#: classes/admin/class-wdp-customizer.php:140
+msgid "Below add to cart"
+msgstr "Under lägg i varukorg"
+
+#: classes/admin/class-wdp-customizer.php:134
+msgid "Above product"
+msgstr "Över produkt"
+
+#: classes/admin/class-wdp-customizer.php:136
+msgid "Below product"
+msgstr "Under produkt"
+
+#: classes/admin/class-wdp-customizer.php:130
+msgid "Above product summary"
+msgstr "Över produktöversikt"
+
+#: classes/admin/class-wdp-customizer.php:132
+msgid "Below product summary"
+msgstr "Under produktöversikt"
+
+#: classes/admin/class-wdp-customizer.php:106
+#: classes/admin/class-wdp-customizer.php:318
+#: classes/admin/tabs/class-wdp-tools-page.php:22
+#: classes/admin/tabs/class-wdp-tools-page.php:78
+#: classes/admin/tabs/class-wdp-tools-page.php:83
+msgid "Options"
+msgstr "Alternativ"
+
+#: classes/admin/class-wdp-customizer.php:80
+msgid "Text color"
+msgstr "Textfärg"
+
+#: classes/admin/class-wdp-customizer.php:69
+msgid "Text Align"
+msgstr "Textjustering"
+
+#: classes/admin/class-wdp-customizer.php:56
+msgid "Italic text"
+msgstr "Kursiv text"
+
+#: classes/admin/class-wdp-customizer.php:43
+msgid "Bold text"
+msgstr "Fet text"
+
+#: views/tabs/options/suppress_other_pricing_plugins.php:9
+#: views/tabs/options/suppress_other_pricing_plugins.php:13
+msgid "Suppress other pricing plugins in frontend"
+msgstr "Förbjud andra pristillägg i front-end"
+
+#: classes/admin/class-wdp-customizer.php:154
+msgid "Show discounted price"
+msgstr "Visa nedsatt pris"
+
+#: classes/rules/discount_range/qty_based_calculators/variation/class-wdp-rule-range-adjustments-qty-based-variation.php:23
+msgid "Qty based on variation"
+msgstr "Kvantitetsbaserat på variation"
+
+#: classes/rules/discount_range/qty_based_calculators/product/class-wdp-rule-range-adjustments-qty-based-product.php:23
+msgid "Qty based on product"
+msgstr "Kvantitetsbaserat på produkt"
+
+#: classes/rules/discount_range/qty_based_calculators/abstract/abstract-class-wdp-rule-range-adjustments-qty-based-total-all-matched-products.php:19
+msgid "Qty based on all matched products"
+msgstr "Kvantitetsbaserat på alla matchade produkter"
+
+#: templates/reporter/tabs/products.php:14
+#: classes/admin/class-wdp-customizer.php:257
+msgid "Discounted price"
+msgstr "Nedsatt pris"
+
+#: classes/registries/class-wdp-condition-registry.php:48
+msgid "Product category slug"
+msgstr "Produktkategorins slug"
+
+#: classes/admin/class-wdp-settings.php:378
+#: classes/admin/class-wdp-ajax.php:103
+msgid "Slug"
+msgstr "Permalänk"
+
+#: views/tabs/options/show_onsale_badge.php:9
+#: views/tabs/options/show_onsale_badge.php:12
+msgid "Show On Sale badge if product price was modified"
+msgstr "Visa ett rea-märke om produktpriset har ändrats"
+
+#: classes/registries/class-wdp-condition-registry.php:81
+msgid "Product SKU"
+msgstr "Produkts SKU"
+
+#. Author URI of the plugin
+msgid "https://algolplus.com/"
+msgstr "https://algolplus.com/"
+
+#. Author of the plugin
+msgid "AlgolPlus"
+msgstr "AlgolPlus"
+
+#. Description of the plugin
+msgid "Manage discounts/deals for WooCommerce"
+msgstr "Hantera rabatter/erbjudanden i WooCommerce"
+
+#. Plugin Name of the plugin
+msgid "Advanced Dynamic Pricing for WooCommerce"
+msgstr "Advanced Dynamic Pricing för WooCommerce"
+
+#: views/tabs/collections.php:7
+msgid "Buy a pro version of our plugin and get an access to product collections"
+msgstr "Köp Pro-versionen av vårt tillägg och få tillgång till produktkombinationer "
+
+#: views/tabs/statistics.php:7
+msgid "Buy a pro version of our plugin and get an access to statistics"
+msgstr "Köp pro-versionen av vårt tillägg och få tillgång till statistik"
+
+#: views/tabs/options.php:63
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: views/tabs/options/uninstall_remove_data.php:9
+#: views/tabs/options/uninstall_remove_data.php:13
+msgid "Remove all data on uninstall"
+msgstr "Ta bort all data vid avinstallering"
+
+#: views/tabs/options/show_amount_save.php:25
+msgid "Mini cart"
+msgstr "Minikorg"
+
+#: views/tabs/options/show_amount_save.php:10
+msgid "Show amount saved in"
+msgstr "Visa belopp sparat i"
+
+#: views/tabs/options/override_cents.php:21
+msgid "If selected, prices will end with: "
+msgstr "Om vald kommer priser att sluta med:"
+
+#: views/tabs/options/override_cents.php:16
+msgid "Override the cents on the calculated price."
+msgstr "Åsidosätt ören på det uträknade priset."
+
+#: views/tabs/options/override_cents.php:10
+msgid "Cents"
+msgstr "Ören"
+
+#: views/tabs/options/default_fee_name.php:20
+msgid "Fees with the same name are grouped in the cart."
+msgstr "Avgifter med samma namn grupperas i varukorgen."
+
+#: views/tabs/options/default_fee_name.php:9
+#: views/tabs/options/default_fee_name.php:13
+msgid "Default Fee Name"
+msgstr "Standardnamn på avgift"
+
+#: views/tabs/options/combine_fees.php:9 views/tabs/options/combine_fees.php:13
+msgid "Combine Multiple Fees"
+msgstr "Kombinera flera avgifter"
+
+#: views/tabs/options/default_discount_name.php:20
+msgid "Fixed discounts with the same name are grouped in the cart."
+msgstr "Fasta rabatter med samma namn grupperas i varukorgen."
+
+#: views/tabs/options/default_discount_name.php:9
+#: views/tabs/options/default_discount_name.php:13
+msgid "Default Discount Name"
+msgstr "Standardnamn på rabatt"
+
+#: views/tabs/options/combine_discounts.php:10
+#: views/tabs/options/combine_discounts.php:14
+msgid "Combine Multiple Fixed Discounts"
+msgstr "Kombinera flera fasta rabatter"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:16
+msgid "Discount Sale Price"
+msgstr "Nedsatt rea-pris"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:15
+msgid "Discount Regular Price"
+msgstr "Nedsatt ordinarie pris"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:14
+msgid "Use Sale Price"
+msgstr "Använd rea-pris"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:10
+msgid "Apply Discount for \"Onsale\" products"
+msgstr "Verkställ nedsättning för rea-produkter"
+
+#: views/tabs/options/show_striked_prices.php:9
+#: views/tabs/options/show_striked_prices.php:12
+msgid "Show Striked Prices in the Cart"
+msgstr "Visa överstrukna priser i varukorgen"
+
+#: classes/admin/class-wdp-customizer.php:125
+#: classes/admin/class-wdp-customizer.php:336
+msgid "You can use shortcode [adp_product_bulk_rules_table] in product template."
+msgstr "Du kan använda kortkoden [adp_product_bulk_rules_table] in product template."
+
+#: classes/admin/class-wdp-customizer.php:124
+msgid "Product Bulk Table position"
+msgstr "Position för produkt bulktabell"
+
+#: views/tabs/options/show_matched_bulk_table.php:12
+#: views/tabs/options/show_matched_bulk_table.php:15
+msgid "Show Bulk Table inside Product page"
+msgstr "Visa bulktabell på produktsidan"
+
+#: classes/admin/class-wdp-customizer.php:335
+msgid "Category Bulk Table position"
+msgstr "Position för kategori bulktabell"
+
+#: views/tabs/options/show_category_bulk_table.php:12
+#: views/tabs/options/show_category_bulk_table.php:15
+msgid "Show Bulk Table inside Category page"
+msgstr "Visa bulktabell i kategorisidan"
+
+#: views/tabs/help.php:22
+msgid "helpdesk system"
+msgstr "kundtjänstsystemet"
+
+#: views/tabs/help.php:22
+msgid "Need help? Create ticket in"
+msgstr "Behöver du hjälp? Skapa ett ärende i"
+
+#: views/tabs/help.php:20
+msgid "Or review all examples on %s ."
+msgstr "Eller se exempel på %s."
+
+#: views/tabs/help.php:15
+msgid "Packages"
+msgstr "Paket"
+
+#: views/tabs/help.php:14
+msgid "Buy & get free"
+msgstr "Köp och få gratis"
+
+#: views/tabs/help.php:12
+msgid "Bulk discounts"
+msgstr "Massrabatter"
+
+#: views/tabs/help.php:11
+msgid "Basics"
+msgstr "Grunder"
+
+#: views/tabs/help.php:6
+msgid "our server"
+msgstr "vår server"
+
+#: views/tabs/exclusive.php:7
+msgid "Buy a pro version of our plugin and get an access to exclusive rules"
+msgstr "Köp pro-versionen av vårt tillägg och få tillgång till exklusiva regler"
+
+#: views/tabs/common.php:44
+msgid "Add rule"
+msgstr "Lägg till regel"
+
+#: views/tabs/common.php:41
+msgid "No common rules defined"
+msgstr "Inga gemensamma regler angivna"
+
+#: views/tabs/common.php:26
+msgid "Hide inactive rules"
+msgstr "Dölj inaktiva regler"
+
+#: views/rules/templates.php:498
+msgid "Add Product Filter"
+msgstr "Lägg till produktfilter"
+
+#: views/rules/templates.php:493
+msgid "No filters"
+msgstr "Inga filter"
+
+#: views/rules/rule.php:348
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: views/rules/rule.php:346
+msgid "Cart conditions"
+msgstr "Varukorgsvillkor"
+
+#: views/tabs/help.php:17
+msgid "Cart rules"
+msgstr "Varukorgsregler"
+
+#: views/rules/rule.php:343
+msgid "Bulk rules"
+msgstr "Bulkregler"
+
+#: views/rules/rule.php:344
+msgid "Free products"
+msgstr "Gratisprodukter"
+
+#: views/rules/rule.php:340
+msgid "Product filters"
+msgstr "Produktfilter"
+
+#: views/rules/rule.php:334
+msgid "Add limit"
+msgstr "Lägg till gräns"
+
+#: views/rules/rule.php:330 views/rules/rule.php:347
+msgid "Limits"
+msgstr "Gränser"
+
+#: views/rules/rule.php:324
+msgid "Need more conditions?"
+msgstr "Behöver du fler villkor?"
+
+#: views/rules/rule.php:321
+msgid "Add condition"
+msgstr "Lägg till villkor"
+
+#: views/rules/rule.php:312
+msgid "Conditions"
+msgstr "Villkor"
+
+#: views/rules/rule.php:306
+msgid "Add cart adjustment"
+msgstr "Lägg till varukorgsjustering"
+
+#: views/rules/rule.php:302 views/rules/rule.php:345
+msgid "Cart adjustments"
+msgstr "Varukorgsjustering"
+
+#: views/rules/rule.php:243
+msgid "If you leave this field empty, we will show default bulk description"
+msgstr "Om du lämnar detta fält tomt kommer standardbeskrivning att visas"
+
+#: views/rules/rule.php:241
+msgid "Bulk table message"
+msgstr "Bulktabellmeddelande"
+
+#: views/rules/rule.php:234
+msgid "Add range"
+msgstr "Lägg till omfång"
+
+#: views/rules/rule.php:230
+msgid "No ranges"
+msgstr "Inget omfång"
+
+#: views/rules/rule.php:200
+msgid "Tier"
+msgstr "Rad"
+
+#: views/rules/rule.php:199
+msgid "Bulk"
+msgstr "Bulk"
+
+#: views/rules/rule.php:194
+msgid "Bulk mode"
+msgstr "Bulkläge"
+
+#: views/rules/rule.php:296
+msgid "Add product"
+msgstr "Lägg till produkt"
+
+#: views/rules/rule.php:256
+msgid "Free products. Can be applied "
+msgstr "Gratisprodukter. Kan verkställas"
+
+#: views/rules/rule.php:156
+msgid "Max discount sum:"
+msgstr "Max rabattsumma:"
+
+#: views/rules/templates.php:525
+msgid "Fixed unit price"
+msgstr "Fast styckepris"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:56
+#: views/rules/templates.php:427 views/rules/templates.php:523
+#: views/rules/rule.php:142
+msgid "Percentage discount"
+msgstr "Procentuell rabatt"
+
+#: views/rules/rule.php:127
+msgid "Split"
+msgstr "Dela"
+
+#: views/rules/rule.php:119
+msgid "Total"
+msgstr "Totalt"
+
+#: views/rules/rule.php:111 views/rules/rule.php:341
+msgid "Product discounts"
+msgstr "Produktrabatter"
+
+#: views/rules/rule.php:105
+msgid "Add product filter"
+msgstr "Lägg till produktfilter"
+
+#: views/rules/rule.php:83
+msgid "Cheap products"
+msgstr "Billiga produkter"
+
+#: views/rules/rule.php:82
+msgid "Expensive products"
+msgstr "Dyra produkter"
+
+#: views/rules/rule.php:80
+msgid "Apply at first to:"
+msgstr "Verkställ först på:"
+
+#: views/rules/rule.php:65 views/rules/rule.php:261
+msgid "Once"
+msgstr "En gång"
+
+#: views/rules/rule.php:64 views/rules/rule.php:260
+msgid "Unlimited"
+msgstr "Obegränsat"
+
+#: views/rules/rule.php:62
+msgid "Can be applied:"
+msgstr "Kan gälla:"
+
+#: templates/reporter/tabs/rules.php:24 templates/reporter/tabs/rules.php:35
+#: templates/reporter/tabs/cart.php:31 views/rules/rule.php:57
+msgid "Title"
+msgstr "Rubrik"
+
+#: views/rules/rule.php:33 views/rules/rule.php:36
+msgid "Delete"
+msgstr "Ta bort"
+
+#: views/rules/rule.php:27 views/rules/rule.php:30
+msgid "Clone"
+msgstr "Klona"
+
+#: views/rules/rule.php:20 views/rules/rule.php:22
+msgid "Expand"
+msgstr "Expandera"
+
+#: views/conditions/shipping/country.php:17
+#: views/conditions/datetime/days-of-week.php:17
+msgid "Select values"
+msgstr "Välj värden"
+
+#: views/conditions/datetime/date.php:10
+msgid "specific date"
+msgstr "specifikt datum"
+
+#: views/conditions/datetime/time.php:9 views/conditions/datetime/date.php:9
+msgid "to"
+msgstr "till"
+
+#: views/conditions/datetime/time.php:8 views/conditions/datetime/date.php:8
+msgid "from"
+msgstr "från"
+
+#: views/conditions/customer/subscriptions.php:12
+msgid "none of selected"
+msgstr "ingen av valda"
+
+#: views/conditions/customer/subscriptions.php:11
+msgid "only selected"
+msgstr "bara valda"
+
+#: views/conditions/customer/subscriptions.php:10
+msgid "all of selected"
+msgstr "alla valda"
+
+#: views/conditions/customer/subscriptions.php:9
+msgid "at least one of selected"
+msgstr "minst en av de valda"
+
+#: views/rules/templates.php:252 views/rules/templates.php:285
+#: views/rules/templates.php:305 views/rules/templates.php:325
+#: views/rules/templates.php:346 views/rules/templates.php:368
+#: views/rules/templates.php:386 views/rules/templates.php:404
+#: views/conditions/shipping/country.php:9
+#: views/conditions/products/product-category-slug.php:19
+#: views/conditions/products/product-sku.php:19
+#: views/conditions/products/product-taxonomy.php:22
+#: views/conditions/products/product-tags.php:19
+#: views/conditions/products/product-attributes.php:19
+#: views/conditions/products/products.php:19
+#: views/conditions/products/product-custom-fields.php:19
+#: views/conditions/products/product-categories.php:19
+#: views/conditions/customer/role.php:9
+#: views/conditions/datetime/days-of-week.php:9
+msgid "not in list"
+msgstr "inte i listan"
+
+#: views/rules/templates.php:251 views/rules/templates.php:284
+#: views/rules/templates.php:304 views/rules/templates.php:324
+#: views/rules/templates.php:345 views/rules/templates.php:367
+#: views/rules/templates.php:385 views/rules/templates.php:403
+#: views/conditions/shipping/country.php:8
+#: views/conditions/products/product-category-slug.php:18
+#: views/conditions/products/product-sku.php:18
+#: views/conditions/products/product-taxonomy.php:21
+#: views/conditions/products/product-tags.php:18
+#: views/conditions/products/product-attributes.php:18
+#: views/conditions/products/products.php:18
+#: views/conditions/products/product-custom-fields.php:18
+#: views/conditions/products/product-categories.php:18
+#: views/conditions/customer/role.php:8
+#: views/conditions/datetime/days-of-week.php:8
+msgid "in list"
+msgstr "i listan"
+
+#: views/conditions/customer/order-count.php:46
+#: views/conditions/customer/order-count.php:47
+#: views/conditions/customer/order-count.php:48
+#: views/conditions/customer/order-count.php:49
+#: views/conditions/customer/order-count.php:50
+#: views/conditions/customer/order-count.php:51
+#: views/conditions/customer/order-count.php:52
+#: views/conditions/customer/order-count.php:53
+#: views/conditions/customer/order-count.php:54
+msgid "years"
+msgstr "år"
+
+#: views/conditions/customer/order-count.php:45
+msgid "Years"
+msgstr "År"
+
+#: views/conditions/customer/order-count.php:33
+#: views/conditions/customer/order-count.php:34
+#: views/conditions/customer/order-count.php:35
+#: views/conditions/customer/order-count.php:36
+#: views/conditions/customer/order-count.php:37
+#: views/conditions/customer/order-count.php:38
+#: views/conditions/customer/order-count.php:39
+#: views/conditions/customer/order-count.php:40
+#: views/conditions/customer/order-count.php:41
+#: views/conditions/customer/order-count.php:42
+#: views/conditions/customer/order-count.php:43
+msgid "months"
+msgstr "månader"
+
+#: views/conditions/customer/order-count.php:32
+msgid "month"
+msgstr "månad"
+
+#: views/conditions/customer/order-count.php:31
+msgid "Months"
+msgstr "Månader"
+
+#: views/conditions/customer/order-count.php:27
+#: views/conditions/customer/order-count.php:28
+#: views/conditions/customer/order-count.php:29
+msgid "weeks"
+msgstr "veckor"
+
+#: views/conditions/customer/order-count.php:26
+msgid "week"
+msgstr "vecka"
+
+#: views/conditions/customer/order-count.php:25
+msgid "Weeks"
+msgstr "Veckor"
+
+#: views/conditions/customer/order-count.php:19
+#: views/conditions/customer/order-count.php:20
+#: views/conditions/customer/order-count.php:21
+#: views/conditions/customer/order-count.php:22
+#: views/conditions/customer/order-count.php:23
+msgid "days"
+msgstr "dagar"
+
+#: views/conditions/customer/order-count.php:18
+msgid "day"
+msgstr "dag"
+
+#: views/conditions/customer/order-count.php:17
+msgid "Days"
+msgstr "Dagar"
+
+#: views/conditions/customer/order-count.php:15
+msgid "current year"
+msgstr "nuvarande år"
+
+#: views/conditions/customer/order-count.php:14
+msgid "current month"
+msgstr "nuvarande månad"
+
+#: views/conditions/customer/order-count.php:13
+msgid "current week"
+msgstr "nuvarande vecka"
+
+#: views/conditions/customer/order-count.php:12
+msgid "current day"
+msgstr "nuvarande dag"
+
+#: views/conditions/customer/order-count.php:11
+msgid "Current"
+msgstr "Nuvarande"
+
+#: views/conditions/customer/order-count.php:9
+msgid "all time"
+msgstr "alltid"
+
+#: views/conditions/customer/is-logged-in.php:9
+msgid "No"
+msgstr "Nej"
+
+#: views/conditions/customer/is-logged-in.php:8
+msgid "Yes"
+msgstr "Ja"
+
+#: views/conditions/cart/subtotal.php:11
+#: views/conditions/customer/order-count.php:64
+msgid "&gt;"
+msgstr "&gt;"
+
+#: views/conditions/cart/subtotal.php:10
+#: views/conditions/customer/order-count.php:63
+msgid "&gt;="
+msgstr "&gt;="
+
+#: views/conditions/cart/subtotal.php:9
+#: views/conditions/customer/order-count.php:62
+msgid "&lt;="
+msgstr "&lt;="
+
+#: views/conditions/cart/subtotal.php:8
+#: views/conditions/customer/order-count.php:61
+msgid "&lt;"
+msgstr "&lt;"
+
+#: views/cart_adjustments/fee.php:30
+msgid "fee name"
+msgstr "avgiftsnamn"
+
+#: views/cart_adjustments/discount.php:12
+msgid "discount name"
+msgstr "rabattnamn"
+
+#: templates/deals-table.php:7
+msgid "Active deals"
+msgstr "Aktiva erbjudanden"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:47
+msgid "%s product(s) with attributes not from list: %s"
+msgstr "%s produkt(er) med attribut som inte ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:46
+msgid "%s product(s) with attributes from list: %s"
+msgstr "%s produkt(er) med attribut som ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:42
+msgid "%s product(s) with tags not from list: %s"
+msgstr "%s produkt(er) med etiketter som inte ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:41
+msgid "%s product(s) with tags from list: %s"
+msgstr "%s produkt(er) med etiketter som ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:32
+msgid "%s product(s) not from categories: %s"
+msgstr "%s produkt(er) som inte finns i kategori: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:31
+msgid "%s product(s) from categories: %s"
+msgstr "%s produkt(er) som finns i kategori: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:22
+msgid "%s product(s) not from list: %s"
+msgstr "%s produkt(er) som inte ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:21
+msgid "%s product(s) from list: %s"
+msgstr "%s produkt(er) som ingår i listan: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:16
+msgid "%s of any product(s)"
+msgstr "%s valfri(a) produkt(er)"
+
+#: classes/engine/range_discount_table/abstracts/abstract-wdp-range-discounts-table.php:130
+msgid "Bulk pricing will be applied to package:"
+msgstr "Bulk-prissättning kommer tillämpas på paket:"
+
+#: templates/reporter/tabs/cart.php:32
+#: classes/admin/class-wdp-customizer.php:230
+#: classes/admin/class-wdp-customizer.php:419
+msgid "Quantity"
+msgstr "Kvantitet"
+
+#: templates/reporter/tabs/cart.php:34
+#: classes/admin/class-wdp-customizer.php:248
+#: classes/admin/class-wdp-customizer.php:437
+msgid "Price"
+msgstr "Pris"
+
+#: classes/admin/class-wdp-customizer.php:215
+#: classes/admin/class-wdp-customizer.php:404
+msgid "Tier deal"
+msgstr "Raderbjudande"
+
+#: classes/admin/class-wdp-customizer.php:206
+#: classes/admin/class-wdp-customizer.php:395
+msgid "Bulk deal"
+msgstr "Bulkererbjudande"
+
+#: classes/registries/class-wdp-limit-registry.php:16
+msgid "Usage restrictions"
+msgstr "Användningsbegränsning"
+
+#: classes/registries/class-wdp-limit-registry.php:15
+msgid "Max usage"
+msgstr "Max antal användningar"
+
+#: classes/registries/class-wdp-condition-registry.php:161
+msgid "Country"
+msgstr "Land"
+
+#: classes/registries/class-wdp-condition-registry.php:152
+msgid "Days of week"
+msgstr "Dagar i veckan"
+
+#: classes/registries/class-wdp-condition-registry.php:145
+msgid "Time"
+msgstr "Tid"
+
+#: classes/registries/class-wdp-condition-registry.php:139
+#: classes/registries/class-wdp-condition-registry.php:146
+#: classes/registries/class-wdp-condition-registry.php:153
+msgid "Date & time"
+msgstr "Datum och tid"
+
+#: classes/registries/class-wdp-condition-registry.php:138
+msgid "Date"
+msgstr "Datum"
+
+#: classes/registries/class-wdp-condition-registry.php:125
+msgid "Active subscriptions"
+msgstr "Aktiva prenumerationer"
+
+#: classes/registries/class-wdp-condition-registry.php:118
+msgid "Order count"
+msgstr "Orderräkning"
+
+#: classes/registries/class-wdp-condition-registry.php:112
+msgid "Role"
+msgstr "Roll"
+
+#: classes/registries/class-wdp-condition-registry.php:107
+#: classes/registries/class-wdp-condition-registry.php:113
+#: classes/registries/class-wdp-condition-registry.php:119
+#: classes/registries/class-wdp-condition-registry.php:126
+msgid "Customer"
+msgstr "Kund"
+
+#: classes/registries/class-wdp-condition-registry.php:106
+msgid "Is logged in"
+msgstr "Är inloggad"
+
+#: templates/reporter/main.php:17
+#: classes/registries/class-wdp-condition-registry.php:98
+#: classes/reporter/class-wdp-report-output.php:51
+#: classes/admin/tabs/class-wdp-options-page.php:50
+#: views/tabs/options/show_amount_save.php:21
+msgid "Cart"
+msgstr "Varukorg"
+
+#: classes/registries/class-wdp-condition-registry.php:97
+#: views/rules/rule.php:273
+msgid "Subtotal"
+msgstr "Delsumma"
+
+#: classes/registries/class-wdp-condition-registry.php:88
+msgid "Product custom fields"
+msgstr "Produkts anpassade fält"
+
+#: classes/registries/class-wdp-condition-registry.php:74
+msgid "Product attributes"
+msgstr "Produktattribut"
+
+#: classes/registries/class-wdp-condition-registry.php:55
+msgid "Product tags"
+msgstr "Produkttaggar"
+
+#: classes/registries/class-wdp-condition-registry.php:41
+msgid "Product categories"
+msgstr "Produktkategorier"
+
+#: classes/registries/class-wdp-condition-registry.php:35
+#: classes/registries/class-wdp-condition-registry.php:42
+#: classes/registries/class-wdp-condition-registry.php:49
+#: classes/registries/class-wdp-condition-registry.php:56
+#: classes/registries/class-wdp-condition-registry.php:64
+#: classes/registries/class-wdp-condition-registry.php:75
+#: classes/registries/class-wdp-condition-registry.php:82
+#: classes/registries/class-wdp-condition-registry.php:89
+msgid "Cart items"
+msgstr "Objekt i varukorg"
+
+#: templates/reporter/main.php:18
+#: classes/registries/class-wdp-condition-registry.php:34
+#: classes/reporter/class-wdp-report-output.php:52
+#: views/rules/templates.php:149 views/rules/templates.php:491
+msgid "Products"
+msgstr "Produkter"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:52
+#: classes/registries/class-wdp-condition-registry.php:162
+#: classes/reporter/class-wdp-report-output.php:61
+msgid "Shipping"
+msgstr "Frakt"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:51
+msgid "Free shipping"
+msgstr "Fri frakt"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:16
+#: classes/registries/class-wdp-cart-adj-registry.php:22
+#: classes/registries/class-wdp-cart-adj-registry.php:28
+#: classes/admin/class-wdp-customizer.php:239
+#: classes/admin/class-wdp-customizer.php:428
+msgid "Discount"
+msgstr "Rabatt"
+
+#: views/rules/templates.php:425 views/rules/templates.php:521
+#: views/rules/rule.php:141
+msgid "Fixed discount"
+msgstr "Fast rabatt"
+
+#: classes/engine/class-wdp-rule-factory.php:28
+msgid "Wrong rule type"
+msgstr "Fel regeltyp"
+
+#: classes/common/class-wdp-helpers.php:270
+msgid "Saturday"
+msgstr "Lördag"
+
+#: classes/common/class-wdp-helpers.php:269
+msgid "Friday"
+msgstr "Fredag"
+
+#: classes/common/class-wdp-helpers.php:268
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: classes/common/class-wdp-helpers.php:267
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: classes/common/class-wdp-helpers.php:266
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: classes/common/class-wdp-helpers.php:265
+msgid "Monday"
+msgstr "Måndag"
+
+#: classes/common/class-wdp-helpers.php:264
+msgid "Sunday"
+msgstr "Söndag"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:34
+#: classes/registries/class-wdp-cart-adj-registry.php:40
+#: classes/registries/class-wdp-cart-adj-registry.php:46
+#: classes/common/class-wdp-helpers.php:38 classes/class-wdp-functions.php:374
+msgid "Fee"
+msgstr "Avgift"
+
+#: classes/common/class-wdp-helpers.php:36
+msgid "Coupon"
+msgstr "Rabattkod"
+
+#: classes/class-wdp-loader.php:88
+msgid "<strong>Advanced Dynamic Pricing for WooCommerce</strong> requires WooCommerce version %s or later."
+msgstr "<strong>Advanced Dynamic Pricing för WooCommerce</strong> kräver WooCommerce-version %s eller högre."
+
+#: classes/class-wdp-loader.php:82
+msgid "<strong>Advanced Dynamic Pricing for WooCommerce</strong> requires active WooCommerce!"
+msgstr "<strong>Advanced Dynamic Pricing för WooCommerce</strong> kräver att WooCommerce är aktiverat."
+
+#: classes/class-wdp-loader.php:76
+msgid "<strong>Advanced Dynamic Pricing for WooCommerce</strong> requires PHP version %s or later."
+msgstr "<strong>Advanced Dynamic Pricing för WooCommerce</strong> kräver PHP-version %s eller högre."
+
+#: classes/admin/tabs/class-wdp-tools-page.php:17
+msgid "Tools"
+msgstr "Verktyg"
+
+#: classes/admin/tabs/class-wdp-statistics-page.php:11
+msgid "Statistics"
+msgstr "Statistik"
+
+#: classes/admin/tabs/class-wdp-options-page.php:11
+msgid "Settings"
+msgstr "Inställningar"
+
+#: classes/admin/tabs/class-wdp-help-page.php:11
+msgid "Help"
+msgstr "Hjälp"
+
+#: classes/admin/tabs/class-wdp-exclusive-page.php:11
+msgid "Exclusive Rules"
+msgstr "Exklusiva regler"
+
+#: templates/reporter/main.php:19
+#: classes/reporter/class-wdp-report-output.php:53
+#: classes/admin/tabs/class-wdp-common-page.php:12
+#: classes/admin/tabs/class-wdp-options-page.php:25
+#: classes/admin/tabs/class-wdp-tools-page.php:23
+#: classes/admin/tabs/class-wdp-tools-page.php:165
+msgid "Rules"
+msgstr "Regler"
+
+#: classes/admin/class-wdp-settings.php:224
+msgid "Remove rule?"
+msgstr "Ta bort regel?"
+
+#: classes/admin/class-wdp-settings.php:223
+msgid "no results"
+msgstr "inga resultat"
+
+#: classes/admin/class-wdp-settings.php:96
+msgid "Pricing Rules"
+msgstr "Prisregler"
+
+#: classes/admin/class-wdp-settings.php:84
+msgid "Advanced Dynamic Pricing for WooCommerce is available <a href=\"admin.php?page=wdp_settings\">on this page</a>."
+msgstr "Advanced Dynamic Pricing för WooCommerce är tillgängligt <a href=\"admin.php?page=wdp_settings\">här</a>."
+
+#: classes/admin/class-wdp-meta-box-order-applied-discount-rules.php:16
+#: classes/admin/class-wdp-preview-order-applied-discount-rules.php:14
+msgid "Applied discounts"
+msgstr "Tillämpade rabatter"
+
+#: advanced-dynamic-pricing-for-woocommerce.php:25
+msgid "Please, <a href=\"plugins.php\">deactivate</a> Free version of Advanced Dynamic Pricing For WooCommerce!"
+msgstr "Jag vill <a href=\"plugins.php\">inaktivera</a> gratisversionen av Advanced Dynamic Pricing för WooCommerce!"

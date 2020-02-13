@@ -1,0 +1,36 @@
+2020-01-11T11:53:56+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12674
+2020-01-11T11:54:31+00:00 NOTICE product_submit.success :: addStoreProduct :: #12674
+2020-01-11T11:58:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12685
+2020-01-11T11:59:19+00:00 NOTICE product_submit.success :: addStoreProduct :: #12685
+2020-01-11T11:59:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12688
+2020-01-11T12:00:24+00:00 NOTICE product_submit.success :: addStoreProduct :: #12688
+2020-01-11T12:00:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12691
+2020-01-11T12:01:24+00:00 NOTICE product_submit.success :: addStoreProduct :: #12691
+2020-01-11T12:04:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 361
+2020-01-11T12:05:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 160
+2020-01-11T12:05:25+00:00 NOTICE product_submit.success :: updateStoreProduct :: #361
+2020-01-11T12:05:25+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 8165
+2020-01-11T12:05:25+00:00 NOTICE product_submit.success :: updateStoreProduct :: #160
+2020-01-11T12:05:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 8159
+2020-01-11T12:06:39+00:00 NOTICE product_submit.success :: updateStoreProduct :: #8165
+2020-01-11T12:06:40+00:00 NOTICE product_submit.success :: updateStoreProduct :: #8159
+2020-01-11T12:21:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon starts in the next minute :: obj_id 12699
+2020-01-11T12:22:26+00:00 NOTICE promo_code.update :: updated promo code weekend15
+2020-01-11T12:37:34+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 10214
+2020-01-11T12:38:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #10214
+2020-01-11T12:38:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 7500
+2020-01-11T12:39:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #7500
+2020-01-11T12:39:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 7471
+2020-01-11T12:40:20+00:00 NOTICE product_submit.success :: updateStoreProduct :: #7471
+2020-01-11T12:42:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 0c51bc4a269d3981ad032449d0b1efc5
+2020-01-11T12:43:22+00:00 NOTICE abandoned_cart.success :: email: anja_faber@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=0c51bc4a269d3981ad032449d0b1efc5
+2020-01-11T12:43:50+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12708
+2020-01-11T12:46:27+00:00 NOTICE order_submit.success :: addStoreOrder :: #12708 :: email: anja_faber@hotmail.com :: campaign id 378c2d7509 :: abandoned cart deleted [0c51bc4a269d3981ad032449d0b1efc5]
+2020-01-11T19:17:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 658fba7aa112764f0c60c0ae3c05f4ea
+2020-01-11T19:18:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12722
+2020-01-11T19:18:31+00:00 NOTICE abandoned_cart.success :: email: ebuurk@gmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=658fba7aa112764f0c60c0ae3c05f4ea
+2020-01-11T19:19:52+00:00 NOTICE order_submit.success :: addStoreOrder :: #12722 :: email: ebuurk@gmail.com :: campaign id 378c2d7509 :: abandoned cart deleted [658fba7aa112764f0c60c0ae3c05f4ea]
+2020-01-11T21:56:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id a13c12153d48fc29e9663731b3dff156
+2020-01-11T21:56:20+00:00 NOTICE abandoned_cart.success :: email: kiran00@live.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=a13c12153d48fc29e9663731b3dff156
+2020-01-11T21:57:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12729
+2020-01-11T22:00:20+00:00 NOTICE order_submit.success :: addStoreOrder :: #12729 :: email: kiran00@live.dk :: abandoned cart deleted [a13c12153d48fc29e9663731b3dff156]

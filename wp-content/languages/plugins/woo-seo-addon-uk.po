@@ -1,0 +1,237 @@
+# Translation of Plugins - Premmerce SEO for WooCommerce - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Premmerce SEO for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-24 08:43:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Premmerce SEO for WooCommerce - Stable (latest release)\n"
+
+#: src/Admin/Pages/Settings.php:115
+msgid "Add canonical meta tags"
+msgstr "Додати мета теги canonical"
+
+#: src/Admin/Pages/Metadata.php:51
+msgid "Add noindex, follow to author archives page"
+msgstr "Добавити noindex, follow на сторінки архівів по автору"
+
+#: src/Admin/Pages/Metadata.php:73
+msgid "Add noindex, follow to category archives page"
+msgstr "Добавити noindex, follow на сторінки категорій"
+
+#: src/Admin/Pages/Metadata.php:40
+msgid "Add noindex, follow to date archives page"
+msgstr "Добавити noindex, follow на сторінки архівів по даті"
+
+#: src/Admin/Pages/Metadata.php:29
+msgid "Add noindex, follow to search page"
+msgstr "Додати noindex, follow на сторінку пошуку"
+
+#: src/Admin/Pages/Metadata.php:62
+msgid "Add noindex, follow to tag archives page"
+msgstr "Добавити noindex, follow на сторінки тегів"
+
+#: src/Admin/Pages/Settings.php:120
+msgid "Add prev, next meta tags"
+msgstr "Додати мета теги prev, next "
+
+#: src/Admin/Pages/Metadata.php:44
+msgid "Author archives"
+msgstr "Архіви по автору"
+
+#: src/Admin/Pages/Metadata.php:66
+msgid "Category archives"
+msgstr "Категорії"
+
+#: src/Admin/Pages/Metadata.php:33
+msgid "Date archives"
+msgstr "Архіви по даті"
+
+#: src/Admin/Pages/Metadata.php:27 src/Admin/Pages/Metadata.php:38
+#: src/Admin/Pages/Metadata.php:49 src/Admin/Pages/Metadata.php:60
+#: src/Admin/Pages/Metadata.php:71
+msgid "Disable"
+msgstr "Вимкнути"
+
+#: src/Admin/Pages/Metadata.php:28 src/Admin/Pages/Metadata.php:39
+#: src/Admin/Pages/Metadata.php:50 src/Admin/Pages/Metadata.php:61
+#: src/Admin/Pages/Metadata.php:72
+msgid "Disable indexing"
+msgstr "Вимкнути індексацію"
+
+#: src/Admin/Pages/Settings.php:114
+msgid "Enable canonical links"
+msgstr "Увімкнути canonical"
+
+#: src/Admin/Pages/Settings.php:119
+msgid "Enable navigation links"
+msgstr "Enable навігаційні посилання"
+
+#: src/Admin/Pages/Metadata.php:16
+msgid "Indexing"
+msgstr "Індексація"
+
+#: src/Admin/Pages/Settings.php:110
+msgid "Links"
+msgstr "Посилання"
+
+#: src/Admin/Pages/Metadata.php:22
+msgid "Search"
+msgstr "Пошук"
+
+#: src/Admin/Pages/Metadata.php:55
+msgid "Tag archives"
+msgstr "Теги"
+
+#. Plugin Name of the plugin
+msgid "Premmerce SEO for WooCommerce"
+msgstr "Premmerce SEO for WooCommerce"
+
+#: src/Admin/Pages/Settings.php:79
+msgid "Enable image alts"
+msgstr "Включити alt зображення"
+
+#: src/Admin/Pages/Settings.php:80
+msgid "Generate product image alts from titles"
+msgstr "Генерувати alt зображення з назви товару"
+
+#: src/Admin/Admin.php:110
+msgid "If you like %s, please rate us %s on WordPress.org directory."
+msgstr "Якщо вам подобається %s, будь ласка, оцініть нас %s у каталозі WordPress.org."
+
+#: src/Admin/Pages/Settings.php:78
+msgid "Image alts"
+msgstr "Alt зображення"
+
+#: src/Admin/Pages/Info.php:14
+msgid "Info"
+msgstr "Інформація"
+
+#: src/Admin/Pages/Info.php:21
+msgid "Information"
+msgstr "Інформація"
+
+#: src/Admin/Pages/Settings.php:56
+msgid "Markup"
+msgstr "Розмітка"
+
+#: src/Admin/Pages/Settings.php:43
+msgid "Mode"
+msgstr "Режим"
+
+#: src/Admin/Pages/Settings.php:60
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: src/Admin/Pages/Settings.php:31
+msgid "See"
+msgstr "Дивіться"
+
+#: src/Admin/Pages/Settings.php:104
+msgid "Select the taxonomy that is used as a brand"
+msgstr "Виберіть таксономію, яка використовується як бренд"
+
+#: src/Admin/Pages/Social.php:14
+msgid "Social"
+msgstr "Соціальні мережі"
+
+#: src/Admin/Pages/Settings.php:91
+msgid "Summary"
+msgstr "Summary"
+
+#: src/Admin/Pages/Settings.php:90
+msgid "Summary with large image"
+msgstr "Summary with large image"
+
+#: src/Admin/Pages/Settings.php:46
+msgid "The plugin is using the compatibility mode.Therefore, some features have been disabled."
+msgstr "Плагін працює в режимі сумісності, тому деякі функції вимкнено."
+
+#: src/Admin/Pages/Info.php:23
+msgid "These fields will be added to the schema.org markup."
+msgstr "Ці поля будуть додані до розмітки schema.org."
+
+#: src/Admin/Pages/Social.php:23
+msgid "These links will be added to the schema.org markup and search engines will be able to associate your site with your social profiles."
+msgstr "Ці посилання будуть додані до розмітки schema.org, і пошукові системи матимуть змогу пов’язати ваш сайт із соціальними профілями."
+
+#: src/Admin/Pages/Settings.php:85
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/Admin/Pages/Settings.php:93
+msgid "Twitter Card type"
+msgstr "Тип Twitter Card"
+
+#: src/Admin/Pages/Settings.php:65
+msgid "Twitter Cards"
+msgstr "Twitter Cards"
+
+#: src/Admin/Pages/Settings.php:31
+msgid "documentation"
+msgstr "документацію"
+
+#: src/Admin/Pages/Settings.php:70 src/Admin/Pages/Settings.php:98
+msgid "schema.org"
+msgstr "schema.org"
+
+#: src/Admin/Pages/Settings.php:15 src/Admin/Pages/Settings.php:37
+msgid "Settings"
+msgstr "Налаштування"
+
+#: src/Admin/Pages/Social.php:22
+msgid "Accounts"
+msgstr "Облікові записи"
+
+#: src/Admin/Pages/Settings.php:103
+msgid "Brand"
+msgstr "Бренд"
+
+#: src/Admin/Pages/Info.php:27
+msgid "Address"
+msgstr "Адреса"
+
+#: src/Admin/Pages/Info.php:32
+msgid "Email"
+msgstr "Пошта"
+
+#: src/Admin/Pages/Info.php:37
+msgid "Phone"
+msgstr "Телефон"
+
+#: src/Admin/Pages/Info.php:42
+msgid "Opening hours"
+msgstr "Години роботи"
+
+#: src/Admin/Pages/Info.php:47
+msgid "Payment accepted"
+msgstr "Способи оплати"
+
+#: src/Admin/Pages/Info.php:28 src/Admin/Pages/Info.php:33
+#: src/Admin/Pages/Info.php:38 src/Admin/Pages/Info.php:43
+#: src/Admin/Pages/Info.php:48 src/Admin/Pages/Social.php:31
+#: src/Admin/Pages/Social.php:36 src/Admin/Pages/Social.php:41
+#: src/Admin/Pages/Social.php:46 src/Admin/Pages/Social.php:51
+#: src/Admin/Pages/Social.php:56 src/Admin/Pages/Social.php:61
+msgid "For example"
+msgstr "Для прикладу"
+
+#: src/Admin/Pages/Settings.php:20
+msgid "Not specified"
+msgstr "Не вибрано "
+
+#. Author URI of the plugin
+msgid "https://premmerce.com/"
+msgstr "https://premmerce.com/"
+
+#. Author of the plugin
+msgid "premmerce"
+msgstr "premmerce"
+
+#. Plugin URI of the plugin
+msgid "https://premmerce.com/woocommerce-seo-addon-yoast/"
+msgstr "https://premmerce.com/woocommerce-seo-addon-yoast/"

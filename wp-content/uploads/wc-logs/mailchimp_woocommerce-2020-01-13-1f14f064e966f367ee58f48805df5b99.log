@@ -1,0 +1,14 @@
+2020-01-13T10:17:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 3630ebd1443bb49616bf5a412807372a
+2020-01-13T10:18:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12846
+2020-01-13T10:18:21+00:00 NOTICE abandoned_cart.success :: email: leth.sarah@gmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=3630ebd1443bb49616bf5a412807372a
+2020-01-13T10:20:24+00:00 NOTICE order_submit.success :: addStoreOrder :: #12846 :: email: leth.sarah@gmail.com :: abandoned cart deleted [3630ebd1443bb49616bf5a412807372a]
+2020-01-13T16:28:52+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12830
+2020-01-13T16:30:24+00:00 NOTICE order_submit.success :: updateStoreOrder :: #12830 :: email: khedri22@hotmail.com
+2020-01-13T16:39:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12846
+2020-01-13T16:41:24+00:00 NOTICE order_submit.success :: updateStoreOrder :: #12846 :: email: leth.sarah@gmail.com
+2020-01-13T20:13:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 374be8355c899221221a7a7e99c6b0cd
+2020-01-13T20:15:05+00:00 NOTICE abandoned_cart.success :: email: monepige90@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=374be8355c899221221a7a7e99c6b0cd
+2020-01-13T21:52:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12521
+2020-01-13T21:52:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12278
+2020-01-13T21:54:22+00:00 NOTICE order_submit.success :: updateStoreOrder :: #12521 :: email: dorvib@yahoo.dk
+2020-01-13T21:54:24+00:00 NOTICE order_submit.success :: updateStoreOrder :: #12278 :: email: anne.sofie.dinesen@gmail.com

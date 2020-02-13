@@ -1,0 +1,16 @@
+2020-01-14T07:28:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 400ddea00a4fdfd6824d6f5b66446bde
+2020-01-14T07:28:24+00:00 NOTICE abandoned_cart.success :: email: mbj84@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=400ddea00a4fdfd6824d6f5b66446bde
+2020-01-14T07:29:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12882
+2020-01-14T07:31:21+00:00 NOTICE order_submit.success :: addStoreOrder :: #12882 :: email: mbj84@hotmail.com :: abandoned cart deleted [400ddea00a4fdfd6824d6f5b66446bde]
+2020-01-14T09:49:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id b02df0d2357baec59982eda897096eb4
+2020-01-14T09:49:59+00:00 NOTICE abandoned_cart.success :: email: ejwi@mail.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=b02df0d2357baec59982eda897096eb4
+2020-01-14T09:56:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id b02df0d2357baec59982eda897096eb4
+2020-01-14T09:57:24+00:00 NOTICE abandoned_cart.success :: email: ejwi@mail.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=b02df0d2357baec59982eda897096eb4
+2020-01-14T09:58:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id b02df0d2357baec59982eda897096eb4
+2020-01-14T09:59:21+00:00 NOTICE abandoned_cart.success :: email: ejwi@mail.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=b02df0d2357baec59982eda897096eb4
+2020-01-14T10:01:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id b02df0d2357baec59982eda897096eb4
+2020-01-14T10:01:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12894
+2020-01-14T10:02:38+00:00 NOTICE abandoned_cart.success :: email: ejwi@mail.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=b02df0d2357baec59982eda897096eb4
+2020-01-14T10:03:21+00:00 NOTICE order_submit.success :: addStoreOrder :: #12894 :: email: ejwi@mail.dk :: abandoned cart deleted [b02df0d2357baec59982eda897096eb4]
+2020-01-14T18:22:33+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12538
+2020-01-14T18:24:30+00:00 NOTICE order_submit.success :: updateStoreOrder :: #12538 :: email: anita.nathalia@ymail.com

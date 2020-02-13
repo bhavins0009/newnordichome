@@ -1,0 +1,1 @@
+{"translation-revision-date":"2020-01-22 20:37:21+0000","generator":"GlotPress\/2.4.0-alpha","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=(n > 1);","lang":"tr"},"Price: %s \u2014 %s":["Fiyat: %s - %s"]}},"comment":{"reference":"packages\/woocommerce-blocks\/assets\/js\/base\/components\/price-slider\/price-label.js"}}

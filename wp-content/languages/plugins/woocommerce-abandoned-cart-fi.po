@@ -1,0 +1,861 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) in Finnish
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-29 06:31:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk)\n"
+
+#: woocommerce-ac.php:3171
+msgid "Shipping Charges"
+msgstr "Postikulut"
+
+#: woocommerce-ac.php:1059
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "Poista automaattisesti hylätyt tilaukset X päivän jälkeen on oltava suurempi kuin 0."
+
+#: woocommerce-ac.php:876
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "Poista automaattisesti hylätyt ostoskorin tilaukset X päivän jälkeen."
+
+#: woocommerce-ac.php:872
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "Poista automaattisesti hylätyt tilaukset X päivän jälkeen"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:363
+msgid "Unsubscribed"
+msgstr "Peruttu tilaus"
+
+#: includes/admin/wcal_privacy_erase.php:90
+msgid "No personal data found for any abandoned carts."
+msgstr "Henkilökohtaista dataa ei löytynyt mistään hylätystä ostoskorista."
+
+#: woocommerce-ac.php:914
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>GDPR-tietosuojalausunnon mukaisesti, lisää viesti Kauppa & Tuote-sivulla infotaksesi rekisteröityneille käyttäjille kuinka heidän dataa käytetään.<br><i>Esimerkki: Katso Tietosuojaselosteemme, jotta näet kuinka käytämme henkiökohtaista dataasi.</i>"
+
+#: woocommerce-ac.php:910
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "Viesti, joka näytetään rekisteröityneille käyttäjille kun seurataan ostoskoria."
+
+#: woocommerce-ac.php:905
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>GDPR-tietosuojalausunnon mukaisesti, lisää viesti ostamissivulla infotaksesi vieraskäyttäjille kuinka heidän dataa käytetään.<br><i>Esimerkki: Sähköpostiosoitteesi auttaa meitä tukemaan ostokokemustasi sivuston laajuisesti. Katso Tietosuojaselosteemme nähdäksesi miten käytämme henkiökohtaista dataasi.</i>"
+
+#: woocommerce-ac.php:901
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "Viesti joka näytetään vieraskäyttäjille kun seurataan otsoskoriprosessia"
+
+#: woocommerce-ac.php:358
+msgid "I want to upgrade the plugin to the PRO version."
+msgstr "Haluan päivittää lisäosan PRO-versioon."
+
+#: woocommerce-ac.php:352
+msgid "I cannot see abandoned cart reminder emails records."
+msgstr "En näe sähköpostitietoja hylätyn ostoskorin muistutuksissa."
+
+#: woocommerce-ac.php:346
+msgid "Capturing of cart and other information was not satisfactory."
+msgstr "Ostoskorin ja muiden tietojen kerääminen ei ollut tyydyttävää."
+
+#: woocommerce-ac.php:340
+msgid "Emails are not being sent to customers."
+msgstr "Sähköposteja ei lähetetä asiakkaille."
+
+#: includes/component/welcome-page/ts-welcome.php:165
+msgid "Welcome to %s %s"
+msgstr "Tervetuloa %s %s:een"
+
+#: includes/component/tracking-data/ts-tracking.php:133
+msgid "Reset usage tracking"
+msgstr "Nollaa käytön seuranta"
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "UKK & Tuki"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "Usein kysyttyjä kysymyksiä kohteelle %s"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:91
+msgctxt "the text of the 'other' reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "Muu"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:90
+msgid "I don't like to share my information with you"
+msgstr "En halua jakaa tietojani kanssanne"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:89
+msgid "What feature?"
+msgstr "Mikä ominaisuus?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Lisäosa on hyvä, mutta tarvitsen tietyn ominaisuuden, jota ette tällä hetkellä tue"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:87
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Voitko ystävällisesti kertoa mikä ei toiminut, joten voimme korjata asian tuleville käyttäjille..."
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:86
+msgid "The plugin is not working"
+msgstr "Lisäosa ei toimi"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:85
+msgid "I only needed the plugin for a short period"
+msgstr "Tarvitsin lisäosaa vain kertakäyttöisesti lyhyen ajan"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:84
+msgid "What's the plugin's name?"
+msgstr "Mikä on plugin nimi?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:83
+msgid "I found a better plugin"
+msgstr "Löysin paremman lisäosan"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:79
+msgid "Yes - Deactivate"
+msgstr "Kyllä - ota pois käytöstä"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:78
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:77
+msgid "Deactivate"
+msgstr "Poista käytöstä"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:76
+msgid "Submit & Deactivate"
+msgstr "Lähetä ja poista käytöstä"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:75
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Jos sinulla on pieni hetki aikaa, kerro meille miksi deaktivoit lisäosan"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:283
+msgid "User Deleted"
+msgstr "Käyttäjä poistettu"
+
+#: includes/admin/wcal_privacy_export.php:221
+msgid "Abandoned - Order Unpaid (Order #"
+msgstr "Hylätty - Tilausta ei maksettu (Tilausnro #"
+
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Abandoned but new cart created"
+msgstr "Hylätty mutta uusi ostoskori täytetty"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Cart Recovered - Order #"
+msgstr "Otsoskori palautettu - Tilaus #"
+
+#: includes/admin/wcal_privacy_export.php:173
+#: includes/admin/wcal_privacy_export.php:184
+msgid "Billing Address"
+msgstr "Laskutusosoite"
+
+#: includes/admin/wcal_privacy_export.php:172
+msgid "Session ID"
+msgstr "Istunnon tunniste"
+
+#: includes/admin/wcal_privacy_export.php:171
+#: includes/admin/wcal_privacy_export.php:183
+msgid "Items Present"
+msgstr "Nimikkeitä saatavilla"
+
+#: includes/admin/wcal_privacy_export.php:170
+#: includes/admin/wcal_privacy_export.php:182
+msgid "Cart Total"
+msgstr "Ostoskori yhteensä"
+
+#: includes/admin/wcal_privacy_export.php:169
+#: includes/admin/wcal_privacy_export.php:181
+msgid "Abandoned Cart Status"
+msgstr "Hylätyn ostoskorin tila"
+
+#: includes/admin/wcal_privacy_export.php:167
+#: includes/admin/wcal_privacy_export.php:179
+msgid "Abandoned Cart ID"
+msgstr "Hylätyn ostoskorin tunniste"
+
+#: includes/admin/wcal_privacy_erase.php:204
+msgid "ANONYMIZED"
+msgstr "ANONYMISOITU"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:127
+msgid "Personal data within cart %s has been retained."
+msgstr "Henkilökohtaiset tiedot korissa %s on säilytetty."
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:123
+msgid "Removed personal data from cart %s."
+msgstr "Henkiökohtaiset tiedot on poistettu korista %s."
+
+#: includes/admin/wcal_privacy_erase.php:41
+#: includes/admin/wcal_privacy_export.php:41
+msgid "Abandoned & Recovered Carts"
+msgstr "Hylätyt & palautetut ostoskorit"
+
+#. Description of the plugin/theme
+msgid "This plugin captures abandoned carts by logged-in users & emails them about it."
+msgstr "Tämä lisäosa seuraa kirjautuneiden käyttäjien keskeneräisiä ostoskoreja ja ilmoittaa niistä sähköpostitse."
+
+#: includes/wcal-common.php:582
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "Tietokannan päivitys epäonnistui. Yritä hetken kuluttua uudelleen"
+
+#: includes/wcal-common.php:567
+msgid "Database Updated Successfully"
+msgstr "Tietokanta päivitetty onnistuneesti"
+
+#: includes/wcal_admin_notice.php:37
+msgid "<div id=\"wcal_update\" class=\"updated woocommerce-message\" style=\"padding:15px;\"><span>We need to update your email template database for some improvements. Please take a backup of your databases for your peice of mind</span><span class=\"submit\"><a href=\"%s\" class=\"button-primary\" style=\"float:right;\">Update</a></span></div>"
+msgstr "<div id=\"wcal_update\" class=\"updated woocommerce-message\" style=\"padding:15px;\"><span>Meidän täytyy päivittää sähköpostipohjiesi tietokanta parannuksia varten. Otathan varmuuskopiot tietokannoistasi mielenrauhan säilyttämiseksi</span><span class=\"submit\"><a href=\"%s\" class=\"button-primary\" style=\"float:right;\">Suorita päivitys</a></span></div>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#. Author of the plugin/theme
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#. Plugin Name of the plugin/theme
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "Abandoned Cart Lite WooCommercelle"
+
+#: woocommerce-ac.php:3632 woocommerce-ac.php:3667
+msgid "Woman\\'\\s Hand Bags"
+msgstr "Naisten käsilaukut"
+
+#: woocommerce-ac.php:3625 woocommerce-ac.php:3660
+msgid "Men\\'\\s Formal Shoes"
+msgstr "Miesten kävelykengät"
+
+#: woocommerce-ac.php:3449
+msgid ""
+"If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            rating. Thank you in advance. :)"
+msgstr ""
+"Jos pidät <strong>Abandoned Cart Lite WooCommercelle</strong>-lisäosasta, anna meille <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            arvio. Kiitämme etukäteen. :)"
+
+#: woocommerce-ac.php:3416
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "Anna sähköpostin tunniste, johon testisähköposti lähetetään."
+
+#: woocommerce-ac.php:3411
+msgid "Send a test email to:"
+msgstr "Lähetä testisähköposti osoitteeseen:"
+
+#: woocommerce-ac.php:3404
+msgid "after cart is abandoned."
+msgstr "sen jälkeen kun ostoskori on hylätty."
+
+#: woocommerce-ac.php:3363
+msgid "Send this email:"
+msgstr "Lähetä tämä sähköpostiviesti:"
+
+#: woocommerce-ac.php:3357
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr "Anna otsikko, joka näkyy kun kesken jääneen otsoskorin WooCommerce sähköpostiviesti on lähetetty. Tämä pätee ainoastaan silloin kun käytetään \"Käytä WooCommerce-pohjan tyyliä\" on ruksittu."
+
+#: woocommerce-ac.php:3343
+msgid "Email Template Header Text: "
+msgstr "Sähköpostipohjan otsakkeen tyyli: "
+
+#: woocommerce-ac.php:3336
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "Käytä WooCommercen oletustyylejä kesken jääneiden ostoskorien sähköpostimuistutusten pohjassa."
+
+#: woocommerce-ac.php:3321
+msgid "Use WooCommerce Template Style:"
+msgstr "Käytä WooCommerce-pohjan tyyliä:"
+
+#: woocommerce-ac.php:3294
+msgid "Message to be sent in the reminder email."
+msgstr "Viesti joka lähetetään muistutusmeilissä."
+
+#: woocommerce-ac.php:3267
+msgid "Email Body:"
+msgstr "Sähköpostin runko:"
+
+#: woocommerce-ac.php:3261
+msgid "Enter the subject that should appear in the email sent"
+msgstr "Anna otsikko, joka näytetään lähetetyssä sähköpostissa"
+
+#: woocommerce-ac.php:3252
+msgid "Subject:"
+msgstr "Aihe:"
+
+#: woocommerce-ac.php:3246
+msgid "Enter a template name for reference"
+msgstr "Kirjoita tähän pohjan nimi viitteeksi itsellesi"
+
+#: woocommerce-ac.php:3237
+msgid "Template Name:"
+msgstr "Mallipohjan nimi:"
+
+#: woocommerce-ac.php:3150
+msgid "Shipping Details"
+msgstr "Toimitustiedot"
+
+#: woocommerce-ac.php:3145
+msgid "Phone:"
+msgstr "Puhelin:"
+
+#: woocommerce-ac.php:3141
+msgid "Email:"
+msgstr "Sähköposti:"
+
+#: woocommerce-ac.php:3131 woocommerce-ac.php:3151
+msgid "Address:"
+msgstr "Osoite:"
+
+#: woocommerce-ac.php:3128
+msgid "Name:"
+msgstr "Nimi:"
+
+#: woocommerce-ac.php:3127
+msgid "Billing Details"
+msgstr "Laskutustiedot"
+
+#: woocommerce-ac.php:3123
+msgid "Customer Details"
+msgstr "Asiakkaan tiedot"
+
+#: woocommerce-ac.php:2938
+msgid "Line Total"
+msgstr "Rivin summa"
+
+#: woocommerce-ac.php:2930
+msgid "Abandoned Order #%s Details"
+msgstr "Hylätyn tilauksen #%s tiedot"
+
+#: woocommerce-ac.php:2907
+msgid " of them, which led to an extra"
+msgstr " niistä, jotka johtivat ylimääräiseen"
+
+#: woocommerce-ac.php:2900
+msgid " were abandoned. We were able to recover"
+msgstr " hylättiin. Saimme palautettua"
+
+#: woocommerce-ac.php:2894
+msgid "carts totaling"
+msgstr "ostoskoreja yhteensä"
+
+#: woocommerce-ac.php:2889
+msgid "During the selected range "
+msgstr "Valitulla alueella "
+
+#: woocommerce-ac.php:2883
+msgid "Go"
+msgstr "Mene"
+
+#: woocommerce-ac.php:2881
+msgid "End Date:"
+msgstr "Päättymispäivä:"
+
+#: woocommerce-ac.php:2879
+msgid "Start Date:"
+msgstr "Alkupäivämäärä:"
+
+#: woocommerce-ac.php:2830
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "Alla oleva raportti osoittaa, kuinka monta hylättyä ostoskoria pystyimme palauttamaan jotta voit lähettää automaattisia sähköpostiviestejä kannustaaksesi shoppailijoita jatkamaan ostoprosessia."
+
+#: woocommerce-ac.php:2753
+msgid "Add New Template"
+msgstr "Lisää uusi pohja"
+
+#: woocommerce-ac.php:2744
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Virhe päivitettäessä sähköpostipohjaa. Ota yhteyttä lisäosan tekijään <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">tukifoorumilla</a>."
+
+#: woocommerce-ac.php:2735
+msgid "The Email Template has been successfully updated."
+msgstr "Sähköpostipohja on päivitetty onnistuneesti."
+
+#: woocommerce-ac.php:2724
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Sähköpostin pohjan lisäämisessä havaittiin ongelma. Ota yhteyttä lisäosan tekijään <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">tukifoorumilla</a>."
+
+#: woocommerce-ac.php:2715
+msgid "The Email Template has been successfully added."
+msgstr "Sähköpostipohja lisättiin onnistuneesti."
+
+#: woocommerce-ac.php:2597
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "Lisää sähköpostipohjia eri intervalleilla maksimoidaksesi hylättyjen ostoskorien palautukset."
+
+#: woocommerce-ac.php:2576
+msgid "Carts without Customer Details"
+msgstr "Ostoskorit ilman asiakkaan tietoja"
+
+#: woocommerce-ac.php:2570
+msgid "Guest %s"
+msgstr "Vieras %s"
+
+#: woocommerce-ac.php:2564
+msgid "Registered %s"
+msgstr "Rekisteröidyt %s"
+
+#: woocommerce-ac.php:2559
+msgid "All "
+msgstr "Kaikki "
+
+#: woocommerce-ac.php:2517
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "Alla oleva luettelu näyttää kaikki hylätyt otsoskorit, jotka ovat jääneet lojumaan pidempään kuin \"Hylätyn ostoskorin leikkausaika\" asetuksessa on määrätty."
+
+#: woocommerce-ac.php:2487
+msgid "Email Sending Settings"
+msgstr "Sähköpostin lähetysasetukset"
+
+#: woocommerce-ac.php:2484
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+#: woocommerce-ac.php:2466
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "Muuta asetuksia sähköposti-ilmoitusten lähettämiseen liittyen asiakaille, admineille, jne."
+
+#: woocommerce-ac.php:2460
+msgid "The Template has been successfully deleted."
+msgstr "Pohja poistettu onnistuneesti."
+
+#: woocommerce-ac.php:2455
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "Hylätty ostoskori on onnistuneesti poistettu."
+
+#: woocommerce-ac.php:2395
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce - Abandon Cart Lite"
+
+#: woocommerce-ac.php:2391
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sinulla ei ole riittäviä oikeuksia käyttää tätä sivua."
+
+#: woocommerce-ac.php:2255
+msgid "Product Report"
+msgstr "Tuoteraportti"
+
+#: woocommerce-ac.php:2254
+msgid "Recovered Orders"
+msgstr "Palautetut tilaukset"
+
+#: woocommerce-ac.php:2252
+msgid "Email Templates"
+msgstr "Sähköpostipohjat"
+
+#: woocommerce-ac.php:2251
+msgid "Abandoned Orders"
+msgstr "Hylätyt tilaukset"
+
+#: includes/admin/wcal_privacy_export.php:123 woocommerce-ac.php:1534
+msgid "Abandoned Carts"
+msgstr "Hylätyt ostoskorit"
+
+#: woocommerce-ac.php:1430 woocommerce-ac.php:1432 woocommerce-ac.php:1485
+#: woocommerce-ac.php:1487
+msgid "New Customer Order - Recovered"
+msgstr "Uusi asiakastilaus - palautettu"
+
+#: woocommerce-ac.php:1043
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "Hylätyn ostoskorin leikkausaika pitää olla numeerinen arvo ja suurempi kuin 0."
+
+#: woocommerce-ac.php:949
+msgid "Send Reply Emails to"
+msgstr "Lähetä vastausviestit osoitteeseen"
+
+#: woocommerce-ac.php:940
+msgid "\"From\" Address"
+msgstr "\"From\" osoite"
+
+#: woocommerce-ac.php:931
+msgid "\"From\" Name"
+msgstr "\"From\" nimi"
+
+#: woocommerce-ac.php:924
+msgid "Settings for abandoned cart recovery emails"
+msgstr "Asetukset hylättyjen ostoskorien palautussähköposteille"
+
+#: woocommerce-ac.php:896
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "Ota hylättyjen tuotteiden ja ostoskorien seuranta käyttöön jopa silloin jos asiakas ei vieraile ostosivulla tai ei anna mitään tietoja ostossivulla kuten nimeä tai sähköpostia. Seuranta alkaa heti kun vierailija lisää tuotteen ostoskoriinsa ja vierailee ostoskorisivulla."
+
+#: woocommerce-ac.php:892
+msgid "Start tracking from Cart Page"
+msgstr "Aloita seuranta Ostoskori-sivulla"
+
+#: woocommerce-ac.php:886
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "Lähettää sähköpostin ylläpitäjälle jos hylätty ostoskoritilaus on palautettu."
+
+#: woocommerce-ac.php:882
+msgid "Email admin On Order Recovery"
+msgstr "Lähetä sähköpostia ylläpitäjälle tilauksen palauttamisesta"
+
+#: woocommerce-ac.php:867
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "Oleta ostoskori hylätyksi X minuutin jälkeen kun tuote on lisätty ostoskoriin mutta tilausta ei ole lähetetty."
+
+#: woocommerce-ac.php:863
+msgid "Cart abandoned cut-off time"
+msgstr "Hylätyn ostoskorin leikkausaika"
+
+#: woocommerce-ac.php:856 woocommerce-ac.php:2253
+msgid "Settings"
+msgstr "Asetukset"
+
+#: woocommerce-ac.php:656
+msgid "Abandoned cart Email Template"
+msgstr "Hylätyn ostoskorin sähköpostipohja"
+
+#: woocommerce-ac.php:650
+msgid "HTML Email Template"
+msgstr "HTML sähköpostipohja"
+
+#: includes/component/tracking-data/ts-tracking.php:177
+msgid "Once in a Week"
+msgstr "Kerran viikossa"
+
+#: woocommerce-ac.php:50
+msgid "Once Every Fifteen Minutes"
+msgstr "Kerran viidentoista minuutin välein"
+
+#: includes/component/welcome-page/templates/social-media-elements.php:10
+#: includes/welcome.php:271
+msgid "Follow %s"
+msgstr "Seuraa %s"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:128
+#: includes/welcome.php:223
+msgid "Current Offers"
+msgstr "Nykyiset tilaukset"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:122
+#: includes/welcome.php:215
+msgid "Meet the team"
+msgstr "Tapaa tiimi"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:113
+#: includes/welcome.php:206
+msgid "View all Premium Plugins"
+msgstr "Näytä kaikki Premium-lisäosat"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:112
+#: includes/welcome.php:205
+msgid "Visit the Tyche Softwares Website"
+msgstr "Vieraile Tyche Softwaren sivustolla"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:110
+#: includes/welcome.php:202
+msgid "Getting to Know Tyche Softwares"
+msgstr "Tutustu Tyche Softwaresiin"
+
+#: includes/welcome.php:193
+msgid "View full list of differences between Lite & Pro plugin"
+msgstr "Näytä täydellinen luettelo Lite & Pro lisäosien eroista"
+
+#: includes/welcome.php:180
+msgid "The Lite version has only 3 merge tags available to personalize the abandoned cart recovery emails. The Pro version instead, has 20 different merge tags that can be used effectively to personalize each email that gets sent out to the customers for recovering their abandoned carts."
+msgstr "Lite-versio sisältää ainoastaan 3 merge-tagia joilla voit mukauttaa hylätyn ostoskorin sähköpostiviestejä. Pro-versio sisältää sen sijaan 20 erilaista mergetagia, joita voi käyttää tehokkaasti jokaisen sellaisen sähköpostiviestin personointiin, jota käytetään kertomaan asiakkaalle että ostoskorissa on vielä tavaraa."
+
+#: includes/welcome.php:178
+msgid "Full range of merge tags that allow you to personalize the abandoned cart email"
+msgstr "Täysi skaala mergetageja, jotka sallivat laajemman sähköpostiviestien personoinnin"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:97
+#: includes/welcome.php:165
+msgid "Send abandoned cart recovery email in minutes of cart being abandoned"
+msgstr "Lähetä hylätty ostoskorisähköpostiviesti minuutteja ostoskorin hylkäämisen jälkeen"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:99
+#: includes/welcome.php:167
+msgid "The ability to send the abandoned cart recovery email within first few minutes of cart being abandoned is a big advantage. In the Lite plugin, the earliest an email can be sent is after 1 hour. Whereas in the Pro version, the first recovery email gets sent 15 minutes after the cart is abandoned. This increases the recovery chances manifold."
+msgstr "Mahdollisuus lähettää hylätyn ostoskorin palautusviestejä ensimmäisten minuuttien aikana jolloin ostoskori on hylätty. Se on iso etu. Lite-lisäosassa viesti lähtee aikaisintaan tunnin päästä kun taas Pro-versiossa ensimmäinen viesti lähtee vartin päästä siitä kun ostoskori on jätetty kesken. Tämä lisää ostoskoriin palaamista moninkertaisesti."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:78
+#: includes/welcome.php:146
+msgid "The provision for setting two separate cut-off times for different roles is mainly because sometimes if the store admin wants the visitor carts to be captured earlier than the registered user carts, then these different settings can play an important role."
+msgstr "Asetuksella saa asetettua kaksi erityyppistä leikkausaikaa eri rooleille. Joskus kaupan ylläpitäjä haluaa vierailijan ostoskorin talteen aiemmin kuin rekisteröityjen käyttäjien ostoskorit, jolloin näillä eri asetuksilla voi olla suurikin merkitys."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:76
+#: includes/welcome.php:144
+msgid "Set different cut-off times for visitors & logged-in users"
+msgstr "Aseta erilaiset leikkausajat sekä vierailijoille että kirjautuneille käyttäjille"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:67
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:80
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:101
+#: includes/welcome.php:135 includes/welcome.php:148 includes/welcome.php:169
+#: includes/welcome.php:182
+msgid "Learn More"
+msgstr "Lue lisää"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:65
+#: includes/welcome.php:133
+msgid "The ability to capture the email address early in the order process is very important to reduce cart abandonment by unknown users as well as to be able to recover their carts if they abandon it. This ultimately leads to increase in your store sales."
+msgstr "Mahdollisuus kaapata sähköpostiosoite aikaisin tilausvaiheessa on erittäin tärkeää, sillä tällä vähennetään ostoskorin hylkääjien määrää tuntemattomien käyttäjien osalta mutta myös lisätään todennäköisyyttä käyttäjien ostoskorien palauttamiseen. Tämä tietysti johtaa väistämättä verkkokaupan myynnin kasvamiseen."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:63
+#: includes/welcome.php:131
+msgid "Capture Visitor Emails on click of Add to Cart button"
+msgstr "Kaappaa vierailijan sähköpostiosoite aina kun klikataan lisää ostoskoriin -nappia"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:54
+#: includes/welcome.php:122
+msgid "The Abandoned Cart Pro plugin gives you features where you are able to recover more sales compared to the Lite plugin. Here are some notable features the Pro version provides."
+msgstr "The Abandoned Cart Pro -lisäosa tarjoaa ominaisuuksia, joilla pystyt lisäämään enemmän myyntiä verrattuna Lite-lisäosaan. Tässä on Pro-lisäosan joitakin tarkeimpiä ominaisuuksia."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:52
+#: includes/welcome.php:120
+msgid "Know more about Abandoned Cart Pro"
+msgstr "Lue lisää Abandoned Cart Pro -lisäosasta"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:42
+#: includes/welcome.php:110
+msgid "Click Here to go to Email Templates page"
+msgstr "Klikkaa tästä mennäksesi sähköpostipohjat-sivulle"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:40
+#: includes/welcome.php:108
+msgid "To start sending out abandoned cart notification emails, simply activate the email template from under WooCommerce -> Abandoned Carts -> Email Templates page."
+msgstr "Aloittaaksesi sähköposti-ilmoitusten lähettämisen, yksinkertaisesti aktivoi sähköpostipohjat WooCommerce -> Hylätyt ostoskorit -> Sähköpostipohjat alta."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:38
+#: includes/welcome.php:106
+msgid "Activate Email Template"
+msgstr "Aktivoi sähköpostipohja"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:34
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:59
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:86
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:93
+#: includes/welcome.php:102 includes/welcome.php:127 includes/welcome.php:154
+#: includes/welcome.php:161 includes/welcome.php:188
+msgid "WooCommerce Abandoned Cart Lite"
+msgstr "WooCommerce Abandoned Cart Lite"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:30
+#: includes/welcome.php:98
+msgid "Get Started with Abandoned Cart Lite"
+msgstr "Aloita Abandoned Cart Liten käyttö"
+
+#: includes/welcome.php:88
+msgid "Thank you for activating or updating to the latest version of Abandoned Cart Lite! If you're a first time user, welcome! You're well on your way to start recovering your lost revenues."
+msgstr "Kiitos kun aktivoit tai päivitit Abandoned Cart Liten viimeisimpään versioon! Jos käytät lisäosaa ensimmäistä kertaa, tervetuloa! Olet hyvää matkaa lisäämässä myyntiäsi palauttamalla menetettyjä tuloja."
+
+#: includes/welcome.php:50
+msgid "Welcome to Abandoned Cart Lite"
+msgstr "Tervetuloa käyttämään Abandoned Cart Lite -lisäosaa"
+
+#: includes/welcome.php:49
+msgid "Welcome to Abandoned Cart Lite %s"
+msgstr "Tervetuloa käyttämään Abandoned Cart Lite %s -lisäosaa"
+
+#: includes/component/tracking-data/ts-tracking.php:264
+#: includes/wcal_ts_tracking.php:79
+msgid "No thanks"
+msgstr "Ei kiitos"
+
+#: includes/component/tracking-data/ts-tracking.php:263
+#: includes/wcal_ts_tracking.php:78
+msgid "Allow"
+msgstr "Salli"
+
+#: includes/wcal_ts_tracking.php:76
+msgid "Want to help make Abandoned Cart even more awesome? Allow Abandoned Cart to collect non-sensitive diagnostic data and usage information and get 20% off on your next purchase. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Find out more</a>. <br><br>"
+msgstr "Haluatko auttaa tekemään Abandoned Cart -lisäosasta vielä paremman? Salli Abandoned Cartin kerätä ei-sensitiivistä diagnostiikkadataa ja käyttötilastoja ja saa samalla 20% pois seuraavasta ostostasi. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Lue lisää</a>. <br><br>"
+
+#: includes/classes/class-wcal-templates-table.php:144
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: includes/classes/class-wcal-templates-table.php:94
+msgid "Active ?"
+msgstr "Aktiivinen?"
+
+#: includes/classes/class-wcal-templates-table.php:93
+msgid "Sent After Set Time"
+msgstr "Lähetetään tietyn ajan jälkeen"
+
+#: includes/classes/class-wcal-templates-table.php:92
+msgid "Name Of Template"
+msgstr "Pohjan nimi"
+
+#: includes/classes/class-wcal-templates-table.php:91
+msgid "Sr"
+msgstr "Sr"
+
+#: includes/classes/class-wcal-templates-table.php:54
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:53
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:161
+msgid "View Details"
+msgstr "Katso tiedot"
+
+#: includes/classes/class-wcal-recover-orders-table.php:127
+msgid "Cart Recovered Date"
+msgstr "Ostoskorin palautuksen päivämäärä"
+
+#: includes/classes/class-wcal-recover-orders-table.php:126
+msgid "Cart Abandoned Date"
+msgstr "Ostoskorin hylkäämisen päivämäärä"
+
+#: includes/classes/class-wcal-recover-orders-table.php:124
+msgid "Customer Name"
+msgstr "Asiakkaan nimi"
+
+#: includes/classes/class-wcal-recover-orders-table.php:87
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:86
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-product-report-table.php:93
+msgid "Number of Times Recovered"
+msgstr "Palautusaikojen määrä"
+
+#: includes/classes/class-wcal-product-report-table.php:92
+msgid "Number of Times Abandoned"
+msgstr "Hylkäämisaikojen määrä"
+
+#: includes/classes/class-wcal-product-report-table.php:91
+msgid "Product Name"
+msgstr "Tuotteen nimi"
+
+#: includes/classes/class-wcal-product-report-table.php:59
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:58
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/classes/class-wcal-abandoned-orders-table.php:365
+msgid "Abandoned"
+msgstr "Hylätty"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:359
+msgid "items"
+msgstr "kohdetta"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:357
+msgid "item"
+msgstr "tuote"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:151
+#: includes/classes/class-wcal-abandoned-orders-table.php:544
+#: includes/classes/class-wcal-templates-table.php:145
+#: includes/classes/class-wcal-templates-table.php:330
+msgid "Delete"
+msgstr "Poista"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:150
+msgid "View order"
+msgstr "Katso tilaus"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:101
+msgid "Status of Cart"
+msgstr "Ostoskorin tila"
+
+#: includes/admin/wcal_privacy_export.php:168
+#: includes/admin/wcal_privacy_export.php:180
+#: includes/classes/class-wcal-abandoned-orders-table.php:100
+msgid "Abandoned Date"
+msgstr "Hylätty pvm"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:99
+#: includes/classes/class-wcal-recover-orders-table.php:128
+msgid "Order Total"
+msgstr "Tilaus yhteensä"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:98
+msgid "Customer"
+msgstr "Asiakas"
+
+#: includes/admin/wcal_privacy_export.php:174
+#: includes/admin/wcal_privacy_export.php:185
+#: includes/classes/class-wcal-abandoned-orders-table.php:97
+#: includes/classes/class-wcal-recover-orders-table.php:125
+msgid "Email Address"
+msgstr "Sähköpostiosoite"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:96
+msgid "Id"
+msgstr "Id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:53
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:52
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: cron/wcal_send_email.php:549 cron/wcal_send_email.php:616
+#: woocommerce-ac.php:600 woocommerce-ac.php:2075
+msgid "This order was abandoned & subsequently recovered."
+msgstr "Tämä tilaus hylättiin ja myöhemmin palautettiin."
+
+#: cron/wcal_send_email.php:366 woocommerce-ac.php:3641 woocommerce-ac.php:3676
+msgid "Cart Total:"
+msgstr "Ostoskori yhteensä:"
+
+#: cron/wcal_send_email.php:280 cron/wcal_send_email.php:290
+#: woocommerce-ac.php:2937 woocommerce-ac.php:3621 woocommerce-ac.php:3656
+msgid "Line Subtotal"
+msgstr "Välisumma-rivi"
+
+#: cron/wcal_send_email.php:279 cron/wcal_send_email.php:289
+#: woocommerce-ac.php:3620 woocommerce-ac.php:3655
+msgid "Price"
+msgstr "Hinta"
+
+#: cron/wcal_send_email.php:278 cron/wcal_send_email.php:288
+#: woocommerce-ac.php:2936 woocommerce-ac.php:3619 woocommerce-ac.php:3654
+msgid "Quantity"
+msgstr "Määrä"
+
+#: cron/wcal_send_email.php:277 cron/wcal_send_email.php:287
+#: woocommerce-ac.php:2935 woocommerce-ac.php:3618 woocommerce-ac.php:3653
+msgid "Name"
+msgstr "Nimi"
+
+#: cron/wcal_send_email.php:276 cron/wcal_send_email.php:286
+#: woocommerce-ac.php:2934 woocommerce-ac.php:3617 woocommerce-ac.php:3652
+msgid "Item"
+msgstr "Kohde"
+
+#: cron/wcal_send_email.php:274 cron/wcal_send_email.php:283
+#: woocommerce-ac.php:3615 woocommerce-ac.php:3649
+msgid "Your Shopping Cart"
+msgstr "Ostoskorisi"
+
+#: cron/wcal_send_email.php:93
+msgid "Abandoned cart reminder"
+msgstr "Hylätyn ostoskorin muistutus"

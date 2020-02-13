@@ -1,0 +1,746 @@
+# Translation of Themes - Neve in Japanese
+# This file is distributed under the same license as the Themes - Neve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-04 02:03:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Neve\n"
+
+#. Theme Name of the theme
+msgid "Neve"
+msgstr "Neve"
+
+#. Description of the theme
+msgid "Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!"
+msgstr "Neve は超高速、簡単にカスタマイズできる多目的テーマです。ブログ、中小企業、スタートアップ、代理店、大企業、オンラインショップ (WooCommerce 店舗) のほか個人のポートフォリオサイトやほとんどの種類のプロジェクトにぴったりです。完全に AMP 最適化済みのレスポンシブテーマである Neve は、わずかな時間で読み込まれ、どんな表示デバイスでも完璧に合わせます。軽量でミニマリストなデザインでありながら、テーマは拡張性が高く、コードは SEO 最適化済みで、Google 検索結果の上位に表示されます。Neve は Gutenberg を始めとする有名なページビルダー (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi)) で完璧に動作します。Neve はまた、WooCommerce 対応済みで、レスポンシブ、RTL と多言語対応済みです。これ以上探す必要はありません。Neve はあなたにとって完璧なテーマです !"
+
+#. translators: %s: number of comments
+#: inc/views/partials/post_meta.php:96
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s件のコメント"
+
+#: functions.php:44
+msgid "upgrading PHP to the latest version"
+msgstr "PHP を最新バージョンに更新"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width (Neve)"
+msgstr "全幅ページビルダー用 (Neve)"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "指定の検索条件に一致する項目がありません。他のキーワードで再検索してください。"
+
+#: template-parts/content-none.php:22
+msgid "Get started here"
+msgstr "ここからはじめましょう"
+
+#: inc/views/template_parts.php:207
+msgid "Read More"
+msgstr "続きを読む"
+
+#: inc/views/partials/post_meta.php:134
+msgid "Tags"
+msgstr "タグ"
+
+#: inc/views/partials/comments.php:144
+msgid "Reply"
+msgstr "返信"
+
+#. translators: 1: date, 2: time
+#: inc/views/partials/comments.php:129
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/views/partials/comments.php:107 inc/views/partials/comments.php:138
+msgid "Edit"
+msgstr "編集"
+
+#: inc/views/partials/comments.php:105
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/views/partials/comments.php:82
+msgid "Next"
+msgstr "次へ"
+
+#: inc/views/partials/comments.php:79
+msgid "Previous"
+msgstr "前へ"
+
+#: inc/views/partials/comments.php:74
+msgid "Comments Navigation"
+msgstr "コメントナビゲーション"
+
+#: inc/views/partials/comments.php:57
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#. translators: search result
+#: inc/views/page_header.php:77
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/views/header.php:242
+msgid "Toggle Navigation"
+msgstr "ナビゲーションを切り替え"
+
+#: inc/views/header.php:238
+msgid "Navigation Menu"
+msgstr "ナビゲーションメニュー"
+
+#: inc/customizer/options/typography.php:168
+#: inc/customizer/options/typography.php:302
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: inc/customizer/options/typography.php:78
+msgid "Font Subsets"
+msgstr "フォントサブセット"
+
+#: inc/customizer/options/typography.php:42
+msgid "Headings"
+msgstr "見出し"
+
+#: inc/customizer/options/typography.php:38
+msgid "General"
+msgstr "一般"
+
+#: inc/customizer/options/rtl.php:56
+msgid "Single Product Sidebar Layout"
+msgstr "単一商品サイドバーレイアウト"
+
+#: inc/customizer/options/rtl.php:52
+msgid "Shop / Archive Sidebar Layout"
+msgstr "ショップ / アーカイブサイドバーレイアウト"
+
+#: inc/customizer/options/main.php:57
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/customizer/options/layout_single_post.php:71
+msgid "Elements Order"
+msgstr "要素の順序"
+
+#: inc/customizer/options/layout_sidebar.php:264
+msgid "Content Width (%)"
+msgstr "コンテンツ幅 (%)"
+
+#: inc/customizer/options/layout_sidebar.php:220
+msgid "Sidebar Layout"
+msgstr "サイドバーレイアウト"
+
+#: inc/customizer/options/layout_sidebar.php:161
+msgid "Others"
+msgstr "その他"
+
+#: inc/customizer/options/layout_sidebar.php:156
+msgid "Shop / Archive"
+msgstr "ショップ / アーカイブ"
+
+#: inc/customizer/options/layout_sidebar.php:149
+#: inc/customizer/options/layout_single_post.php:42
+msgid "Single Post"
+msgstr "投稿"
+
+#: inc/customizer/options/layout_sidebar.php:105
+msgid "Enable Advanced Options"
+msgstr "高度なオプションを有効化"
+
+#: inc/customizer/options/layout_sidebar.php:81
+msgid "Sitewide Content Width (%)"
+msgstr "サイト全体のコンテンツ幅 (%)"
+
+#: inc/customizer/options/layout_sidebar.php:62
+msgid "Sitewide Sidebar Layout"
+msgstr "サイト全体のサイドバーレイアウト"
+
+#: inc/customizer/options/layout_navigation.php:100
+msgid "Last Item in Menu"
+msgstr "メニューの最後の項目"
+
+#: inc/customizer/options/layout_navigation.php:87
+msgid "Search & Cart"
+msgstr "検索 & カート"
+
+#: inc/customizer/options/layout_navigation.php:82
+msgid "Search"
+msgstr "検索"
+
+#: inc/customizer/options/layout_navigation.php:66
+msgid "Navigation Layout"
+msgstr "ナビゲーションレイアウト"
+
+#: inc/customizer/options/layout_footer.php:184
+msgid "Section Content"
+msgstr "セクションコンテンツ"
+
+#. translators: %1$s is Theme Name (Neve), %2$s is WordPress
+#: inc/customizer/options/layout_footer.php:176 inc/views/footer.php:95
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | Powered by %2$s"
+
+#: inc/customizer/options/layout_footer.php:141
+msgid "Footer  Menu"
+msgstr "フッターメニュー"
+
+#: inc/customizer/options/layout_footer.php:140
+msgid "Text"
+msgstr "テキスト"
+
+#: inc/customizer/options/layout_navigation.php:81
+#: inc/customizer/options/layout_footer.php:139
+msgid "None"
+msgstr "なし"
+
+#: inc/customizer/options/layout_footer.php:137
+msgid "Content Type"
+msgstr "コンテンツタイプ"
+
+#: inc/customizer/options/layout_footer.php:107
+msgid "Widget Columns"
+msgstr "ウィジェットカラム"
+
+#: inc/customizer/options/layout_footer.php:74
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#: inc/customizer/options/layout_footer.php:71
+#: inc/customizer/options/top_bar.php:123
+msgid "Content"
+msgstr "コンテンツ"
+
+#: inc/customizer/options/layout_footer.php:48
+msgid "Footer"
+msgstr "フッター"
+
+#: inc/customizer/options/layout_blog.php:272
+msgid "Meta Order"
+msgstr "メタ情報の順序"
+
+#: inc/customizer/options/layout_blog.php:261
+msgid "Comments"
+msgstr "コメント"
+
+#: inc/customizer/options/layout_blog.php:260
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/options/layout_blog.php:259
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/options/layout_blog.php:258
+msgid "Author"
+msgstr "投稿者"
+
+#: inc/customizer/options/layout_blog.php:235
+msgid "Post Content Order"
+msgstr "投稿コンテンツの順序"
+
+#: inc/customizer/options/layout_blog.php:224
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: inc/customizer/options/layout_blog.php:223
+#: inc/customizer/options/layout_single_post.php:59
+msgid "Title & Meta"
+msgstr "タイトル & メタ情報"
+
+#: inc/customizer/options/layout_blog.php:222
+#: inc/customizer/options/layout_single_post.php:60
+msgid "Thumbnail"
+msgstr "アイキャッチ画像"
+
+#: inc/customizer/options/layout_blog.php:172
+msgid "Infinite Scroll"
+msgstr "無限スクロール"
+
+#: inc/customizer/options/layout_blog.php:171
+msgid "Number"
+msgstr "数字"
+
+#: inc/customizer/options/layout_blog.php:138
+msgid "Excerpt Length"
+msgstr "抜粋の長さ"
+
+#: inc/customizer/options/layout_blog.php:118
+msgid "Enable Masonry"
+msgstr "Masonry の有効化"
+
+#: inc/customizer/options/layout_blog.php:94
+msgid "Grid Layout"
+msgstr "グリッドレイアウト"
+
+#: inc/customizer/options/main.php:53 inc/customizer/options/layout_blog.php:65
+#: inc/customizer/options/top_bar.php:90
+msgid "Layout"
+msgstr "レイアウト"
+
+#: inc/customizer/options/layout_blog.php:65
+msgid "Blog"
+msgstr "ブログ"
+
+#: inc/customizer/options/layout_blog.php:46
+#: inc/customizer/options/layout_sidebar.php:148
+msgid "Blog / Archive"
+msgstr "ブログ / アーカイブ"
+
+#: inc/customizer/controls/font_selector.php:73
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: inc/customizer/controls/font_selector.php:72
+msgid "Standard Fonts"
+msgstr "標準フォント"
+
+#: inc/customizer/controls/font_selector.php:70
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/customizer/controls/font_selector.php:64
+msgctxt "label"
+msgid "Search"
+msgstr "検索"
+
+#: inc/core/front_end.php:331
+msgid "Shop Sidebar"
+msgstr "ショップサイドバー"
+
+#: inc/core/front_end.php:189 inc/customizer/options/colors_background.php:72
+msgid "Text Color"
+msgstr "文字の色"
+
+#: inc/core/front_end.php:185 inc/customizer/options/colors_background.php:67
+msgid "Link Hover Color"
+msgstr "リンクのホバーの色"
+
+#: inc/core/front_end.php:181 inc/customizer/options/colors_background.php:62
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: inc/core/front_end.php:177
+msgid "Button Color"
+msgstr "ボタンの色"
+
+#: inc/core/front_end.php:168
+msgid "White"
+msgstr "白"
+
+#: inc/core/front_end.php:159
+msgid "Black"
+msgstr "黒"
+
+#: inc/core/front_end.php:138
+msgid "Ready to use pre-built websites with 1-click installation"
+msgstr "デモデザイン Web サイトのワンクリックインストール"
+
+#: inc/core/front_end.php:121 inc/core/front_end.php:131
+msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
+msgstr "以前の Zelle の使用が検出されました。スムーズな移行のためにホームページを Elementor テンプレートに変換して同じ状態で維持できます。またこのオプションはホームページのコンテンツもインポートします。"
+
+#: inc/core/front_end.php:120 inc/core/front_end.php:130
+msgid "Want to keep using Zelle's homepage?"
+msgstr "Zelle のホームページを使い続けますか ?"
+
+#: inc/core/front_end.php:62
+msgid "Top Bar Menu"
+msgstr "トップバーメニュー"
+
+#: inc/core/front_end.php:61
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: inc/core/admin.php:213 inc/customizer/options/layout_sidebar.php:43
+msgid "Content / Sidebar"
+msgstr "コンテンツ / サイドバー"
+
+#: inc/core/admin.php:208
+msgid "Footer Options"
+msgstr "フッターオプション"
+
+#: inc/core/admin.php:203
+msgid "Blog Layouts"
+msgstr "ブログレイアウト"
+
+#: inc/core/admin.php:198
+msgid "Header Options"
+msgstr "ヘッダーオプション"
+
+#: inc/core/admin.php:193
+msgid "Layout Options"
+msgstr "レイアウトオプション"
+
+#: inc/core/admin.php:188
+msgid "Customize Fonts"
+msgstr "フォントのカスタマイズ"
+
+#: inc/core/admin.php:183
+msgid "Set Colors"
+msgstr "色の設定"
+
+#: inc/core/admin.php:178
+msgid "Upload Logo"
+msgstr "ロゴのアップロード"
+
+#: inc/core/admin.php:146
+msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr "次のドキュメントでは、ドラッグ & ドロップコンテンツビルダープラグインを使用して簡単に見栄えの良いランディングページを作成する方法が紹介されています。"
+
+#: inc/core/admin.php:144
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr "ドラッグ & ドロップのコンテンツビルダーを利用してランディングページを作成"
+
+#: inc/core/admin.php:136
+msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "サイトの動作を重く感じる場合は、次のドキュメントを参照してください。一般的な原因と解決方法が記述されています。"
+
+#: inc/core/admin.php:134
+msgid "Speed up your site"
+msgstr "サイトのスピードアップ"
+
+#: inc/core/admin.php:128 inc/core/admin.php:138 inc/core/admin.php:148
+msgid "View how to do this"
+msgstr "ドキュメントを参照"
+
+#: inc/core/admin.php:126
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "テーマのファイルを直接変更した場合、今後のテーマの更新で上書きされる可能性があります。変更の上書きを防ぐには子テーマを作成します。詳細な手順については次のドキュメントを参照してください。"
+
+#: inc/core/admin.php:124
+msgid "Create a child theme"
+msgstr "子テーマの作成"
+
+#: inc/core/admin.php:115
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "テーマの最新の変更点を調べるには、以下の更新履歴を参照して、修正点と新しく実装された機能を確認してください。"
+
+#: inc/core/admin.php:114 inc/core/admin.php:117 inc/core/admin.php:157
+msgid "Changelog"
+msgstr "変更履歴"
+
+#: inc/core/admin.php:106
+msgid "Read full documentation"
+msgstr "ドキュメントの参照"
+
+#: inc/core/admin.php:104
+msgid "Need more details? Please check our full documentation for detailed information on how to use Neve."
+msgstr "さらに詳しい Neve の使い方については次のドキュメントを参照してください。"
+
+#: inc/core/admin.php:94
+msgid "We want to make sure you have the best experience using Neve, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using Neve as much as we enjoy creating great products."
+msgstr "Neve を最大限活用いただけるよう必要な情報をここにまとめました。私たちがを素晴らしい製品の開発を楽しんだように、みなさんも Neve の利用を楽しんでいただけると幸いです。"
+
+#: inc/core/admin.php:93 inc/core/admin.php:96
+msgid "Contact Support"
+msgstr "問い合わせサポート"
+
+#: inc/core/admin.php:89 inc/core/admin.php:103
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: inc/core/admin.php:73
+msgid "Useful Plugins"
+msgstr "便利なプラグイン"
+
+#: inc/core/admin.php:66
+msgid "Links to Customizer Settings"
+msgstr "カスタマイザーへ移動"
+
+#: inc/core/admin.php:60
+msgid "See demos"
+msgstr "デモの参照"
+
+#: inc/core/admin.php:58
+msgid "Neve now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
+msgstr "Neve のサイトライブラリーではさまざまなデモデザインを紹介します。デザインは定期的に追加されていますので、是非サイトにアクセスしてみてください。"
+
+#: inc/core/admin.php:57
+msgid "Recommended actions"
+msgstr "おすすめ設定"
+
+#: inc/core/admin.php:54
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: inc/core/admin.php:47
+msgid "Submit a review"
+msgstr "レビューの送信"
+
+#: inc/core/admin.php:46
+msgid "Are you are enjoying Neve? We would love to hear your feedback."
+msgstr "Neve を楽しんでいますか ? 是非、みなさんの感想をお聞かせください。"
+
+#: inc/core/admin.php:45
+msgid "Leave us a review"
+msgstr "レビューの送信"
+
+#: inc/core/admin.php:41
+msgid "Join our Facebook Group"
+msgstr "Facebook グループへようこそ"
+
+#: inc/core/admin.php:40
+msgid "Join the community of Neve users. Get connected, share opinions, ask questions and help each other!"
+msgstr "Neve ユーザーコミュニティに参加しましょう。コネクションを作り、意見や質問を交わし、ユーザー同士で助け合いましょう !"
+
+#: inc/core/admin.php:39
+msgid "Neve Community"
+msgstr "Neve コミュニティ"
+
+#: inc/compatibility/woocommerce.php:421
+#: inc/customizer/options/layout_navigation.php:86 inc/views/header.php:129
+msgid "Cart"
+msgstr "カート"
+
+#: inc/compatibility/woocommerce.php:236
+msgid "Filter"
+msgstr "フィルター"
+
+#: inc/admin/plugin_install/main.php:174
+msgid "Activating "
+msgstr "有効化中"
+
+#: inc/admin/plugin_install/main.php:133
+msgid "Jetpack Portfolio"
+msgstr "Jetpack ポートフォリオ"
+
+#: inc/admin/plugin_install/main.php:128
+msgid "Deactivate"
+msgstr "無効化"
+
+#: inc/admin/plugin_install/main.php:113 inc/admin/plugin_install/main.php:133
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/admin/plugin_install/main.php:109
+msgid "Install and activate"
+msgstr "インストールと有効化"
+
+#: inc/core/front_end.php:330 inc/compatibility/gutenberg.php:210
+#: inc/admin/metabox/main.php:134
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: inc/admin/metabox/main.php:132
+msgid "No Sidebar"
+msgstr "サイドバーなし"
+
+#: inc/admin/metabox/main.php:131
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: inc/admin/metabox/main.php:130
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/customizer/options/layout_container.php:43
+#: inc/admin/metabox/main.php:119
+msgid "Container"
+msgstr "コンテナー"
+
+#: inc/customizer/options/layout_container.php:142
+#: inc/admin/metabox/main.php:117
+msgid "Full Width"
+msgstr "全幅"
+
+#: inc/customizer/options/layout_container.php:141
+#: inc/admin/metabox/main.php:116
+msgid "Contained"
+msgstr "余白あり"
+
+#: inc/admin/metabox/main.php:115 inc/admin/metabox/main.php:129
+msgid "Customizer Setting"
+msgstr "カスタマイズ設定"
+
+#: inc/admin/metabox/main.php:77
+msgid "Disable Footer"
+msgstr "フッターの非表示"
+
+#: inc/admin/metabox/main.php:72
+msgid "Disable Featured Image"
+msgstr "アイキャッチ画像の非表示"
+
+#: inc/admin/metabox/main.php:67
+msgid "Disable Title"
+msgstr "タイトルの非表示"
+
+#: inc/admin/metabox/main.php:63
+msgid "Disable Header"
+msgstr "ヘッダーの非表示"
+
+#: inc/admin/metabox/main.php:62
+msgid "Components"
+msgstr "コンポーネント"
+
+#: inc/admin/metabox/main.php:37
+msgid "Enable Individual Content Width"
+msgstr "個別コンテンツ幅の有効化"
+
+#: inc/admin/metabox/main.php:36
+msgid "Content Width"
+msgstr "コンテンツ幅"
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "コンテンツにスキップ"
+
+#. translators: %s is Link to new post
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? %s."
+msgstr "最初の投稿の準備ができましたか ? %s。"
+
+#: inc/views/partials/comments.php:157
+msgid "Comment awaiting moderation."
+msgstr "コメントは承認待ちです。"
+
+#: inc/views/layouts/layout_sidebar.php:140 inc/views/header.php:96
+msgid "Close"
+msgstr "閉じる"
+
+#: inc/customizer/options/top_bar.php:189
+msgid "Select Top Bar Menu"
+msgstr "上部バーメニューの選択"
+
+#: inc/customizer/options/top_bar.php:67
+msgid "Enable Top Bar"
+msgstr "上部バーの有効化"
+
+#: inc/customizer/options/top_bar.php:48
+msgid "Top Bar"
+msgstr "上部バー"
+
+#: inc/customizer/options/layout_sidebar.php:157
+msgid "Single Product"
+msgstr "個別商品"
+
+#: inc/customizer/options/layout_blog.php:166
+msgid "Post Pagination"
+msgstr "投稿ページネーション"
+
+#: inc/customizer/options/layout_blog.php:99
+msgid "4 Columns"
+msgstr "4カラム"
+
+#: inc/customizer/options/layout_blog.php:98
+msgid "3 Columns"
+msgstr "3カラム"
+
+#: inc/customizer/options/layout_blog.php:97
+msgid "2 Columns"
+msgstr "2カラム"
+
+#: inc/customizer/options/layout_blog.php:96
+msgid "1 Column"
+msgstr "1カラム"
+
+#: inc/core/front_end.php:340
+msgid "Footer Four"
+msgstr "フッター4"
+
+#: inc/core/front_end.php:339
+msgid "Footer Three"
+msgstr "フッター3"
+
+#: inc/core/front_end.php:338
+msgid "Footer Two"
+msgstr "フッター2"
+
+#: inc/core/front_end.php:337
+msgid "Footer One"
+msgstr "フッター1"
+
+#: inc/customizer/options/colors_background.php:43
+msgid "Colors & Background"
+msgstr "色と背景"
+
+#: inc/customizer/options/typography.php:125
+#: inc/customizer/options/typography.php:257
+msgid "Font Size"
+msgstr "文字サイズ"
+
+#: inc/customizer/options/typography.php:106
+#: inc/customizer/options/typography.php:212
+msgid "Font Family"
+msgstr "フォント"
+
+#: inc/customizer/options/main.php:61
+msgid "Typography"
+msgstr "書式設定"
+
+#: inc/customizer/options/layout_navigation.php:46
+msgid "Primary Navigation"
+msgstr "メインナビゲーション"
+
+#: inc/customizer/options/colors_background.php:82
+msgid "Primary Menu Items Hover Color"
+msgstr "メインメニュー項目のホバーの色"
+
+#: inc/customizer/options/colors_background.php:77
+msgid "Primary Menu Items Color"
+msgstr "メインメニュー項目の色"
+
+#: inc/customizer/options/colors_background.php:57
+msgid "Primary Button Color"
+msgstr "メインボタンの色"
+
+#: inc/core/front_end.php:60 inc/views/header.php:212
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: inc/customizer/options/layout_container.php:120
+msgid "Single Product Container Style"
+msgstr "個別商品コンテナスタイル"
+
+#: inc/customizer/options/layout_container.php:116
+msgid "Shop / Archive Container Style"
+msgstr "ショップ / アーカイブコンテナスタイル"
+
+#: inc/customizer/options/layout_container.php:106
+msgid "Single Post Container Style"
+msgstr "個別投稿コンテナスタイル"
+
+#: inc/customizer/options/layout_container.php:102
+msgid "Blog / Archive Container Style"
+msgstr "ブログ / アーカイブコンテナスタイル"
+
+#: inc/customizer/options/layout_container.php:98
+msgid "Default Container Style"
+msgstr "デフォルトコンテナスタイル"
+
+#: inc/customizer/options/layout_container.php:62
+msgid "Container width (px)"
+msgstr "コンテナ幅 (%)"
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:40
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %s. Neve's minimal requirement is PHP 5.4.0."
+msgstr "サポートが終了している古いバージョンの PHP を使用しています。%sを使用するとパフォーマンスと安全性が向上します。Neve の最低要求バージョンは PHP 5.4.0です。"
+
+#. translators: number of comments
+#: inc/views/partials/comments.php:178
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/neve/"
+msgstr "https://themeisle.com/themes/neve/"

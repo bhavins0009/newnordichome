@@ -1,0 +1,124 @@
+# Translation of Plugins - WooCommerce AdWords Dynamic Remarketing - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce AdWords Dynamic Remarketing - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-19 14:11:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce AdWords Dynamic Remarketing - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Wolf+Bär Agency"
+msgstr "Wolf+Bär Agency"
+
+#: wgdr.php:444
+msgid "SKU"
+msgstr "SKU"
+
+#: wgdr.php:443
+msgid "post id (default)"
+msgstr "Identificado del post (por defecto)"
+
+#: wgdr.php:249
+msgid "Get support"
+msgstr "Obtener soporte"
+
+#: wgdr.php:246
+msgid "Or else, please leave us a support question in the forum. We'll be happy to assist you: "
+msgstr "O bien, por favor, déjanos una pregunta de soporte en el foro. Estaremos encantados de ayudarte:"
+
+#: wgdr.php:242
+msgid "Rate it!"
+msgstr "Valora el plugin"
+
+#: wgdr.php:239
+msgid " for a while now. If you like the plugin please support our development by leaving a ★★★★★ rating: "
+msgstr "Si te gusta el plugin por favor apoya nuestro desarrollo dejando una calificación ★★★★★:"
+
+#: wgdr.php:238
+msgid "WGDR AdWords Dynamic Retargeting Plugin"
+msgstr "WGDR AdWords Dynamic Retargeting Plugin"
+
+#: wgdr.php:237
+msgid "You've been using the "
+msgstr "Has usado"
+
+#: wgdr.php:236
+msgid "! "
+msgstr "!"
+
+#: wgdr.php:234
+msgid "Hi "
+msgstr "Hola"
+
+#: wgdr.php:445
+msgid "Choose a product identifier."
+msgstr "Elige un identificador del producto"
+
+#: wgdr.php:412
+msgid "Product Identifier"
+msgstr "Identificador del producto"
+
+#: wgdr.php:359
+msgid "Visit us here: https://wolfundbaer.ch"
+msgstr "Visítanos aquí: https://wolfundbaer.ch"
+
+#. Author URI of the plugin/theme
+msgid "https://wolfundbaer.ch"
+msgstr "https://wolfundbaer.ch"
+
+#. Description of the plugin/theme
+msgid "Google Dynamic Retargeting Tracking Tag"
+msgstr "Etiqueta de seguimiento de Google Retargeting"
+
+#: wgdr.php:437
+msgid "If you use any other plugin for the feed you can leave this field empty."
+msgstr "Si utilizas algún otro plugin para el feed, puedes dejar este campo vacío."
+
+#: wgdr.php:437
+msgid "If you use the WooCommerce Google Product Feed Plugin from WooThemes the value here should be \"woocommerce_gpf_\""
+msgstr "Si usas el Plugin \"WooCommerce Google Product Feed\" de WooThemes el valor aquí debe ser \"woocommerce_gpf_\""
+
+#: wgdr.php:431
+msgid "Get your remarketing tag code"
+msgstr "Obtén el código de la etiqueta de remarketing"
+
+#: wgdr.php:431
+msgid "Under the following link you will find instructions how to get the Conversion ID: "
+msgstr "En el enlace inferior encontrarás las instrucciones para obtener el ID de conversión:"
+
+#: wgdr.php:404
+msgid "Google Merchant Center Prefix"
+msgstr "Prefijo de Google Merchant Center"
+
+#: wgdr.php:398
+msgid "Conversion ID"
+msgstr "ID de conversión"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/woocommerce-google-dynamic-retargeting-tag/"
+msgstr "https://es.wordpress.org/plugins/woocommerce-google-dynamic-retargeting-tag/"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce AdWords Dynamic Remarketing"
+msgstr "WooCommerce AdWords Dynamic Remarketing"
+
+#: wgdr.php:344
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: wgdr.php:310 wgdr.php:311
+msgid "AdWords Dynamic Retargeting"
+msgstr "Retargeting dinámico de Adwords"
+
+#: wgdr.php:335
+msgid "Google AdWords Dynamic Retargeting Tag Settings"
+msgstr "Ajustes de la etiqueta de Google Retargeting para AdWords"
+
+#: wgdr.php:295 wgdr.php:390
+msgid "Settings"
+msgstr "Ajustes"

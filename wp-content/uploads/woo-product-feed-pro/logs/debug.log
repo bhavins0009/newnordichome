@@ -1,0 +1,471 @@
+
+October 24, 2019, 7:12 am
+Array
+(
+    [PHP] => 7.1
+    [Wordpress] => 5.2.4
+    [WooCommerce] => 3.7.1
+    [Plugin] => 6.6.8
+)
+Array
+(
+    [Single products] => 546
+    [Variation products] => 1113
+    [Total products] => 1659
+    [Number projects] => 2
+)
+Array
+(
+    [0] => Array
+        (
+            [channel_hash] => d4cb75caae5a73ac6b01171816b33bfb
+            [name] => Google Shopping
+            [fields] => google_shopping
+            [taxonomy] => google_shopping
+            [utm_source] => Google Shopping
+            [type] => Advertising
+            [projectname] => newnordichome_productfeed
+            [countries] => Denmark
+            [product_variations] => on
+            [fileformat] => xml
+            [cron] => daily
+            [step] => 101
+            [project_hash] => ec586c392f73c76bc8bd3793973d8789
+            [filename] => ec586c392f73c76bc8bd3793973d8789
+            [external_file] => https://newnordichome.dk/wp-content/uploads/woo-product-feed-pro/xml/ec586c392f73c76bc8bd3793973d8789.xml
+            [query_log] => https://newnordichome.dk/wp-content/uploads/woo-product-feed-pro/logs/query.log
+            [query_output_log] => https://newnordichome.dk/wp-content/uploads/woo-product-feed-pro/logs/query_output.log
+            [attributes] => Array
+                (
+                    [0] => Array
+                        (
+                            [rowCount] => 0
+                            [attribute] => g:id
+                            [prefix] => 
+                            [mapfrom] => id
+                            [suffix] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [rowCount] => 1
+                            [attribute] => g:title
+                            [prefix] => 
+                            [mapfrom] => title
+                            [suffix] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [rowCount] => 2
+                            [attribute] => g:description
+                            [prefix] => 
+                            [mapfrom] => description
+                            [suffix] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [rowCount] => 3
+                            [attribute] => g:link
+                            [prefix] => 
+                            [mapfrom] => link
+                            [suffix] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [rowCount] => 4
+                            [attribute] => g:image_link
+                            [prefix] => 
+                            [mapfrom] => image
+                            [suffix] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [rowCount] => 5
+                            [attribute] => g:availability
+                            [prefix] => 
+                            [mapfrom] => availability
+                            [suffix] => 
+                        )
+
+                    [6] => Array
+                        (
+                            [rowCount] => 6
+                            [attribute] => g:price
+                            [prefix] => DKK
+                            [mapfrom] => price
+                            [suffix] => 
+                        )
+
+                    [7] => Array
+                        (
+                            [rowCount] => 7
+                            [attribute] => g:google_product_category
+                            [prefix] => 
+                            [mapfrom] => categories
+                            [suffix] => 
+                        )
+
+                    [8] => Array
+                        (
+                            [rowCount] => 8
+                            [attribute] => g:brand
+                            [prefix] => 
+                            [mapfrom] => 
+                            [suffix] => 
+                        )
+
+                    [9] => Array
+                        (
+                            [rowCount] => 9
+                            [attribute] => g:gtin
+                            [prefix] => 
+                            [mapfrom] => 
+                            [suffix] => 
+                        )
+
+                    [10] => Array
+                        (
+                            [rowCount] => 10
+                            [attribute] => g:mpn
+                            [prefix] => 
+                            [mapfrom] => 
+                            [suffix] => 
+                        )
+
+                    [11] => Array
+                        (
+                            [rowCount] => 11
+                            [attribute] => g:identifier_exists
+                            [prefix] => 
+                            [mapfrom] => calculated
+                            [suffix] => 
+                        )
+
+                    [12] => Array
+                        (
+                            [rowCount] => 12
+                            [attribute] => g:condition
+                            [prefix] => 
+                            [mapfrom] => condition
+                            [suffix] => 
+                        )
+
+                    [13] => Array
+                        (
+                            [rowCount] => 13
+                            [attribute] => g:item_group_id
+                            [prefix] => 
+                            [mapfrom] => item_group_id
+                            [suffix] => 
+                        )
+
+                )
+
+            [addrow] => 1
+            [utm_on] => on
+            [utm_medium] => cpc
+            [utm_campaign] => newnordichome_productfeed
+            [utm_term] => id
+            [utm_content] => 
+            [woosea_page] => analytics
+            [active] => 1
+            [last_updated] => 24 Oct 2019 07:12
+            [running] => ready
+            [nr_products] => 1659
+            [nr_products_processed] => 0
+            [history_products] => Array
+                (
+                    [19 Jul 2019 14:15] => 186
+                    [20 Jul 2019 07:17] => 186
+                    [21 Jul 2019 07:11] => 186
+                    [22 Jul 2019 07:15] => 188
+                    [23 Jul 2019 07:19] => 200
+                    [24 Jul 2019 07:17] => 200
+                    [25 Jul 2019 07:17] => 201
+                    [26 Jul 2019 07:16] => 198
+                    [27 Jul 2019 07:17] => 201
+                    [28 Jul 2019 07:20] => 204
+                    [29 Jul 2019 07:16] => 204
+                    [30 Jul 2019 07:18] => 209
+                    [31 Jul 2019 07:16] => 221
+                    [01 Aug 2019 07:12] => 235
+                    [02 Aug 2019 07:12] => 248
+                    [03 Aug 2019 07:13] => 260
+                    [04 Aug 2019 07:18] => 262
+                    [05 Aug 2019 07:15] => 273
+                    [06 Aug 2019 07:17] => 282
+                    [07 Aug 2019 07:18] => 282
+                    [08 Aug 2019 07:13] => 287
+                    [09 Aug 2019 07:13] => 291
+                    [10 Aug 2019 07:12] => 302
+                    [11 Aug 2019 07:12] => 307
+                    [12 Aug 2019 07:13] => 312
+                    [13 Aug 2019 07:12] => 316
+                    [14 Aug 2019 07:15] => 320
+                    [15 Aug 2019 07:13] => 388
+                    [16 Aug 2019 07:15] => 615
+                    [17 Aug 2019 07:16] => 627
+                    [18 Aug 2019 07:16] => 637
+                    [19 Aug 2019 07:12] => 638
+                    [20 Aug 2019 07:12] => 644
+                    [21 Aug 2019 07:17] => 393
+                    [22 Aug 2019 07:12] => 396
+                    [23 Aug 2019 07:17] => 397
+                    [24 Aug 2019 07:14] => 400
+                    [25 Aug 2019 07:12] => 404
+                    [26 Aug 2019 07:18] => 411
+                    [27 Aug 2019 07:19] => 416
+                    [28 Aug 2019 07:20] => 416
+                    [29 Aug 2019 07:18] => 431
+                    [30 Aug 2019 07:14] => 439
+                    [31 Aug 2019 07:14] => 439
+                    [01 Sep 2019 07:22] => 439
+                    [02 Sep 2019 07:13] => 439
+                    [03 Sep 2019 07:20] => 440
+                    [04 Sep 2019 07:13] => 443
+                    [05 Sep 2019 07:12] => 447
+                    [06 Sep 2019 07:17] => 449
+                    [07 Sep 2019 07:13] => 449
+                    [08 Sep 2019 07:12] => 453
+                    [09 Sep 2019 07:12] => 453
+                    [10 Sep 2019 07:14] => 453
+                    [11 Sep 2019 07:12] => 453
+                    [12 Sep 2019 07:13] => 453
+                    [13 Sep 2019 07:13] => 453
+                    [14 Sep 2019 07:17] => 464
+                    [15 Sep 2019 07:12] => 466
+                    [16 Sep 2019 07:16] => 466
+                    [17 Sep 2019 07:17] => 467
+                    [18 Sep 2019 07:15] => 948
+                    [19 Sep 2019 07:23] => 949
+                    [20 Sep 2019 07:13] => 984
+                    [21 Sep 2019 07:15] => 1362
+                    [22 Sep 2019 07:14] => 1388
+                    [23 Sep 2019 07:15] => 1393
+                    [24 Sep 2019 07:15] => 1394
+                    [25 Sep 2019 07:16] => 1403
+                    [26 Sep 2019 07:15] => 1403
+                    [27 Sep 2019 07:16] => 1406
+                    [28 Sep 2019 07:18] => 1406
+                    [29 Sep 2019 07:20] => 1411
+                    [30 Sep 2019 08:22] => 1432
+                    [01 Oct 2019 07:16] => 1432
+                    [02 Oct 2019 07:23] => 1436
+                    [03 Oct 2019 07:15] => 1440
+                    [04 Oct 2019 07:20] => 1446
+                    [05 Oct 2019 07:16] => 1446
+                    [06 Oct 2019 07:12] => 1468
+                    [07 Oct 2019 07:15] => 1468
+                    [08 Oct 2019 07:19] => 1473
+                    [09 Oct 2019 07:23] => 1461
+                    [10 Oct 2019 07:17] => 1461
+                    [11 Oct 2019 07:16] => 1461
+                    [12 Oct 2019 07:14] => 1471
+                    [13 Oct 2019 07:13] => 1471
+                    [14 Oct 2019 07:13] => 1471
+                    [15 Oct 2019 07:14] => 1478
+                    [16 Oct 2019 07:17] => 1482
+                    [17 Oct 2019 07:24] => 1482
+                    [18 Oct 2019 07:13] => 1482
+                    [19 Oct 2019 07:14] => 1482
+                    [20 Oct 2019 07:12] => 1487
+                    [21 Oct 2019 07:13] => 1489
+                    [22 Oct 2019 07:15] => 1489
+                    [23 Oct 2019 07:14] => 1489
+                )
+
+        )
+
+    [2] => Array
+        (
+            [channel_hash] => 543d00bd13951a8155e712c12ac96e99
+            [name] => Pricerunner.dk
+            [fields] => customfeed
+            [taxonomy] => none
+            [utm_source] => Pricerunner.dk
+            [type] => Comparison shopping engine
+            [projectname] => Copy Pricerunne
+            [countries] => Denmark
+            [product_variations] => on
+            [fileformat] => xml
+            [cron] => daily
+            [step] => 100
+            [project_hash] => fd8e2d82dce86c22446a1f4d9648d1cd
+            [filename] => fd8e2d82dce86c22446a1f4d9648d1cd
+            [external_file] => https://newnordichome.dk/wp-content/uploads/woo-product-feed-pro/xml/fd8e2d82dce86c22446a1f4d9648d1cd.xml
+            [query_log] => https://newnordichome.dk/wp-content/uploads/woo-product-feed-pro/logs/query.log
+            [query_output_log] => https://newnordichome.dk/wp-content/uploads/woo-product-feed-pro/logs/query_output.log
+            [attributes] => Array
+                (
+                    [0] => Array
+                        (
+                            [rowCount] => 0
+                            [attribute] => id
+                            [prefix] => 
+                            [mapfrom] => id
+                            [suffix] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [rowCount] => 1
+                            [attribute] => title
+                            [prefix] => 
+                            [mapfrom] => title
+                            [suffix] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [rowCount] => 2
+                            [attribute] => description
+                            [prefix] => 
+                            [mapfrom] => description
+                            [suffix] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [rowCount] => 3
+                            [attribute] => link
+                            [prefix] => 
+                            [mapfrom] => link
+                            [suffix] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [rowCount] => 4
+                            [attribute] => image_link
+                            [prefix] => 
+                            [mapfrom] => image
+                            [suffix] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [rowCount] => 5
+                            [attribute] => price
+                            [prefix] => 
+                            [mapfrom] => price
+                            [suffix] => 
+                        )
+
+                    [6] => Array
+                        (
+                            [rowCount] => 6
+                            [attribute] => categories
+                            [prefix] => 
+                            [mapfrom] => categories
+                            [suffix] => 
+                        )
+
+                    [7] => Array
+                        (
+                            [rowCount] => 7
+                            [attribute] => brand
+                            [prefix] => 
+                            [mapfrom] => 
+                            [suffix] => 
+                        )
+
+                )
+
+            [addrow] => 1
+            [utm_on] => on
+            [utm_medium] => cpc
+            [utm_campaign] => Copy Pricerunne
+            [utm_term] => id
+            [utm_content] => Pricerunner
+            [woosea_page] => analytics
+            [active] => 1
+            [last_updated] => 23 Oct 2019 07:12
+            [running] => processing
+            [nr_products] => 1659
+            [nr_products_processed] => 1659
+            [project_update] => yes
+            [history_products] => Array
+                (
+                    [14 Aug 2019 07:15] => 320
+                    [15 Aug 2019 07:13] => 388
+                    [16 Aug 2019 07:15] => 615
+                    [17 Aug 2019 07:16] => 627
+                    [18 Aug 2019 07:16] => 637
+                    [19 Aug 2019 07:12] => 638
+                    [20 Aug 2019 07:12] => 644
+                    [21 Aug 2019 07:17] => 393
+                    [22 Aug 2019 07:12] => 396
+                    [23 Aug 2019 07:17] => 397
+                    [24 Aug 2019 07:14] => 400
+                    [25 Aug 2019 07:12] => 404
+                    [26 Aug 2019 07:18] => 411
+                    [27 Aug 2019 07:19] => 416
+                    [28 Aug 2019 07:20] => 416
+                    [29 Aug 2019 07:18] => 431
+                    [30 Aug 2019 07:14] => 439
+                    [31 Aug 2019 07:14] => 439
+                    [01 Sep 2019 07:22] => 439
+                    [02 Sep 2019 07:13] => 439
+                    [03 Sep 2019 07:20] => 440
+                    [04 Sep 2019 07:13] => 443
+                    [05 Sep 2019 07:12] => 447
+                    [06 Sep 2019 07:17] => 449
+                    [07 Sep 2019 07:13] => 449
+                    [08 Sep 2019 07:12] => 453
+                    [09 Sep 2019 07:13] => 453
+                    [10 Sep 2019 07:14] => 453
+                    [11 Sep 2019 07:12] => 453
+                    [12 Sep 2019 07:13] => 453
+                    [13 Sep 2019 07:13] => 453
+                    [14 Sep 2019 07:17] => 464
+                    [15 Sep 2019 07:12] => 466
+                    [16 Sep 2019 07:16] => 466
+                    [17 Sep 2019 07:17] => 467
+                    [18 Sep 2019 07:15] => 948
+                    [19 Sep 2019 07:23] => 949
+                    [20 Sep 2019 07:13] => 984
+                    [21 Sep 2019 07:15] => 1362
+                    [22 Sep 2019 07:15] => 1388
+                    [23 Sep 2019 07:15] => 1393
+                    [24 Sep 2019 07:15] => 1394
+                    [25 Sep 2019 07:16] => 1403
+                    [26 Sep 2019 07:15] => 1403
+                    [27 Sep 2019 07:16] => 1406
+                    [28 Sep 2019 07:18] => 1406
+                    [29 Sep 2019 07:20] => 1411
+                    [30 Sep 2019 07:15] => 1432
+                    [01 Oct 2019 07:16] => 1432
+                    [02 Oct 2019 07:23] => 1436
+                    [03 Oct 2019 07:15] => 1440
+                    [04 Oct 2019 07:20] => 1446
+                    [05 Oct 2019 07:16] => 1446
+                    [06 Oct 2019 07:12] => 1468
+                    [07 Oct 2019 07:15] => 1468
+                    [08 Oct 2019 07:19] => 1473
+                    [09 Oct 2019 07:23] => 1461
+                    [10 Oct 2019 07:17] => 1461
+                    [11 Oct 2019 07:16] => 1461
+                    [12 Oct 2019 07:14] => 1471
+                    [13 Oct 2019 07:13] => 1471
+                    [14 Oct 2019 07:13] => 1471
+                    [15 Oct 2019 07:14] => 1478
+                    [16 Oct 2019 07:17] => 1482
+                    [17 Oct 2019 07:25] => 1482
+                    [18 Oct 2019 07:13] => 1482
+                    [19 Oct 2019 07:14] => 1482
+                    [20 Oct 2019 07:13] => 1487
+                    [21 Oct 2019 07:13] => 1489
+                    [22 Oct 2019 07:15] => 1489
+                    [23 Oct 2019 07:14] => 1489
+                )
+
+        )
+
+)
+Array
+(
+)

@@ -1,0 +1,153 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Woo Additional Terms\n"
+"POT-Creation-Date: 2019-12-15 23:30+0300\n"
+"PO-Revision-Date: 2016-11-28 13:31+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woo-additioanl-terms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: woo-additioanl-terms.php:110
+msgctxt "clone"
+msgid "Cloning instances of this class is forbidden."
+msgstr ""
+
+#: woo-additioanl-terms.php:122
+msgctxt "wakeup"
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: woo-additioanl-terms.php:148
+#, php-format
+msgctxt "admin notice"
+msgid ""
+"Woo Additional Terms plugin requires the following plugin:%sWooCommerce%s"
+msgstr ""
+
+#: woo-additioanl-terms.php:164
+msgctxt "tab title"
+msgid "Additional Terms"
+msgstr ""
+
+#: woo-additioanl-terms.php:255
+msgctxt "upsell"
+msgid "Looking for help customizing this plugin?"
+msgstr ""
+
+#: woo-additioanl-terms.php:257
+#, php-format
+msgctxt "upsell"
+msgid "%sHire me &#8594;%s"
+msgstr ""
+
+#: woo-additioanl-terms.php:263
+msgctxt "settings section name"
+msgid "Terms and Conditions"
+msgstr ""
+
+#: woo-additioanl-terms.php:265
+msgctxt "settings section description"
+msgid ""
+"This section controls the display of your additional terms and condition "
+"fieldset."
+msgstr ""
+
+#: woo-additioanl-terms.php:269
+msgctxt "settings field name"
+msgid "Terms page"
+msgstr ""
+
+#: woo-additioanl-terms.php:270
+msgctxt "settings field description"
+msgid ""
+"If you define a \"Terms\" page the customer will be asked if they accept "
+"additional terms when checking out."
+msgstr ""
+
+#: woo-additioanl-terms.php:279
+msgctxt "settings field name"
+msgid "Notice content"
+msgstr ""
+
+#: woo-additioanl-terms.php:280
+msgctxt "settings field description"
+msgid "Text for the additional terms checkbox that customers must accept."
+msgstr ""
+
+#: woo-additioanl-terms.php:281
+msgctxt "settings field default value"
+msgid "I have read and agree to the website [additional-terms]"
+msgstr ""
+
+#: woo-additioanl-terms.php:289
+msgctxt "settings field name"
+msgid "Error content"
+msgstr ""
+
+#: woo-additioanl-terms.php:290
+msgctxt "settings field description"
+msgid ""
+"Display friendly notice whenever customer doesn&rsquo;t accept additional "
+"terms."
+msgstr ""
+
+#: woo-additioanl-terms.php:291
+msgctxt "settings field default value"
+msgid ""
+"Please read and accept the additional terms and conditions to proceed with "
+"your order. "
+msgstr ""
+
+#: woo-additioanl-terms.php:318
+#, php-format
+msgctxt "plugin link"
+msgid "%sHire Me!%s"
+msgstr ""
+
+#: woo-additioanl-terms.php:318
+msgctxt "upsell"
+msgid "Looking for help? Hire Me!"
+msgstr ""
+
+#: woo-additioanl-terms.php:319
+#, php-format
+msgctxt "plugin link"
+msgid "%sSupport%s"
+msgstr ""
+
+#: woo-additioanl-terms.php:323
+#, php-format
+msgctxt "plugin link"
+msgid "%sSettings%s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Woo Additional Terms"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.mypreview.one"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add additional terms and condition checkbox to the WooCommerce checkout."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MyPreview"
+msgstr ""

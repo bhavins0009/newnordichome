@@ -1,0 +1,729 @@
+# Translation of Plugins - PW WooCommerce Gift Cards - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - PW WooCommerce Gift Cards - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-22 15:37:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - PW WooCommerce Gift Cards - Stable (latest release)\n"
+
+#: pw-gift-cards.php:176
+msgid "The \"To\" field should only contain email addresses. The following recipients do not look like valid email addresses:"
+msgstr "Feltet \"Til\" skal bare inneholde e-postadresser. Følgende mottakere ser ikke ut som gyldige e-postadresser:"
+
+#: includes/pw-gift-cards-redeeming.php:469
+msgid "Error: %s"
+msgstr "Feil: %s"
+
+#: admin/pw-gift-cards-admin.php:62
+msgid "If you do not see the To / From / Message fields on your gift card product page, try checking this box and reloading. Some themes have out of date WooCommerce template files and need to be patched to work with the Gift Card product."
+msgstr "Hvis du ikke ser feltene Til / Fra / Melding på gavekortets produktside, kan du prøve å merke denne boksen og laste på nytt. Noen temaer har utdaterte WooCommerce-malfiler og må patches for å fungere med gavekortproduktet."
+
+#: admin/pw-gift-cards-admin.php:61
+msgid "Apply fix for missing fields"
+msgstr "Bruk fiks for manglende felt"
+
+#: admin/pw-gift-cards-admin.php:48
+msgid "Allow customers to purchase gift cards using another gift card. Disable this to prevent customers from extending the date on expiring gift cards. Default: Checked."
+msgstr "Tillat kunder å kjøpe gavekort ved hjelp av et annet gavekort. Deaktiver dette for å forhindre at kundene forlenger datoen ved utløp av gavekort. Standard: Sjekket."
+
+#: admin/pw-gift-cards-admin.php:47
+msgid "Buy Gift Cards with Gift Cards"
+msgstr "Kjøp gavekort med gavekort"
+
+#: admin/ui/product-data-panel-cards.php:62
+msgid "Sell physical gift cards to your customers without requiring a recipient email address."
+msgstr "Selg fysiske gavekort til dine kunder uten å kreve mottakerens e-postadresse."
+
+#: admin/ui/product-data-panel-cards.php:62
+msgid "Physical Gift Cards"
+msgstr "Fysisk gavekort"
+
+#: admin/ui/product-data-panel-cards.php:61
+msgid "Customers can choose when the gift card should be delivered to the recipient."
+msgstr "Kunder kan velge når gavekortet skal leveres til mottakeren."
+
+#: admin/ui/product-data-panel-cards.php:61
+msgid "Delivery Date"
+msgstr "Leveringsdato"
+
+#: includes/pw-gift-cards-redeeming.php:394
+msgid "Gift cards cannot be used to purchase other gift cards."
+msgstr "Gavekort kan ikke brukes til å kjøpe andre gavekort."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:234
+msgid "Enable this email notification"
+msgstr "Aktiver dette e-postvarselet"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:232
+msgid "Enable/Disable"
+msgstr "På/Av"
+
+#. Plugin URI of the plugin
+msgid "https://www.pimwick.com/gift-cards/"
+msgstr "https://www.pimwick.com/gift-cards/"
+
+#: templates/woocommerce/checkout/pw-gift-cards.php:54
+#: templates/woocommerce/cart/cart-pw-gift-card.php:52
+#: includes/class-pw-gift-card.php:105
+msgid "Expired"
+msgstr "Utløpt"
+
+#: admin/ui/sections/search-results.php:80
+msgid "Are you sure you want to delete this gift card?"
+msgstr "Er du sikker på at du vil slette dette gavekortet?"
+
+#: admin/ui/sections/search-results.php:61
+msgid "Restore"
+msgstr "Gjenopprett"
+
+#: admin/ui/sections/search-results.php:58
+msgid "Delete"
+msgstr "Slett"
+
+#: admin/ui/sections/search-results.php:44
+msgid "Card has been deleted."
+msgstr "Kortet er slettet."
+
+#: admin/pw-gift-cards-admin.php:537 admin/pw-gift-cards-admin.php:551
+msgid "Gift card not found."
+msgstr "Gavekort ikke funnet."
+
+#: admin/pw-gift-cards-admin.php:86 admin/pw-gift-cards-admin.php:101
+msgid "Do not display gift card field."
+msgstr "Ikke vis gavekortfelt."
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:31
+msgid "If you have a gift card number, please apply it below."
+msgstr "Hvis du har et gavekortnummer, vennligst bruk det nedenfor."
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:26
+msgid "Click here to enter your gift card number"
+msgstr "Klikk her for å skrive inn ditt gavekortnummer"
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:38
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:36
+msgid "Apply gift card"
+msgstr "Bruk gavekort"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:34
+msgid "Gift Card:"
+msgstr "Gavekort:"
+
+#: admin/pw-gift-cards-admin.php:99
+msgid "Below the \"Payment Methods\" area."
+msgstr "Under \"Betalingsmetoder\" -området."
+
+#: admin/pw-gift-cards-admin.php:91
+msgid "Specifies where the \"Apply Gift Card\" box appears on the Checkout page."
+msgstr "Angir hvor \"Gjelder gavekort\" -boksen vises på Utsjekk-siden."
+
+#: admin/pw-gift-cards-admin.php:90
+msgid "Redeem Location - Checkout"
+msgstr "Løs inn plassering - Utsjekk"
+
+#: admin/pw-gift-cards-admin.php:85 admin/pw-gift-cards-admin.php:100
+msgid "Below the \"Apply Coupon\" area."
+msgstr "Under \"Bruk kupong\" området."
+
+#: admin/pw-gift-cards-admin.php:84
+msgid "Above the \"Proceed to Checkout\" button."
+msgstr "Over \"Fortsett til utsjekking\" -knappen."
+
+#: admin/pw-gift-cards-admin.php:76
+msgid "Specifies where the \"Apply Gift Card\" box appears on the Cart page."
+msgstr "Angir hvor \"Bruk gavekort\" boksen vises på Handlekurv siden."
+
+#: admin/pw-gift-cards-admin.php:75
+msgid "Redeem Location - Cart"
+msgstr "Løs inn plassering - Handlekurv"
+
+#: admin/ui/sections/balances.php:32
+msgid "Gift card number or recipient email (leave blank for all)"
+msgstr "Gavekortnummer eller mottaker e-post (bruk blank for alle)"
+
+#: admin/pw-gift-cards-admin.php:69
+msgid "For fixed gift card amounts, format the price with the system currency symbol. This is enabled by default. If you are having trouble with currency switchers, disable this setting. Note: You must remove and re-add your fixed gift card amounts if you change this setting."
+msgstr "For faste gavekort beløp, format prisen med system valuta symbolet. Dette er aktivert som standard. Hvis du har problemer med valutavekslere, deaktiver denne innstillingen. Merk: Du må fjerne og legge til de faste gavekortbeløpene dine hvis du endrer denne innstillingen."
+
+#: admin/pw-gift-cards-admin.php:68
+msgid "Format Prices"
+msgstr "Prisformat"
+
+#: includes/pw-gift-cards-purchasing.php:202
+msgid "Order %s purchased by %s %s"
+msgstr "Ordre %s kjøpt av %s %s"
+
+#: admin/ui/sections/settings.php:35
+msgid "Save Settings"
+msgstr "Lagre innstillinger"
+
+#: admin/ui/sections/search-results.php:56
+msgid "View activity"
+msgstr "Se aktivitet"
+
+#: admin/ui/sections/search-results.php:32
+msgid "Card Number"
+msgstr "Kortnummer"
+
+#: admin/ui/sections/search-results.php:26
+msgid "There are no gift cards found matching your search terms."
+msgstr "Det finnes ikke gavekort som samsvarer med søkeordene dine."
+
+#: admin/ui/sections/search-results.php:25
+msgid "No results"
+msgstr "Ingen resultater"
+
+#: admin/ui/sections/import.php:25
+msgid "Upgrade to <a href=\"%s\" target=\"_blank\">PW WooCommerce Gift Cards Pro</a> to import existing gift card numbers."
+msgstr "Oppgrader til <a href=\"%s\" target=\"_blank\"> PW WooCommerce Gavekort Pro </a> for å importere eksisterende gavekortnumre."
+
+#: admin/ui/sections/create.php:25
+msgid "Upgrade to <a href=\"%s\" target=\"_blank\">PW WooCommerce Gift Cards Pro</a> to create gift cards from the admin area."
+msgstr "Oppgrader til <a href=\"%s\" target=\"_blank\"> PW WooCommerce-gavekort Pro </a> for å lage gavekort fra administrasjonsområdet."
+
+#: admin/ui/sections/balances.php:33
+msgid "Search"
+msgstr "Søk"
+
+#: admin/ui/sections/activity-records.php:56
+msgid "Guest"
+msgstr "Gjest"
+
+#: admin/ui/sections/activity-records.php:25
+msgid "Hide"
+msgstr "Skjule"
+
+#: admin/ui/section-buttons.php:23
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: admin/ui/product-data-panel-cards.php:64
+msgid "Have physical cards or numbers from another system? Import them in one click!"
+msgstr "Har fysiske kort eller tall fra et annet system? Importer dem med ett klikk!"
+
+#: admin/ui/product-data-panel-cards.php:64 admin/ui/section-buttons.php:19
+msgid "Import Card Numbers"
+msgstr "Importer kortnumre"
+
+#: admin/ui/product-data-panel-cards.php:63
+msgid "Enter the quantity, amount, and expiration date to easily generate gift cards."
+msgstr "Angi antall, beløp og utløpsdato for enkelt å generere gavekort."
+
+#: admin/ui/product-data-panel-cards.php:63 admin/ui/section-buttons.php:15
+msgid "Create Gift Cards"
+msgstr "Lag gavekort"
+
+#: admin/ui/footer.php:32
+msgid "Please consider <%s>leaving a review on WordPress.org</a>. This really helps us out!"
+msgstr "Vær så snill å vurdere <%s> ved å legge igjen en anmeldelse på WordPress.org </a>. Dette hjelper oss virkelig!"
+
+#: admin/ui/footer.php:30
+msgid "Need help? Email %s"
+msgstr "Trenger hjelp? E-post %s"
+
+#: admin/pw-gift-cards-admin.php:457
+msgid "Settings saved."
+msgstr "Innstillinger lagret."
+
+#: admin/pw-gift-cards-admin.php:223
+msgid "Amount must be less than maximum amount."
+msgstr "Beløpet må være mindre enn maksimumsbeløpet."
+
+#: admin/pw-gift-cards-admin.php:222
+msgid "Amount must be greater than minimum amount."
+msgstr "Beløpet må være større enn minimumsbeløpet."
+
+#: admin/pw-gift-cards-admin.php:55
+msgid "Enabled by default. If you are not receiving your gift card emails, try disabling this setting."
+msgstr "Aktivert som standard. Hvis du ikke mottar e-postadressene til gavekortet ditt, kan du prøve å deaktivere denne innstillingen."
+
+#: admin/pw-gift-cards-admin.php:54
+msgid "Use the WooCommerce Transactional Email System"
+msgstr "Bruk WooCommerce Transactional Email System"
+
+#. Author of the plugin
+msgid "Pimwick, LLC"
+msgstr "Pimwick, LLC"
+
+#. Description of the plugin
+msgid "Sell gift cards in your WooCommerce store."
+msgstr "Selg gavekort i din WooCommerce-butikk."
+
+#. Author URI of the plugin
+msgid "https://www.pimwick.com"
+msgstr "https://www.pimwick.com"
+
+#. Plugin Name of the plugin
+msgid "PW WooCommerce Gift Cards"
+msgstr "PW WooCommerce Gavekort"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:100
+msgid "1 to each recipient"
+msgstr "1 til hver mottaker"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:99
+msgid "Quantity"
+msgstr "Antall"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:95
+msgid "characters remaining"
+msgstr "gjenstående karakterer"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:94
+msgid "Add a message"
+msgstr "Legg til en melding"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:93
+msgid "(optional)"
+msgstr "(valgfri)"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:89
+msgid "Your name"
+msgstr "Ditt navn"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:84
+msgid "Separate multiple email addresses with a comma."
+msgstr "Skill flere e-postadresser med komma."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:83
+msgid "Enter an email address for each recipient"
+msgstr "Skriv inn en e-postadresse for hver mottaker"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:32
+msgid "Message:"
+msgstr "Melding:"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:28
+msgid "Link: %s"
+msgstr "Link: %s"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:27
+msgid "Gift card number: %s"
+msgstr "Gavekortnummer: %s"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:26
+msgid "Amount: %s"
+msgstr "Beløp: %s"
+
+#: templates/woocommerce/emails/customer-pw-gift-card.php:120
+msgid "Redeem"
+msgstr "Løs inn"
+
+#: templates/woocommerce/emails/customer-pw-gift-card.php:106
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:25
+msgid "%s Gift Card"
+msgstr "%s gavekort"
+
+#: templates/woocommerce/checkout/pw-gift-cards.php:45
+#: templates/woocommerce/cart/cart-pw-gift-card.php:43
+msgid "Gift card"
+msgstr "Gavekort"
+
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:30
+msgid "Apply Gift Card"
+msgstr "Bruk gavekort"
+
+#: templates/woocommerce/checkout/pw-gift-cards.php:63
+#: templates/woocommerce/cart/cart-pw-gift-card.php:61
+msgid "[Remove]"
+msgstr "[Fjern]"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:59
+msgid "Gift Card Total"
+msgstr "Gavekort totalt"
+
+#: templates/woocommerce/checkout/pw-gift-cards.php:48
+#: templates/woocommerce/cart/cart-pw-gift-card.php:46
+msgid "Remaining balance is %s"
+msgstr "Resterende saldo er %s"
+
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:30
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:38
+#: templates/woocommerce/cart/apply-gift-card.php:48
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:36
+msgid "Please wait..."
+msgstr "Vennligst vent..."
+
+#: templates/woocommerce/cart/apply-gift-card.php:48
+msgid "Apply"
+msgstr "Bruk"
+
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:29
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:34
+#: templates/woocommerce/cart/apply-gift-card.php:47
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:35
+msgid "Gift card number"
+msgstr "Gavekortnummer"
+
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:27
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:26
+#: templates/woocommerce/cart/apply-gift-card.php:45
+msgid "Have a gift card?"
+msgstr "Har du et gavekort?"
+
+#: pw-gift-cards.php:291
+msgid "%s requires WooCommerce version %s or later."
+msgstr "%s krever WooCommerce versjon %s eller nyere."
+
+#: pw-gift-cards.php:175
+msgid "Maximum amount is %s"
+msgstr "Maksimumsbeløp er %s"
+
+#: pw-gift-cards.php:174
+msgid "Minimum amount is %s"
+msgstr "Minimumsbeløp er %s"
+
+#: pw-gift-cards.php:173
+msgid "Required"
+msgstr "Påkrevd"
+
+#: pw-gift-cards.php:115
+msgid "Message"
+msgstr "Melding"
+
+#: pw-gift-cards.php:114
+msgid "From"
+msgstr "Fra"
+
+#: pw-gift-cards.php:113
+msgid "To"
+msgstr "Til"
+
+#: pw-gift-cards.php:110
+msgid "Gift Card Amount"
+msgstr "Gavekortbeløp"
+
+#: pw-gift-cards.php:155 includes/pw-gift-cards-redeeming.php:348
+#: includes/pw-gift-cards-redeeming.php:398
+#: includes/pw-gift-cards-redeeming.php:464
+msgid "This gift card has a zero balance."
+msgstr "Dette gavekortet har nullbalanse."
+
+#: includes/pw-gift-cards-redeeming.php:366
+msgid "Gift card removed."
+msgstr "Gavekort fjernet."
+
+#: pw-gift-cards.php:158 includes/pw-gift-cards-redeeming.php:351
+#: includes/pw-gift-cards-redeeming.php:467
+msgid "Gift card applied."
+msgstr "Gavekort påført."
+
+#: includes/pw-gift-cards-redeeming.php:330
+msgid "Shipping via %s"
+msgstr "Frakt via %s"
+
+#: includes/pw-gift-cards-purchasing.php:314
+msgid " (inactive)"
+msgstr "(uvirksom)"
+
+#: includes/pw-gift-cards-purchasing.php:225
+msgid "Unable to retrieve variation "
+msgstr "Kan ikke hente variasjon"
+
+#: includes/pw-gift-cards-purchasing.php:69
+msgid "Choose an amount"
+msgstr "Velg et beløp"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:260
+msgid "Multipart"
+msgstr "Flerparts"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:259
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:258
+msgid "Plain text"
+msgstr "Vanlig tekst"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:254
+msgid "Choose which format of email to send."
+msgstr "Velg hvilket format e-post skal sendes i."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:252
+msgid "Email type"
+msgstr "E-posttype"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:247
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "Dette styrer hovedoversikten som finnes i e-postvarselet. La være tomt for å bruke standardoverskriften: <code>%s</code>."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:245
+msgid "Email Heading"
+msgstr "E-post overskrift"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:240
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Dette styrer e-post subjekt linjen. La være tom for å bruke standard subjekt: <code>%s</code>."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:238
+msgid "Subject"
+msgstr "Subjekt"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:35
+msgid "{sender} sent you a gift card"
+msgstr "{avsender} sendte deg et gavekort"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:34
+msgid "You were given a gift card"
+msgstr "Du ble gitt et gavekort"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:32
+msgid "This email is sent to the recipients of a gift card."
+msgstr "Denne e-posten sendes til mottakere av et gavekort."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:31
+msgid "PW Gift Card Email"
+msgstr "PW gavekort E-post"
+
+#: includes/class-wc-product-pw-gift-card.php:109
+msgid "Could not locate variation using variation_id "
+msgstr "Kunne ikke finne variasjon ved hjelp av variasjon_id"
+
+#: includes/class-wc-product-pw-gift-card.php:88
+msgid "Could not create variation."
+msgstr "Kunne ikke opprette variasjon."
+
+#: includes/class-wc-product-pw-gift-card.php:75
+msgid "Amount already exists: "
+msgstr "Beløpet eksisterer allerede:"
+
+#: admin/pw-gift-cards-admin.php:221
+#: includes/class-wc-product-pw-gift-card.php:62
+msgid "Amount must be greater than zero."
+msgstr "Beløpet må være større enn null."
+
+#: includes/class-wc-product-pw-gift-card.php:247
+msgid "Select amount"
+msgstr "Velg beløp"
+
+#: includes/class-pw-gift-card.php:351
+msgid "Property %s does not exist on %s"
+msgstr "Egenskap %s eksisterer ikke på %s"
+
+#: includes/class-pw-gift-card.php:279
+msgid "Failed to generate a unique random card number after %d attempts. %s"
+msgstr "Kunne ikke generere et unikt tilfeldig kortnummer etter %d forsøk. %s"
+
+#: includes/class-pw-gift-card.php:247
+msgid "Card Number cannot be empty."
+msgstr "Kortnummer kan ikke være tomt."
+
+#: includes/class-pw-gift-card.php:189
+msgid "Balance is currently %s, unable to adjust by %s"
+msgstr "Balansen er for øyeblikket %s, kan ikke justeres av %s"
+
+#: includes/class-pw-gift-card.php:185
+msgid "Unable to adjust balance, card is not active."
+msgstr "Kan ikke justere balansen, kortet er ikke aktivt."
+
+#: includes/class-pw-gift-card.php:176
+msgid "Amount deducted should be less than zero."
+msgstr "Beløp trukket skal være mindre enn null."
+
+#: includes/class-pw-gift-card.php:168
+msgid "Amount added should be greater than zero."
+msgstr "Beløpet lagt til skal være større enn null."
+
+#: includes/class-pw-gift-card.php:71
+msgid "Enter a card number."
+msgstr "Skriv inn et kortnummer."
+
+#: includes/class-pw-gift-card.php:68
+msgid "Card number does not exist."
+msgstr "Kortnummer eksisterer ikke."
+
+#: includes/class-pw-gift-card-activity.php:102
+msgid "Invalid action value: "
+msgstr "Ugyldig handling verdi:"
+
+#: includes/class-pw-gift-card-activity.php:90
+msgid "Could not find activity record %d."
+msgstr "Kunne ikke finne aktivitetspost %d."
+
+#: admin/ui/product-data-panel-cards.php:68
+msgid "Perform balance adjustments in the admin area."
+msgstr "Utfør balansejusteringer i administrasjonsområdet."
+
+#: admin/ui/product-data-panel-cards.php:68
+msgid "Balance Adjustments"
+msgstr "Balansejusteringer"
+
+#: admin/ui/product-data-panel-cards.php:67
+msgid "Automatically set an expiration date based on the purchase date."
+msgstr "Sett automatisk en utløpsdato basert på kjøpsdato."
+
+#: admin/ui/product-data-panel-cards.php:67
+msgid "Expiration Dates"
+msgstr "Utløpsdatoer"
+
+#: admin/ui/product-data-panel-cards.php:66
+msgid "A shortcode to let customers check their gift card balances."
+msgstr "En kortkode for å la kundene sjekke sine gavekortbalanser."
+
+#: admin/ui/product-data-panel-cards.php:66 admin/ui/section-buttons.php:11
+msgid "Balances"
+msgstr "Balanser"
+
+#: admin/ui/product-data-panel-cards.php:65
+msgid "choose an amount that will be pre-selected when purchasing a gift card."
+msgstr "velg et beløp som vil bli forhåndsvalgt når du kjøper et gavekort."
+
+#: admin/ui/product-data-panel-cards.php:65
+msgid "Default Amount"
+msgstr "Standardbeløp"
+
+#: admin/ui/product-data-panel-cards.php:60
+msgid "Allow customers to specify the amount. You can set a minimum and a maximum amount."
+msgstr "Tillat kundene å spesifisere beløpet. Du kan angi et minimum og et maksimumsbeløp."
+
+#: admin/ui/product-data-panel-cards.php:60
+msgid "Custom Amounts"
+msgstr "Tilpassede beløp"
+
+#: admin/ui/product-data-panel-cards.php:58
+msgid " includes these great additional features:"
+msgstr "inneholder disse flotte tilleggsfunksjonene:"
+
+#: admin/ui/product-data-panel-cards.php:58
+msgid "PW WooCommerce Gift Cards Pro"
+msgstr "PW WooCommerce Gavekort Pro"
+
+#: admin/ui/product-data-panel-cards.php:39
+msgid "The available denominations that can be purchased. For example: %1$s25.00, %1$s50.00, %1$s100.00"
+msgstr "De tilgjengelige valørene som kan kjøpes. For eksempel: %1$s25.00, %1$s50.00, %1$s100.00"
+
+#: admin/ui/product-data-panel-cards.php:35
+msgid "Gift card amounts"
+msgstr "Gavekort beløp"
+
+#: admin/ui/order-gift-card-total.php:36
+msgid "PW Gift Card"
+msgstr "PW Gavekort"
+
+#: templates/woocommerce/emails/customer-pw-gift-card.php:115
+msgid "Gift Card Number"
+msgstr "Gavekortnummer"
+
+#: admin/ui/sections/balance-summary.php:36
+msgid "Outstanding balances"
+msgstr "Utestående saldoer"
+
+#: admin/ui/sections/balance-summary.php:32
+msgid "Active gift cards"
+msgstr "Aktive gavekort"
+
+#: admin/ui/initial-setup.php:32
+msgid "Upgrade to <a href=\"%s\" target=\"_blank\">PW WooCommerce Gift Cards Pro</a> to create a Check Balance page for your customers."
+msgstr "Oppgrader til <a href=\"%s\" target=\"_blank\"> PW WooCommerce-gavekort Pro </a> for å opprette en Sjekk Balanse-side for dine kunder."
+
+#: admin/ui/initial-setup.php:30
+msgid "Step 2: Let your customers check their gift card balances."
+msgstr "Trinn 2: La kundene sjekke gavekortbalansen."
+
+#: admin/ui/initial-setup.php:25
+msgid "The Gift Card product has been created. Click on the Products menu in the left to edit it."
+msgstr "Gavekortproduktet er opprettet. Klikk på produktmenyen til venstre for å redigere den."
+
+#: admin/ui/initial-setup.php:24
+msgid "Success!"
+msgstr "Suksess!"
+
+#: admin/ui/initial-setup.php:16
+msgid "Create the Gift Card product"
+msgstr "Opprett gavekort produktet"
+
+#: admin/ui/initial-setup.php:12
+msgid "Step 1: Create a \"%s\" product to start selling Gift Cards."
+msgstr "Trinn 1: Opprett et \"%s\" -produkt for å begynne å selge gavekort."
+
+#: pw-gift-cards.php:112 admin/ui/sections/activity-records.php:33
+#: templates/woocommerce/emails/customer-pw-gift-card.php:110
+msgid "Amount"
+msgstr "Beløp"
+
+#: admin/ui/sections/activity-records.php:31
+msgid "User"
+msgstr "Bruker"
+
+#: admin/ui/sections/activity-records.php:30
+msgid "Action"
+msgstr "Handling"
+
+#: admin/ui/sections/activity-records.php:29
+msgid "Date"
+msgstr "Dato"
+
+#: includes/pw-gift-cards-redeeming.php:401
+msgid "Card is inactive."
+msgstr "Kortet er inaktivt."
+
+#: admin/ui/sections/search-results.php:34
+msgid "Expiration Date"
+msgstr "Utløpsdato"
+
+#: includes/class-pw-gift-card.php:108
+msgid "None"
+msgstr "Ingen"
+
+#: admin/ui/sections/activity-records.php:34
+#: admin/ui/sections/search-results.php:33
+msgid "Balance"
+msgstr "Balanse"
+
+#: admin/pw-gift-cards-admin.php:343
+msgid "Could not locate product using product_id "
+msgstr "Kunne ikke finne produkt ved hjelp av product_id"
+
+#: admin/pw-gift-cards-admin.php:319
+msgid "Could not locate product id %s"
+msgstr "Kunne ikke finne produkt id %s"
+
+#: admin/pw-gift-cards-admin.php:41
+msgid "When an order only contains gift cards, automatically mark the order as Complete to send the gift cards immediately."
+msgstr "Når en bestilling bare inneholder gavekort, merker du automatisk ordren som Fullført for å sende gavekortene umiddelbart."
+
+#: admin/pw-gift-cards-admin.php:40
+msgid "Auto Complete Orders"
+msgstr "Automatisk fullføring av ordrer"
+
+#: pw-gift-cards.php:111 admin/pw-gift-cards-admin.php:242
+#: admin/pw-gift-cards-admin.php:473
+msgid "Gift Card"
+msgstr "Gavekort"
+
+#: admin/pw-gift-cards-admin.php:224
+msgid "Error"
+msgstr "Feil"
+
+#: admin/pw-gift-cards-admin.php:220
+msgid "Remove"
+msgstr "Fjern"
+
+#: admin/pw-gift-cards-admin.php:219
+msgid "Add"
+msgstr "Legg til"
+
+#: admin/pw-gift-cards-admin.php:218
+msgid "Wait"
+msgstr "Vent"
+
+#: admin/ui/sections/activity-records.php:32
+msgid "Note"
+msgstr "Merk"
+
+#: admin/pw-gift-cards-admin.php:137 admin/pw-gift-cards-admin.php:148
+msgid "Pimwick Plugins"
+msgstr "Pimwick Plugins"
+
+#: admin/pw-gift-cards-admin.php:34 admin/pw-gift-cards-admin.php:136
+#: admin/pw-gift-cards-admin.php:147 admin/pw-gift-cards-admin.php:159
+#: admin/pw-gift-cards-admin.php:160 admin/pw-gift-cards-admin.php:168
+#: admin/pw-gift-cards-admin.php:169 admin/pw-gift-cards-admin.php:283
+msgid "PW Gift Cards"
+msgstr "PW Gavekort"

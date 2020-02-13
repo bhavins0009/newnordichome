@@ -1,0 +1,1133 @@
+# Translation of Themes - Shop Isle in Korean
+# This file is distributed under the same license as the Themes - Shop Isle package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-27 03:53:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Themes - Shop Isle\n"
+
+#. Description of the theme
+msgid "ShopIsle is the perfect free theme designed for your WooCommerce shop based on bootstrap. Due to its flexibility ShopIsle can also be used for a one page business site, it has a fullscreen image, parallax effect, it provides a responsive blog section, is eCommerce ready, WPML, Photo Gallery Grid,Contact Form 7,Meta Slider, SiteOrigin Page Builder, JetPack compatible and SEO friendly. It features a simple, minimal and elegant style which will work perfectly for a clothing, electronics and almost any kind of store."
+msgstr "ShopIsle은 부트스트랩에 기반을 둔 우커머스 상점을 위해 디자인된 완벽한 무료 테마입니다. 유연성으로 인해 ShopIsle은 원페이지 비지니스 사이트에도 사용될 수 있습니다. 전체 화면 이미지, 패럴랙스 효과가 있으며 반응형 블로그 영역을 제공합니다. 이커머스, WPML, 포토 갤러리 그리드, Contact Form 7, Meta Slider, SiteOrigin Page Builder, JetPack 등과 호환되며 SEO 친화적입니다. 간단하고 미니멀하며 우아한 스타일로 의류, 전자제품 외에 거의 모든 상품의 쇼핑몰에서 완벽하게 작동합니다."
+
+#. Theme Name of the theme
+#: inc/functions/setup.php:447 inc/functions/setup.php:454
+#: inc/functions/setup.php:461
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:90
+#: inc/sections/shop_isle_slider_section.php:28
+#: inc/sections/shop_isle_slider_section.php:35
+#: inc/sections/shop_isle_slider_section.php:42
+msgid "Shop Isle"
+msgstr "Shop Isle"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width"
+msgstr "페이지 빌더 전체 폭"
+
+#. Template Name of the theme
+msgid "Page Builder Blank"
+msgstr "페이지 빌더 빈 페이지"
+
+#: inc/customizer/features/feature-slider-shortcode.php:26
+msgid "You can replace the homepage slider with any plugin you like, just copy the shortcode generated and paste it here."
+msgstr "원하는 플러그인일 이용해 홈페이지 슬라이더를 교체할 수 있습니다. 생성된 단축코드를 복사해 여기에 붙여넣기만 하면 됩니다."
+
+#: inc/customizer/features/feature-slider-shortcode.php:25
+msgid "Slider shortcode"
+msgstr "슬라이더 단축코드"
+
+#: inc/sections/shop_isle_products_section.php:214
+#: inc/sections/shop_isle_products_slider_section.php:151
+#: inc/sections/shop_isle_products_slider_section.php:224
+#: inc/woocommerce/functions.php:731
+msgid "Out of Stock"
+msgstr "품절"
+
+#: inc/customizer/features/customizer-theme-info.php:50
+msgid "Quick View functionality"
+msgstr "빠른 보기 기능"
+
+#: inc/customizer/features/customizer-theme-info.php:47
+msgid "Add New Sections"
+msgstr "새 섹션을 추가"
+
+#: inc/frontpage-manager.php:31
+msgid "Keep the old static frontpage template?"
+msgstr "이전의 정적인 전면 페이지 템플릿을 유지할까요?"
+
+#: inc/customizer/functions.php:41
+#: inc/customizer/features/customizer-theme-info.php:52
+msgid "Support"
+msgstr "지원"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:94
+msgid "Video thumbnail"
+msgstr "비디오 썸네일"
+
+#: inc/customizer/features/customizer-theme-info.php:80
+msgid "Three New Color Schemes"
+msgstr "3개의 새로운 색상 조합"
+
+#: inc/customizer/features/customizer-theme-info.php:46
+msgid "Section Reordering"
+msgstr "영역 순서 변경"
+
+#: inc/customizer/features/customizer-theme-info.php:44
+msgid "Enhanced Cart"
+msgstr "개선된 장바구니"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:631
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:669
+msgid "Add icon"
+msgstr "아이콘 추가"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:606
+msgid "Social icons"
+msgstr "소셜 아이콘"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:592
+msgid "None"
+msgstr "아니오"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:587
+msgid "Image type"
+msgstr "이미지 타입"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:535
+msgid "here"
+msgstr "여기"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:533
+msgid "Some icons may not be displayed here. You can see the list of icons %1$s"
+msgstr "일부 아이콘은 여기에 표시되지 않을 수도 있습니다. 아이콘 전체 목록은 %1$s에서 볼 수 있습니다"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:361
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:464
+msgid "Shortcode"
+msgstr "단축코드"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:226
+msgid "Add new field"
+msgstr "새 필드 추가"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:114
+msgid "Customizer Repeater"
+msgstr "사용자 정의 하기 리피터"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:135
+msgid "Static Front Page"
+msgstr "정적인 전면 페이지"
+
+#. translators: 1: Link to static front page customizer control
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:130
+msgid "To customize the Frontpage sections please create a page. After that, go to %1$s and select \"A static page\". Finally, for \"Front page\" choose the page you previously created."
+msgstr "전면 페이지 영역을 사용자 정의하려면 페이지를 하나 만들세요. 그런다음 %1$s로 가서 \"정적인 페이지\"를 선택하세요. 마지막으로 \"전면 페이지\"에 대해 이전에 만든 페이지를 선택하세요."
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:110
+msgid "Shortcodes Section"
+msgstr "단축코드 영역"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:109
+#: inc/customizer/features/customizer-theme-info.php:49
+msgid "Services Section"
+msgstr "서비스 영역"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:108
+msgid "Ribbon Section"
+msgstr "리본 영역"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:107
+#: inc/customizer/features/customizer-theme-info.php:48
+msgid "Map Section"
+msgstr "지도 영역"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:106
+#: inc/customizer/features/customizer-theme-info.php:51 inc/init.php:26
+msgid "Categories Section"
+msgstr "카테고리 영역"
+
+#: inc/customizer/class/class-shop-isle-pro-palette.php:60
+#: inc/customizer/class/class-shop-isle-pro-palette.php:69
+msgid "Default"
+msgstr "기본"
+
+#. Template Name of the theme
+msgid "Full width, no title (SiteOrigin Page builder Template)"
+msgstr "전체 폭, 제목 없음 (SiteOrigin 페이지 빌더 템플릿)"
+
+#: inc/customizer/features/customizer-theme-info.php:45
+msgid "Get full color schemes support for your site. "
+msgstr "사이트에 대해 전체 색상 조합 지원받기. "
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:113
+#: inc/customizer/features/customizer-theme-info.php:22
+#: inc/customizer/features/customizer-theme-info.php:59
+#: inc/customizer/features/customizer-theme-info.php:84
+msgid "View PRO version"
+msgstr "프로버전 보기"
+
+#. translators: 1: Link to WPForms Plugin.
+#: inc/customizer/features/feature-contact-controls.php:39
+msgid "Create a form, copy the shortcode generated and paste it here. We recommend %1$s but you can use any plugin you like."
+msgstr "폼을 만들고 생성된 단축코드를 복사해 여기에 붙여넣으세요. %1$s을 추천하지만 원하시는 플러그인을 사용할 수도 있습니다."
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:31
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:29
+msgid "WooCommerce"
+msgstr "우커머스"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "전체 폭"
+
+#: inc/sections/shop_isle_products_slider_section.php:31
+msgid "For this section to work, you first need to install the WooCommerce plugin , create some products, and select a product category in Customize -> Frontpage sections -> Products slider section"
+msgstr "이 영역을 작동시키려면 우선 우커머스 플러그인을 설치하고 상품을 만든 다음 사용자 정의하기 -> 프론트페이지 영역 -> 상품 슬라이더 영역에서 상품 카테고리를 선택하세요."
+
+#: inc/sections/shop_isle_products_section.php:110
+msgid "For this section to work, you first need to install the WooCommerce plugin , create some products, and insert a WooCommerce shortocode or select a product category in Customize -> Frontpage sections -> Products section"
+msgstr "이 영역을 작동시키려면 우선 우커머스 플러그인을 설치하고 상품을 만든 다음 우커머스 단축코드를 삽입하거나 사용자 정의하기 -> 프론트페이지 영역 -> 상품 영역에서 상품 카테고리를 선택하세요."
+
+#: inc/sections/shop_isle_products_section.php:108
+msgid "No products found."
+msgstr "상품을 찾을 수 없습니다."
+
+#: inc/sections/shop_isle_products_section.php:233
+#: inc/sections/shop_isle_products_section.php:235
+msgid "See all products"
+msgstr "모든 상품 보기"
+
+#: inc/sections/shop_isle_products_section.php:174
+#: inc/sections/shop_isle_products_section.php:181
+msgid "Quick View"
+msgstr "퀵뷰"
+
+#. translators: s: Search term.
+#: search.php:29
+msgid "Search Results for: %s"
+msgstr "검색 결과: %s"
+
+#. translators: d: number of items.
+#: inc/woocommerce/template-tags.php:27
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 아이템"
+
+#: inc/structure/template-tags.php:175
+msgid "On Sale"
+msgstr "세일"
+
+#: inc/structure/template-tags.php:139
+msgid "Top Rated Products"
+msgstr "최상위 평가 상품"
+
+#: inc/structure/template-tags.php:103
+msgid "Featured Products"
+msgstr "특성 상품"
+
+#: inc/structure/template-tags.php:65
+msgid "Recent Products"
+msgstr "최근 상품"
+
+#: inc/structure/template-tags.php:29
+msgid "Product Categories"
+msgstr "상품 카테고리"
+
+#. translators: s: category name
+#: inc/structure/post.php:165
+msgid "View all posts in %s"
+msgstr "%s의 모든 글 보기"
+
+#: inc/structure/post.php:151
+msgid "1 Comment"
+msgstr "1 댓글"
+
+#: inc/structure/post.php:149
+msgid " Comments"
+msgstr " 댓글"
+
+#: inc/structure/post.php:147
+msgid "No Comments"
+msgstr "댓글 없음"
+
+#: inc/structure/post.php:127
+msgid "By "
+msgstr "글쓴이 "
+
+#: inc/structure/post.php:98
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "다음 글 <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/structure/post.php:95
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 이전 글"
+
+#: inc/structure/post.php:92
+msgid "Posts navigation"
+msgstr "글 내비게이션"
+
+#. translators: s: post title
+#: inc/structure/post.php:59
+msgid "Tagged %1$s"
+msgstr "태그 %1$s"
+
+#: inc/structure/post.php:55
+msgid ", "
+msgstr ", "
+
+#. translators: s: post title
+#: inc/structure/post.php:40
+msgid "Continue reading %s"
+msgstr "계속 읽기 %s"
+
+#: inc/structure/post.php:47 inc/structure/page.php:22
+msgid "Pages:"
+msgstr "페이지:"
+
+#: inc/structure/header.php:128
+msgctxt "submit button"
+msgid "Search"
+msgstr "검색"
+
+#: inc/structure/header.php:127
+msgctxt "label"
+msgid "Search for:"
+msgstr "검색:"
+
+#: inc/structure/header.php:127
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "상품 검색&hellip;"
+
+#: inc/structure/header.php:96
+msgid "Toggle navigation"
+msgstr "토글 내비게이션"
+
+#: inc/structure/footer.php:95
+msgid "powered by"
+msgstr "powered by"
+
+#: inc/structure/comments.php:77
+msgid "Edit"
+msgstr "편집"
+
+#: inc/structure/comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "댓글이 검토를 기다리고 있습니다."
+
+#. translators: s: Comment author link
+#: inc/structure/comments.php:45
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: inc/structure/header.php:136 inc/init.php:141
+#: inc/woocommerce/template-tags.php:19
+msgid "View your shopping cart"
+msgstr "장바구니 보기"
+
+#: inc/functions/setup.php:642
+msgid "Easy to use"
+msgstr "사용 편리"
+
+#: inc/functions/setup.php:637
+msgid "Highly customizable"
+msgstr "사용자 정의 기능 높음"
+
+#: inc/functions/setup.php:632
+msgid "Designs & interfaces"
+msgstr "디자인 및 인터페이스"
+
+#: inc/functions/setup.php:628 inc/functions/setup.php:633
+#: inc/functions/setup.php:638 inc/functions/setup.php:643
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: inc/functions/setup.php:627
+msgid "Ideas and concepts"
+msgstr "아이디어와 컨셉"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:344
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "다음 플러그인은 이 테마와 최대의 호환성을 위해 최근 버전으로 업데이트 해야 합니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:362
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "다음 권장 플러그인이 현재 비활성 상태입니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:356
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "다음 필수 플러그인이 현재 비활성 상태입니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:338
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "이 테마는 다음 플러그인을 권장합니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:332
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "이 테마는 다음 플러그인이 필수입니다: %1$s."
+
+#: inc/functions/setup.php:297
+msgid "Sidebar Shop Page"
+msgstr "사이드바 상점 페이지"
+
+#: inc/functions/setup.php:286
+msgid "Footer area 4"
+msgstr "푸터 영역 4"
+
+#: inc/functions/setup.php:275
+msgid "Footer area 3"
+msgstr "푸터 영역 3"
+
+#: inc/functions/setup.php:264
+msgid "Footer area 2"
+msgstr "푸터 영역 2"
+
+#: inc/functions/setup.php:253
+msgid "Footer area 1"
+msgstr "푸터 영역 1"
+
+#: inc/compatibility/wordpress-editor/wp-editor.php:49
+#: inc/functions/setup.php:242
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: inc/flag-wporg.php:35 inc/functions/setup.php:149
+msgid "Primary Menu"
+msgstr "주메뉴"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:394
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:483
+msgid "Delete field"
+msgstr "필드 삭제"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:352
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:456
+msgid "Button Label"
+msgstr "버튼 레이블"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:370
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:472
+msgid "Description"
+msgstr "설명"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:574
+msgid "Upload Image"
+msgstr "이미지 업로드"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:527
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:590
+msgid "Icon"
+msgstr "아이콘"
+
+#: inc/customizer/functions.php:40
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:92
+msgid "Documentation"
+msgstr "문서"
+
+#: inc/customizer/features/feature-advanced-controls.php:37
+msgid "Disable preloader?"
+msgstr "프리로더 비활성화?"
+
+#: inc/customizer/features/feature-advanced-controls.php:19
+msgid "Advanced options"
+msgstr "고급 옵션"
+
+#: inc/customizer/features/feature-404-controls.php:71
+msgid "Text"
+msgstr "텍스트"
+
+#: inc/customizer/features/feature-404-controls.php:31
+msgid "Background image"
+msgstr "배경 이미지"
+
+#: inc/customizer/features/feature-contact-controls.php:64
+msgid "To use this section please install <a href=\"https://wordpress.org/plugins/intergeo-maps/\">Intergeo Maps</a> plugin then use it to create a map and paste here the shortcode generated"
+msgstr "이 영역을 사용하려면 <a href=\"https://wordpress.org/plugins/intergeo-maps/\">Intergeo Maps</a> 플러그인을 설치하고 지도를 만든 다음 생성된 단축코드를 여기에 붙여넣으세요."
+
+#: inc/customizer/features/feature-contact-controls.php:63
+msgid "Map shortcode"
+msgstr "지도 단축코드"
+
+#: inc/customizer/features/feature-contact-controls.php:36
+msgid "Contact form shortcode"
+msgstr "컨택트 폼 단축코드"
+
+#. Template Name of the theme
+#: inc/customizer/features/feature-contact-controls.php:20
+#: inc/customizer/features/feature-contact-controls.php:76
+msgid "Contact page"
+msgstr "컨택트 페이지"
+
+#: inc/customizer/features/feature-footer-controls.php:88
+msgid "Social"
+msgstr "소셜"
+
+#: inc/customizer/features/feature-footer-controls.php:77
+#: inc/customizer/features/feature-footer-controls.php:89
+msgid "Add new social"
+msgstr "새 소셜 추가"
+
+#: inc/customizer/features/feature-footer-controls.php:57
+msgid "Hide site info?"
+msgstr "사이트 정보 감추기?"
+
+#: inc/customizer/features/feature-footer-controls.php:38
+msgid "Copyright"
+msgstr "저작권"
+
+#: inc/customizer/features/feature-footer-controls.php:21
+msgid "Footer"
+msgstr "푸터"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:159
+msgid "If no category is selected , WooCommerce products from the first category found are displaying."
+msgstr "카테고리가 선택되지 않으면 첫 번째 카테고리에 있는 우커머스 상품이 표시됩니다."
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:116
+msgid "Section subtitle"
+msgstr "영역 부제목"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:109
+#: inc/woocommerce/functions.php:381
+msgid "Special category of products"
+msgstr "특별 상품 카테고리"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:90
+#: inc/sections/shop_isle_products_slider_section.php:29
+#: inc/woocommerce/functions.php:380
+msgid "Exclusive products"
+msgstr "전용 상품"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:78
+msgid "Hide products slider section on single product page?"
+msgstr "단일 상품 페이지에서 상품 슬라이더 영역 감추기?"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:59
+msgid "Hide products slider section on frontpage?"
+msgstr "프론트페이지에서 상품 슬라이더 영역 감추기?"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:39
+msgid "Products slider section"
+msgstr "상품 슬라이더 영역"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:75
+msgid "Youtube link"
+msgstr "유투브 링크"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:40
+msgid "Hide video section?"
+msgstr "비디오 영역 감추기?"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:21
+msgid "Video section"
+msgstr "비디오 영역"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:136
+msgid "OR pick a product category. If no shortcode or no category is selected , WooCommerce latest products are displaying."
+msgstr "또는 상품 카테고리를 선택하세요. 단축코드나 카테고리가 선택되지 않으면 우커머스 최근 상품이 표시됩니다."
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:135
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:155
+msgid "Products category"
+msgstr "상품 카테고리"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:104
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:124
+msgid "Select category"
+msgstr "카테고리 선택"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:97
+msgid "Insert a WooCommerce shortcode"
+msgstr "우커머스 단축코드 삽입하기"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:95
+msgid "WooCommerce shortcode"
+msgstr "우커머스 단축코드"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:78
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:56
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:97
+msgid "Section title"
+msgstr "영역 제목"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:71
+#: inc/sections/shop_isle_products_section.php:29
+msgid "Latest products"
+msgstr "최근 상품"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:59
+msgid "Hide products section?"
+msgstr "상품 영역 감추기?"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:40
+msgid "Products section"
+msgstr "상품 영역"
+
+#. translators: 1: Link to WooCommerce Plugin
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:22
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:20
+msgid "To use this section, you are required to first install the  %1$s plugin"
+msgstr "이 영역을 사용하려면 우선 %1$s 플러그인을 설치해야 합니다"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:102
+msgid "Banner"
+msgstr "배너"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:91
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:103
+msgid "Add new banner"
+msgstr "새 배너 추가"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:39
+msgid "Hide banners section?"
+msgstr "배너 영역 감추기?"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:21
+#: inc/init.php:25
+msgid "Banners section"
+msgstr "배너 영역"
+
+#: inc/customizer/features/feature-404-controls.php:90
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:137
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:343
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:448
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:626
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:652
+msgid "Button link"
+msgstr "버튼 링크"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:129
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:222
+msgid "#"
+msgstr "#"
+
+#: inc/customizer/features/feature-404-controls.php:109
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:118
+msgid "Button label"
+msgstr "버튼 레이블"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:99
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:335
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:440
+msgid "Subtitle"
+msgstr "부제목"
+
+#: inc/functions/setup.php:448 inc/functions/setup.php:455
+#: inc/functions/setup.php:462
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:91
+#: inc/sections/shop_isle_slider_section.php:29
+#: inc/sections/shop_isle_slider_section.php:36
+#: inc/sections/shop_isle_slider_section.php:43
+#: inc/sections/shop_isle_big_title_section.php:26
+msgid "WooCommerce Theme"
+msgstr "우커머스 테마"
+
+#: inc/customizer/features/feature-404-controls.php:51
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:58
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:80
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:319
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:327
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:423
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:431
+msgid "Title"
+msgstr "제목"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:60
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:571
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:591
+msgid "Image"
+msgstr "이미지"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:40
+msgid "Hide big title section?"
+msgstr "큰 제목 영역 감추기?"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:21
+msgid "Big title section"
+msgstr "큰 제목 영역"
+
+#: inc/customizer/customizer.php:32
+msgid "Frontpage sections"
+msgstr "프론트페이지 영역"
+
+#: inc/customizer/features/feature-blog-header-controls.php:43
+msgid "Blog header subtitle"
+msgstr "블로그 헤더 부제목"
+
+#: inc/customizer/features/feature-blog-header-controls.php:26
+msgid "Blog header title"
+msgstr "블로그 헤더 제목"
+
+#: inc/customizer/features/feature-header-controls.php:16
+msgid "Header"
+msgstr "헤더"
+
+#. translators: 1: Link to documentation page. 2: 'doc'
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:21
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:139
+msgid "Need further informations? Check this %1$s"
+msgstr "정보가 더 필요하신가요? %1$s을 알아보세요"
+
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:22
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:142
+msgid "doc"
+msgstr "문서"
+
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:19
+msgid "To customize the Contact Page you need to first select the template \"Contact page\" for the page you want to use for this purpose. Then open that page in the browser and press \"Customize\" in the top bar."
+msgstr "컨택트 페이지를 사용자 정의하려면 우선 페이지를 만들면서 \"컨택트 페이지\" 템플릿을 선택합니다. 그런 다음 이 페이지를 브라우저에 열고 툴바에서 \"사용자 정의하기\"를 클릭합니다."
+
+#: home.php:39 inc/customizer/features/feature-blog-header-controls.php:18
+msgid "Blog"
+msgstr "블로그"
+
+#: header.php:34
+msgid "Loading..."
+msgstr "로딩중..."
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "찾고있는 것을 찾을 수 없는 것 같습니다. 검색이 도움이 될 수 있습니다."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "죄송하지만 검색어와 일치하는 것을 찾을 수 없습니다. 다른 키워드로 다시 시도해보세요."
+
+#. translators: 1: link to new post page
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "첫 번째 글을 발행할 준비가 돼셨나요? <a href=\"%1$s\">여기서 시작하세요</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "찾을 수 없습니다"
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "댓글 닫힘."
+
+#: comments.php:47 comments.php:67
+msgid "Newer Comments &rarr;"
+msgstr "다음 댓글 &rarr;"
+
+#: comments.php:46 comments.php:66
+msgid "&larr; Older Comments"
+msgstr "&larr; 이전 댓글"
+
+#: comments.php:45 comments.php:65
+msgid "Comment navigation"
+msgstr "댓글 내비게이션"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;의 %1$s개의 생각"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3535
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s 플러그인 설치중 (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3533
+msgid "All installations have been completed."
+msgstr "모든 설치가 완료됐습니다."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3532
+msgid "%1$s installed successfully."
+msgstr "%1$s 설치 성공."
+
+#: class-tgm-plugin-activation.php:3530
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "설치 과정이 시작됐습니다. 이 과정은 일부 호스팅에서는 시간이 걸릴 수 있으니 기다려주세요."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3527
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s 설치 및 활성화중 (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3525
+msgid "All installations and activations have been completed."
+msgstr "모든 설치 및 활성화가 완료됐습니다."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Hide Details"
+msgstr "상세 감추기"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Show Details"
+msgstr "상세 보기"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 설치 및 활성화 성공."
+
+#: class-tgm-plugin-activation.php:3522
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "설치 및 활성화 과정 시작. 이 과정은 일부 호스팅에서는 시간이 걸릴 수 있으니 기다려주세요."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3518
+msgid "The installation of %1$s failed."
+msgstr "%1$s 설치 실패."
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3516
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s을(를) 설치중 에러 발생: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3513
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s 플러그인 업데이트 중 (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3171
+msgid "Plugin activation failed."
+msgstr "플러그인 활성화 실패."
+
+#: class-tgm-plugin-activation.php:2947
+msgid "No plugins are available to be activated at this time."
+msgstr "현재는 활성화할 플러그인이 가능하지 않습니다."
+
+#: class-tgm-plugin-activation.php:2921
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "활성화할 플러그인이 선택되지 않았습니다. 추가 작업은 없습니다."
+
+#: class-tgm-plugin-activation.php:2815
+msgid "No plugins are available to be updated at this time."
+msgstr "현재는 업데이트할 플러그인이 가능하지 않습니다."
+
+#: class-tgm-plugin-activation.php:2813
+msgid "No plugins are available to be installed at this time."
+msgstr "현재는 설치할 플러그인이 가능하지 않습니다."
+
+#: class-tgm-plugin-activation.php:2772
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "업데이트 할 플러그인이 선택되지 않았습니다. 추가 작업은 없습니다."
+
+#: class-tgm-plugin-activation.php:2770
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "설치할 플러그인이 선택되지 않았습니다. 추가 작업은 없습니다."
+
+#: class-tgm-plugin-activation.php:2739
+msgid "Activate"
+msgstr "활성화"
+
+#: class-tgm-plugin-activation.php:2736
+msgid "Update"
+msgstr "업데이트"
+
+#: class-tgm-plugin-activation.php:2730
+msgid "Install"
+msgstr "설치"
+
+#: class-tgm-plugin-activation.php:2697
+msgid "Upgrade message from the plugin author:"
+msgstr "플러그인 제작자의 업그레이드 메시지:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2627
+msgid "Activate %2$s"
+msgstr "%2$s 활성화"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2621
+msgid "Update %2$s"
+msgstr "%2$s 업데이트"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2616
+msgid "Install %2$s"
+msgstr "%2$s 설치"
+
+#: class-tgm-plugin-activation.php:2567
+msgid "Status"
+msgstr "상태"
+
+#: class-tgm-plugin-activation.php:2566
+msgid "Version"
+msgstr "버전"
+
+#: class-tgm-plugin-activation.php:2562
+msgid "Type"
+msgstr "타입"
+
+#: class-tgm-plugin-activation.php:2561
+msgid "Source"
+msgstr "소스"
+
+#: class-tgm-plugin-activation.php:2560
+msgid "Plugin"
+msgstr "플러그인"
+
+#: class-tgm-plugin-activation.php:2546
+msgid "No plugins to install, update or activate."
+msgstr "설치, 업데이트, 활성화 할 플러그인 없음."
+
+#: class-tgm-plugin-activation.php:2523
+msgid "Available version:"
+msgstr "가능한 버전:"
+
+#: class-tgm-plugin-activation.php:2511
+msgid "Minimum required version:"
+msgstr "최소 필수 버전:"
+
+#: class-tgm-plugin-activation.php:2503
+msgid "Installed version:"
+msgstr "설치된 버전:"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "알 수 없음"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2413
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "활성화 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2409
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "업데이트 가능 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2405
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "설치 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2401
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "모두 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2355
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2346
+msgid "Update recommended"
+msgstr "업데이트 권장됨"
+
+#: class-tgm-plugin-activation.php:2343
+msgid "Requires Update"
+msgstr "업데이트 필요"
+
+#: class-tgm-plugin-activation.php:2340
+msgid "Required Update not Available"
+msgstr "필수 업데이트가 가능하지 않음"
+
+#: class-tgm-plugin-activation.php:2334
+msgid "Active"
+msgstr "활성"
+
+#: class-tgm-plugin-activation.php:2332
+msgid "Installed But Not Activated"
+msgstr "설치됐지만 활성화 되지 않음"
+
+#: class-tgm-plugin-activation.php:2328
+msgid "Not Installed"
+msgstr "설치되지 않음"
+
+#: class-tgm-plugin-activation.php:2311
+msgid "Pre-Packaged"
+msgstr "미리 패키지됨"
+
+#: class-tgm-plugin-activation.php:2308
+msgid "External Source"
+msgstr "외부 소스"
+
+#: class-tgm-plugin-activation.php:2305
+msgid "WordPress Repository"
+msgstr "워드프레스 저장소"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "Recommended"
+msgstr "권장됨"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Required"
+msgstr "필수"
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:1995
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:1129 class-tgm-plugin-activation.php:2961
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "그리고"
+
+#: class-tgm-plugin-activation.php:941
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "원격 플러그인 패키지가 하나 이상의 파일로 구성돼있지만 파일이 폴더에 패키지화 되지 않았습니다."
+
+#: class-tgm-plugin-activation.php:933 class-tgm-plugin-activation.php:941
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "플러그인 제공자에 연락해 워드프레스 가이드라인에 따른 플러그인 패키지화를 요청하세요."
+
+#: class-tgm-plugin-activation.php:933
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "원격 플러그인 패키지가 필요한 슬러그가 포함된 폴더가 없으며 이름 수정이 작동하지 않았습니다."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "업데이트 필요"
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "이 플러그인은 테마와 호환되려면 업데이트 해야합니다."
+
+#: class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr "도움이 필요하면 이 사이트의 관리자에게 문의하세요."
+
+#: class-tgm-plugin-activation.php:394
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "설치, 업데이트, 활성화 할 하나 이상의 필수 또는 권장 플러그인이 있습니다."
+
+#: class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr "이 알림 무시"
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:392
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "모든 플러그인이 성공적으로 설치되고 활성화 됐습니다. %1$s"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:390
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "플러그인이 활성화 되지 않았습니다. %s의 더 높은 버전이 이 테마에 필요합니다. 플러그인을 업데이트 하세요."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:388
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "작업이 없습니다. %1$s 플러그인이 이미 활성화 돼있습니다."
+
+#: class-tgm-plugin-activation.php:386 class-tgm-plugin-activation.php:2965
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "다음 플러그인이 활성화에 성공했습니다:"
+
+#: class-tgm-plugin-activation.php:385 class-tgm-plugin-activation.php:3172
+msgid "Plugin activated successfully."
+msgstr "플러그인 활성화 성공."
+
+#: class-tgm-plugin-activation.php:384 class-tgm-plugin-activation.php:825
+#: class-tgm-plugin-activation.php:2546 class-tgm-plugin-activation.php:3595
+msgid "Return to the Dashboard"
+msgstr "관리자 화면으로 돌아가기"
+
+#: class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr "필수 플러그인 설치로 돌아가기"
+
+#: class-tgm-plugin-activation.php:378
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "플러그인 활성화 시작"
+
+#: class-tgm-plugin-activation.php:373
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "플러그인 업데이트 시작"
+
+#: class-tgm-plugin-activation.php:368
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "플러그인 설치 시작"
+
+#: class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr "플러그인 API에 문제가 있습니다."
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:330
+msgid "Updating Plugin: %s"
+msgstr "플러그인 업데이트 중: %s"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:328
+msgid "Installing Plugin: %s"
+msgstr "플러그인 설치중: %s"
+
+#: class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr "플러그인 설치"
+
+#: class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr "필수 플러그인 설치"
+
+#: index.php:152 home.php:156 archive.php:113
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "다음 글 <span class=\"meta-nav\">&raquo;</span>"
+
+#: index.php:151 home.php:155 archive.php:112
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> 이전 글"
+
+#: index.php:137 home.php:141 archive.php:98 inc/functions/setup.php:449
+#: inc/functions/setup.php:456 inc/functions/setup.php:463
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:110
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:221
+#: inc/sections/shop_isle_slider_section.php:30
+#: inc/sections/shop_isle_slider_section.php:37
+#: inc/sections/shop_isle_slider_section.php:44 inc/init.php:192
+msgid "Read more"
+msgstr "더보기"
+
+#: 404.php:45 inc/customizer/features/feature-404-controls.php:101
+msgid "Back to home page"
+msgstr "홈페이지로 돌아가기"
+
+#: inc/customizer/features/feature-404-controls.php:62
+msgid "The requested URL was not found on this server.<br> That is all we know."
+msgstr "요청된 URL은 이 서버에서 찾을 수 없습니다. <br> 우리가 알 수 있는 모든 것입니다."
+
+#: 404.php:28 inc/customizer/features/feature-404-controls.php:43
+msgid "Error 404"
+msgstr "에러 404"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "Themeisle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the theme
+msgid "http://themeisle.com/themes/shop-isle/"
+msgstr "http://themeisle.com/themes/shop-isle/"

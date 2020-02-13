@@ -1,0 +1,1155 @@
+# Translation of Themes - Shop Isle in German
+# This file is distributed under the same license as the Themes - Shop Isle package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-04 17:36:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Shop Isle\n"
+
+#. Description of the theme
+msgid "ShopIsle is the perfect free theme designed for your WooCommerce shop based on bootstrap. Due to its flexibility ShopIsle can also be used for a one page business site, it has a fullscreen image, parallax effect, it provides a responsive blog section, is eCommerce ready, WPML, Photo Gallery Grid,Contact Form 7,Meta Slider, SiteOrigin Page Builder, JetPack compatible and SEO friendly. It features a simple, minimal and elegant style which will work perfectly for a clothing, electronics and almost any kind of store."
+msgstr "ShopIsle ist das perfekte Gratis-Theme für deinen WooCommerce-Shop auf Basis von Bootstrap. Aufgrund seiner Flexibilität kann ShopIsle auch für eine OnePage Business-Site verwendet werden. Es bietet Vollbild-Darstellung, Parallaxeffekt, einen ansprechenden Blog-Bereich, ist eCommerce-fähig, WPML, Photo Gallery Grid, Contact Form 7, Meta Slider, SiteOrigin Page Builder, JetPack kompatibel und SEO-freundlich. Es zeichnet sich durch einen einfachen, minimalistischen und eleganten Stil aus, der perfekt für Bekleidung, Elektronik und fast alle Arten von Shops geeignet ist."
+
+#. Theme Name of the theme
+#: inc/functions/setup.php:447 inc/functions/setup.php:454
+#: inc/functions/setup.php:461
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:90
+#: inc/sections/shop_isle_slider_section.php:28
+#: inc/sections/shop_isle_slider_section.php:35
+#: inc/sections/shop_isle_slider_section.php:42
+msgid "Shop Isle"
+msgstr "Shop Isle"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:350
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Eine Aktualisierung ist verfügbar für: %1$s."
+msgstr[1] "Aktualisierungen sind verfügbar für folgende Plugins: %1$s."
+
+#. Template Name of the theme
+msgid "Page Builder Full Width"
+msgstr "Page Builder gesamte Breite"
+
+#. Template Name of the theme
+msgid "Page Builder Blank"
+msgstr "Page Builder leer"
+
+#: inc/customizer/features/feature-slider-shortcode.php:26
+msgid "You can replace the homepage slider with any plugin you like, just copy the shortcode generated and paste it here."
+msgstr "Du kannst den Slider der Startseite durch ein beliebiges Plugin ersetzen. Kopiere einfach den generierten Shortcode und füge ihn hier ein."
+
+#: inc/customizer/features/feature-slider-shortcode.php:25
+msgid "Slider shortcode"
+msgstr "Slider-Shortcode"
+
+#: inc/sections/shop_isle_products_section.php:214
+#: inc/sections/shop_isle_products_slider_section.php:151
+#: inc/sections/shop_isle_products_slider_section.php:224
+#: inc/woocommerce/functions.php:731
+msgid "Out of Stock"
+msgstr "Ausverkauft"
+
+#: inc/customizer/features/customizer-theme-info.php:50
+msgid "Quick View functionality"
+msgstr "Schnellansicht-Funktionalität"
+
+#: inc/customizer/features/customizer-theme-info.php:47
+msgid "Add New Sections"
+msgstr "Neue Bereiche hinzufügen"
+
+#: inc/frontpage-manager.php:31
+msgid "Keep the old static frontpage template?"
+msgstr "Das alte statische Startseiten-Template beibehalten?"
+
+#: inc/customizer/functions.php:41
+#: inc/customizer/features/customizer-theme-info.php:52
+msgid "Support"
+msgstr "Support"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:94
+msgid "Video thumbnail"
+msgstr "Video-Vorschaubild"
+
+#: inc/customizer/features/customizer-theme-info.php:80
+msgid "Three New Color Schemes"
+msgstr "Drei neue Farbschemen"
+
+#: inc/customizer/features/customizer-theme-info.php:46
+msgid "Section Reordering"
+msgstr "Neuordnung von Bereichen"
+
+#: inc/customizer/features/customizer-theme-info.php:44
+msgid "Enhanced Cart"
+msgstr "Verbesserter Warenkorb"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:631
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:669
+msgid "Add icon"
+msgstr "Icon hinzufügen"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:606
+msgid "Social icons"
+msgstr "Soziale Netzwerk-Icons"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:592
+msgid "None"
+msgstr "Keines"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:587
+msgid "Image type"
+msgstr "Bild-Typ"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:535
+msgid "here"
+msgstr "hier"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:533
+msgid "Some icons may not be displayed here. You can see the list of icons %1$s"
+msgstr "Einige Icons werden hier möglicherweise nicht angezeigt. Du kannst die Liste der Icons sehen %1$s"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:361
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:464
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:226
+msgid "Add new field"
+msgstr "Neues Feld hinzufügen"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:114
+msgid "Customizer Repeater"
+msgstr "Customizer Repeater"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:135
+msgid "Static Front Page"
+msgstr "Statische Startseite"
+
+#. translators: 1: Link to static front page customizer control
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:130
+msgid "To customize the Frontpage sections please create a page. After that, go to %1$s and select \"A static page\". Finally, for \"Front page\" choose the page you previously created."
+msgstr "Um die Abschnitte der Startseiten-Bereiche anzupassen, erstelle bitte eine Seite. Danach gehe zu %1$s und wähle „Eine statische Seite“ aus. Schließlich wähle für „Startseite“ die zuvor erstellte Seite aus."
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:110
+msgid "Shortcodes Section"
+msgstr "Shortcodes-Abschnitt"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:109
+#: inc/customizer/features/customizer-theme-info.php:49
+msgid "Services Section"
+msgstr "Services-Abschnitt"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:108
+msgid "Ribbon Section"
+msgstr "Ribbon-Abschnitt"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:107
+#: inc/customizer/features/customizer-theme-info.php:48
+msgid "Map Section"
+msgstr "Map-Abschnitt"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:106
+#: inc/customizer/features/customizer-theme-info.php:51 inc/init.php:26
+msgid "Categories Section"
+msgstr "Kategorien-Abschnitt"
+
+#: inc/customizer/class/class-shop-isle-pro-palette.php:60
+#: inc/customizer/class/class-shop-isle-pro-palette.php:69
+msgid "Default"
+msgstr "Standard"
+
+#. Template Name of the theme
+msgid "Full width, no title (SiteOrigin Page builder Template)"
+msgstr "Gesamte Breite, kein Titel (SiteOrigin Page-Builder-Template)"
+
+#: inc/customizer/features/customizer-theme-info.php:45
+msgid "Get full color schemes support for your site. "
+msgstr "Support für Farb-Schemen"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:113
+#: inc/customizer/features/customizer-theme-info.php:22
+#: inc/customizer/features/customizer-theme-info.php:59
+#: inc/customizer/features/customizer-theme-info.php:84
+msgid "View PRO version"
+msgstr "PRO-Version ansehen"
+
+#. translators: 1: Link to WPForms Plugin.
+#: inc/customizer/features/feature-contact-controls.php:39
+msgid "Create a form, copy the shortcode generated and paste it here. We recommend %1$s but you can use any plugin you like."
+msgstr "Erstelle ein Formular, kopiere den generierten Shortcode und füge ihn hier ein. Wir empfehlen %1$s, aber du kannst jedes von dir bevorzugte Plugin dafür nutzen."
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:31
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:29
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Gesamte Breite"
+
+#: inc/sections/shop_isle_products_slider_section.php:31
+msgid "For this section to work, you first need to install the WooCommerce plugin , create some products, and select a product category in Customize -> Frontpage sections -> Products slider section"
+msgstr "Um diesen Bereich nutzen zu können, musst du zuerst das WooCommerce Plugin installieren, einige Produkte erstellen und unter Design &gt; Customizer &gt; Startseiten Bereiche &gt; Produkt Slider Bereich eine Produkt Kategorie auswählen"
+
+#: inc/sections/shop_isle_products_section.php:110
+msgid "For this section to work, you first need to install the WooCommerce plugin , create some products, and insert a WooCommerce shortocode or select a product category in Customize -> Frontpage sections -> Products section"
+msgstr "Um diesen Bereich nutzen zu können, musst du zuerst das WooCommerce Plugin installieren, einige Produkte erstellen und einen WooCommerce Shortcode einfügen oder unter Design &gt; Customizer &gt; Startseiten Bereiche &gt; Produkte Bereich eine Produkt Kategorie auswählen"
+
+#: inc/sections/shop_isle_products_section.php:108
+msgid "No products found."
+msgstr "Keine Produkte gefunden."
+
+#: inc/sections/shop_isle_products_section.php:233
+#: inc/sections/shop_isle_products_section.php:235
+msgid "See all products"
+msgstr "Alle Produkte ansehen"
+
+#: inc/sections/shop_isle_products_section.php:174
+#: inc/sections/shop_isle_products_section.php:181
+msgid "Quick View"
+msgstr "Schnellansicht"
+
+#. translators: s: Search term.
+#: search.php:29
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse: %s"
+
+#. translators: d: number of items.
+#: inc/woocommerce/template-tags.php:27
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d Artikel"
+msgstr[1] "%d Artikel"
+
+#: inc/structure/template-tags.php:175
+msgid "On Sale"
+msgstr "Im Angebot"
+
+#: inc/structure/template-tags.php:139
+msgid "Top Rated Products"
+msgstr "Bestbewertete Produkte"
+
+#: inc/structure/template-tags.php:103
+msgid "Featured Products"
+msgstr "Vorgestellte Produkte"
+
+#: inc/structure/template-tags.php:65
+msgid "Recent Products"
+msgstr "Neueste Produkte"
+
+#: inc/structure/template-tags.php:29
+msgid "Product Categories"
+msgstr "Produkt Kategorien"
+
+#. translators: s: category name
+#: inc/structure/post.php:165
+msgid "View all posts in %s"
+msgstr "Alle Beiträge in %s anzeigen"
+
+#: inc/structure/post.php:151
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/structure/post.php:149
+msgid " Comments"
+msgstr "Kommentare"
+
+#: inc/structure/post.php:147
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: inc/structure/post.php:127
+msgid "By "
+msgstr "Von&nbsp;"
+
+#: inc/structure/post.php:98
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/structure/post.php:95
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Beiträge"
+
+#: inc/structure/post.php:92
+msgid "Posts navigation"
+msgstr "Beitrags-Navigation"
+
+#. translators: s: post title
+#: inc/structure/post.php:59
+msgid "Tagged %1$s"
+msgstr "%1$s markiert"
+
+#: inc/structure/post.php:55
+msgid ", "
+msgstr ", "
+
+#. translators: s: post title
+#: inc/structure/post.php:40
+msgid "Continue reading %s"
+msgstr "%s weiterlesen"
+
+#: inc/structure/post.php:47 inc/structure/page.php:22
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: inc/structure/header.php:128
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suchen"
+
+#: inc/structure/header.php:127
+msgctxt "label"
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: inc/structure/header.php:127
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "Produkte durchsuchen&nbsp;&hellip;"
+
+#: inc/structure/header.php:96
+msgid "Toggle navigation"
+msgstr "Navigation umschalten"
+
+#: inc/structure/footer.php:95
+msgid "powered by"
+msgstr "powered by"
+
+#: inc/structure/comments.php:77
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/structure/comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Freischaltung."
+
+#. translators: s: Comment author link
+#: inc/structure/comments.php:45
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: inc/structure/header.php:136 inc/init.php:141
+#: inc/woocommerce/template-tags.php:19
+msgid "View your shopping cart"
+msgstr "Einkaufswagen ansehen"
+
+#: inc/functions/setup.php:642
+msgid "Easy to use"
+msgstr "Einfach zu benutzen"
+
+#: inc/functions/setup.php:637
+msgid "Highly customizable"
+msgstr "Äußerst anpassbar"
+
+#: inc/functions/setup.php:632
+msgid "Designs & interfaces"
+msgstr "Designs &amp; Oberflächen"
+
+#: inc/functions/setup.php:628 inc/functions/setup.php:633
+#: inc/functions/setup.php:638 inc/functions/setup.php:643
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: inc/functions/setup.php:627
+msgid "Ideas and concepts"
+msgstr "Ideen und Konzepte"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:344
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Das folgende Plugin muss auf die neueste Version aktualisiert werden, um eine bestmögliche Kompatibilität mit diesem Theme zu gewährleisten: %1$s."
+msgstr[1] "Die folgenden Plugins müssen auf die neueste Version aktualisiert werden, um eine bestmögliche Kompatibilität mit diesem Theme zu gewährleisten: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:362
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Folgendes empfohlene Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit inaktiv: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:356
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Folgendes erforderliche Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen Plugins sind derzeit inaktiv: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:338
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dieses Theme empfiehlt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme empfiehlt die folgenden Plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:332
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dieses Theme benötigt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme benötigt die folgenden Plugins: %1$s."
+
+#: inc/functions/setup.php:297
+msgid "Sidebar Shop Page"
+msgstr "Seitenleiste der Shop-Seite"
+
+#: inc/functions/setup.php:286
+msgid "Footer area 4"
+msgstr "Footer 4"
+
+#: inc/functions/setup.php:275
+msgid "Footer area 3"
+msgstr "Footer 3"
+
+#: inc/functions/setup.php:264
+msgid "Footer area 2"
+msgstr "Footer 2"
+
+#: inc/functions/setup.php:253
+msgid "Footer area 1"
+msgstr "Footer 1"
+
+#: inc/compatibility/wordpress-editor/wp-editor.php:49
+#: inc/functions/setup.php:242
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: inc/flag-wporg.php:35 inc/functions/setup.php:149
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:394
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:483
+msgid "Delete field"
+msgstr "Feld löschen"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:352
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:456
+msgid "Button Label"
+msgstr "Button-Beschriftung"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:370
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:472
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:574
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:527
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:590
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/customizer/functions.php:40
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:92
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/customizer/features/feature-advanced-controls.php:37
+msgid "Disable preloader?"
+msgstr "Preloader deaktivieren?"
+
+#: inc/customizer/features/feature-advanced-controls.php:19
+msgid "Advanced options"
+msgstr "Erweiterte Einstellungen"
+
+#: inc/customizer/features/feature-404-controls.php:71
+msgid "Text"
+msgstr "Text"
+
+#: inc/customizer/features/feature-404-controls.php:31
+msgid "Background image"
+msgstr "Hintergrundbild"
+
+#: inc/customizer/features/feature-contact-controls.php:64
+msgid "To use this section please install <a href=\"https://wordpress.org/plugins/intergeo-maps/\">Intergeo Maps</a> plugin then use it to create a map and paste here the shortcode generated"
+msgstr "Um diesen Abschnitt zu benutzen, installiere bitte das Plugin <a href=\"https://wordpress.org/plugins/intergeo-maps/\">Intergeo Maps</a> und verwende es danach, um eine Karte zu erstellen und füge hier den erzeugten Shortcode ein."
+
+#: inc/customizer/features/feature-contact-controls.php:63
+msgid "Map shortcode"
+msgstr "Karten Shortcode"
+
+#: inc/customizer/features/feature-contact-controls.php:36
+msgid "Contact form shortcode"
+msgstr "Kontaktformular Shortcode"
+
+#. Template Name of the theme
+#: inc/customizer/features/feature-contact-controls.php:20
+#: inc/customizer/features/feature-contact-controls.php:76
+msgid "Contact page"
+msgstr "Kontaktseite"
+
+#: inc/customizer/features/feature-footer-controls.php:88
+msgid "Social"
+msgstr "Social Media"
+
+#: inc/customizer/features/feature-footer-controls.php:77
+#: inc/customizer/features/feature-footer-controls.php:89
+msgid "Add new social"
+msgstr "Social Media hinzufügen"
+
+#: inc/customizer/features/feature-footer-controls.php:57
+msgid "Hide site info?"
+msgstr "Website-Infos ausblenden?"
+
+#: inc/customizer/features/feature-footer-controls.php:38
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/features/feature-footer-controls.php:21
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:159
+msgid "If no category is selected , WooCommerce products from the first category found are displaying."
+msgstr "Wenn keine Kategorie ausgewählt ist, werden die WooCommerce Produkte der Kategorie angezeigt, die als erstes gefunden wird."
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:116
+msgid "Section subtitle"
+msgstr "Abschnitts-Untertitel"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:109
+#: inc/woocommerce/functions.php:381
+msgid "Special category of products"
+msgstr "Sonderkategorie an Produkten"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:90
+#: inc/sections/shop_isle_products_slider_section.php:29
+#: inc/woocommerce/functions.php:380
+msgid "Exclusive products"
+msgstr "Exklusive Produkte"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:78
+msgid "Hide products slider section on single product page?"
+msgstr "Abschnitt für Produkte-Slider auf Produkt Einzelseite ausblenden?"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:59
+msgid "Hide products slider section on frontpage?"
+msgstr "Produkte-Slider auf der Startseite ausblenden?"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:39
+msgid "Products slider section"
+msgstr "Abschnitt für Produkte-Slider"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:75
+msgid "Youtube link"
+msgstr "YouTube Link"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:40
+msgid "Hide video section?"
+msgstr "Video-Abschnitt ausblenden?"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:21
+msgid "Video section"
+msgstr "Video-Abschnitt"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:136
+msgid "OR pick a product category. If no shortcode or no category is selected , WooCommerce latest products are displaying."
+msgstr "ODER wähle eine Produkt Kategorie. Falls kein Shortcode oder keine Kategorie ausgewählt ist, werden die Neuesten Produkte von WooCommerce angezeigt."
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:135
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:155
+msgid "Products category"
+msgstr "Kategorie der Produkte"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:104
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:124
+msgid "Select category"
+msgstr "Kategorie ausblenden"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:97
+msgid "Insert a WooCommerce shortcode"
+msgstr "WooCommerce Shortcode einfügen"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:95
+msgid "WooCommerce shortcode"
+msgstr "WooCommerce Shortcode"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:78
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:56
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:97
+msgid "Section title"
+msgstr "Abschnitts-Titel"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:71
+#: inc/sections/shop_isle_products_section.php:29
+msgid "Latest products"
+msgstr "Neueste Produkte"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:59
+msgid "Hide products section?"
+msgstr "Produkte-Abscnitt ausblenden?"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:40
+msgid "Products section"
+msgstr "Produkte-Abschnitt"
+
+#. translators: 1: Link to WooCommerce Plugin
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:22
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:20
+msgid "To use this section, you are required to first install the  %1$s plugin"
+msgstr "Um diesen Bereich zu nutzen, es es nötig zuerst das Plugin %1$s zu installieren."
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:102
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:91
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:103
+msgid "Add new banner"
+msgstr "Neues Banner hinzufügen"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:39
+msgid "Hide banners section?"
+msgstr "Banner-Abschnitt ausblenden?"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:21
+#: inc/init.php:25
+msgid "Banners section"
+msgstr "Banner-Abschnitt"
+
+#: inc/customizer/features/feature-404-controls.php:90
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:137
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:343
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:448
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:626
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:652
+msgid "Button link"
+msgstr "Button-Link"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:129
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:222
+msgid "#"
+msgstr "#"
+
+#: inc/customizer/features/feature-404-controls.php:109
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:118
+msgid "Button label"
+msgstr "Button Beschriftung"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:99
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:335
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:440
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: inc/functions/setup.php:448 inc/functions/setup.php:455
+#: inc/functions/setup.php:462
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:91
+#: inc/sections/shop_isle_slider_section.php:29
+#: inc/sections/shop_isle_slider_section.php:36
+#: inc/sections/shop_isle_slider_section.php:43
+#: inc/sections/shop_isle_big_title_section.php:26
+msgid "WooCommerce Theme"
+msgstr "WooCommerce-Theme"
+
+#: inc/customizer/features/feature-404-controls.php:51
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:58
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:80
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:319
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:327
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:423
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:431
+msgid "Title"
+msgstr "Titel"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:60
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:571
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:591
+msgid "Image"
+msgstr "Bild"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:40
+msgid "Hide big title section?"
+msgstr "Große Titelsektion ausblenden?"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:21
+msgid "Big title section"
+msgstr "Großer Titelbereich"
+
+#: inc/customizer/customizer.php:32
+msgid "Frontpage sections"
+msgstr "Startseiten-Bereiche"
+
+#: inc/customizer/features/feature-blog-header-controls.php:43
+msgid "Blog header subtitle"
+msgstr "Blog Header-Untertitel"
+
+#: inc/customizer/features/feature-blog-header-controls.php:26
+msgid "Blog header title"
+msgstr "Blog Header-Titel"
+
+#: inc/customizer/features/feature-header-controls.php:16
+msgid "Header"
+msgstr "Header"
+
+#. translators: 1: Link to documentation page. 2: 'doc'
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:21
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:139
+msgid "Need further informations? Check this %1$s"
+msgstr "Mehr Information nötig? Sieh dir diese %1$s an."
+
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:22
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:142
+msgid "doc"
+msgstr "Dokumentation (engl.)"
+
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:19
+msgid "To customize the Contact Page you need to first select the template \"Contact page\" for the page you want to use for this purpose. Then open that page in the browser and press \"Customize\" in the top bar."
+msgstr "Um die Kontaktseite anzupassen, wähle zuerst das &#8222;Kontaktseiten&#8220;-Template für die Seite, die du für diesen Zweck nutzen willst. Öffne dann die Seite im Browser und klicke auf &#8222;Customizer&#8220; in der Adminleiste oben."
+
+#: home.php:39 inc/customizer/features/feature-blog-header-controls.php:18
+msgid "Blog"
+msgstr "Blog"
+
+#: header.php:34
+msgid "Loading..."
+msgstr "Wird geladen..."
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir dir nicht weiterhelfen können. Möglicherweise hilft die Suche."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Es konnte nichts zu deinen Suchbegriffen gefunden werden. Bitte versuche es mit anderen Begriffen."
+
+#. translators: 1: link to new post page
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:47 comments.php:67
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:46 comments.php:66
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:45 comments.php:65
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &#8222;%2$s&#8220;"
+msgstr[1] "%1$s Gedanken zu &#8222;%2$s&#8220;"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3535
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3533
+msgid "All installations have been completed."
+msgstr "Alle Installationen wurden abgeschlossen."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3532
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+#: class-tgm-plugin-activation.php:3530
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Die Installation und Aktivierung beginnt. Dieser Vorgang kann eine Weile auf einigen Hosts dauern, bitte gedulde dich."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3527
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere und Aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3525
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen wurden abgeschlossen."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Show Details"
+msgstr "Details zeigen"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s wurde erfolgreich installiert und aktiviert."
+
+#: class-tgm-plugin-activation.php:3522
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Die Installation und Aktivierung beginnt. Dieser Vorgang kann auf manchen Hosts eine Weile dauern, bitte habe Geduld."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3518
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3516
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Während der Installation von %1$s ist ein Fehler aufgetreten: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3513
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3171
+msgid "Plugin activation failed."
+msgstr "Plugin Aktivierung fehlgeschlagen."
+
+#: class-tgm-plugin-activation.php:2947
+msgid "No plugins are available to be activated at this time."
+msgstr "Momentan stehen keine Plugins zur Aktivierung zur Verfügung."
+
+#: class-tgm-plugin-activation.php:2921
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Es wurden keine Plugins zur Aktivierung ausgewählt. Keine Aktion ausgeführt."
+
+#: class-tgm-plugin-activation.php:2815
+msgid "No plugins are available to be updated at this time."
+msgstr "Momentan stehen keine Plugins zur Aktualisierung zur Verfügung."
+
+#: class-tgm-plugin-activation.php:2813
+msgid "No plugins are available to be installed at this time."
+msgstr "Momentan stehen keine Plugins zur Installation zur Verfügung."
+
+#: class-tgm-plugin-activation.php:2772
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Es wurden keine Plugins zur Aktualisierung ausgewählt. Keine Aktion ausgeführt."
+
+#: class-tgm-plugin-activation.php:2770
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Es wurden keine Plugins zur Installation ausgewählt. Keine Aktion ausgeführt."
+
+#: class-tgm-plugin-activation.php:2739
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: class-tgm-plugin-activation.php:2736
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: class-tgm-plugin-activation.php:2730
+msgid "Install"
+msgstr "Installieren"
+
+#: class-tgm-plugin-activation.php:2697
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2627
+msgid "Activate %2$s"
+msgstr "Aktiviere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2621
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2616
+msgid "Install %2$s"
+msgstr "Installiere %2$s"
+
+#: class-tgm-plugin-activation.php:2567
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:2566
+msgid "Version"
+msgstr "Version"
+
+#: class-tgm-plugin-activation.php:2562
+msgid "Type"
+msgstr "Objekttyp"
+
+#: class-tgm-plugin-activation.php:2561
+msgid "Source"
+msgstr "Quelle"
+
+#: class-tgm-plugin-activation.php:2560
+msgid "Plugin"
+msgstr "Plugin"
+
+#: class-tgm-plugin-activation.php:2546
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zu installieren, aktualisieren oder aktivieren."
+
+#: class-tgm-plugin-activation.php:2523
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: class-tgm-plugin-activation.php:2511
+msgid "Minimum required version:"
+msgstr "Benötigte Mindestversion:"
+
+#: class-tgm-plugin-activation.php:2503
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2413
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> aktivieren"
+msgstr[1] "<span class=\"count\">(%s)</span> aktivieren"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2409
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2405
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> installieren"
+msgstr[1] "<span class=\"count\">(%s)</span> installieren"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2401
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2355
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2346
+msgid "Update recommended"
+msgstr "Aktualisierung empfohlen"
+
+#: class-tgm-plugin-activation.php:2343
+msgid "Requires Update"
+msgstr "Aktualisierung nötig"
+
+#: class-tgm-plugin-activation.php:2340
+msgid "Required Update not Available"
+msgstr "Benötigte Aktualisierung nicht verfügbar"
+
+#: class-tgm-plugin-activation.php:2334
+msgid "Active"
+msgstr "Aktiviert"
+
+#: class-tgm-plugin-activation.php:2332
+msgid "Installed But Not Activated"
+msgstr "Installiert, aber nicht aktiviert"
+
+#: class-tgm-plugin-activation.php:2328
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: class-tgm-plugin-activation.php:2311
+msgid "Pre-Packaged"
+msgstr "Vorgepackt"
+
+#: class-tgm-plugin-activation.php:2308
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: class-tgm-plugin-activation.php:2305
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Required"
+msgstr "Benötigt"
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:1995
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:1129 class-tgm-plugin-activation.php:2961
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#: class-tgm-plugin-activation.php:941
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Das Remote-Plugin-Paket besteht aus mehr als einer Datei, aber die Dateien sind nicht in einem Ordner gepackt."
+
+#: class-tgm-plugin-activation.php:933 class-tgm-plugin-activation.php:941
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Bitte setze dich mit dem Plugin-Anbieter in Verbindung und bitte ihn, sein Plugin entsprechend den WordPress-Richtlinien zu packen."
+
+#: class-tgm-plugin-activation.php:933
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Das Remote-Plugin-Paket enthält keine Ordner mit dem gewünschten Slug und eine Umbenennung hat nicht funktioniert."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Update erforderlich"
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Dieses Plugin muss aktualisiert werden, um mit deinem Theme kompatibel zu sein."
+
+#: class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktiere den Administrator dieser Website für Hilfe."
+
+#: class-tgm-plugin-activation.php:394
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Es gibt ein oder mehrere benötigte oder empfohlenen Plugin zur Installation, Aktualisierung oder Aktivierung."
+
+#: class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr "Diese Mitteilung ausblenden"
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:392
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:390
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Das Plugin wurde nicht aktiviert. Für dieses Theme wird eine höhere Version von %s benötigt. Bitte aktualisiere das Plugin."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:388
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Aktion vorgenommen. Plugin %1$s war bereits aktiv."
+
+#: class-tgm-plugin-activation.php:386 class-tgm-plugin-activation.php:2965
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:385 class-tgm-plugin-activation.php:3172
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: class-tgm-plugin-activation.php:384 class-tgm-plugin-activation.php:825
+#: class-tgm-plugin-activation.php:2546 class-tgm-plugin-activation.php:3595
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation erforderlicher Plugins"
+
+#: class-tgm-plugin-activation.php:378
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Starte die Aktivierung des Plugins"
+msgstr[1] "Starte die Aktivierung der Plugins"
+
+#: class-tgm-plugin-activation.php:373
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Starte die Aktualisierung des Plugins"
+msgstr[1] "Starte die Aktualisierung der Plugins"
+
+#: class-tgm-plugin-activation.php:368
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Starte die Installation des Plugins"
+msgstr[1] "Starte die Installation der Plugins"
+
+#: class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr "Etwas lief mit der Plugin-API schief."
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:330
+msgid "Updating Plugin: %s"
+msgstr "Aktualisiere Plugin: %s"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:328
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#: class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#: class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr "Installiere erforderliche Plugins"
+
+#: index.php:152 home.php:156 archive.php:113
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Neuere Beiträge <span class=\"meta-nav\">&raquo;</span>"
+
+#: index.php:151 home.php:155 archive.php:112
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Ältere Beiträge"
+
+#: index.php:137 home.php:141 archive.php:98 inc/functions/setup.php:449
+#: inc/functions/setup.php:456 inc/functions/setup.php:463
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:110
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:221
+#: inc/sections/shop_isle_slider_section.php:30
+#: inc/sections/shop_isle_slider_section.php:37
+#: inc/sections/shop_isle_slider_section.php:44 inc/init.php:192
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: 404.php:45 inc/customizer/features/feature-404-controls.php:101
+msgid "Back to home page"
+msgstr "Zurück zur Startseite"
+
+#: inc/customizer/features/feature-404-controls.php:62
+msgid "The requested URL was not found on this server.<br> That is all we know."
+msgstr "Die angefragte URL konnte auf diesem Server nicht gefunden.<br> Vielleicht hilft eine Suche weiter."
+
+#: 404.php:28 inc/customizer/features/feature-404-controls.php:43
+msgid "Error 404"
+msgstr "404 Fehler"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Theme URI of the theme
+msgid "http://themeisle.com/themes/shop-isle/"
+msgstr "https://themeisle.com/themes/shop-isle/"

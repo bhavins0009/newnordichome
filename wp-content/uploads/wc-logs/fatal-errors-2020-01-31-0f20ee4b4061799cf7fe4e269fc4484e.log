@@ -1,0 +1,10 @@
+2020-01-31T06:53:38+00:00 CRITICAL Uncaught Error: Class 'Milcom_Order_Table' not found in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:71
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Object(WP i C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php på linje 71
+

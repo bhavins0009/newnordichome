@@ -1,0 +1,138 @@
+# Translation of Plugins - Elementor &#8211; Header, Footer &amp; Blocks - Development (trunk) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Elementor &#8211; Header, Footer &amp; Blocks - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-02 15:05:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Elementor &#8211; Header, Footer &amp; Blocks - Development (trunk)\n"
+
+#: admin/class-hfe-admin.php:144
+msgid "Type of Template"
+msgstr "Tipo de modelo"
+
+#: admin/class-hfe-admin.php:151
+msgid "Before Footer"
+msgstr "Antes do rodapé"
+
+#: admin/class-hfe-admin.php:154
+msgid "Custom Block"
+msgstr "Bloco personalizado"
+
+#: admin/class-hfe-admin.php:160 admin/class-hfe-admin.php:320
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-hfe-admin.php:161
+msgid "Copy this shortcode and paste it into your post, page, or text widget content."
+msgstr "Copie este shortcode e cole no conteúdo do seu post, página ou widget de texto."
+
+#: admin/class-hfe-admin.php:153
+msgid "Footer"
+msgstr "Rodapé"
+
+#: admin/class-hfe-admin.php:149
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: admin/class-hfe-admin.php:148
+msgid "Select Option"
+msgstr "Selecione a opção"
+
+#: admin/class-hfe-admin.php:175
+msgid "Enabling this option will display this layout on pages using Elementor Canvas Template."
+msgstr "A ativação dessa opção vai exibir esse layout nas páginas usando o modelo de Canvas do Elementor."
+
+#: admin/class-hfe-admin.php:173
+msgid "Enable Layout for Elementor Canvas Template?"
+msgstr "Ativar o layout no modelo Canvas do Elementor?"
+
+#. Translators: Post title, Template Location
+#: admin/class-hfe-admin.php:247
+msgid "Template %1$s is already assigned to the location %2$s"
+msgstr "Modelo %1$s já está atribuído ao local %2$s"
+
+#: admin/class-hfe-admin.php:103 admin/class-hfe-admin.php:104
+msgid "Header Footer Builder"
+msgstr "Header Footer Builder"
+
+#: admin/class-hfe-admin.php:74
+msgid "No Header Footers Templates found in Trash."
+msgstr "Nenhum modelo de rodapé, cabeçalho encontrado na lixeira."
+
+#: admin/class-hfe-admin.php:73
+msgid "No Header Footers Templates found."
+msgstr "Não foram encontrados modelos de rodapés e cabeçalho."
+
+#: admin/class-hfe-admin.php:72
+msgid "Parent Header Footers Templates:"
+msgstr "Modelos de rodapés e cabeçalho ascendente:"
+
+#: admin/class-hfe-admin.php:71
+msgid "Search Header Footers Templates"
+msgstr "Modelos de rodapés e cabeçalho na pesquisa"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Nikschavan/header-footer-elementor"
+msgstr "https://github.com/Nikschavan/header-footer-elementor"
+
+#. Author URI of the plugin
+msgid "https://www.brainstormforce.com/"
+msgstr "https://www.brainstormforce.com/"
+
+#. Author of the plugin
+msgid "Brainstorm Force, Nikhil Chavan"
+msgstr "Brainstorm Force, Nikhil Chavan"
+
+#. Description of the plugin
+msgid "Create Header and Footer for your site using Elementor Page Builder."
+msgstr "Crie cabeçalho e rodapé para o seu site usando o Elementor Page Builder."
+
+#: inc/class-header-footer-elementor.php:222
+msgid "Hey, your current theme is not supported by Header Footer Elementor, click <a href=\"https://github.com/Nikschavan/header-footer-elementor#which-themes-are-supported-by-this-plugin\">here</a> to check out the supported themes."
+msgstr "Ei, seu tema atual não é suportado por Header Footer Elementor, clique<a href=\"https://github.com/Nikschavan/header-footer-elementor#which-themes-are-supported-by-this-plugin\">aqui</a> para verificar os temas suportados."
+
+#. Translators: URL to install or activate Elementor plugin.
+#: inc/class-header-footer-elementor.php:101
+msgid "The <strong>Header Footer Elementor</strong> plugin requires <strong><a href=\"%s\">Elementor</strong></a> plugin installed & activated."
+msgstr "O <strong>Header Footer Elementor</strong> plugin requer <strong><a href=\"%s\">Elementor</strong></a> plugin instalado e ativado."
+
+#: admin/class-hfe-admin.php:116
+msgid "Elementor Header Footer options"
+msgstr "Opções de rodapé e cabeçalho do Elementor"
+
+#: admin/class-hfe-admin.php:70
+msgid "All Elementor Header Footers"
+msgstr "Todos os rodapés e cabeçalho do Elementor"
+
+#: admin/class-hfe-admin.php:69
+msgid "View Header Footers Template"
+msgstr "Ver modelo de rodapés e cabeçalho"
+
+#: admin/class-hfe-admin.php:68
+msgid "Edit Header Footers Template"
+msgstr "Editar modelo de rodapés e cabeçalho"
+
+#: admin/class-hfe-admin.php:67
+msgid "New Header Footers Template"
+msgstr "Novo modelo de rodapés e cabeçalho"
+
+#: admin/class-hfe-admin.php:66
+msgid "Add New Header Footer"
+msgstr "Adicionar novo rodapé e cabeçalho"
+
+#: admin/class-hfe-admin.php:65
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: admin/class-hfe-admin.php:62 admin/class-hfe-admin.php:64
+msgid "Elementor Header Footer"
+msgstr "Elementor Header Footer"
+
+#: admin/class-hfe-admin.php:61 admin/class-hfe-admin.php:63
+msgid "Header Footers Template"
+msgstr "Modelo de rodapés e cabeçalho"

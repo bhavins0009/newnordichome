@@ -1,0 +1,24 @@
+2020-01-04T11:46:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id ff5179e37d80b9d58eb3967c03b0c05d
+2020-01-04T11:47:34+00:00 NOTICE abandoned_cart.success :: email: charlotte.westphal@gmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=ff5179e37d80b9d58eb3967c03b0c05d
+2020-01-04T11:47:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12163
+2020-01-04T11:50:25+00:00 NOTICE order_submit.success :: addStoreOrder :: #12163 :: email: charlotte.westphal@gmail.com :: abandoned cart deleted [ff5179e37d80b9d58eb3967c03b0c05d]
+2020-01-04T14:12:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 10281
+2020-01-04T14:12:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 10169
+2020-01-04T14:14:58+00:00 NOTICE order_submit.success :: updateStoreOrder :: #10281 :: email: lundgaard@jensen.mail.dk
+2020-01-04T14:15:00+00:00 NOTICE order_submit.success :: updateStoreOrder :: #10169 :: email: troels1984@hotmail.com
+2020-01-04T16:04:28+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 1780
+2020-01-04T16:05:33+00:00 NOTICE product_submit.success :: updateStoreProduct :: #1780
+2020-01-04T17:36:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id fa4598355b1428fced2cbaba98010a07
+2020-01-04T17:37:20+00:00 NOTICE abandoned_cart.success :: email: lbsh6566@gmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=fa4598355b1428fced2cbaba98010a07
+2020-01-04T21:17:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id ee3ede3fa1d6182e15d40b6ad480b3da
+2020-01-04T21:18:28+00:00 NOTICE abandoned_cart.success :: email: simone@simoneaakerstroem.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=ee3ede3fa1d6182e15d40b6ad480b3da
+2020-01-04T21:18:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12187
+2020-01-04T21:22:30+00:00 NOTICE order_submit.success :: addStoreOrder :: #12187 :: email: simone@simoneaakerstroem.dk :: abandoned cart deleted [ee3ede3fa1d6182e15d40b6ad480b3da]
+2020-01-04T22:49:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 2488
+2020-01-04T22:49:32+00:00 NOTICE product_submit.success :: updateStoreProduct :: #2488
+2020-01-04T22:56:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12196
+2020-01-04T22:56:27+00:00 NOTICE product_submit.success :: addStoreProduct :: #12196
+2020-01-04T23:06:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12204
+2020-01-04T23:06:23+00:00 NOTICE product_submit.success :: addStoreProduct :: #12204
+2020-01-04T23:11:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12209
+2020-01-04T23:12:19+00:00 NOTICE product_submit.success :: addStoreProduct :: #12209

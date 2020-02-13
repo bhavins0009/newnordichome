@@ -1,0 +1,759 @@
+# Translation of Plugins - Mailchimp for WooCommerce - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Mailchimp for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-15 18:43:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Mailchimp for WooCommerce - Stable (latest release)\n"
+
+#: admin/partials/tabs/api_key_create_account.php:183
+msgid "Connecting..."
+msgstr "Kobler til..."
+
+#: admin/partials/tabs/api_key_create_account.php:182
+msgid "Invalid Timezone"
+msgstr "Ugyldig tidssone"
+
+#: admin/partials/tabs/api_key_create_account.php:181
+msgid "Invalid Phone"
+msgstr "Ugyldig telefon"
+
+#: admin/partials/tabs/api_key_create_account.php:180
+msgid "Invalid Country"
+msgstr "Ugyldig land"
+
+#: admin/partials/tabs/api_key_create_account.php:179
+msgid "Invalid Zip"
+msgstr "Ugyldig postnr"
+
+#: admin/partials/tabs/api_key_create_account.php:178
+msgid "Invalid State"
+msgstr "Ugyldig delstat"
+
+#: admin/partials/tabs/api_key_create_account.php:177
+msgid "Invalid City"
+msgstr "Ugyldig poststed"
+
+#: admin/partials/tabs/api_key_create_account.php:176
+msgid "Invalid Address"
+msgstr "Ugyldig adresse"
+
+#: admin/partials/tabs/api_key_create_account.php:171
+msgid "Get Started!"
+msgstr "Kom i gang!"
+
+#: admin/partials/tabs/api_key_create_account.php:167
+msgid "Go Back"
+msgstr "Gå tilbake"
+
+#: admin/partials/tabs/api_key_create_account.php:128
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/partials/tabs/api_key_create_account.php:96
+msgid "Zip"
+msgstr "Postnr"
+
+#: admin/partials/tabs/api_key_create_account.php:74
+msgid "Address Line 2"
+msgstr "Adresselinje 2"
+
+#: admin/partials/tabs/api_key_create_account.php:67
+msgid "Address Line 1"
+msgstr "Adresselinje 1"
+
+#: admin/partials/tabs/api_key_create_account.php:53
+msgid "Invalid Email. Please double check."
+msgstr "Ugyldig e-post.  Vennligst sjekk igjen."
+
+#: admin/partials/tabs/api_key_create_account.php:48
+msgid "Next Step"
+msgstr "Neste trinn"
+
+#: admin/partials/tabs/api_key_create_account.php:43
+msgid "Suggested username: "
+msgstr "Foreslått brukernavn:"
+
+#: admin/partials/tabs/api_key_create_account.php:40
+msgid "Username"
+msgstr "Brukernavn"
+
+#: admin/partials/tabs/store_info.php:163
+msgid "Shop Managers and Administrators"
+msgstr "Butikkansvarlige og administratorer"
+
+#: admin/partials/tabs/store_info.php:160
+msgid "Administrators Only"
+msgstr "Kun administratorer"
+
+#: admin/partials/tabs/store_info.php:146
+msgid "Optional Store Settings"
+msgstr "Frivillige butikkinnstillinger"
+
+#: admin/partials/tabs/store_sync.php:199
+msgid "disabled"
+msgstr "deaktivert"
+
+#: admin/partials/tabs/store_sync.php:198
+msgid "enabled"
+msgstr "aktivert"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1503
+msgid "Saved"
+msgstr "Lagret"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1470
+msgid "Leave a Review"
+msgstr "Legg inn en omtale"
+
+#: admin/partials/tabs/store_info.php:152
+msgid "Plugin Permission Level"
+msgstr "Tilgangsnivå for utvidelsen"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1508
+msgid "Error setting communications status"
+msgstr "Feil ved setting av komminkasjonsstatus"
+
+#: admin/partials/tabs/api_key.php:17
+msgid "Error, can't login."
+msgstr "Feil, kan ikke logge inn."
+
+#. translators: %s - Plugin review URL.
+#: admin/partials/tabs/store_sync.php:222
+msgid "Is this plugin helping your e-commerce business? <a href=%s target=_blank>Please leave us a ★★★★★ review!</a>."
+msgstr "Hjelper denne utvidelsen deg med din e-handelsvirksomhet? <a href=%s target=_blank>Vennligst la oss få en ★★★★★ omtale!</a>."
+
+#: admin/class-mailchimp-woocommerce-admin.php:173
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: admin/class-mailchimp-woocommerce-admin.php:127
+msgid "Mailchimp - WooCommerce Setup"
+msgstr "Mailchimp - WooCommerce-oppsett"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:204
+msgid "Next"
+msgstr "Neste"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:204
+msgid "Save all changes"
+msgstr "Lagre alle endringer"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:202
+msgid "Start sync"
+msgstr "Start synkronisering"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:188
+msgid "Logs"
+msgstr "Logger"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:178
+msgid "Overview"
+msgstr "Oversikt"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:122
+msgid "Log events from the <br/>Mailchimp plugin"
+msgstr "Logg hendelser fra <br/>Mailchimp-utvidelsen"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:118
+msgid "Connect your WooCommerce store to a<br/>Mailchimp audience in less than 60 seconds"
+msgstr "Koble din WooCommerce-butikk til et<br/>Mailchimp-publikum på under 60 sekunder"
+
+#: admin/class-mailchimp-woocommerce-admin.php:437
+msgid "Store Disconnected"
+msgstr "Butikk frakoblet"
+
+#: admin/partials/tabs/store_sync.php:220
+msgid "More Information"
+msgstr "Mer informasjon"
+
+#: admin/partials/tabs/store_sync.php:217
+msgid "Force Resync"
+msgstr "Tving synkronisering på nytt"
+
+#: admin/partials/tabs/store_sync.php:213
+msgid "Advanced"
+msgstr "Avansert"
+
+#: admin/partials/tabs/store_sync.php:171
+msgid "Starting..."
+msgstr "Starter..."
+
+#: admin/partials/tabs/store_sync.php:166
+msgid "Last Updated:"
+msgstr "Sist oppdatert:"
+
+#: admin/partials/tabs/store_sync.php:162
+msgid "Initial sync in progress"
+msgstr "Første synkronisering pågår"
+
+#: admin/partials/tabs/store_sync.php:160
+msgid "Syncing..."
+msgstr "Synkroniserer..."
+
+#: admin/partials/tabs/store_sync.php:160
+msgid "Sync Completed"
+msgstr "Synkronisering fullført"
+
+#: admin/partials/tabs/store_sync.php:159
+msgid "Status:"
+msgstr "Status:"
+
+#: admin/partials/tabs/store_sync.php:153
+msgid "Audience Connected"
+msgstr "Publikum koblet til"
+
+#: admin/partials/tabs/store_sync.php:151
+msgid "Account Connected"
+msgstr "Konto koblet til"
+
+#: admin/partials/tabs/store_sync.php:148
+msgid "DISCONNECT STORE"
+msgstr "KOBLE FRA BUTIKK"
+
+#: admin/partials/tabs/store_sync.php:129
+msgid "Unsubscribed"
+msgstr "Avsluttet abonnement"
+
+#: admin/partials/tabs/store_sync.php:122
+msgid "Transactional"
+msgstr "Transaksjonsbetinget"
+
+#: admin/partials/tabs/store_sync.php:115
+msgid "Subscribers"
+msgstr "Abonnenter"
+
+#: admin/partials/tabs/store_sync.php:102
+msgid "Orders"
+msgstr "Ordrer"
+
+#: admin/partials/tabs/store_sync.php:92
+msgid "Products"
+msgstr "Produkter"
+
+#: admin/partials/tabs/store_sync.php:82
+msgid "Coupons"
+msgstr "Rabattkuponger"
+
+#: admin/partials/tabs/api_key.php:19
+msgid "Connected! Please wait while loading next step"
+msgstr "Tilkoblet! Vennligst vent mens neste trinn lastes"
+
+#: admin/partials/tabs/api_key.php:18
+msgid "Connection in progress"
+msgstr "Tilkobling i gang"
+
+#: admin/partials/tabs/api_key.php:16
+msgid "Connecting. A new window will open with Mailchimp's OAuth service. Please log-in an we will take care of the rest."
+msgstr "Kobler til. Et nytt vindu med oAuth-tjenesten til Mailchimp. Vennligst logg inn og vi tar hånd om resten."
+
+#: admin/partials/tabs/api_key.php:14
+msgid "Already connected. You can reconnect with another Mailchimp account if you want."
+msgstr "Allerede tilkoblet. Du kan koble til på nytt mot en annen Mailchimp-konto om du vil."
+
+#: admin/partials/tabs/api_key.php:10
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:129
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:176
+msgid "Connect"
+msgstr "Koble til"
+
+#: admin/partials/tabs/api_key.php:10
+msgid "Reconnect"
+msgstr "Koble til på nytt"
+
+#: admin/partials/tabs/api_key.php:6 admin/partials/tabs/api_key.php:11
+msgid "Connect your store to Mailchimp"
+msgstr "Koble din butikk til Mailchimp."
+
+#: admin/partials/tabs/notices.php:32
+msgid "Mailchimp says: Your re-sync has been started!"
+msgstr "Mailchimp sier: Din synkronisering har startet!"
+
+#: admin/partials/tabs/notices.php:18
+msgid "Mailchimp says: You are not fully ready to run the Store Sync, please verify your settings before proceeding."
+msgstr "Mailchimp sier: Du er ikke helt klar til å kjøre synkroniseringen. Vennligst bekreft dine innstillinger før du fortsetter."
+
+#: admin/partials/tabs/notices.php:15
+msgid "Mailchimp says: Sorry you must set up your store before you proceed!"
+msgstr "Mailchimp sier: Beklager, du må sette opp din butikk før du kan fortsette!"
+
+#: admin/partials/tabs/notices.php:12
+msgid "Mailchimp says: You must select a marketing audience."
+msgstr "Mailchimp sier: Du må velge et publikum for markedsføring."
+
+#: admin/partials/tabs/notices.php:9
+msgid "Mailchimp says: Sorry you must set up your campaign defaults before you proceed!"
+msgstr "Mailchimp sier: Beklager, du må sette opp dine standardverdier for kampanje før du kan fortsette."
+
+#: admin/partials/tabs/notices.php:6
+msgid "Mailchimp says: You must enter in a valid API key."
+msgstr "Mailchimp sier: Du må oppgi en gyldig APU-nøkkel."
+
+#: admin/partials/tabs/store_info.php:130
+msgid "Select store's timezone"
+msgstr "Velg butikkens tidssone"
+
+#: admin/partials/tabs/store_info.php:126
+#: admin/partials/tabs/api_key_create_account.php:135
+msgid "Timezone"
+msgstr "Tidssone"
+
+#: admin/partials/tabs/store_info.php:119
+msgid "Woocommerce Currency"
+msgstr "Valuta for WooCommerce"
+
+#: admin/partials/tabs/store_info.php:87
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: admin/partials/tabs/store_info.php:74
+#: admin/partials/tabs/api_key_create_account.php:115
+msgid "Select a Country"
+msgstr "Velg et land"
+
+#: admin/partials/tabs/store_info.php:61
+#: admin/partials/tabs/api_key_create_account.php:103
+msgid "Country"
+msgstr "Land"
+
+#: admin/partials/tabs/store_info.php:54
+msgid "Postal Code"
+msgstr "Postnummer"
+
+#: admin/partials/tabs/store_info.php:47
+#: admin/partials/tabs/api_key_create_account.php:89
+msgid "State"
+msgstr "Delstat"
+
+#: admin/partials/tabs/store_info.php:40
+#: admin/partials/tabs/api_key_create_account.php:82
+msgid "City"
+msgstr "By"
+
+#: admin/partials/tabs/store_info.php:33
+msgid "Street address"
+msgstr "Gateadresse"
+
+#: admin/partials/tabs/store_info.php:26
+#: admin/partials/tabs/api_key_create_account.php:33
+msgid "Email"
+msgstr "E-post"
+
+#: admin/partials/tabs/store_info.php:19
+msgid "Name"
+msgstr "Navn"
+
+#: admin/partials/tabs/store_info.php:15
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:138
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:179
+msgid "Store Settings"
+msgstr "Butikkinnstillinger"
+
+#: admin/partials/tabs/logs.php:110
+msgid "There are currently no logs to view."
+msgstr "Det er for tiden ingen logger å vise."
+
+#: admin/partials/tabs/logs.php:101
+msgid "Copy log"
+msgstr "Kopier logg"
+
+#: admin/partials/tabs/logs.php:97
+msgid "Delete log"
+msgstr "Slett logg"
+
+#: admin/partials/tabs/logs.php:84
+msgid "View"
+msgstr "Vis"
+
+#: admin/partials/tabs/logs.php:71
+msgid "Recent Logs"
+msgstr "Siste logger"
+
+#: admin/partials/tabs/logs.php:59
+msgid "Standard"
+msgstr "Standard"
+
+#: admin/partials/tabs/logs.php:59
+msgid "Debug"
+msgstr "Feilsøk"
+
+#: admin/partials/tabs/logs.php:59
+msgid "None"
+msgstr "Ingen"
+
+#: admin/partials/tabs/logs.php:42
+msgid "Logging Preferences"
+msgstr "Preferanser for logging"
+
+#: admin/partials/tabs/logs.php:38
+msgid "Logging Preference"
+msgstr "Preferanse for logging"
+
+#: admin/partials/tabs/newsletter_settings.php:164
+msgid "Size"
+msgstr "Størrelse"
+
+#: admin/partials/tabs/newsletter_settings.php:157
+msgid "Product Image Size"
+msgstr "Størrelse for produktbilde"
+
+#: admin/partials/tabs/newsletter_settings.php:151
+msgid "Product Settings"
+msgstr "Produktinnstillinger"
+
+#: admin/partials/tabs/newsletter_settings.php:147
+msgid "Add a comma separated list of tags to add to the subscriber at Mailchimp"
+msgstr "Legg til en kommaseparert liste over merkelapper å legge på abonnenten i Mailchimp"
+
+#: admin/partials/tabs/newsletter_settings.php:136
+#: admin/partials/tabs/newsletter_settings.php:141
+msgid "Subscriber Tags"
+msgstr "Merkelapper for abonnent"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:371
+msgid "Close"
+msgstr "Lukk"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:399
+msgid "Skip & Deactivate"
+msgstr "Hopp over og deaktiver"
+
+#: admin/partials/tabs/campaign_defaults.php:24
+msgid "Default from name"
+msgstr "Standard navn fra"
+
+#: admin/partials/tabs/campaign_defaults.php:45
+msgid "Default language"
+msgstr "Standard språk"
+
+#: admin/partials/tabs/campaign_defaults.php:40
+msgid "Store Newsletter"
+msgstr "Nyhetsbrev for butikk"
+
+#: admin/partials/tabs/campaign_defaults.php:38
+msgid "Default subject"
+msgstr "Standard emne"
+
+#: admin/partials/tabs/campaign_defaults.php:31
+msgid "Default from email"
+msgstr "Standard fra e-post"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:359
+msgid "Other"
+msgstr "Annet"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:355
+msgid "It's a temporary deactivation."
+msgstr "Det er en midlertidig deaktivering"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:351
+msgid "I no longer use this integration."
+msgstr "Jeg bruker ikke lenger denne integrasjonen"
+
+#: admin/partials/tabs/store_sync.php:169
+#: includes/class-mailchimp-woocommerce-rest-api.php:141
+msgid "D, M j, Y g:i A"
+msgstr "D j. M Y H:i"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:82
+msgid "User ID"
+msgstr "Bruker-ID"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:65
+msgid "Email Address"
+msgstr "E-postadresse"
+
+#: includes/class-mailchimp-woocommerce-privacy.php:27
+#: includes/class-mailchimp-woocommerce-privacy.php:40
+msgid "MailChimp for WooCommerce"
+msgstr "MailChimp for WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://mailchimp.com"
+msgstr "https://mailchimp.com"
+
+#. Author of the plugin
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#. Plugin URI of the plugin
+msgid "https://mailchimp.com/connect-your-store/"
+msgstr "https://mailchimp.com/connect-your-store/"
+
+#. Plugin Name of the plugin
+msgid "Mailchimp for WooCommerce"
+msgstr "Mailchimp for WooCommerce"
+
+#: admin/partials/tabs/store_info.php:104
+msgid "Select store's locale"
+msgstr "Velg butikkens lokalisering"
+
+#: admin/partials/tabs/store_info.php:100
+msgid "Locale"
+msgstr "Lokalisering"
+
+#: admin/partials/tabs/store_info.php:95
+msgid "Please apply your locale settings. If you're unsure about these, use the defaults."
+msgstr "Vennligst angi dine lokaliseringsinnstillinger. Om du er usikker på disse, bruk standardverdiene."
+
+#: admin/partials/tabs/store_info.php:93
+msgid "Locale Settings"
+msgstr "Innstillinger for lokalisering"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1436
+msgid "Starting the sync process..."
+msgstr "Starter synkroniseringsprosessen..."
+
+#: admin/class-mailchimp-woocommerce-admin.php:823
+msgid "One or more fields were not updated"
+msgstr "Ett eller flere felter ble ikke oppdatert"
+
+#: admin/class-mailchimp-woocommerce-admin.php:800
+msgid "Mailchimp for WooCommerce requires a Store Name to connect your store."
+msgstr "Mailchimp for WooCommerce krever et butikknavn for å koble til din butikk."
+
+#: admin/class-mailchimp-woocommerce-admin.php:792
+msgid "As part of the Mailchimp Terms of Use, we require a valid phone number for your store."
+msgstr "Som en del av tjenestevilkårene for Mailchimp må vi ha e gyldig telefonnummer for ditt nettsted."
+
+#: admin/class-mailchimp-woocommerce-admin.php:784
+msgid "As part of the Mailchimp Terms of Use, we require a contact email and a physical mailing address."
+msgstr "Som en del av tjenestevilkårene for Mailchimp må vi ha en e-post og en fysisk postadresse"
+
+#: admin/class-mailchimp-woocommerce-admin.php:441
+msgid "Store Disconnect Failed"
+msgstr "Frakobling av butikken mislyktes"
+
+#: admin/partials/tabs/newsletter_settings.php:51
+msgid "Select Audience"
+msgstr "Velg publikum"
+
+#: admin/partials/tabs/newsletter_settings.php:47
+msgid "Create New Audience"
+msgstr "Opprett et nytt publikum"
+
+#: admin/partials/tabs/newsletter_settings.php:41
+msgid "Sync audience with your store"
+msgstr "Synkroniser publikum med din butikk"
+
+#: admin/partials/tabs/newsletter_settings.php:36
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:162
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:185
+msgid "Audience Settings"
+msgstr "Innstillinger for publikum"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:370
+msgid "Quick Feedback"
+msgstr "Rask tilbakemelding"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:398
+msgid "Submit & Deactivate"
+msgstr "Send inn og deaktiver"
+
+#: admin/partials/tabs/campaign_defaults.php:19
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:150
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:182
+msgid "Audience Defaults"
+msgstr "Standardverdier for publikum"
+
+#: admin/partials/tabs/campaign_defaults.php:62
+msgid "Permission reminder message"
+msgstr "Påminnelse om tillatelse"
+
+#. translators: %s - plugin name.
+#: admin/class-mailchimp-woocommerce-admin.php:818
+#: admin/partials/tabs/campaign_defaults.php:68
+msgid "You were subscribed to the newsletter from %s"
+msgstr "Du har abonnert på nyhetsbrevet fra %s"
+
+#: admin/class-mailchimp-woocommerce-admin.php:864
+#: admin/partials/tabs/newsletter_settings.php:97
+#: includes/class-mailchimp-woocommerce-newsletter.php:43
+msgid "Subscribe to our newsletter"
+msgstr "Abonner på vårt nyhetsbrev"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:182
+msgid "Sending Feedback"
+msgstr "Sender tilbakemelding"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:179
+msgid "Please select an option"
+msgstr "Vennligst velg et alternativ"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:327
+msgid "I want to change the audience associated with this integration."
+msgstr "Jeg vil endre publikummet koblet til denne integrasjonen."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:335
+msgid "The order data isn't syncing."
+msgstr "Ordredata synkroniserer ikke."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:331
+msgid "I want to change the site or store connected through this integration."
+msgstr "Jeg vil endre nettstedet eller butikken koblet til gjennom denne integrasjonen."
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:361
+msgid "Please share the reason"
+msgstr "Vennligst del årsaken"
+
+#: admin/partials/tabs/newsletter_settings.php:81
+msgid "Optional Audience Settings"
+msgstr "Ekstra publikumsinnstillinger"
+
+#: admin/class-mailchimp-woocommerce-admin.php:274
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:379
+msgid "Mailchimp for Woocommerce"
+msgstr "Mailchimp for Woocommerce"
+
+#: admin/partials/tabs/newsletter_settings.php:125
+msgid "Advanced Checkbox Settings"
+msgstr "Avanserte innstillinger for avkrysningboks"
+
+#: admin/partials/tabs/newsletter_settings.php:118
+msgid "Hidden, unchecked by default"
+msgstr "Skjult, ikke avkrysset"
+
+#: admin/partials/tabs/newsletter_settings.php:115
+msgid "Visible, unchecked by default"
+msgstr "Synlig, ikke avkrysset som standard"
+
+#: admin/partials/tabs/newsletter_settings.php:112
+msgid "Visible, checked by default"
+msgstr "Synlig, avkrysset som standard"
+
+#: admin/partials/tabs/newsletter_settings.php:103
+msgid "Checkbox Display Options"
+msgstr "Visningsinnstillinger for avkrysningsboks"
+
+#: admin/partials/tabs/newsletter_settings.php:98
+msgid "HTML tags allowed: <a href=\"\" target=\"\" title=\"\"></a> and <br>"
+msgstr "HTML-elementer tillatt: <a href=\"\" target=\"\" title=\"\"></a> og <br>"
+
+#: bootstrap.php:474
+msgid "The MailChimp For WooCommerce plugin requires the <a href=\"http://wordpress.org/extend/plugins/woocommerce/\">WooCommerce</a> plugin to be active!"
+msgstr "Utvidelsen MailChimp for WooCommerce krever at utvidelsen <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> er aktiv!"
+
+#: admin/class-mailchimp-woocommerce-admin.php:1440
+msgid "Sometimes the sync can take a while, especially on sites with lots of orders and/or products. It is safe to navigate away from this screen while it is running."
+msgstr "Noen ganger kan synkronisering ta en stund, særlig på nettsteder med mange ordre og/eller produkter. Det er trygt å navigere bort fra denne skjermen når den kjører."
+
+#: admin/class-mailchimp-woocommerce-admin.php:1438
+msgid "The plugin has started the initial sync with your store, and the process will work in the background automatically."
+msgstr "Utvidelsen har startet den initielle synkroniseringen, og prosessen vil kjøre automatisk i bakgrunnen."
+
+#: admin/class-mailchimp-woocommerce-admin.php:974
+msgid "You must supply your Mailchimp API key to pull the audiences."
+msgstr "Du på oppgi din Mailchimp API-nøkkel for å hente dine publikum."
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:115
+msgid "Please apply your audience settings. If you don’t<br/>have an audience, you can choose to create one"
+msgstr "Vennligst angi dine publikumsinnstillinger. Om du ikke<br/>har et publikum kan du velge å lage ett"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:111
+msgid "Please fill out the audience default<br/>campaign information"
+msgstr "Vennligst fyll ut standard<br/>kampanjeinformasjon for publikummet."
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:107
+msgid "Please provide a bit of information<br/>about your WooCommerce store"
+msgstr "Vennligst oppgi litt informasjon<br/>om din WooCommerce-butikk"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:103
+msgid "Add Mailchimp for WooCommerce to build custom segments,<br/>send automations, and track purchase activity in Mailchimp"
+msgstr "Legg til Mailchimp for WooCommerce for å bygge tilpassede segmenter,<br/>sendings automatikk og spore kjøpsaktivitet i Mailchimp"
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:71
+msgid "Mailchimp says: API Request Error - "
+msgstr "Mailchimp sier: API-forespørselsfeil - "
+
+#: admin/partials/mailchimp-woocommerce-admin-tabs.php:65
+msgid "Mailchimp says: Please upgrade your PHP version to a minimum of 7.0"
+msgstr "Mailchimp sier: Vennligst oppgrader din PHP-versjon til minst 7.0"
+
+#. translators: %s - Mailchimp Privacy Policy URL.
+#: admin/partials/tabs/store_sync.php:226
+msgid "By using this plugin, Mailchimp will process customer information in accordance with their <a href=%s target=_blank>Privacy Policy</a>."
+msgstr "Ved å bruke denne utvidelsen vil Mailchimp behandle kundeinformasjon i henhold til sin <a href=%s target=_blank>personvernerklæring</a>."
+
+#. translators: %s - Mailchimp Support URL.
+#: admin/partials/tabs/store_sync.php:225
+msgid "Need help to connect your store? Visit the Mailchimp <a href=%s target=_blank>Knowledge Base</a>."
+msgstr "Trenger du hjelp med å koble til din butikk? Besøk Mailchimps <a href=%s target=_blank>kunnskapsbase</a>."
+
+#. translators: %s - WP-CLI URL.
+#: admin/partials/tabs/store_sync.php:224
+msgid "Order and customer information will not sync if they contain an Amazon or generic email address."
+msgstr "Ordre og kundeinformasjon vil ikke synkroniseres om den inneholder en Amazon eller generisk e-postaddresse."
+
+#. translators: %s - WP-CLI URL.
+#: admin/partials/tabs/store_sync.php:223
+msgid "Have a larger store or having issues syncing? Consider using <a href=%s target=_blank>WP-CLI</a>."
+msgstr "Har du en stor butikk eller problemer med synkroniserin? Vurder å bruke <a href=%s target=_blank>WP-CLI</a>."
+
+#: admin/partials/tabs/store_sync.php:215
+msgid "You can resync your audience at any time without losing any of your e-commerce data."
+msgstr "Du kan synkronisere på nytt når som helst uen å miste noen av dine e-handelsdata."
+
+#: admin/partials/tabs/newsletter_settings.php:158
+msgid "Define the product image size used by abandoned carts, order notifications, and product recommendations."
+msgstr "Definer størrelsen på produktbildet brukt ved forlatte handlekurver, ordrevarsler og produktanbefalinger."
+
+#: admin/partials/tabs/newsletter_settings.php:132
+msgid "Enter a WooCommerce form action"
+msgstr "Oppgi en WooCommerce-'action' i skjemaet"
+
+#. translators: %s - Woocommerce Actions documentation URL.
+#: admin/partials/tabs/newsletter_settings.php:126
+msgid "To change the location of the opt-in <br/>checkbox at checkout, input one of the <a href=%s target=_blank>available WooCommerce form actions</a>."
+msgstr "For å endre plasseringen av bli med-<br/>avkrysningsboksen ved betaling, oppgi en av <a href=%s target=_blank>tilgjengelige WooCommerce-'actions' i skjemaet</a>."
+
+#: admin/partials/tabs/newsletter_settings.php:92
+#: admin/partials/tabs/newsletter_settings.php:104
+msgid "Add text to go along with the other opt-in checkboxes. <br/>Customers can click a box at checkout to opt in to your newsletter."
+msgstr "Legg til tekst som skal være de andre 'bli med'-avkrysningsboksene. <br/>Kunder kan klikke på en boks ved betaling for å bli med på ditt nyhetsbrev."
+
+#: admin/partials/tabs/newsletter_settings.php:91
+msgid "Message for the opt-in checkbox"
+msgstr "Melding for 'bli med'-avkrysningsboksen"
+
+#: admin/partials/tabs/newsletter_settings.php:86
+msgid "Opt-in Settings"
+msgstr "Innstillinger for 'bli med'"
+
+#: admin/partials/tabs/newsletter_settings.php:76
+msgid "During initial sync, auto subscribe the existing customers."
+msgstr "Gjør eksisterende kunder automatisk til abonnenter under initiell synkronisering"
+
+#. translators: %s - plugin name.
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:378
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr "Om du har et øyeblikk, vennligst del hvorfor du deaktiverer %s:"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:347
+msgid "I was instructed to disconnect by Mailchimp Support."
+msgstr "Jeg ble bedt om å koble fra av brukerstøtten hos Mailchimp"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:343
+msgid "I'm trying to troubleshoot the integration."
+msgstr "Jeg prøver å feilsøke integrasjonen"
+
+#: includes/class-mailchimp-woocommerce-deactivation-survey.php:339
+msgid "The promo codes aren't showing up."
+msgstr "Promoteringskodene vises ikke."
+
+#: includes/class-mailchimp-woocommerce-privacy.php:78
+msgid "MailChimp Shopping Cart Data"
+msgstr "Handlekurvdata hos Mailchimp"
+
+#. translators: %s - Mailchimp Privacy Policy URL.
+#: includes/class-mailchimp-woocommerce-privacy.php:12
+msgid "When shopping, we keep a record of your email and the cart contents for up to 30 days on our server. This record is kept to repopulate the contents of your cart if you switch devices or needed to come back another day. Read our privacy policy <a href=\"%s\">here</a>."
+msgstr "Når du handler beholder vi en oppføring av din e-post og innholdet i handlekurven i opptil 30 dager på vår server. Denne oppføringen beholdes for å kunne legge tilbake innholdet i handlekurven om du bytter enhet eller trenger komme tilbake en annen dag. Les vår personvernerklæring <a href=\"%s\">her</a>."
+
+#. Description of the plugin
+msgid "Connects WooCommerce to Mailchimp to sync your store data, send targeted campaigns to your customers, and sell more stuff."
+msgstr "Kobler WooCommerce til Mailchimp for å synkronisere dine butikkdata, sende målrettede e-postkampanjer til dine kunder og selge flere varer."

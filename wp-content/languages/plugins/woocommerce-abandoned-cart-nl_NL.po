@@ -1,0 +1,928 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) in Dutch
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-16 14:56:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk)\n"
+
+#: woocommerce-ac.php:1752
+msgid "Export"
+msgstr "Exporteren"
+
+#. translators: %s: decimal
+#: woocommerce-ac.php:1743
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "Voer in decimaal (%s) formaat in, zonder duizendtallen-separatoren."
+
+#. translators: %s: price decimal separator
+#: woocommerce-ac.php:1745
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "Voer monetair decimaal (%s) formaat zonder duizendtallen en valutasymbool in."
+
+#: woocommerce-ac.php:1746
+msgid "Please enter in country code with two capital letters."
+msgstr "Vul de landcode in met 2 hoofdletters."
+
+#: woocommerce-ac.php:1747
+msgid "Please enter in a value less than the regular price."
+msgstr "Voer een bedrag in dat lager is dan de reguliere prijs."
+
+#: woocommerce-ac.php:1751
+msgid "Import"
+msgstr "Importeren"
+
+#: includes/wcal_all_component.php:114
+msgid ""
+" Allow your customers to pay deposits on products using our Deposits for WooCommerce plugin. <br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+" Laat uw klanten in termijnen betalen voor producten met behulp van onze Deposit's for WooCommerce plugin. <br>\n"
+"               <strong> <a target = \"_blank\" href = \""
+
+#: includes/wcal_all_component.php:107
+msgid ""
+"Allow your customers to select the Delivery Date on Single Product Page using our Product Delivery Date pro for WooCommerce Plugin. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Laat uw klanten de leveringsdatum op één product pagina selecteren met behulp van onze Product Leveringsdatum (Product delivery date) Pro voor WooCommerce plugin. <br> \n"
+"            <strong> <a target =\"_blank\" href =\""
+
+#: includes/wcal_all_component.php:100
+msgid ""
+"Increase your store sales by recovering your abandoned carts for just $119. No profit sharing, no monthly fees. Our Abandoned Cart Pro plugin comes with a 30 day money back guarantee as well. :) Use coupon code ACPRO20 & save $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Verhoog uw winkelverkopen door het terugwinnen van uw verlaten winkelwagen voor slechts $119. Geen winstdeling, geen maandelijkse kosten. Onze Verlaten Winkelwagen Pro plugin wordt geleverd met een 30 dagen geld terug garantie. :) Gebruik coupon code ACPRO20 & Bespaar <br>\n"
+"           <strong> <a target =\"_blank\" href = \""
+
+#: includes/wcal_all_component.php:97
+msgid "Send Abandoned Cart reminders that actually convert. Take advantage of our fully responsive email templates designed specially with an intent to trigger conversion. <strong><a target=\"_blank\" href= \""
+msgstr "Stuur verlaten winkelwagentje herinneringen die daadwerkelijk te converteren. Profiteer van onze volledig responsieve e-mail templates speciaal ontworpen voor conversie. <strong> <a target =\"_blank\" href = \""
+
+#: includes/wcal_all_component.php:94
+msgid "Don't loose your sales to abandoned carts. Use our Abandon Cart Pro plugin & start recovering your lost sales in less then 60 seconds. <strong><a target=\"_blank\" href= \""
+msgstr "Verlies geen verkoop door verlaten Winkelwagens. Gebruik onze Verlaten Winkelwagen Pro plugin & begin met het herstellen van verloren omzet in minder dan 60 seconden. <strong> <a target =\"_blank\" href = \""
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:18
+msgid "Thank you for activating or updating to the latest version of "
+msgstr "Bedankt voor het activeren of updaten naar de nieuwste versie van "
+
+#: includes/component/welcome-page/ts-welcome.php:166
+msgid "Welcome to "
+msgstr "Welkom bij "
+
+#: includes/component/tracking-data/ts-tracking.php:268
+msgid "Want to help make "
+msgstr "Wilt helpen maken "
+
+#: includes/component/faq-support/ts-faq-support.php:127
+msgid "Frequently Asked Questions for "
+msgstr "Veelgestelde vragen voor "
+
+#: includes/wcal_all_component.php:111
+msgid " Allow your customers to book an appointment or rent an apartment with our Booking and Appointment for WooCommerce plugin. You can also sell your product as a resource or integrate with a few Vendor plugins. <br>Shop now & Save 20% on the plugin with the code \"BKAP20\". Only for first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr " Laat uw klanten een afspraak boeken of een appartement huren met onze Boeking en Afspraak voor WooCommerce plugin. Je kunt uw product ook verkopen als personeel of integreren met een paar leveranciers plugins. <br> Winkel nu & Bespaar 20% op de plugin met de code \"BKAP20\". Alleen voor de eerste 20 klanten. <strong> <a target =\"_blank\" href = \""
+
+#: includes/wcal_all_component.php:104
+msgid "Reduce cart abandonment rate by 57% with our Order Delivery Date Pro WooCommerce plugin. You can Create Delivery Settings by Shipping Zones & Shipping Classes. <br>Use discount code \"ORDPRO20\" and grab 20% discount on the purchase of the plugin. The discount code is valid only for the first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr "Verminder het verlaten van de winkelwagen tarief met 57% met onze Order LeveringsDatum Pro WooCommerce plugin. Je kunt leveringsinstellingen maken met verzendzones & verzend-klassen. <br> Gebruik korting code \"ORDPRO20\" en grijp 20% korting op de aankoop van de plugin. De kortingscode is alleen geldig voor de eerste 20 klanten. <strong> <a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:91
+msgid "Boost your sales by recovering up to 60% of the abandoned carts with our Abandoned Cart Pro for WooCommerce plugin. You can capture customer email addresses right when they click the Add To Cart button. <strong><a target=\"_blank\" href= \""
+msgstr "Verbeter uw omzet door het herstellen van tot 60% van de verlaten winkelwagens met onze Verlaten Winkelwagen Pro voor WooCommerce plugin. Je kunt klant e-mailadressen meteen vastleggen wanneer op de knop Toevoegen aan winkelwagentje geklikt wordt. <strong> <a target =\"_blank\" href = \""
+
+#: includes/wcal_all_component.php:88
+msgid "Now that you are all set with the Lite version, you can upgrade to Pro version to take your abandoned cart recovery to the next level. You can capture  customer’s email address when they click Add to Cart, get access to 11 unique, fully responsive email templates, send text messages for recovery & <strong><a target=\"_blank\" href= \""
+msgstr "Nu dat de Lite-versie is ingesteld, kun je upgraden naar Pro-versie om het herstellen van uw verlaten winkelwagen naar het hoger niveau te tillen. Je kunt het e-mail adres van de klant vastleggen als ze op Toevoegen aan winkelwagentje klikken, toegang krijgen tot 11 unieke volledig responsieve e-mail sjablonen, tekstberichten verzenden voor herstel & <strong> <a target = _blank href ="
+
+#: woocommerce-ac.php:2633
+msgid "Shipping Charges"
+msgstr "Verzendkosten"
+
+#: woocommerce-ac.php:696
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "Automatisch verlaten orders verwijderen na X dagen moet groter zijn dan 0."
+
+#: woocommerce-ac.php:513
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "Automatisch verwijderen van verlaten winkelwagen bestellingen na X dagen."
+
+#: woocommerce-ac.php:509
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "Automatisch verlaten orders verwijderen na X dagen"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:363
+msgid "Unsubscribed"
+msgstr "Uitgeschreven"
+
+#: includes/admin/wcal_privacy_erase.php:90
+msgid "No personal data found for any abandoned carts."
+msgstr "Geen persoonlijke gegevens gevonden voor verlaten winkelwagens."
+
+#: woocommerce-ac.php:551
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br> In overeenstemming met GDPR, voeg een bericht toe aan de winkel & product pagina's om geregistreerde gebruikers te informeren over hoe hun gegevens worden gebruikt. <br><i> Bijvoorbeeld: kijk op onze privacy policy om te zien hoe wij uw persoonlijke gegevens gebruiken.</i>"
+
+#: woocommerce-ac.php:547
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "Bericht dat moet worden weergegeven voor geregistreerde gebruikers bij het bijhouden van hun winkelwagens."
+
+#: woocommerce-ac.php:542
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br> In overeenstemming met GDPR, voeg een bericht aan de kassa pagina om gastgebruikers te informeren over hoe hun gegevens worden gebruikt. <br><i> bijvoorbeeld: uw e-mail adres zal ons helpen uw winkelervaring te ondersteunen in de hele site. Kijk op onze privacy policy om te zien hoe wij uw persoonlijke gegevens gebruiken.</i>"
+
+#: woocommerce-ac.php:538
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "Bericht dat moet worden weergegeven voor gastgebruikers bij het bijhouden van hun winkelwagens"
+
+#: woocommerce-ac.php:257
+msgid "I want to upgrade the plugin to the PRO version."
+msgstr "Ik wil de plugin upgraden naar de PRO-versie."
+
+#: woocommerce-ac.php:251
+msgid "I cannot see abandoned cart reminder emails records."
+msgstr "Ik kan de verlaten winkelwagen herinnering e-mails records niet zien."
+
+#: woocommerce-ac.php:245
+msgid "Capturing of cart and other information was not satisfactory."
+msgstr "Het vastleggen van winkelwagen en andere informatie was niet bevredigend."
+
+#: woocommerce-ac.php:239
+msgid "Emails are not being sent to customers."
+msgstr "E-mails worden niet verstuurd naar klanten."
+
+#: includes/component/welcome-page/ts-welcome.php:165
+msgid "Welcome to %s %s"
+msgstr "Welkom bij %s %s"
+
+#: includes/component/tracking-data/ts-tracking.php:133
+msgid "Reset usage tracking"
+msgstr "Instellingen voor gebruiksregistratie herstellen"
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "Veelgestelde vragen & Support"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "Veelgestelde vragen voor %s"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:91
+msgctxt "the text of the 'other' reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "Overig"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:90
+msgid "I don't like to share my information with you"
+msgstr "Ik deel mijn informatie niet graag"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:89
+msgid "What feature?"
+msgstr "Welk kenmerk of functionaliteit?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Deze plugin is goed, maar ik heb een specifieke functie nodig die jullie niet ondersteunen"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:86
+msgid "The plugin is not working"
+msgstr "De plugin werkt niet"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:85
+msgid "I only needed the plugin for a short period"
+msgstr "Ik had de plug-in slechts voor een korte periode nodig"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:84
+msgid "What's the plugin's name?"
+msgstr "Wat is de naam van de plugin?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:83
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:79
+msgid "Yes - Deactivate"
+msgstr "Ja - Deactiveren"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:78
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:77
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:76
+msgid "Submit & Deactivate"
+msgstr "Inzenden & Deactiveren"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:75
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Als je een ogenblikje hebt, laat ons weten waarom je de plugin deactiveert"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:283
+msgid "User Deleted"
+msgstr "Gebruiker verwijderd"
+
+#: includes/admin/wcal_privacy_export.php:221
+msgid "Abandoned - Order Unpaid (Order #"
+msgstr "Verlaten-order onbetaald (ordernummer #"
+
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Abandoned but new cart created"
+msgstr "Verlaten, maar nieuwe winkelwagen aangemaakt"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Cart Recovered - Order #"
+msgstr "Winkelwagen hersteld-order #"
+
+#: includes/admin/wcal_privacy_export.php:173
+#: includes/admin/wcal_privacy_export.php:184
+msgid "Billing Address"
+msgstr "Factuuradres"
+
+#: includes/admin/wcal_privacy_export.php:172
+msgid "Session ID"
+msgstr "Sessie-ID"
+
+#: includes/admin/wcal_privacy_export.php:171
+#: includes/admin/wcal_privacy_export.php:183
+msgid "Items Present"
+msgstr "Items aanwezig"
+
+#: includes/admin/wcal_privacy_export.php:170
+#: includes/admin/wcal_privacy_export.php:182
+msgid "Cart Total"
+msgstr "Winkelwagen totaal"
+
+#: includes/admin/wcal_privacy_export.php:169
+#: includes/admin/wcal_privacy_export.php:181
+msgid "Abandoned Cart Status"
+msgstr "Verlaten Winkelwagen status"
+
+#: includes/admin/wcal_privacy_export.php:167
+#: includes/admin/wcal_privacy_export.php:179
+msgid "Abandoned Cart ID"
+msgstr "Verlaten Winkelwagen ID"
+
+#: includes/admin/wcal_privacy_erase.php:204
+msgid "ANONYMIZED"
+msgstr "GEANONIEMISEERDE"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:127
+msgid "Personal data within cart %s has been retained."
+msgstr "Persoonlijke gegevens binnen winkelwagen %s zijn bewaard gebleven."
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:123
+msgid "Removed personal data from cart %s."
+msgstr "Persoonlijke gegevens uit winkelwagen %s verwijderd."
+
+#: includes/admin/wcal_privacy_erase.php:41
+#: includes/admin/wcal_privacy_export.php:41
+msgid "Abandoned & Recovered Carts"
+msgstr "Verlaten & teruggewonnen winkelwagens"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:87
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Wil je met ons delen wat niet werkte, zodat we het kunnen repareren voor toekomstige gebruikers ..."
+
+#. Description of the plugin
+msgid "This plugin captures abandoned carts by logged-in users & emails them about it."
+msgstr "Deze plugin vangt verlaten winkelwagens door ingelogde gebruikers & e-mails hen over."
+
+#: includes/wcal-common.php:582
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "Database update is mislukt. Probeer het opnieuw na enige tijd"
+
+#: includes/wcal-common.php:567
+msgid "Database Updated Successfully"
+msgstr "Database met succes bijgewerkt"
+
+#. Author URI of the plugin
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche software"
+
+#. Plugin Name of the plugin
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "Verlaten Winkelwagen Lite voor WooCommerce"
+
+#: woocommerce-ac.php:3096 woocommerce-ac.php:3131
+msgid "Woman\\'\\s Hand Bags"
+msgstr "Vrouw \\ ' \\s handtassen"
+
+#: woocommerce-ac.php:3089 woocommerce-ac.php:3124
+msgid "Men\\'\\s Formal Shoes"
+msgstr "Mannen \\ ' \\s herenschoenen"
+
+#: woocommerce-ac.php:2878
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "Voer de e-mail-id in waarnaar de test e-mail moet worden verzonden."
+
+#: woocommerce-ac.php:2873
+msgid "Send a test email to:"
+msgstr "Stuur een test e-mail naar:"
+
+#: woocommerce-ac.php:2866
+msgid "after cart is abandoned."
+msgstr "nadat de winkelwagen is verlaten."
+
+#: woocommerce-ac.php:2825
+msgid "Send this email:"
+msgstr "Stuur deze e-mail:"
+
+#: woocommerce-ac.php:2819
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr "Voer de header die zal verschijnen in de Verlaten WooCommerce e-mail verstuurd. Dit is alleen van toepassing wanneer gebruikt wanneer \"use WooCommerce template Style:\" is aangevinkt."
+
+#: woocommerce-ac.php:2805
+msgid "Email Template Header Text: "
+msgstr "E-mail sjabloon header tekst: "
+
+#: woocommerce-ac.php:2798
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "Gebruik WooCommerce standaardstijl sjabloon voor verlaten winkelwagen herinnering e-mails."
+
+#: woocommerce-ac.php:2783
+msgid "Use WooCommerce Template Style:"
+msgstr "Gebruik WooCommerce Sjabloonstijl:"
+
+#: woocommerce-ac.php:2756
+msgid "Message to be sent in the reminder email."
+msgstr "Bericht dat in de herinnerings-e-mail moet worden verzonden."
+
+#: woocommerce-ac.php:2729
+msgid "Email Body:"
+msgstr "E-mail lichaam:"
+
+#: woocommerce-ac.php:2723
+msgid "Enter the subject that should appear in the email sent"
+msgstr "Voer het onderwerp dat moet worden weergegeven in de verzonden e-mail"
+
+#: woocommerce-ac.php:2714
+msgid "Subject:"
+msgstr "Onderwerp:"
+
+#: woocommerce-ac.php:2708
+msgid "Enter a template name for reference"
+msgstr "Een sjabloonnaam voor verwijzing invoeren"
+
+#: woocommerce-ac.php:2699
+msgid "Template Name:"
+msgstr "Naam van sjabloon:"
+
+#: woocommerce-ac.php:2612
+msgid "Shipping Details"
+msgstr "Verzendgegevens"
+
+#: woocommerce-ac.php:2607
+msgid "Phone:"
+msgstr "Telefoon:"
+
+#: woocommerce-ac.php:2603
+msgid "Email:"
+msgstr "E-mail:"
+
+#: woocommerce-ac.php:2593 woocommerce-ac.php:2613
+msgid "Address:"
+msgstr "Adres:"
+
+#: woocommerce-ac.php:2590
+msgid "Name:"
+msgstr "Naam:"
+
+#: woocommerce-ac.php:2589
+msgid "Billing Details"
+msgstr "Factureringsgegevens"
+
+#: woocommerce-ac.php:2585
+msgid "Customer Details"
+msgstr "Klantgegevens"
+
+#: woocommerce-ac.php:2397
+msgid "Line Total"
+msgstr "Regel Totaal"
+
+#: woocommerce-ac.php:2389
+msgid "Abandoned Order #%s Details"
+msgstr "Verlaten order # %s Details"
+
+#: woocommerce-ac.php:2356
+msgid "Go"
+msgstr "Ga"
+
+#: woocommerce-ac.php:2354
+msgid "End Date:"
+msgstr "Einddatum:"
+
+#: woocommerce-ac.php:2352
+msgid "Start Date:"
+msgstr "Begindatum:"
+
+#: woocommerce-ac.php:2226
+msgid "Add New Template"
+msgstr "Nieuw sjabloon toevoegen"
+
+#: woocommerce-ac.php:2217
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Er is een probleem opgetreden bij het bijwerken van de e-mail sjabloon. Neem contact op met de plugin auteur via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+
+#: woocommerce-ac.php:2208
+msgid "The Email Template has been successfully updated."
+msgstr "De e-mail sjabloon is bijgewerkt."
+
+#: woocommerce-ac.php:2197
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Er is een probleem met het toevoegen van de e-mail sjabloon. Neem contact op met de plugin auteur via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+
+#: woocommerce-ac.php:2068
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "Voeg e-mail templates toe met verschillende intervallen om de mogelijkheid van het herstellen van uw verlaten winkelwagens te maximaliseren."
+
+#: woocommerce-ac.php:2047
+msgid "Carts without Customer Details"
+msgstr "Karren zonder klantgegevens"
+
+#: woocommerce-ac.php:2041
+msgid "Guest %s"
+msgstr "Gast %s"
+
+#: woocommerce-ac.php:2035
+msgid "Registered %s"
+msgstr "Geregistreerde %s"
+
+#: woocommerce-ac.php:2030
+msgid "All "
+msgstr "Alle "
+
+#: woocommerce-ac.php:1988
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "De lijst hieronder toont alle verlaten winkelwagens langer dan de \"winkelwagen verlaten cut-off tijd\" instelling."
+
+#: woocommerce-ac.php:1958
+msgid "Email Sending Settings"
+msgstr "E-mail verzenden instellingen"
+
+#: woocommerce-ac.php:1955
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: woocommerce-ac.php:1937
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "Wijzig de instellingen voor het verzenden van e-mail notificaties naar klanten, admin etc."
+
+#: woocommerce-ac.php:1931
+msgid "The Template has been successfully deleted."
+msgstr "De sjabloon is verwijderd."
+
+#: woocommerce-ac.php:1926
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "De verlaten winkelwagen is met succes geschrapt."
+
+#: woocommerce-ac.php:1866
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce- Verlaten Winkelwagen Lite"
+
+#: woocommerce-ac.php:1862
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt niet voldoende rechten om deze pagina te bekijken."
+
+#: woocommerce-ac.php:1697
+msgid "Product Report"
+msgstr "Product rapport"
+
+#: woocommerce-ac.php:1696
+msgid "Recovered Orders"
+msgstr "Herstelde orders"
+
+#: woocommerce-ac.php:1694
+msgid "Email Templates"
+msgstr "Email Templates"
+
+#: woocommerce-ac.php:1693
+msgid "Abandoned Orders"
+msgstr "Verlaten orders"
+
+#: woocommerce-ac.php:1084 includes/admin/wcal_privacy_export.php:123
+msgid "Abandoned Carts"
+msgstr "Verlaten winkelwagens"
+
+#: includes/frontend/wcal_checkout_process.php:300
+#: includes/frontend/wcal_checkout_process.php:302
+msgid "New Customer Order - Recovered"
+msgstr "Nieuwe klant order - hersteld"
+
+#: woocommerce-ac.php:680
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "Verlaten winkelwagen cut off tijd moet numeriek zijn en moet groter zijn dan 0."
+
+#: woocommerce-ac.php:586
+msgid "Send Reply Emails to"
+msgstr "Stuur antwoord E-mails naar"
+
+#: woocommerce-ac.php:577
+msgid "\"From\" Address"
+msgstr "E-mail Afzender"
+
+#: woocommerce-ac.php:568
+msgid "\"From\" Name"
+msgstr "Naam “Afzender”"
+
+#: woocommerce-ac.php:561
+msgid "Settings for abandoned cart recovery emails"
+msgstr "Instellingen voor verlaten winkelwagen herstel e-mails"
+
+#: woocommerce-ac.php:533
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "Enable tracking van verlaten producten & winkelwagens zelfs als de klant niet naar de kassa pagina bezoekt of geen details invoert op de kassa pagina, zoals naam of E-mail. Het volgen zal beginnen zodra een bezoeker een product aan hun winkelwagen toevoegt en de pagina van de winkelwagen bezoekt."
+
+#: woocommerce-ac.php:529
+msgid "Start tracking from Cart Page"
+msgstr "Start het bijhouden vanaf winkelwagen pagina"
+
+#: woocommerce-ac.php:523
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "Verzendt e-mail naar admin als een verlaten winkelwagen order wordt teruggekregen."
+
+#: woocommerce-ac.php:519
+msgid "Email admin On Order Recovery"
+msgstr "E-mail admin op bestelling herstel"
+
+#: woocommerce-ac.php:504
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "Overweeg winkelwagen verlaten na X minuten nadat het item wordt toegevoegd aan winkelwagen & order niet is geplaatst."
+
+#: woocommerce-ac.php:500
+msgid "Cart abandoned cut-off time"
+msgstr "Winkelwagen verlaten cut-off tijd"
+
+#: woocommerce-ac.php:212 woocommerce-ac.php:493 woocommerce-ac.php:1695
+msgid "Settings"
+msgstr "Instellingen"
+
+#: woocommerce-ac.php:293
+msgid "Abandoned cart Email Template"
+msgstr "Verlaten Winkelwagen E-mail template"
+
+#: woocommerce-ac.php:287
+msgid "HTML Email Template"
+msgstr "HTML Email Template"
+
+#: includes/component/tracking-data/ts-tracking.php:177
+msgid "Once in a Week"
+msgstr "Eenmaal in een week"
+
+#: woocommerce-ac.php:47
+msgid "Once Every Fifteen Minutes"
+msgstr "Eenmaal per vijftien minuten"
+
+#: includes/component/welcome-page/templates/social-media-elements.php:10
+#: includes/welcome.php:271
+msgid "Follow %s"
+msgstr "Volg %s"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:128
+#: includes/welcome.php:223
+msgid "Current Offers"
+msgstr "Actuele aanbiedingen"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:122
+#: includes/welcome.php:215
+msgid "Meet the team"
+msgstr "Ontmoet het team"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:113
+#: includes/welcome.php:206
+msgid "View all Premium Plugins"
+msgstr "Bekijk alle Premium plugins"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:112
+#: includes/welcome.php:205
+msgid "Visit the Tyche Softwares Website"
+msgstr "Bezoek de website van Tyche software"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:110
+#: includes/welcome.php:202
+msgid "Getting to Know Tyche Softwares"
+msgstr "Leer Tyche software kennen"
+
+#: includes/welcome.php:193
+msgid "View full list of differences between Lite & Pro plugin"
+msgstr "Bekijk de volledige lijst van de verschillen tussen Lite & Pro plugin"
+
+#: includes/welcome.php:180
+msgid "The Lite version has only 3 merge tags available to personalize the abandoned cart recovery emails. The Pro version instead, has 20 different merge tags that can be used effectively to personalize each email that gets sent out to the customers for recovering their abandoned carts."
+msgstr "De Lite versie heeft slechts 3 tags om op samen te voegen beschikbaar om de verlaten winkelwagen herstel e-mails te personaliseren. De Pro versie in plaats daarvan, heeft 20 verschillende tags die effectief kunnen worden gebruikt om e-mails die wordt verstuurd naar de klanten voor het herstellen van hun verlaten winkelwagens te personaliseren."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:99
+#: includes/welcome.php:167
+msgid "The ability to send the abandoned cart recovery email within first few minutes of cart being abandoned is a big advantage. In the Lite plugin, the earliest an email can be sent is after 1 hour. Whereas in the Pro version, the first recovery email gets sent 15 minutes after the cart is abandoned. This increases the recovery chances manifold."
+msgstr "De mogelijkheid om de verlaten winkelwagen herstel e-mail te sturen binnen de eerste paar minuten nadat de winkelwagen wordt verlaten is een groot voordeel. In de Lite plugin, de vroegste een e-mail kan worden verstuurd na 1 uur. In de Pro-versie wordt de eerste herstel e-mail verstuurd 15 minuten nadat de winkelwagen is verlaten. Dit verhoogt de herstel kansen enorm."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:97
+#: includes/welcome.php:165
+msgid "Send abandoned cart recovery email in minutes of cart being abandoned"
+msgstr "Stuur verlaten winkelwagen herstel e-mail in minuten nadat de winkelwagen wordt verlaten"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:78
+#: includes/welcome.php:146
+msgid "The provision for setting two separate cut-off times for different roles is mainly because sometimes if the store admin wants the visitor carts to be captured earlier than the registered user carts, then these different settings can play an important role."
+msgstr "De voorziening voor het instellen van twee afzonderlijke cut-off tijden voor verschillende rollen is omdat de winkel admin wil de winkelwagen van bezoekers soms eerder wil vastleggen dan de wagens van geregistreerde gebruikers."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:76
+#: includes/welcome.php:144
+msgid "Set different cut-off times for visitors & logged-in users"
+msgstr "Stel verschillende cut-off tijden voor bezoekers & ingelogde gebruikers in"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:67
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:80
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:101
+#: includes/welcome.php:135 includes/welcome.php:148 includes/welcome.php:169
+#: includes/welcome.php:182
+msgid "Learn More"
+msgstr "Leer meer"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:65
+#: includes/welcome.php:133
+msgid "The ability to capture the email address early in the order process is very important to reduce cart abandonment by unknown users as well as to be able to recover their carts if they abandon it. This ultimately leads to increase in your store sales."
+msgstr "De capaciteit om het e-mail adres op te slaan vroeg in het order proces is zeer belangrijk om het verlaten van de winkelwagen door onbekende gebruikers te verminderen en zodat zij hun winkelwagen kunnen terugkrijgen als zij het verlaten. Dit leidt uiteindelijk tot verhoging van uw winkelverkopen."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:63
+#: includes/welcome.php:131
+msgid "Capture Visitor Emails on click of Add to Cart button"
+msgstr "Bezoeker E-mails vastleggen bij door klik op toevoegen aan winkelwagentje knop"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:52
+#: includes/welcome.php:120
+msgid "Know more about Abandoned Cart Pro"
+msgstr "Meer weten over verlaten Winkelwagen PRO"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:42
+#: includes/welcome.php:110
+msgid "Click Here to go to Email Templates page"
+msgstr "Klik hier om naar de pagina e-mail sjablonen te gaan"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:40
+#: includes/welcome.php:108
+msgid "To start sending out abandoned cart notification emails, simply activate the email template from under WooCommerce -> Abandoned Carts -> Email Templates page."
+msgstr "Om te beginnen met het verzenden van verlaten winkelwagen notificatie e-mails, activeer de e-mail sjabloon van onder WooCommerce-> verlaten winkelwagens-> E-mail templates pagina."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:38
+#: includes/welcome.php:106
+msgid "Activate Email Template"
+msgstr "E-mail sjabloon activeren"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:34
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:59
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:86
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:93
+#: includes/welcome.php:102 includes/welcome.php:127 includes/welcome.php:154
+#: includes/welcome.php:161 includes/welcome.php:188
+msgid "WooCommerce Abandoned Cart Lite"
+msgstr "WooCommerce verlaten Winkelwagen Lite"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:30
+#: includes/welcome.php:98
+msgid "Get Started with Abandoned Cart Lite"
+msgstr "Aan de slag met verlaten Winkelwagen Lite"
+
+#: includes/welcome.php:50
+msgid "Welcome to Abandoned Cart Lite"
+msgstr "Welkom bij verlaten Winkelwagen Lite"
+
+#: includes/welcome.php:49
+msgid "Welcome to Abandoned Cart Lite %s"
+msgstr "Welkom bij verlaten Winkelwagen Lite %s"
+
+#: includes/component/tracking-data/ts-tracking.php:271
+#: includes/wcal_ts_tracking.php:79
+msgid "No thanks"
+msgstr "Nee, bedankt"
+
+#: includes/component/tracking-data/ts-tracking.php:270
+#: includes/wcal_ts_tracking.php:78
+msgid "Allow"
+msgstr "Toestaan"
+
+#: includes/wcal_ts_tracking.php:76
+msgid "Want to help make Abandoned Cart even more awesome? Allow Abandoned Cart to collect non-sensitive diagnostic data and usage information and get 20% off on your next purchase. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Find out more</a>. <br><br>"
+msgstr "Wil je helpen om Verlaten Winkelwagen nog beter te maken? Sta verlaten winkelwagen toe om niet-gevoelige kenmerkende gegevens en gebruiksinformatie te verzamelen en krijg 20% korting op uw volgende aankoop. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\"> Ontdek meer </a>. <br> <br>"
+
+#: includes/classes/class-wcal-templates-table.php:144
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/classes/class-wcal-templates-table.php:94
+msgid "Active ?"
+msgstr "Actief ?"
+
+#: includes/classes/class-wcal-templates-table.php:93
+msgid "Sent After Set Time"
+msgstr "Verzonden na ingestelde tijd"
+
+#: includes/classes/class-wcal-templates-table.php:92
+msgid "Name Of Template"
+msgstr "Naam van sjabloon"
+
+#: includes/classes/class-wcal-templates-table.php:91
+msgid "Sr"
+msgstr "Sr"
+
+#: includes/classes/class-wcal-templates-table.php:54
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:53
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:161
+msgid "View Details"
+msgstr "Details weergeven"
+
+#: includes/classes/class-wcal-recover-orders-table.php:127
+msgid "Cart Recovered Date"
+msgstr "Winkelwagen herstelde datum"
+
+#: includes/classes/class-wcal-recover-orders-table.php:126
+msgid "Cart Abandoned Date"
+msgstr "Winkelwagen verlaten datum"
+
+#: includes/classes/class-wcal-recover-orders-table.php:124
+msgid "Customer Name"
+msgstr "Klant naam"
+
+#: includes/classes/class-wcal-recover-orders-table.php:87
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:86
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-product-report-table.php:93
+msgid "Number of Times Recovered"
+msgstr "Aantal keren hersteld"
+
+#: includes/classes/class-wcal-product-report-table.php:92
+msgid "Number of Times Abandoned"
+msgstr "Aantal keren verlaten"
+
+#: includes/classes/class-wcal-product-report-table.php:91
+msgid "Product Name"
+msgstr "Productnaam"
+
+#: includes/classes/class-wcal-product-report-table.php:59
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:58
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/classes/class-wcal-abandoned-orders-table.php:365
+msgid "Abandoned"
+msgstr "Verlaten"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:359
+msgid "items"
+msgstr "items"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:357
+msgid "item"
+msgstr "item"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:151
+#: includes/classes/class-wcal-abandoned-orders-table.php:544
+#: includes/classes/class-wcal-templates-table.php:145
+#: includes/classes/class-wcal-templates-table.php:330
+msgid "Delete"
+msgstr "Verwijder"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:150
+msgid "View order"
+msgstr "Bekijk bestelling"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:101
+msgid "Status of Cart"
+msgstr "Status van winkelwagen"
+
+#: includes/admin/wcal_privacy_export.php:168
+#: includes/admin/wcal_privacy_export.php:180
+#: includes/classes/class-wcal-abandoned-orders-table.php:100
+msgid "Abandoned Date"
+msgstr "Verlaten datum"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:99
+#: includes/classes/class-wcal-recover-orders-table.php:128
+msgid "Order Total"
+msgstr "Bestelling totaal"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:98
+msgid "Customer"
+msgstr "Klant"
+
+#: includes/admin/wcal_privacy_export.php:174
+#: includes/admin/wcal_privacy_export.php:185
+#: includes/classes/class-wcal-abandoned-orders-table.php:97
+#: includes/classes/class-wcal-recover-orders-table.php:125
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:96
+msgid "Id"
+msgstr "ID"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:53
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:52
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: cron/wcal_send_email.php:576 cron/wcal_send_email.php:643
+#: includes/frontend/wcal_checkout_process.php:198
+#: includes/frontend/wcal_checkout_process.php:493
+msgid "This order was abandoned & subsequently recovered."
+msgstr "Deze bestelling werd verlaten & vervolgens hersteld."
+
+#: cron/wcal_send_email.php:381 woocommerce-ac.php:3105 woocommerce-ac.php:3140
+msgid "Cart Total:"
+msgstr "Totaal winkelwagentje:"
+
+#: cron/wcal_send_email.php:281 cron/wcal_send_email.php:291
+#: woocommerce-ac.php:2396 woocommerce-ac.php:3085 woocommerce-ac.php:3120
+msgid "Line Subtotal"
+msgstr "Lijn Subtotaal"
+
+#: cron/wcal_send_email.php:280 cron/wcal_send_email.php:290
+#: woocommerce-ac.php:3084 woocommerce-ac.php:3119
+msgid "Price"
+msgstr "Prijs"
+
+#: cron/wcal_send_email.php:279 cron/wcal_send_email.php:289
+#: woocommerce-ac.php:2395 woocommerce-ac.php:3083 woocommerce-ac.php:3118
+msgid "Quantity"
+msgstr "Aantal"
+
+#: cron/wcal_send_email.php:278 cron/wcal_send_email.php:288
+#: woocommerce-ac.php:2394 woocommerce-ac.php:3082 woocommerce-ac.php:3117
+msgid "Name"
+msgstr "Naam"
+
+#: cron/wcal_send_email.php:277 cron/wcal_send_email.php:287
+#: woocommerce-ac.php:2393 woocommerce-ac.php:3081 woocommerce-ac.php:3116
+msgid "Item"
+msgstr "Item"
+
+#: cron/wcal_send_email.php:275 cron/wcal_send_email.php:284
+#: woocommerce-ac.php:3079 woocommerce-ac.php:3113
+msgid "Your Shopping Cart"
+msgstr "Uw winkelwagen"
+
+#: cron/wcal_send_email.php:93
+msgid "Abandoned cart reminder"
+msgstr "Verlaten winkelwagen herinnering"
+
+#. Plugin URI of the plugin
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#: woocommerce-ac.php:2303
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "Het rapport hieronder toont hoeveel verlaten winkelwagens wij voor je konden terugkrijgen door automatische e-mail te verzenden om het winkelen aan te moedigen."
+
+#: includes/welcome.php:178
+msgid "Full range of merge tags that allow you to personalize the abandoned cart email"
+msgstr "Volledige reeks van samenvoegings-tags die je kunt gebruiken om de verlaten winkelwagen e-mail te personaliseren"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:54
+#: includes/welcome.php:122
+msgid "The Abandoned Cart Pro plugin gives you features where you are able to recover more sales compared to the Lite plugin. Here are some notable features the Pro version provides."
+msgstr "De verlaten Winkelwagen Pro plugin geeft je functies waardoor je in staat bent om meer omzet te herstellen in vergelijking met de Lite plugin. Hier zijn een aantal opmerkelijke kenmerken van de Pro-versie biedt."
+
+#: woocommerce-ac.php:2911
+msgid ""
+"If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            rating. Thank you in advance. :)"
+msgstr ""
+"Als je van <strong>Verlaten Winkelwagen Lite voor WooCommerce</strong>houdt, laat het ons dan even een<a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#nieuw-bericht\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Bedankt:)\">★ ★ ★ ★</a>\n"
+"                                  rating. Bij voorbaat dank. :)"
+
+#: includes/welcome.php:88
+msgid "Thank you for activating or updating to the latest version of Abandoned Cart Lite! If you're a first time user, welcome! You're well on your way to start recovering your lost revenues."
+msgstr "Dank je voor het activeren of updaten naar de nieuwste versie van de verlaten Winkelwagen Lite! Als je een eerste keer gebruiker bent, welkom! Je bent goed op weg om te beginnen met het herstellen van uw verloren inkomsten."

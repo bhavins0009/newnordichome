@@ -1,0 +1,30 @@
+2020-01-02T01:02:14+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id a97cbb3021172c4dd3d1544925082277
+2020-01-02T01:02:45+00:00 NOTICE abandoned_cart.success :: email: bjarma2003@yahoo.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=a97cbb3021172c4dd3d1544925082277
+2020-01-02T06:16:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 781d55c4e48285d426cae7391cdd82b5
+2020-01-02T06:16:23+00:00 NOTICE abandoned_cart.success :: email: rballi@hotmail.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=781d55c4e48285d426cae7391cdd82b5
+2020-01-02T12:02:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 44a30a698b9624c5ed0166b234f35eae
+2020-01-02T12:03:52+00:00 NOTICE abandoned_cart.success :: email: mailundjakobsen@gmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=44a30a698b9624c5ed0166b234f35eae
+2020-01-02T12:06:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12067
+2020-01-02T12:08:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12067
+2020-01-02T12:08:28+00:00 NOTICE order_submit.success :: addStoreOrder :: #12067 :: email: mailundjakobsen@gmail.com :: abandoned cart deleted [44a30a698b9624c5ed0166b234f35eae]
+2020-01-02T12:10:01+00:00 NOTICE order_submit.success :: updateStoreOrder :: #12067 :: email: mailundjakobsen@gmail.com
+2020-01-02T18:56:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon starts in the next minute :: obj_id 12079
+2020-01-02T18:58:05+00:00 NOTICE promo_code.update :: updated promo code julie15
+2020-01-02T20:22:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id fbbd6c763a5c5b96856f9950294f3059
+2020-01-02T20:23:13+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12083
+2020-01-02T20:23:21+00:00 NOTICE abandoned_cart.success :: email: jl3@frandsen.dk :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=fbbd6c763a5c5b96856f9950294f3059
+2020-01-02T20:25:50+00:00 NOTICE order_submit.success :: addStoreOrder :: #12083 :: email: jl3@frandsen.dk :: abandoned cart deleted [fbbd6c763a5c5b96856f9950294f3059]
+2020-01-02T20:54:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 1093
+2020-01-02T20:55:40+00:00 NOTICE product_submit.success :: updateStoreProduct :: #1093
+2020-01-02T20:58:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12091
+2020-01-02T20:59:29+00:00 NOTICE product_submit.success :: addStoreProduct :: #12091
+2020-01-02T21:01:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12091
+2020-01-02T21:02:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #12091
+2020-01-02T21:04:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12097
+2020-01-02T21:04:20+00:00 NOTICE product_submit.success :: addStoreProduct :: #12097
+2020-01-02T21:04:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 12097
+2020-01-02T21:05:20+00:00 NOTICE product_submit.success :: updateStoreProduct :: #12097
+2020-01-02T22:50:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 3fd1e97c5c8fcd0da33edd2f697ff73f
+2020-01-02T22:51:21+00:00 NOTICE abandoned_cart.success :: email: ktmkleiner@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=3fd1e97c5c8fcd0da33edd2f697ff73f
+2020-01-02T22:52:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 12106
+2020-01-02T22:54:33+00:00 NOTICE order_submit.success :: addStoreOrder :: #12106 :: email: ktmkleiner@hotmail.com :: abandoned cart deleted [3fd1e97c5c8fcd0da33edd2f697ff73f]

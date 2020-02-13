@@ -1,0 +1,276 @@
+# Copyright (C) 2017 Premmerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce SEO Addon\n"
+"Report-Msgid-Bugs-To: issues\n"
+"POT-Creation-Date: 2019-04-24 11:04+0300\n"
+"PO-Revision-Date: 2019-04-24 11:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Admin/Admin.php:111
+#, php-format
+msgid "If you like %s, please rate us %s on WordPress.org directory."
+msgstr ""
+"Если вам нравится %s, пожалуйста, оцените нас %s в каталоге WordPress.org."
+
+#: src/Admin/Pages/Info.php:15
+msgid "Info"
+msgstr "Информация"
+
+#: src/Admin/Pages/Info.php:22
+msgid "Information"
+msgstr "Информация"
+
+#: src/Admin/Pages/Info.php:24
+msgid "These fields will be added to the schema.org markup."
+msgstr "Эти поля будут добавлены в разметку schema.org."
+
+#: src/Admin/Pages/Info.php:28
+msgid "Address"
+msgstr "Адрес"
+
+#: src/Admin/Pages/Info.php:29 src/Admin/Pages/Info.php:34
+#: src/Admin/Pages/Info.php:39 src/Admin/Pages/Info.php:44
+#: src/Admin/Pages/Info.php:49 src/Admin/Pages/Social.php:31
+#: src/Admin/Pages/Social.php:36 src/Admin/Pages/Social.php:41
+#: src/Admin/Pages/Social.php:46 src/Admin/Pages/Social.php:51
+#: src/Admin/Pages/Social.php:56 src/Admin/Pages/Social.php:61
+msgid "For example"
+msgstr "К примеру"
+
+#: src/Admin/Pages/Info.php:33
+msgid "Email"
+msgstr "Почта"
+
+#: src/Admin/Pages/Info.php:38
+msgid "Phone"
+msgstr "Телефон"
+
+#: src/Admin/Pages/Info.php:43
+msgid "Opening hours"
+msgstr "Часы работы"
+
+#: src/Admin/Pages/Info.php:48
+msgid "Payment accepted"
+msgstr "Способы оплаты"
+
+#: src/Admin/Pages/Metadata.php:17
+msgid "Indexing"
+msgstr "Индексация"
+
+#: src/Admin/Pages/Metadata.php:23
+msgid "Search"
+msgstr "Поиск"
+
+#: src/Admin/Pages/Metadata.php:28 src/Admin/Pages/Metadata.php:39
+#: src/Admin/Pages/Metadata.php:50 src/Admin/Pages/Metadata.php:61
+#: src/Admin/Pages/Metadata.php:72
+msgid "Disable"
+msgstr "Отключить"
+
+#: src/Admin/Pages/Metadata.php:29 src/Admin/Pages/Metadata.php:40
+#: src/Admin/Pages/Metadata.php:51 src/Admin/Pages/Metadata.php:62
+#: src/Admin/Pages/Metadata.php:73
+msgid "Disable indexing"
+msgstr "Отключить индексацию"
+
+#: src/Admin/Pages/Metadata.php:30
+msgid "Add noindex, follow to search page"
+msgstr "Добавить noindex, follow на страницу поиска"
+
+#: src/Admin/Pages/Metadata.php:34
+msgid "Date archives"
+msgstr "Архивы по датам"
+
+#: src/Admin/Pages/Metadata.php:41
+msgid "Add noindex, follow to date archives page"
+msgstr "Добавить noindex, follow на страницы архивов по дате"
+
+#: src/Admin/Pages/Metadata.php:45
+msgid "Author archives"
+msgstr "Архивы по автору"
+
+#: src/Admin/Pages/Metadata.php:52
+msgid "Add noindex, follow to author archives page"
+msgstr "Добавить noindex, follow на страницу архивов авторов"
+
+#: src/Admin/Pages/Metadata.php:56
+msgid "Tag archives"
+msgstr "Теги"
+
+#: src/Admin/Pages/Metadata.php:63
+msgid "Add noindex, follow to tag archives page"
+msgstr "Добавить noindex, follow на страници тегов"
+
+#: src/Admin/Pages/Metadata.php:67
+msgid "Category archives"
+msgstr "Категории"
+
+#: src/Admin/Pages/Metadata.php:74
+msgid "Add noindex, follow to category archives page"
+msgstr "Добавить noindex, follow на страници категорий"
+
+#: src/Admin/Pages/Settings.php:16 src/Admin/Pages/Settings.php:36
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/Admin/Pages/Settings.php:21
+msgid "Not specified"
+msgstr "Не выбрано"
+
+#: src/Admin/Pages/Settings.php:32
+msgid "See"
+msgstr "Смотрите"
+
+#: src/Admin/Pages/Settings.php:32
+msgid "documentation"
+msgstr "документацию"
+
+#: src/Admin/Pages/Settings.php:42
+msgid "Mode"
+msgstr "Режим"
+
+#: src/Admin/Pages/Settings.php:45
+msgid ""
+"The plugin is using the compatibility mode.Therefore, some features have "
+"been disabled."
+msgstr ""
+"Плагин работает в режиме совместимости, поэтому некоторые функции отключены."
+
+#: src/Admin/Pages/Settings.php:53
+msgid "Markup"
+msgstr "Разметка"
+
+#: src/Admin/Pages/Settings.php:57
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: src/Admin/Pages/Settings.php:62
+msgid "Twitter Cards"
+msgstr "Twitter Cards"
+
+#: src/Admin/Pages/Settings.php:67 src/Admin/Pages/Settings.php:95
+msgid "schema.org"
+msgstr "schema.org"
+
+#: src/Admin/Pages/Settings.php:75
+msgid "Image alts"
+msgstr "Alt изображений"
+
+#: src/Admin/Pages/Settings.php:76
+msgid "Enable image alts"
+msgstr "Включить alt изображений"
+
+#: src/Admin/Pages/Settings.php:77
+msgid "Generate product image alts from titles"
+msgstr "Генерация alt для изображений товаров из названия"
+
+#: src/Admin/Pages/Settings.php:82
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/Admin/Pages/Settings.php:87
+msgid "Summary with large image"
+msgstr "Summary with large image"
+
+#: src/Admin/Pages/Settings.php:88
+msgid "Summary"
+msgstr "Summary"
+
+#: src/Admin/Pages/Settings.php:90
+msgid "Twitter Card type"
+msgstr "Тип Twitter Card"
+
+#: src/Admin/Pages/Settings.php:100
+msgid "Brand"
+msgstr "Бренд"
+
+#: src/Admin/Pages/Settings.php:101
+msgid "Select the taxonomy that is used as a brand"
+msgstr "Выберите таксономию, которая используется в качестве бренда"
+
+#: src/Admin/Pages/Settings.php:107
+msgid "Links"
+msgstr "Ссылки"
+
+#: src/Admin/Pages/Settings.php:111
+msgid "Enable canonical links"
+msgstr "Добавить canonical"
+
+#: src/Admin/Pages/Settings.php:112
+msgid "Add canonical meta tags"
+msgstr "Добавить мета тег canonical"
+
+#: src/Admin/Pages/Settings.php:116
+msgid "Enable navigation links"
+msgstr "Добавить ссылки навигации"
+
+#: src/Admin/Pages/Settings.php:117
+msgid "Add prev, next meta tags"
+msgstr "Добавить мета теги prev, next"
+
+#: src/Admin/Pages/Social.php:16
+msgid "Social"
+msgstr "Социальные сети"
+
+#: src/Admin/Pages/Social.php:24
+msgid "Accounts"
+msgstr "Аккаунты"
+
+#: src/Admin/Pages/Social.php:25
+msgid ""
+"These links will be added to the schema.org markup and search engines will "
+"be able to associate your site with your social profiles."
+msgstr ""
+"Эти ссылки будут добавлены в разметку schema.org, и поисковые системы смогут "
+"связать ваш сайт с вашими социальными профилями."
+
+#~ msgid ""
+#~ "The plugin is working in compatibility mode, so some features are not "
+#~ "used."
+#~ msgstr ""
+#~ "Плагин работает в режиме совместимости, поэтому некоторые функции не "
+#~ "используются."
+
+#~ msgid ""
+#~ "The plugin uses the compatibility mode.Therefore, some features have been "
+#~ "disabled."
+#~ msgstr ""
+#~ "Плагин работает в режиме совместимости, поэтому некоторые функции jnrk.xt."
+
+#~ msgid "Social Profiles"
+#~ msgstr "Социальные Профили"
+
+#~ msgid "Social profiles"
+#~ msgstr "Социальные профили"
+
+#~ msgid "Contact Us"
+#~ msgstr "Свяжитесь с нами"
+
+#~ msgid "Account"
+#~ msgstr "Аккаунт"
+
+#~ msgid "The %s plugin requires %s plugin to be active!"
+#~ msgstr "Для работы плагина %s нужен плагин %s"
+
+#~ msgid "Select the attribute of the product that is used as a brand"
+#~ msgstr "Выберите атрибут товара, который используется как бренд"
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "This plugin requires %s plugin to be active!"
+#~ msgstr "Этот плагин нуждается в %s плагине для активации!"

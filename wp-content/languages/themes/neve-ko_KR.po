@@ -1,0 +1,753 @@
+# Translation of Themes - Neve in Korean
+# This file is distributed under the same license as the Themes - Neve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-01 10:55:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Themes - Neve\n"
+
+#. Theme Name of the theme
+msgid "Neve"
+msgstr "Neve"
+
+#. Description of the theme
+msgid "Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!"
+msgstr "Neve는 아주 빠르고 쉽게 사용자 정의 가능한 다용도 테마입니다. 블로그, 소규모 기업, 스타트업 기업, 에이전시, 회사, 온라인 쇼핑몰(우커머스 Storefront)외에 개인 포트폴리오 사이트와 대부분의 프로젝트에 적합합니다. AMP(Accelerated Mobile Pages; 가속된 모바일 페이지)에 최적화됐고 반응형 테마로서 몇 초만에 로딩되며 모든 기기에 어울립니다. 아주 가벼운 미니멀리스트 디자인으로 확장 가능성이 높습니다. SEO에 최적화 된 코드를 사용하여 구글 검색결과에도 상위에 나타날 것입니다. Nerve는 구텐베르그와 대부분의 인기 높은 페이지 빌더(엘리멘터, 브리지, 비버 빌더, 비주얼 컴포저, 사이트오리진, 디비 등) 훌륭하게 작동됩니다. Nerve는 우커머스, 반응형, RTL 또한 지원하며 번역 가능합니다. 더이상 볼 것 없이 Nerve는 완벽한 테마가 될 것입니다!"
+
+#. Template Name of the theme
+msgid "Page Builder Full Width (Neve)"
+msgstr "페이지 빌더 전체 폭 (Nerve)"
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "찾으시는 것을 발견할 수 없는 것 같습니다. 검색이 도움이 될지도 모릅니다."
+
+#: template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "죄송합니다. 검색어와 일치하는 것이 없습니다. 다른 키워드로 다시 해보세요."
+
+#: template-parts/content-none.php:22
+msgid "Get started here"
+msgstr "여기서 시작하세요"
+
+#. translators: %s is Link to new post
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? %s."
+msgstr "첫 글을 발행할 준비가 되셨나요? %s."
+
+#: inc/views/template_parts.php:201
+msgid "Read More"
+msgstr "더 보기"
+
+#: inc/views/partials/post_meta.php:134
+msgid "Tags"
+msgstr "태그"
+
+#. translators: number of comments
+#: inc/views/partials/comments.php:178
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;의 %1$s개의 댓글"
+
+#: inc/views/partials/comments.php:157
+msgid "Comment awaiting moderation."
+msgstr "댓글이 검토 대기 중입니다"
+
+#: inc/views/partials/comments.php:144
+msgid "Reply"
+msgstr "답글"
+
+#. translators: 1: date, 2: time
+#: inc/views/partials/comments.php:129
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/views/partials/comments.php:107 inc/views/partials/comments.php:138
+msgid "Edit"
+msgstr "편집"
+
+#: inc/views/partials/comments.php:105
+msgid "Pingback:"
+msgstr "핑백:"
+
+#: inc/views/partials/comments.php:82
+msgid "Next"
+msgstr "다음"
+
+#: inc/views/partials/comments.php:79
+msgid "Previous"
+msgstr "이전"
+
+#: inc/views/partials/comments.php:74
+msgid "Comments Navigation"
+msgstr "댓글 내비게이션"
+
+#: inc/views/partials/comments.php:57
+msgid "Comments are closed."
+msgstr "댓글이 닫혔습니다."
+
+#. translators: search result
+#: inc/views/page_header.php:77
+msgid "Search Results for: %s"
+msgstr "결색 결과: %s"
+
+#: inc/views/header.php:238
+msgid "Toggle Navigation"
+msgstr "내비게이션 토글"
+
+#: inc/views/header.php:234
+msgid "Navigation Menu"
+msgstr "내비게이션 메뉴"
+
+#: inc/views/layouts/layout_sidebar.php:140 inc/views/header.php:96
+msgid "Close"
+msgstr "닫기"
+
+#: inc/customizer/options/typography.php:168
+#: inc/customizer/options/typography.php:302
+msgid "Line Height"
+msgstr "줄 간격"
+
+#: inc/customizer/options/typography.php:125
+#: inc/customizer/options/typography.php:257
+msgid "Font Size"
+msgstr "폰트 사이즈"
+
+#: inc/customizer/options/typography.php:106
+#: inc/customizer/options/typography.php:212
+msgid "Font Family"
+msgstr "폰트 패밀리"
+
+#: inc/customizer/options/typography.php:78
+msgid "Font Subsets"
+msgstr "폰트 서브셋"
+
+#: inc/customizer/options/typography.php:42
+msgid "Headings"
+msgstr "헤딩"
+
+#: inc/customizer/options/typography.php:38
+msgid "General"
+msgstr "일반"
+
+#: inc/customizer/options/top_bar.php:189
+msgid "Select Top Bar Menu"
+msgstr "탑바 메뉴 선택"
+
+#: inc/customizer/options/top_bar.php:67
+msgid "Enable Top Bar"
+msgstr "탑바 활성화"
+
+#: inc/customizer/options/top_bar.php:48
+msgid "Top Bar"
+msgstr "탑바"
+
+#: inc/customizer/options/rtl.php:56
+msgid "Single Product Sidebar Layout"
+msgstr "단일 상품 사이드바 레이아웃"
+
+#: inc/customizer/options/rtl.php:52
+msgid "Shop / Archive Sidebar Layout"
+msgstr "상점 / 글보관함 사이드바 레이아웃"
+
+#: inc/customizer/options/main.php:61
+msgid "Typography"
+msgstr "글자"
+
+#: inc/customizer/options/main.php:57
+msgid "Header"
+msgstr "헤더"
+
+#: inc/customizer/options/layout_single_post.php:71
+msgid "Elements Order"
+msgstr "요소 순서"
+
+#: inc/customizer/options/layout_sidebar.php:264
+msgid "Content Width (%)"
+msgstr "콘텐츠 폭 (%)"
+
+#: inc/customizer/options/layout_sidebar.php:220
+msgid "Sidebar Layout"
+msgstr "사이드바 레이아웃"
+
+#: inc/customizer/options/layout_sidebar.php:161
+msgid "Others"
+msgstr "기타"
+
+#: inc/customizer/options/layout_sidebar.php:157
+msgid "Single Product"
+msgstr "단일 상품"
+
+#: inc/customizer/options/layout_sidebar.php:156
+msgid "Shop / Archive"
+msgstr "상점 / 글보관함"
+
+#: inc/customizer/options/layout_sidebar.php:149
+#: inc/customizer/options/layout_single_post.php:42
+msgid "Single Post"
+msgstr "단일 글"
+
+#: inc/customizer/options/layout_sidebar.php:105
+msgid "Enable Advanced Options"
+msgstr "고급 옵션 활성화"
+
+#: inc/customizer/options/layout_sidebar.php:81
+msgid "Sitewide Content Width (%)"
+msgstr "사이트 전체 콘텐츠 폭 (%)"
+
+#: inc/customizer/options/layout_sidebar.php:62
+msgid "Sitewide Sidebar Layout"
+msgstr "사이트 전체 사이드바 레이아웃"
+
+#: inc/customizer/options/layout_navigation.php:100
+msgid "Last Item in Menu"
+msgstr "메뉴 마지막 아이템"
+
+#: inc/customizer/options/layout_navigation.php:87
+msgid "Search & Cart"
+msgstr "검색 및 장바구니"
+
+#: inc/customizer/options/layout_navigation.php:82
+msgid "Search"
+msgstr "검색"
+
+#: inc/customizer/options/layout_navigation.php:66
+msgid "Navigation Layout"
+msgstr "내비게이션 레이아웃"
+
+#: inc/customizer/options/layout_navigation.php:46
+msgid "Primary Navigation"
+msgstr "주 내비게이션"
+
+#: inc/customizer/options/layout_footer.php:184
+msgid "Section Content"
+msgstr "영역 콘텐츠"
+
+#. translators: %1$s is Theme Name (Neve), %2$s is WordPress
+#: inc/customizer/options/layout_footer.php:176 inc/views/footer.php:95
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | Powered by %2$s"
+
+#: inc/customizer/options/layout_footer.php:141
+msgid "Footer  Menu"
+msgstr "푸터  메뉴"
+
+#: inc/customizer/options/layout_footer.php:140
+msgid "Text"
+msgstr "텍스트"
+
+#: inc/customizer/options/layout_navigation.php:81
+#: inc/customizer/options/layout_footer.php:139
+msgid "None"
+msgstr "아니오"
+
+#: inc/customizer/options/layout_footer.php:137
+msgid "Content Type"
+msgstr "컨텐츠 형식"
+
+#: inc/customizer/options/layout_footer.php:107
+msgid "Widget Columns"
+msgstr "위젯 컬럼"
+
+#: inc/customizer/options/layout_footer.php:74
+msgid "Widgets"
+msgstr "위젯"
+
+#: inc/customizer/options/layout_footer.php:71
+#: inc/customizer/options/top_bar.php:123
+msgid "Content"
+msgstr "콘텐츠"
+
+#: inc/customizer/options/layout_footer.php:48
+msgid "Footer"
+msgstr "푸터"
+
+#: inc/customizer/options/layout_container.php:120
+msgid "Single Product Container Style"
+msgstr "단일 상품 콘테이너 스타일"
+
+#: inc/customizer/options/layout_container.php:116
+msgid "Shop / Archive Container Style"
+msgstr "상점 / 글보관함 콘테이너 스타일"
+
+#: inc/customizer/options/layout_container.php:106
+msgid "Single Post Container Style"
+msgstr "단일 글 콘테이너 스타일"
+
+#: inc/customizer/options/layout_container.php:102
+msgid "Blog / Archive Container Style"
+msgstr "블로그 글보관함 콘테이너 스타일"
+
+#: inc/customizer/options/layout_container.php:98
+msgid "Default Container Style"
+msgstr "기본 콘테이너 스타일"
+
+#: inc/customizer/options/layout_container.php:62
+msgid "Container width (px)"
+msgstr "콘테이너 폭 (px)"
+
+#: inc/customizer/options/layout_blog.php:272
+msgid "Meta Order"
+msgstr "메타 순서"
+
+#: inc/customizer/options/layout_blog.php:261
+msgid "Comments"
+msgstr "댓글"
+
+#: inc/customizer/options/layout_blog.php:260
+msgid "Date"
+msgstr "날짜"
+
+#: inc/customizer/options/layout_blog.php:259
+msgid "Category"
+msgstr "카테고리"
+
+#: inc/customizer/options/layout_blog.php:258
+msgid "Author"
+msgstr "글쓴이"
+
+#: inc/customizer/options/layout_blog.php:235
+msgid "Post Content Order"
+msgstr "글 콘텐츠 순서"
+
+#: inc/customizer/options/layout_blog.php:224
+msgid "Excerpt"
+msgstr "요약글"
+
+#: inc/customizer/options/layout_blog.php:223
+#: inc/customizer/options/layout_single_post.php:59
+msgid "Title & Meta"
+msgstr "타이틀 & 메타"
+
+#: inc/customizer/options/layout_blog.php:222
+#: inc/customizer/options/layout_single_post.php:60
+msgid "Thumbnail"
+msgstr "썸네일"
+
+#: inc/customizer/options/layout_blog.php:172
+msgid "Infinite Scroll"
+msgstr "무한 스크롤"
+
+#: inc/customizer/options/layout_blog.php:171
+msgid "Number"
+msgstr "숫자"
+
+#: inc/customizer/options/layout_blog.php:166
+msgid "Post Pagination"
+msgstr "글 페이지 처리"
+
+#: inc/customizer/options/layout_blog.php:138
+msgid "Excerpt Length"
+msgstr "요약 길이"
+
+#: inc/customizer/options/layout_blog.php:118
+msgid "Enable Masonry"
+msgstr "메이슨리 활성화"
+
+#: inc/customizer/options/layout_blog.php:99
+msgid "4 Columns"
+msgstr "4 컬럼"
+
+#: inc/customizer/options/layout_blog.php:98
+msgid "3 Columns"
+msgstr "3 컬럼"
+
+#: inc/customizer/options/layout_blog.php:97
+msgid "2 Columns"
+msgstr "2 컬럼"
+
+#: inc/customizer/options/layout_blog.php:96
+msgid "1 Column"
+msgstr "1 컬럼"
+
+#: inc/customizer/options/layout_blog.php:94
+msgid "Grid Layout"
+msgstr "그리드 레이아웃"
+
+#: inc/customizer/options/main.php:53 inc/customizer/options/layout_blog.php:65
+#: inc/customizer/options/top_bar.php:90
+msgid "Layout"
+msgstr "레이아웃"
+
+#: inc/customizer/options/layout_blog.php:65
+msgid "Blog"
+msgstr "블로그"
+
+#: inc/customizer/options/layout_blog.php:46
+#: inc/customizer/options/layout_sidebar.php:148
+msgid "Blog / Archive"
+msgstr "블로그 / 글보관함"
+
+#: inc/customizer/options/colors_background.php:82
+msgid "Primary Menu Items Hover Color"
+msgstr "주 메뉴 아이템 호버 색상"
+
+#: inc/customizer/options/colors_background.php:77
+msgid "Primary Menu Items Color"
+msgstr "주메뉴 아이템 색상"
+
+#: inc/customizer/options/colors_background.php:57
+msgid "Primary Button Color"
+msgstr "주 버튼 색상"
+
+#: inc/customizer/options/colors_background.php:43
+msgid "Colors & Background"
+msgstr "색상 & 배경"
+
+#: inc/customizer/controls/font_selector.php:73
+msgid "Google Fonts"
+msgstr "구글 폰트"
+
+#: inc/customizer/controls/font_selector.php:72
+msgid "Standard Fonts"
+msgstr "표준 폰트"
+
+#: inc/customizer/controls/font_selector.php:70
+msgid "Default"
+msgstr "기본"
+
+#: inc/customizer/controls/font_selector.php:64
+msgctxt "label"
+msgid "Search"
+msgstr "검색"
+
+#: inc/core/front_end.php:331
+msgid "Footer Four"
+msgstr "푸터 4"
+
+#: inc/core/front_end.php:330
+msgid "Footer Three"
+msgstr "푸터 3"
+
+#: inc/core/front_end.php:329
+msgid "Footer Two"
+msgstr "푸터 2"
+
+#: inc/core/front_end.php:328
+msgid "Footer One"
+msgstr "푸터 1"
+
+#: inc/core/front_end.php:322
+msgid "Shop Sidebar"
+msgstr "상점 사이드바"
+
+#: inc/core/front_end.php:180 inc/customizer/options/colors_background.php:72
+msgid "Text Color"
+msgstr "텍스트 색상"
+
+#: inc/core/front_end.php:176 inc/customizer/options/colors_background.php:67
+msgid "Link Hover Color"
+msgstr "링크 호버 색상"
+
+#: inc/core/front_end.php:172 inc/customizer/options/colors_background.php:62
+msgid "Link Color"
+msgstr "링크 색상"
+
+#: inc/core/front_end.php:168
+msgid "Button Color"
+msgstr "버튼 색상"
+
+#: inc/core/front_end.php:159
+msgid "White"
+msgstr "흰색"
+
+#: inc/core/front_end.php:150
+msgid "Black"
+msgstr "검정"
+
+#: inc/core/front_end.php:131
+msgid "With Neve, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
+msgstr "Nerve를 사용하면 여러분을 위해 특별히 디자인된 여러 가지 독특한 데모를 선택할 수 있습니다. 한번의 클릭으로 설치가 가능합니다. 좋아하는 것만 선택하면 되며 그 다음부터는 자동으로 처리합니다."
+
+#: inc/core/front_end.php:130
+msgid "Ready to use pre-built websites with 1-click installation"
+msgstr "한번의 클릭으로 미리 제작된 웹사이트 설치 사용하기"
+
+#: inc/core/front_end.php:119 inc/core/front_end.php:126
+msgid "Hi! We've noticed you were using Zelle before. To make your transition easier, we can help you keep the same beautiful homepage you had before, by converting it into an Elementor template. This option will also import your homepage content."
+msgstr "안녕하세요. 이전에 Zelle를 사용한 것이 발견됐습니다. 이전을 쉽게하기 위해 홈페이지를 엘리멘터 템플릿으로 전환하면 똑같이 아름다운 홈페이지를 유지하는데 도움이 될 것입니다. 이 옵션은 또한 홈페이지 콘텐츠를 가져오기 할 것입니다."
+
+#: inc/core/front_end.php:118 inc/core/front_end.php:125
+msgid "Want to keep using Zelle's homepage?"
+msgstr "Zelle의 홈페이지를 계속 사용하겠습니까?"
+
+#: inc/core/front_end.php:62
+msgid "Top Bar Menu"
+msgstr "탑바 메뉴"
+
+#: inc/core/front_end.php:61
+msgid "Footer Menu"
+msgstr "푸터 메뉴"
+
+#: inc/core/front_end.php:60 inc/views/header.php:208
+msgid "Primary Menu"
+msgstr "주 메뉴"
+
+#: inc/core/admin.php:295
+msgid "Now, let's get you ready. It will take only a few minutes."
+msgstr "그럼 시작할까요? 몇 분밖에 안걸립니다."
+
+#. translators: 1 - theme name
+#: inc/core/admin.php:292
+msgid "Thanks for installing %1$s!"
+msgstr "%1$s을(를) 설치해주셔서 감사합니다."
+
+#: inc/core/admin.php:212 inc/customizer/options/layout_sidebar.php:43
+msgid "Content / Sidebar"
+msgstr "콘텐츠 / 사이드바"
+
+#: inc/core/admin.php:207
+msgid "Footer Options"
+msgstr "푸터 옵션"
+
+#: inc/core/admin.php:202
+msgid "Blog Layouts"
+msgstr "블로그 레이아웃"
+
+#: inc/core/admin.php:197
+msgid "Header Options"
+msgstr "헤더 옵션"
+
+#: inc/core/admin.php:192
+msgid "Layout Options"
+msgstr "레이아웃 옵션"
+
+#: inc/core/admin.php:187
+msgid "Customize Fonts"
+msgstr "폰트 사용자 정의"
+
+#: inc/core/admin.php:182
+msgid "Set Colors"
+msgstr "색상 설정"
+
+#: inc/core/admin.php:177
+msgid "Upload Logo"
+msgstr "로고 업로드"
+
+#: inc/core/admin.php:145
+msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr "아래의 문서에서 끌어놓기 콘텐츠 빌더 플러그인을 사용해 보기 좋은 랜딩 페이지를 만드는 쉬운 방법을 찾을 수 있습니다."
+
+#: inc/core/admin.php:143
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr "끌어놓기 콘텐츠 빌더로 랜딩 페이지 만들기"
+
+#: inc/core/admin.php:135
+msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "사이트의 모든 것이 아주 느려질 때 아래의 문서를 보시면 이러한 문제를 일으키는 가장 일반적인 원인을 찾을 수 있고 각 문제에 대해 해결책을 찾을 수 있습니다."
+
+#: inc/core/admin.php:133
+msgid "Speed up your site"
+msgstr "사이트 속도 높이기"
+
+#: inc/core/admin.php:127 inc/core/admin.php:137 inc/core/admin.php:147
+msgid "View how to do this"
+msgstr "이것을 하는 방법 보기"
+
+#: inc/core/admin.php:125
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "테마 파일의 변경을 원하시면 변경사항은 테마의 다음 업데이트 시 덮어쓰기 됩니다. 이를 방지하려면 자식 테마를 만들어야 합니다. 이를 위해서는 아래의 문서를 따라가세요."
+
+#: inc/core/admin.php:123
+msgid "Create a child theme"
+msgstr "자식 테마 만들기"
+
+#: inc/core/admin.php:114
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "최근 테마 변경의 요약을 받길 원하시나요? 아래의 변경 기록을 참고하면 최근 수정내용과 기능 추가를 살펴볼 수 있습니다."
+
+#: inc/core/admin.php:113 inc/core/admin.php:116 inc/core/admin.php:156
+msgid "Changelog"
+msgstr "변경 기록"
+
+#: inc/core/admin.php:105
+msgid "Read full documentation"
+msgstr "전체문서 보기"
+
+#: inc/core/admin.php:103
+msgid "Need more details? Please check our full documentation for detailed information on how to use Neve."
+msgstr "더 많은 상세가 필요하신가요? Neve의 사용법에 관한 상세 정보가 있는 전체 문서를 알아보세요."
+
+#: inc/core/admin.php:93
+msgid "We want to make sure you have the best experience using Neve, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using Neve as much as we enjoy creating great products."
+msgstr "Neve를 사용해서 최고의 경험을 할 수 있을 것입니다. 저희가 여러분을 위해 모든 필요한 정보를 모아놓은 이유입니다. 훌륭한 상품을 만들면서 느낀 즐거움을 Hestia를 이용하면서 즐겨보세요."
+
+#: inc/core/admin.php:92 inc/core/admin.php:95
+msgid "Contact Support"
+msgstr "지원 문의하기"
+
+#: inc/core/admin.php:88 inc/core/admin.php:102
+msgid "Documentation"
+msgstr "문서"
+
+#: inc/core/admin.php:73
+msgid "Useful Plugins"
+msgstr "유용한 플러그인"
+
+#: inc/core/admin.php:66
+msgid "Links to Customizer Settings"
+msgstr "사용자 정의하기 설정으로 링크"
+
+#: inc/core/admin.php:60
+msgid "See demos"
+msgstr "데모 보기"
+
+#: inc/core/admin.php:58
+msgid "Neve now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
+msgstr "Nerve는 선택할 수 있는 여러 가지 디자인의 사이트 라이브러리를 갖추고 있습니다. 지속적으로 추가되는 데모 컬렉션을 방문해보세요."
+
+#: inc/core/admin.php:57
+msgid "Recommended actions"
+msgstr "권장 작업"
+
+#: inc/core/admin.php:54
+msgid "Getting Started"
+msgstr "시작하기"
+
+#: inc/core/admin.php:47
+msgid "Submit a review"
+msgstr "리뷰 제출"
+
+#: inc/core/admin.php:46
+msgid "Are you are enjoying Neve? We would love to hear your feedback."
+msgstr "Nerve를 즐기고 계신가요? 피드백을 받고 싶습니다."
+
+#: inc/core/admin.php:45
+msgid "Leave us a review"
+msgstr "리뷰를 남겨주세요"
+
+#: inc/core/admin.php:41
+msgid "Join our Facebook Group"
+msgstr "페이스북 그룹에 참여하기"
+
+#: inc/core/admin.php:40
+msgid "Join the community of Neve users. Get connected, share opinions, ask questions and help each other!"
+msgstr "Nerve 사용자 커뮤니티에 참여하세요. 서로 연결하고 의견을 공유하며 질문을 통해 서로를 도울 수 있습니다!"
+
+#: inc/core/admin.php:39
+msgid "Neve Community"
+msgstr "Neve 커뮤니티"
+
+#: inc/compatibility/woocommerce.php:421
+#: inc/customizer/options/layout_navigation.php:86 inc/views/header.php:131
+msgid "Cart"
+msgstr "장바구니"
+
+#: inc/compatibility/woocommerce.php:236
+msgid "Filter"
+msgstr "필터"
+
+#: inc/admin/plugin_install/main.php:174
+msgid "Activating "
+msgstr "활성화 "
+
+#: inc/admin/plugin_install/main.php:133
+msgid "Jetpack Portfolio"
+msgstr "Jetpack 포트폴리오"
+
+#: inc/admin/plugin_install/main.php:128
+msgid "Deactivate"
+msgstr "비활성화"
+
+#: inc/admin/plugin_install/main.php:113 inc/admin/plugin_install/main.php:133
+msgid "Activate"
+msgstr "활성화"
+
+#: inc/admin/plugin_install/main.php:109
+msgid "Install and activate"
+msgstr "설치 및 활성화"
+
+#: inc/admin/metabox/manager.php:36
+msgid "Neve Settings"
+msgstr "Nerve 설정"
+
+#: inc/core/front_end.php:321 inc/compatibility/gutenberg.php:210
+#: inc/admin/metabox/main.php:134
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: inc/admin/metabox/main.php:132
+msgid "No Sidebar"
+msgstr "사이드바 없음"
+
+#: inc/admin/metabox/main.php:131
+msgid "Right Sidebar"
+msgstr "우측 사이드바"
+
+#: inc/admin/metabox/main.php:130
+msgid "Left Sidebar"
+msgstr "좌측 사이드바"
+
+#: inc/customizer/options/layout_container.php:43
+#: inc/admin/metabox/main.php:119
+msgid "Container"
+msgstr "콘테이너"
+
+#: inc/customizer/options/layout_container.php:142
+#: inc/admin/metabox/main.php:117
+msgid "Full Width"
+msgstr "전체 폭"
+
+#: inc/customizer/options/layout_container.php:141
+#: inc/admin/metabox/main.php:116
+msgid "Contained"
+msgstr "컨테인드"
+
+#: inc/admin/metabox/main.php:115 inc/admin/metabox/main.php:129
+msgid "Customizer Setting"
+msgstr "사용자 정의하기 설정"
+
+#: inc/admin/metabox/main.php:77
+msgid "Disable Footer"
+msgstr "푸터 비활성화"
+
+#: inc/admin/metabox/main.php:72
+msgid "Disable Featured Image"
+msgstr "특성 이미지 비활성화"
+
+#: inc/admin/metabox/main.php:67
+msgid "Disable Title"
+msgstr "타이틀 비활성화"
+
+#: inc/admin/metabox/main.php:63
+msgid "Disable Header"
+msgstr "헤더 비활성화"
+
+#: inc/admin/metabox/main.php:62
+msgid "Components"
+msgstr "구성요소"
+
+#: inc/admin/metabox/main.php:37
+msgid "Enable Individual Content Width"
+msgstr "개별 콘텐츠 폭 활성화"
+
+#: inc/admin/metabox/main.php:36
+msgid "Content Width"
+msgstr "콘텐츠 폭"
+
+#: header.php:29
+msgid "Skip to content"
+msgstr "콘텐츠로 건너뛰기"
+
+#. translators: 1 - theme name (Neve)
+#: inc/core/admin.php:303
+msgid "Get started with %s"
+msgstr "%s로 시작하기"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "http://themeisle.com"
+
+#. Author of the theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the theme
+msgid "https://themeisle.com/themes/neve/"
+msgstr "https://themeisle.com/themes/neve/"

@@ -1,0 +1,1286 @@
+# Translation of Themes - Shop Isle in Swedish
+# This file is distributed under the same license as the Themes - Shop Isle package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-19 14:15:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Shop Isle\n"
+
+#. Description of the theme
+msgid "ShopIsle is the perfect free theme designed for your WooCommerce shop based on bootstrap. Due to its flexibility ShopIsle can also be used for a one page business site, it has a fullscreen image, parallax effect, it provides a responsive blog section, is eCommerce ready, WPML, Photo Gallery Grid,Contact Form 7,Meta Slider, SiteOrigin Page Builder, JetPack compatible and SEO friendly. It features a simple, minimal and elegant style which will work perfectly for a clothing, electronics and almost any kind of store."
+msgstr "ShopIsle är det perfekta fria temat designat för din butik skapad med WooCommerce och baserat på Bootstrap. Tack vare dess flexibilitet så kan ShopIsle även användas som ensidesmall för företag. Det har en bakgrundsbild i fullskärm, parallax-effekt, en responsiv bloggsektion, har stöd för e-handel, WPML, Photo Gallery Grid, Contact Form 7,Meta Slider, SiteOrigin Page Builder, JetPack och är SEO-vänligt. Allt detta i en elegant minimalistisk stil som fungerar för allt från kläd- till elektronikbutiker."
+
+#. Theme Name of the theme
+#: inc/functions/setup.php:447 inc/functions/setup.php:454
+#: inc/functions/setup.php:461
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:90
+#: inc/sections/shop_isle_slider_section.php:28
+#: inc/sections/shop_isle_slider_section.php:35
+#: inc/sections/shop_isle_slider_section.php:42
+msgid "Shop Isle"
+msgstr "Shop Isle"
+
+#: inc/admin/class-shopisle-admin-page.php:343
+msgid "Go to the theme settings"
+msgstr "Gå till temainställningar"
+
+#: inc/admin/class-shopisle-admin-page.php:198
+msgid "Arrange the sections by your priorities."
+msgstr "Ordna sektionerna efter dina prioriteringar."
+
+#: inc/admin/class-shopisle-admin-page.php:192
+msgid "Showcase a specific category of products on the front page."
+msgstr "Presentera en specifik kategori av produkter på startsidan."
+
+#: inc/admin/class-shopisle-admin-page.php:191
+msgid "Categories section"
+msgstr "Sektion för kategorier"
+
+#: inc/admin/class-shopisle-admin-page.php:180
+msgid "You can add as many services as you want. For each service, you can add an icon, a title, a subtitle and its link."
+msgstr "Du kan lägga till så många tjänster som du vill. För varje tjänst kan du lägga till en ikon, en rubrik, en underrubrik och dess länk."
+
+#: inc/admin/class-shopisle-admin-page.php:174
+msgid "Embed your location to your website."
+msgstr "Bädda in din plats på din webbplats."
+
+#: inc/admin/class-shopisle-admin-page.php:173
+msgid "Map section"
+msgstr "Sektion för karta"
+
+#: inc/admin/class-shopisle-admin-page.php:168
+msgid "You can create a section by adding shortcodes from any plugins."
+msgstr "Du kan skapa en sektion genom att lägga till kortkoder från något tillägg."
+
+#: inc/admin/class-shopisle-admin-page.php:167
+msgid "Add new sections"
+msgstr "Lägg till nya sektioner"
+
+#: inc/admin/class-shopisle-admin-page.php:161
+msgid "Frontpage Sections"
+msgstr "Sektion för startsida"
+
+#: inc/admin/class-shopisle-admin-page.php:155
+msgid "WooCommerce Compatible"
+msgstr "Kompatibel med WooCommerce"
+
+#. translators: s - theme name
+#: inc/admin/class-shopisle-admin-page.php:151
+msgid "Get %s now!"
+msgstr "Skaffa %s nu!"
+
+#: inc/admin/class-shopisle-admin-page.php:132
+msgid "Free vs PRO"
+msgstr "Gratis vs PRO"
+
+#: inc/admin/class-shopisle-admin-page.php:128
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: inc/admin/class-shopisle-admin-page.php:115
+msgid "Speed up your site"
+msgstr "Snabba upp din webbplats"
+
+#: inc/admin/class-shopisle-admin-page.php:107
+#: inc/admin/class-shopisle-admin-page.php:118
+msgid "View how to do this"
+msgstr "Visa hur man gör det"
+
+#: inc/admin/class-shopisle-admin-page.php:104
+msgid "Create a child theme"
+msgstr "Skapa ett barntema"
+
+#: inc/admin/class-shopisle-admin-page.php:92
+#: inc/admin/class-shopisle-admin-page.php:96
+msgid "Contact Support"
+msgstr "Kontakta support"
+
+#: inc/admin/class-shopisle-admin-page.php:76
+msgid "Useful Plugins"
+msgstr "Användbara tillägg"
+
+#: inc/admin/class-shopisle-admin-page.php:64
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr "Med hjälp av WordPress-anpassaren kan du enkelt anpassa alla aspekter av temat."
+
+#: inc/admin/class-shopisle-admin-page.php:63
+#: inc/admin/class-shopisle-admin-page.php:66
+msgid "Go to the Customizer"
+msgstr "Gå till anpassaren"
+
+#. translators: %s - theme name
+#: inc/admin/class-shopisle-admin-page.php:54
+msgid "Need more details? Please check our full documentation for detailed information on how to use %s."
+msgstr "Behöver du mer detaljer? Se vår fullständiga dokumentation för detaljerad information om hur man använder %s."
+
+#: inc/admin/class-shopisle-admin-page.php:52
+msgid "Read full documentation"
+msgstr "Läs hela dokumentationen"
+
+#: inc/admin/class-shopisle-admin-page.php:48
+msgid "Recommended actions"
+msgstr "Rekommenderade åtgärder"
+
+#: inc/admin/class-shopisle-admin-page.php:45
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#. translators: %s - theme name
+#: inc/admin/class-shopisle-admin-page.php:38
+msgid "Submit a review"
+msgstr "Skicka in en recension"
+
+#. translators: %s - theme name
+#: inc/admin/class-shopisle-admin-page.php:37
+msgid "Are you are enjoying %s? We would love to hear your feedback."
+msgstr "Gillar du %s? Vi skulle gärna höra din feedback."
+
+#. translators: Link to documentation
+#: inc/admin/si-notice-manager.php:36
+msgid "You seem to have a large number of products on your website! %s"
+msgstr "Du verkar ha ett stort antal produkter på din webbplats! %s"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:350
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Det finns en uppdatering tillgänglig för: %1$s."
+msgstr[1] "Det finns uppdateringar tillgängliga för följande tillägg: %1$s."
+
+#. Template Name of the theme
+msgid "Page Builder Full Width"
+msgstr "Page Builder, fullbredd"
+
+#. Template Name of the theme
+msgid "Page Builder Blank"
+msgstr "Page Builder, blank"
+
+#: inc/customizer/features/feature-slider-shortcode.php:26
+msgid "You can replace the homepage slider with any plugin you like, just copy the shortcode generated and paste it here."
+msgstr "Du kan ersätta bildspelet på startsidan med valfritt tillägg, kopiera bara in genererad kortkod här."
+
+#: inc/customizer/features/feature-slider-shortcode.php:25
+msgid "Slider shortcode"
+msgstr "Kortkod för bildspel"
+
+#: inc/sections/shop_isle_products_section.php:214
+#: inc/sections/shop_isle_products_slider_section.php:151
+#: inc/sections/shop_isle_products_slider_section.php:224
+#: inc/woocommerce/functions.php:731
+msgid "Out of Stock"
+msgstr "Slut i lager"
+
+#: inc/customizer/features/customizer-theme-info.php:50
+msgid "Quick View functionality"
+msgstr "Snabbvysfunktionalitet"
+
+#: inc/customizer/features/customizer-theme-info.php:47
+msgid "Add New Sections"
+msgstr "Lägg till ny sektion"
+
+#: inc/frontpage-manager.php:31
+msgid "Keep the old static frontpage template?"
+msgstr "Behåll den gamla mallen för statisk startsida?"
+
+#: inc/admin/class-shopisle-admin-page.php:88 inc/customizer/functions.php:41
+#: inc/customizer/features/customizer-theme-info.php:52
+msgid "Support"
+msgstr "Support"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:94
+msgid "Video thumbnail"
+msgstr "Videominiatyr"
+
+#: inc/customizer/features/customizer-theme-info.php:80
+msgid "Three New Color Schemes"
+msgstr "Tre nya färgscheman"
+
+#: inc/admin/class-shopisle-admin-page.php:215
+msgid "Quality Support"
+msgstr "Kvalitetssupport"
+
+#: inc/customizer/features/customizer-theme-info.php:46
+msgid "Section Reordering"
+msgstr "Ordning av sektioner"
+
+#: inc/admin/class-shopisle-admin-page.php:203
+#: inc/customizer/features/customizer-theme-info.php:44
+msgid "Enhanced Cart"
+msgstr "Förbättrad kundvagn"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:631
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:669
+msgid "Add icon"
+msgstr "Lägg till ikon"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:606
+msgid "Social icons"
+msgstr "Sociala ikoner"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:592
+msgid "None"
+msgstr "Ingen"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:587
+msgid "Image type"
+msgstr "Bildtyp"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:535
+msgid "here"
+msgstr "här"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:533
+msgid "Some icons may not be displayed here. You can see the list of icons %1$s"
+msgstr "Vissa ikoner kanske inte visas här. Du kan se en fullständig lista med ikoner på %1$s"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:361
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:464
+msgid "Shortcode"
+msgstr "Kortkod"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:226
+msgid "Add new field"
+msgstr "Lägg till nytt fält"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:114
+msgid "Customizer Repeater"
+msgstr "Upprepning anpassare"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:135
+msgid "Static Front Page"
+msgstr "Statisk startsida"
+
+#. translators: 1: Link to static front page customizer control
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:130
+msgid "To customize the Frontpage sections please create a page. After that, go to %1$s and select \"A static page\". Finally, for \"Front page\" choose the page you previously created."
+msgstr "För att anpassa sektionen för startsidan, vänligen skapa en sida. Gå sedan till %1$s och välj \"En statisk sida\" under \"Statisk startsida\". Slutligen, som \"Startsida\" välj sidan du skapade tidigare."
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:110
+msgid "Shortcodes Section"
+msgstr "Sektion för kortkoder"
+
+#: inc/admin/class-shopisle-admin-page.php:179
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:109
+#: inc/customizer/features/customizer-theme-info.php:49
+msgid "Services Section"
+msgstr "Sektion för tjänster"
+
+#: inc/admin/class-shopisle-admin-page.php:185
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:108
+msgid "Ribbon Section"
+msgstr "Sektion för textbanner"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:107
+#: inc/customizer/features/customizer-theme-info.php:48
+msgid "Map Section"
+msgstr "Sektion för karta"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:106
+#: inc/customizer/features/customizer-theme-info.php:51 inc/init.php:26
+msgid "Categories Section"
+msgstr "Sektion för kategorier"
+
+#: inc/customizer/class/class-shop-isle-pro-palette.php:60
+#: inc/customizer/class/class-shop-isle-pro-palette.php:69
+msgid "Default"
+msgstr "Standard"
+
+#. Template Name of the theme
+msgid "Full width, no title (SiteOrigin Page builder Template)"
+msgstr "Full bredd, utan rubrik (SiteOrigin Page builder-mall)"
+
+#: inc/customizer/features/customizer-theme-info.php:45
+msgid "Get full color schemes support for your site. "
+msgstr "Fullständigt stöd för färgscheman till din webbplats. "
+
+#: inc/admin/class-shopisle-admin-page.php:35
+msgid "Leave us a review"
+msgstr "Lämna oss en recension"
+
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:113
+#: inc/customizer/features/customizer-theme-info.php:22
+#: inc/customizer/features/customizer-theme-info.php:59
+#: inc/customizer/features/customizer-theme-info.php:84
+msgid "View PRO version"
+msgstr "Visa PRO-version"
+
+#. translators: 1: Link to WPForms Plugin.
+#: inc/customizer/features/feature-contact-controls.php:39
+msgid "Create a form, copy the shortcode generated and paste it here. We recommend %1$s but you can use any plugin you like."
+msgstr "Skapa ett formulär, kopiera kortkoden som genereras och klistra in den här. Vi rekommenderar %1$s men du kan använda valfritt tillägg."
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:31
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:29
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Full bredd"
+
+#: inc/sections/shop_isle_products_slider_section.php:31
+msgid "For this section to work, you first need to install the WooCommerce plugin , create some products, and select a product category in Customize -> Frontpage sections -> Products slider section"
+msgstr "För att den här sektionen ska fungera så måste du först installera tillägget WooCommerce, lägg till ett par produkter, välj en produktkategori under Anpassa -> Sektioner för startsida -> Sektion för produktbildspel"
+
+#: inc/sections/shop_isle_products_section.php:110
+msgid "For this section to work, you first need to install the WooCommerce plugin , create some products, and insert a WooCommerce shortocode or select a product category in Customize -> Frontpage sections -> Products section"
+msgstr "För att den här sektionen ska fungera så måste du först installera tillägget WooCommerce, lägg till ett par produkter, infoga kortkod från WooCommerce eller välj en produktkategori under Anpassa -> Sektioner för startsida -> Sektion för produkter"
+
+#: inc/sections/shop_isle_products_section.php:108
+msgid "No products found."
+msgstr "Inga produkter hittades."
+
+#: inc/sections/shop_isle_products_section.php:233
+#: inc/sections/shop_isle_products_section.php:235
+msgid "See all products"
+msgstr "Visa alla produkter"
+
+#: inc/sections/shop_isle_products_section.php:174
+#: inc/sections/shop_isle_products_section.php:181
+msgid "Quick View"
+msgstr "Snabbvy"
+
+#. translators: s: Search term.
+#: search.php:29
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#. translators: d: number of items.
+#: inc/woocommerce/template-tags.php:27
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d objekt"
+msgstr[1] "%d objekt"
+
+#: inc/structure/template-tags.php:175
+msgid "On Sale"
+msgstr "Rea"
+
+#: inc/structure/template-tags.php:139
+msgid "Top Rated Products"
+msgstr "Produkter med bäst betyg"
+
+#: inc/structure/template-tags.php:103
+msgid "Featured Products"
+msgstr "Utvalda produkter"
+
+#: inc/structure/template-tags.php:65
+msgid "Recent Products"
+msgstr "Nya produkter"
+
+#: inc/structure/template-tags.php:29
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#. translators: s: category name
+#: inc/structure/post.php:165
+msgid "View all posts in %s"
+msgstr "Visa alla inlägg i %s"
+
+#: inc/structure/post.php:151
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/structure/post.php:149
+msgid " Comments"
+msgstr " Kommentarer"
+
+#: inc/structure/post.php:147
+msgid "No Comments"
+msgstr "Inga kommentarer"
+
+#: inc/structure/post.php:127
+msgid "By "
+msgstr "Av"
+
+#: inc/structure/post.php:98
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/structure/post.php:95
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: inc/structure/post.php:92
+msgid "Posts navigation"
+msgstr "Inläggsnavigering"
+
+#. translators: s: post title
+#: inc/structure/post.php:59
+msgid "Tagged %1$s"
+msgstr "Taggat %1$s"
+
+#: inc/structure/post.php:55
+msgid ", "
+msgstr ", "
+
+#. translators: s: post title
+#: inc/structure/post.php:40
+msgid "Continue reading %s"
+msgstr "Fortsätt läsa %s"
+
+#: inc/structure/post.php:47 inc/structure/page.php:22
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: inc/structure/header.php:128
+msgctxt "submit button"
+msgid "Search"
+msgstr "﻿Sök"
+
+#: inc/structure/header.php:127
+msgctxt "label"
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: inc/structure/header.php:127
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "Sök efter produkt&hellip;"
+
+#: inc/structure/header.php:96
+msgid "Toggle navigation"
+msgstr "Slå på/av navigering"
+
+#: inc/structure/footer.php:95
+msgid "powered by"
+msgstr "drivs med"
+
+#: inc/structure/comments.php:77
+msgid "Edit"
+msgstr "Redigera"
+
+#: inc/structure/comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#. translators: s: Comment author link
+#: inc/structure/comments.php:45
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: inc/structure/header.php:136 inc/init.php:154
+#: inc/woocommerce/template-tags.php:19
+msgid "View your shopping cart"
+msgstr "Visa din varukorg"
+
+#: inc/functions/setup.php:642
+msgid "Easy to use"
+msgstr "Enkelt att använda"
+
+#: inc/functions/setup.php:637
+msgid "Highly customizable"
+msgstr "Mycket anpassningsbar"
+
+#: inc/functions/setup.php:632
+msgid "Designs & interfaces"
+msgstr "Design och gränssnitt"
+
+#: inc/functions/setup.php:628 inc/functions/setup.php:633
+#: inc/functions/setup.php:638 inc/functions/setup.php:643
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: inc/functions/setup.php:627
+msgid "Ideas and concepts"
+msgstr "Idéer och koncept"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:344
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Följande tillägg måste uppdateras till sin senaste version för att säkerställa maximal kompatibilitet med detta tema: %1$s."
+msgstr[1] "Följande tillägg måste uppdateras till sina senaste versioner för att säkerställa maximal kompatibilitet med detta tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:362
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Följande rekommenderat tillägg är för närvarande inaktiv: %1$s."
+msgstr[1] "Följande rekommenderade tillägg är för närvarande inaktiva: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:356
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Följande obligatoriskt tillägg är för närvarande inaktiv: %1$s."
+msgstr[1] "Följande obligatoriska tillägg är för närvarande inaktiva: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:338
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Detta tema rekommenderar följande tillägg: %1$s."
+msgstr[1] "Detta tema rekommenderar följande tillägg: %1$s."
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:332
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Detta tema kräver följande tillägg: %1$s."
+msgstr[1] "Detta tema kräver följande tillägg: %1$s."
+
+#: inc/functions/setup.php:297
+msgid "Sidebar Shop Page"
+msgstr "Sidopanel för butikssida"
+
+#: inc/functions/setup.php:286
+msgid "Footer area 4"
+msgstr "Sidfot område 4"
+
+#: inc/functions/setup.php:275
+msgid "Footer area 3"
+msgstr "Sidfot område 3"
+
+#: inc/functions/setup.php:264
+msgid "Footer area 2"
+msgstr "Sidfot område 2"
+
+#: inc/functions/setup.php:253
+msgid "Footer area 1"
+msgstr "Sidfot område 1"
+
+#: inc/compatibility/wordpress-editor/wp-editor.php:49
+#: inc/functions/setup.php:242
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#: inc/flag-wporg.php:35 inc/functions/setup.php:149
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:394
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:483
+msgid "Delete field"
+msgstr "Ta bort fält"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:352
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:456
+msgid "Button Label"
+msgstr "Knappetikett"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:370
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:472
+msgid "Description"
+msgstr "Beskrivning"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:574
+msgid "Upload Image"
+msgstr "Ladda upp bild"
+
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:527
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:590
+msgid "Icon"
+msgstr "Ikon"
+
+#: inc/admin/class-shopisle-admin-page.php:56 inc/customizer/functions.php:40
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:92
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/customizer/features/feature-advanced-controls.php:37
+msgid "Disable preloader?"
+msgstr "Inaktivera preloader?"
+
+#: inc/customizer/features/feature-advanced-controls.php:19
+msgid "Advanced options"
+msgstr "Avancerade alternativ"
+
+#: inc/customizer/features/feature-404-controls.php:71
+msgid "Text"
+msgstr "Text"
+
+#: inc/customizer/features/feature-404-controls.php:31
+msgid "Background image"
+msgstr "Bakgrundsbild"
+
+#: inc/customizer/features/feature-contact-controls.php:64
+msgid "To use this section please install <a href=\"https://wordpress.org/plugins/intergeo-maps/\">Intergeo Maps</a> plugin then use it to create a map and paste here the shortcode generated"
+msgstr "För att använda den här sektionen, installera tillägget <a href=\"https://wordpress.org/plugins/intergeo-maps/\">Intergeo Maps</a> och använd det för att skapa en karta och klistra in dess kortkod här"
+
+#: inc/customizer/features/feature-contact-controls.php:63
+msgid "Map shortcode"
+msgstr "Kortkod för karta"
+
+#: inc/customizer/features/feature-contact-controls.php:36
+msgid "Contact form shortcode"
+msgstr "Kortkod för kontaktformulär"
+
+#. Template Name of the theme
+#: inc/customizer/features/feature-contact-controls.php:20
+#: inc/customizer/features/feature-contact-controls.php:76
+msgid "Contact page"
+msgstr "Kontaktsida"
+
+#: inc/customizer/features/feature-footer-controls.php:88
+msgid "Social"
+msgstr "Socialt"
+
+#: inc/customizer/features/feature-footer-controls.php:77
+#: inc/customizer/features/feature-footer-controls.php:89
+msgid "Add new social"
+msgstr "Lägg till social länk"
+
+#: inc/customizer/features/feature-footer-controls.php:57
+msgid "Hide site info?"
+msgstr "Dölj webbplatsinfo?"
+
+#: inc/customizer/features/feature-footer-controls.php:38
+msgid "Copyright"
+msgstr "Upphovsrätt"
+
+#: inc/customizer/features/feature-footer-controls.php:21
+msgid "Footer"
+msgstr "Sidfot"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:159
+msgid "If no category is selected , WooCommerce products from the first category found are displaying."
+msgstr "Om ingen kategori är vald så visas produkter i WooCommerce från den första kategorin."
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:116
+msgid "Section subtitle"
+msgstr "Sektionens underrubrik"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:109
+#: inc/woocommerce/functions.php:381
+msgid "Special category of products"
+msgstr "Särskild kategori med produkter"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:90
+#: inc/sections/shop_isle_products_slider_section.php:29
+#: inc/woocommerce/functions.php:380
+msgid "Exclusive products"
+msgstr "Exklusiva produkter"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:78
+msgid "Hide products slider section on single product page?"
+msgstr "Dölj produktbildspelet på sidor för enskilda produkter?"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:59
+msgid "Hide products slider section on frontpage?"
+msgstr "Dölj sektionen för produktbildspel på startsidan?"
+
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:39
+msgid "Products slider section"
+msgstr "Sektion för produktbildspel"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:75
+msgid "Youtube link"
+msgstr "YouTube-länk"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:40
+msgid "Hide video section?"
+msgstr "Dölj sektion för video?"
+
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:21
+msgid "Video section"
+msgstr "Videosektion"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:136
+msgid "OR pick a product category. If no shortcode or no category is selected , WooCommerce latest products are displaying."
+msgstr "ELLER välj en produktkategori. Om ingen kortkod eller kategori har valts så visar WooCommerce nya produkter."
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:135
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:155
+msgid "Products category"
+msgstr "Produktkategori"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:104
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:124
+msgid "Select category"
+msgstr "Välj kategori"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:97
+msgid "Insert a WooCommerce shortcode"
+msgstr "Infoga en kortkod för WooCommerce"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:95
+msgid "WooCommerce shortcode"
+msgstr "Kortkod för WooCommerce"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:78
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:56
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:97
+msgid "Section title"
+msgstr "Sektionsrubrik"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:71
+#: inc/sections/shop_isle_products_section.php:29
+msgid "Latest products"
+msgstr "Nya produkter"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:59
+msgid "Hide products section?"
+msgstr "Dölj sektionen för produkter?"
+
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:40
+msgid "Products section"
+msgstr "Sektion för produkter"
+
+#. translators: 1: Link to WooCommerce Plugin
+#: inc/customizer/features/feature-frontpage-products-section-controls.php:22
+#: inc/customizer/features/feature-frontpage-products-slider-section-controls.php:20
+msgid "To use this section, you are required to first install the  %1$s plugin"
+msgstr "För att använda den här sektionen måste du först installera tillägget %1$s"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:102
+msgid "Banner"
+msgstr "Banner"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:91
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:103
+msgid "Add new banner"
+msgstr "Lägg till ny banner"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:39
+msgid "Hide banners section?"
+msgstr "Dölj sektion för banners?"
+
+#: inc/customizer/features/feature-frontpage-banners-section-controls.php:21
+#: inc/init.php:25
+msgid "Banners section"
+msgstr "Sektion för banners"
+
+#: inc/customizer/features/feature-404-controls.php:90
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:137
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:343
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:448
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:626
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:652
+msgid "Button link"
+msgstr "Knapplänk"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:129
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:222
+msgid "#"
+msgstr "#"
+
+#: inc/customizer/features/feature-404-controls.php:109
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:118
+msgid "Button label"
+msgstr "Knapptext"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:99
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:335
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:440
+msgid "Subtitle"
+msgstr "Underrubrik"
+
+#: inc/functions/setup.php:448 inc/functions/setup.php:455
+#: inc/functions/setup.php:462
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:91
+#: inc/sections/shop_isle_slider_section.php:29
+#: inc/sections/shop_isle_slider_section.php:36
+#: inc/sections/shop_isle_slider_section.php:43
+#: inc/sections/shop_isle_big_title_section.php:26
+msgid "WooCommerce Theme"
+msgstr "WooCommerce-tema"
+
+#: inc/customizer/features/feature-404-controls.php:51
+#: inc/customizer/features/feature-frontpage-video-section-controls.php:58
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:80
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:319
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:327
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:423
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:431
+msgid "Title"
+msgstr "Rubrik"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:60
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:571
+#: inc/customizer/customizer-repeater/class/customizer-repeater-control.php:591
+msgid "Image"
+msgstr "Bild"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:40
+msgid "Hide big title section?"
+msgstr "Dölj sektion för framhävd rubrik?"
+
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:21
+msgid "Big title section"
+msgstr "Sektion för framhävd rubrik"
+
+#: inc/customizer/customizer.php:32
+msgid "Frontpage sections"
+msgstr "Sektioner för startsida"
+
+#: inc/customizer/features/feature-blog-header-controls.php:43
+msgid "Blog header subtitle"
+msgstr "Blogghuvudets underrubrik"
+
+#: inc/customizer/features/feature-blog-header-controls.php:26
+msgid "Blog header title"
+msgstr "Rubrik för blogghuvud"
+
+#: inc/customizer/features/feature-header-controls.php:16
+msgid "Header"
+msgstr "Sidhuvud"
+
+#. translators: 1: Link to documentation page. 2: 'doc'
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:21
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:139
+msgid "Need further informations? Check this %1$s"
+msgstr "Behöver du mer information? Kolla in %1$s"
+
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:22
+#: inc/customizer/customize-pro/class-shopisle-customizer-upsell.php:142
+msgid "doc"
+msgstr "dok"
+
+#: inc/customizer/class/class-shopisle-contact-page-instructions.php:19
+msgid "To customize the Contact Page you need to first select the template \"Contact page\" for the page you want to use for this purpose. Then open that page in the browser and press \"Customize\" in the top bar."
+msgstr "För att anpassa kontaktsidan behöver du först välja mallen \"Kontaktsida\" för sidan du vill använda. Öppna sedan sidan och klicka på \"Anpassa\" i verktygspanelen."
+
+#: home.php:39 inc/customizer/features/feature-blog-header-controls.php:18
+msgid "Blog"
+msgstr "Blogg"
+
+#: header.php:34
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar som att vi inte kan hitta det du letar efter. Prova att göra en sökning."
+
+#: content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Inget matchade dina söktermer. Försök igen med några andra nyckelord."
+
+#. translators: 1: link to new post page
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Inget hittat"
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#: comments.php:47 comments.php:67
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:46 comments.php:66
+msgid "&larr; Older Comments"
+msgstr "&larr; äldre kommentarer"
+
+#: comments.php:45 comments.php:65
+msgid "Comment navigation"
+msgstr "Kommentarsnavigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s kommentar till &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommentarer till &ldquo;%2$s&rdquo;"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3535
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installera tillägg %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3533
+msgid "All installations have been completed."
+msgstr "Alla installationer har slutförts."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3532
+msgid "%1$s installed successfully."
+msgstr "%1$s installerades utan problem."
+
+#: class-tgm-plugin-activation.php:3530
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installationsprocessen startar. Denna process kan ta en stund på vissa webbhotell, så ha tålamod."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3527
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installerar och aktiverar tillägg %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3525
+msgid "All installations and activations have been completed."
+msgstr "Alla installationer och aktiveringar har slutförts."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Hide Details"
+msgstr "Dölj detaljer"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Show Details"
+msgstr "Visa detaljer"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installerades och aktiverades utan problem."
+
+#: class-tgm-plugin-activation.php:3522
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installations- och aktiveringsprocessen startar. Denna process kan ta en stund på vissa webbhotell, så ha tålamod."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3518
+msgid "The installation of %1$s failed."
+msgstr "Installationen av %1$s misslyckades."
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3516
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ett fel uppstod vid installation av %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3513
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Uppdaterar tillägget %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3171
+msgid "Plugin activation failed."
+msgstr "Aktivering av tillägg misslyckades."
+
+#: class-tgm-plugin-activation.php:2947
+msgid "No plugins are available to be activated at this time."
+msgstr "Inga tillägg är tillgängliga för att aktiveras just nu."
+
+#: class-tgm-plugin-activation.php:2921
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Inga tillägg valdes för att aktiveras. Inga åtgärder vidtagits."
+
+#: class-tgm-plugin-activation.php:2815
+msgid "No plugins are available to be updated at this time."
+msgstr "Inga tillägg är tillgängliga för att uppdateras just nu."
+
+#: class-tgm-plugin-activation.php:2813
+msgid "No plugins are available to be installed at this time."
+msgstr "Inga tillägg är tillgängliga för att installeras just nu."
+
+#: class-tgm-plugin-activation.php:2772
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Inga tillägg valdes för att uppdateras. Inga åtgärder vidtagits."
+
+#: class-tgm-plugin-activation.php:2770
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Inga tillägg valdes för att installeras. Inga åtgärder vidtagits."
+
+#: class-tgm-plugin-activation.php:2739
+msgid "Activate"
+msgstr "Aktivera"
+
+#: class-tgm-plugin-activation.php:2736
+msgid "Update"
+msgstr "Uppdatera"
+
+#: class-tgm-plugin-activation.php:2730
+msgid "Install"
+msgstr "Installera"
+
+#: class-tgm-plugin-activation.php:2697
+msgid "Upgrade message from the plugin author:"
+msgstr "Uppgraderingsmeddelande från tilläggets författare:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2627
+msgid "Activate %2$s"
+msgstr "Aktivera %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2621
+msgid "Update %2$s"
+msgstr "Uppdatera %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2616
+msgid "Install %2$s"
+msgstr "Installera %2$s"
+
+#: class-tgm-plugin-activation.php:2567
+msgid "Status"
+msgstr "Status"
+
+#: class-tgm-plugin-activation.php:2566
+msgid "Version"
+msgstr "Version"
+
+#: class-tgm-plugin-activation.php:2562
+msgid "Type"
+msgstr "Typ"
+
+#: class-tgm-plugin-activation.php:2561
+msgid "Source"
+msgstr "Källa"
+
+#: class-tgm-plugin-activation.php:2560
+msgid "Plugin"
+msgstr "Tillägg"
+
+#: class-tgm-plugin-activation.php:2546
+msgid "No plugins to install, update or activate."
+msgstr "Inga tillägg att installera, uppdatera eller aktivera."
+
+#: class-tgm-plugin-activation.php:2523
+msgid "Available version:"
+msgstr "Tillgänglig version:"
+
+#: class-tgm-plugin-activation.php:2511
+msgid "Minimum required version:"
+msgstr "Minsta version som krävs:"
+
+#: class-tgm-plugin-activation.php:2503
+msgid "Installed version:"
+msgstr "Installerad version:"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "okänt"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2413
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Att aktivera <span class=\"count\">(%s)</span>"
+msgstr[1] "Att aktivera <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2409
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Uppdatering tillgänglig <span class=\"count\">(%s)</span>"
+msgstr[1] "Uppdateringar tillgängliga <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2405
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Att installera <span class=\"count\">(%s)</span>"
+msgstr[1] "Att installera <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2401
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alla <span class=\"count\">(%s)</span>"
+msgstr[1] "Alla <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2355
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: class-tgm-plugin-activation.php:2346
+msgid "Update recommended"
+msgstr "Uppdatering rekommenderad"
+
+#: class-tgm-plugin-activation.php:2343
+msgid "Requires Update"
+msgstr "Kräver uppdatering"
+
+#: class-tgm-plugin-activation.php:2340
+msgid "Required Update not Available"
+msgstr "Obligatorisk uppdatering inte tillgänglig"
+
+#: class-tgm-plugin-activation.php:2334
+msgid "Active"
+msgstr "Aktiv"
+
+#: class-tgm-plugin-activation.php:2332
+msgid "Installed But Not Activated"
+msgstr "Installerat men inte aktiverat"
+
+#: class-tgm-plugin-activation.php:2328
+msgid "Not Installed"
+msgstr "Inte installerat"
+
+#: class-tgm-plugin-activation.php:2311
+msgid "Pre-Packaged"
+msgstr "Förpaketerat"
+
+#: class-tgm-plugin-activation.php:2308
+msgid "External Source"
+msgstr "Extern källa"
+
+#: class-tgm-plugin-activation.php:2305
+msgid "WordPress Repository"
+msgstr "WordPress filförvar"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "Recommended"
+msgstr "Rekommenderat"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Required"
+msgstr "Obligatoriskt"
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:1995
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:1129 class-tgm-plugin-activation.php:2961
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "och"
+
+#: class-tgm-plugin-activation.php:941
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Fjärrpaketet av tillägget består av fler än en fil, men filerna är inte paketerade i en mapp."
+
+#: class-tgm-plugin-activation.php:933 class-tgm-plugin-activation.php:941
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Kontakta tilläggets leverantör och be dem att paketera sitt tillägg enligt WordPress riktlinjer."
+
+#: class-tgm-plugin-activation.php:933
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Fjärrpaketet för tillägget innehåller ingen mapp med önskad slug och det gick inte att byta namn."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Uppdatering krävs"
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Detta tillägg måste uppdateras för att vara kompatibelt med ditt tema."
+
+#: class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr "Kontakta administratören för denna webbplats för hjälp."
+
+#: class-tgm-plugin-activation.php:394
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Det finns ett eller flera obligatoriska eller rekommenderade tillägg att installera, uppdatera eller aktivera."
+
+#: class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr "Avfärda denna notis"
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:392
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alla tillägg installerades och aktiverades utan problem. %1$s"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:390
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Tillägg inte aktiverat. En högre version av %s behövs för detta tema. Uppdatera tillägget."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:388
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Inga åtgärder vidtagits. Tillägg %1$s var redan aktiv."
+
+#: class-tgm-plugin-activation.php:386 class-tgm-plugin-activation.php:2965
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Följande tillägg aktiverades utan problem:"
+msgstr[1] "Följande tillägg aktiverades utan problem:"
+
+#: class-tgm-plugin-activation.php:385 class-tgm-plugin-activation.php:3172
+msgid "Plugin activated successfully."
+msgstr "Tillägget aktiverat utan problem."
+
+#: class-tgm-plugin-activation.php:384 class-tgm-plugin-activation.php:825
+#: class-tgm-plugin-activation.php:2546 class-tgm-plugin-activation.php:3595
+msgid "Return to the Dashboard"
+msgstr "Tillbaka till adminpanelen"
+
+#: class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr "Tillbaka till installeraren för obligatoriska tillägg"
+
+#: class-tgm-plugin-activation.php:378
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Börja aktivera tillägg"
+msgstr[1] "Börja aktivera tillägg"
+
+#: class-tgm-plugin-activation.php:373
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Börja uppdatera tillägg"
+msgstr[1] "Börja uppdatera tillägg"
+
+#: class-tgm-plugin-activation.php:368
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Börja installera tillägg"
+msgstr[1] "Börja installera tillägg"
+
+#: class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr "Något gick fel med tilläggets API."
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:330
+msgid "Updating Plugin: %s"
+msgstr "Uppdaterar tillägg: %s"
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:328
+msgid "Installing Plugin: %s"
+msgstr "Installerar tillägg: %s"
+
+#: class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr "Installera tillägg"
+
+#: class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr "Installera obligatoriska tillägg"
+
+#: index.php:152 home.php:156 archive.php:113
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&raquo;</span>"
+
+#: index.php:151 home.php:155 archive.php:112
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Äldre inlägg"
+
+#: index.php:137 home.php:141 archive.php:98 inc/functions/setup.php:449
+#: inc/functions/setup.php:456 inc/functions/setup.php:463
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:110
+#: inc/customizer/features/feature-frontpage-big-title-section-controls.php:221
+#: inc/sections/shop_isle_slider_section.php:30
+#: inc/sections/shop_isle_slider_section.php:37
+#: inc/sections/shop_isle_slider_section.php:44 inc/init.php:205
+msgid "Read more"
+msgstr "Läs mer"
+
+#: 404.php:45 inc/customizer/features/feature-404-controls.php:101
+msgid "Back to home page"
+msgstr "Tillbaka till startsidan"
+
+#: inc/customizer/features/feature-404-controls.php:62
+msgid "The requested URL was not found on this server.<br> That is all we know."
+msgstr "Den begärda webbadressen hittades inte på den här servern.<br> Det är allt vi vet"
+
+#: 404.php:28 inc/customizer/features/feature-404-controls.php:43
+msgid "Error 404"
+msgstr "Fel 404"
+
+#. Author URI of the theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the theme
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. Theme URI of the theme
+msgid "http://themeisle.com/themes/shop-isle/"
+msgstr "http://themeisle.com/themes/shop-isle/"

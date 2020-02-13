@@ -1,0 +1,944 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-04 14:17:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk)\n"
+
+#: includes/wcal-common.php:743
+msgid "This product no longer exists"
+msgstr "Denna produkt finns inte längre"
+
+#: woocommerce-ac.php:2370
+msgid "During the selected range <strong>%d</strong> carts totaling <strong>%s</strong> were abandoned. We were able to recover <strong>%d</strong> of them, which led to an extra <strong>%s</strong>"
+msgstr "Under den valda intervallen <strong>%d</strong> övergavs varukorgar till ett totalt värde av <strong>%s</strong>. Vi kunde återskapa <strong>%d</strong> av dem, vilket ledde till en extra intäkt om <strong>%s</strong>"
+
+#: woocommerce-ac.php:2188
+msgid "The Email Template has been successfully added. In order to start sending this email to your customers, please activate it."
+msgstr "E-posttemat har nu blivit tillagt. För att kunna börja skicka detta mail till dina kunder behöver du aktivera det."
+
+#: woocommerce-ac.php:1752
+msgid "Export"
+msgstr "Exportera"
+
+#. translators: %s: decimal
+#: woocommerce-ac.php:1743
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "Ange som decimaltal (%s) utan tusentalsavgränsare."
+
+#. translators: %s: price decimal separator
+#: woocommerce-ac.php:1745
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "Ange med i valutaformat med decimaler (%s) utan tusentalsavgränsare och valutasymboler."
+
+#: woocommerce-ac.php:1746
+msgid "Please enter in country code with two capital letters."
+msgstr "Skriv in landskod med två stora bokstäver."
+
+#: woocommerce-ac.php:1747
+msgid "Please enter in a value less than the regular price."
+msgstr "Ange ett värde mindre än det ordinarie priset."
+
+#: woocommerce-ac.php:1751
+msgid "Import"
+msgstr "Importera"
+
+#: includes/wcal_all_component.php:114
+msgid ""
+" Allow your customers to pay deposits on products using our Deposits for WooCommerce plugin. <br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Låt dina kunder betala förskott på produkter genom att använda vårt tillägg Deposits for WooCommerce. <br>\n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:111
+msgid " Allow your customers to book an appointment or rent an apartment with our Booking and Appointment for WooCommerce plugin. You can also sell your product as a resource or integrate with a few Vendor plugins. <br>Shop now & Save 20% on the plugin with the code \"BKAP20\". Only for first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr " Gör det möjligt för dina kunder att boka ett möte eller hyra en lägenhet med vårt tillägg Booking and Appointment for WooCommerce. Du kan också sälja dina produkter som en resurs eller integrera med tillägg från några återförsäljare. <br>Köp nu och spara 20 % på tillägget med koden \"BKAP20\". Endast för de 20 första kunderna. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:107
+msgid ""
+"Allow your customers to select the Delivery Date on Single Product Page using our Product Delivery Date pro for WooCommerce Plugin. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Tillåt era kunder att välja leveransdatum från en produktsida genom att använda vårt tillägg Product Delivery Date pro for WooCommerce. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:104
+msgid "Reduce cart abandonment rate by 57% with our Order Delivery Date Pro WooCommerce plugin. You can Create Delivery Settings by Shipping Zones & Shipping Classes. <br>Use discount code \"ORDPRO20\" and grab 20% discount on the purchase of the plugin. The discount code is valid only for the first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr "Reducera mängden av övergivna varukorgar med 57 % med vårt tillägg Order Delivery Date Pro WooCommerce. Du kan skapa leveransinställningar för fraktzoner och fraktklasser. <br>Använd rabattkoden \"ORDPRO20\" och få 20 % rabatt på köpet av tillägget. Rabattkoden gäller endast för de 20 första kunderna. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:100
+msgid ""
+"Increase your store sales by recovering your abandoned carts for just $119. No profit sharing, no monthly fees. Our Abandoned Cart Pro plugin comes with a 30 day money back guarantee as well. :) Use coupon code ACPRO20 & save $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Öka din butiks försäljning genom att rädda övergivna varukorgar för endast $119. Ingen andel av vinsten, inga månadsavgifter. Vårt tillägg Abandoned Cart Pro kommer dessutom med en 30 dagars pengarna tillbaka garanti. :) Använd rabattkoden ACPRO20 och spara $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:97
+msgid "Send Abandoned Cart reminders that actually convert. Take advantage of our fully responsive email templates designed specially with an intent to trigger conversion. <strong><a target=\"_blank\" href= \""
+msgstr "Skicka påminnelser om övergivna varukorgar som faktiskt konverterar. Dra fördel av våra fullt responsiva e-postmallar som är speciellt utformade för att leda till konvertering. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:94
+msgid "Don't loose your sales to abandoned carts. Use our Abandon Cart Pro plugin & start recovering your lost sales in less then 60 seconds. <strong><a target=\"_blank\" href= \""
+msgstr "Förlora inte försäljning på grund av övergivna varukorgar. Använd vårt tillägg Abandon Cart Pro och börja rädda missade intäkter inom 60 sekunder. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:91
+msgid "Boost your sales by recovering up to 60% of the abandoned carts with our Abandoned Cart Pro for WooCommerce plugin. You can capture customer email addresses right when they click the Add To Cart button. <strong><a target=\"_blank\" href= \""
+msgstr "Öka din försäljning genom att rädda upp till 60 % av övergivna varukorgar med vårt tillägg Abandoned Cart Pro for WooCommerce. Du kan fånga upp dina kunders e-postadresser direkt när de klickar på knappen ”Lägg till i varukorg”. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:88
+msgid "Now that you are all set with the Lite version, you can upgrade to Pro version to take your abandoned cart recovery to the next level. You can capture  customer’s email address when they click Add to Cart, get access to 11 unique, fully responsive email templates, send text messages for recovery & <strong><a target=\"_blank\" href= \""
+msgstr "Nu när du är helt klar med Lite-versionen, kan du uppgradera till Pro-versionen och ta räddningen av dina övergivna varukorgar till nästa nivå. Du kan fånga upp kundernas e-post adresser när de klickar på ”Lägg till i varukorg”, få tillgång till 11 unika, helt responsiva e-postmallar, skicka text meddelanden för räddning <strong><a target=\"_blank\" href= \""
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:18
+msgid "Thank you for activating or updating to the latest version of "
+msgstr "Tack för att du aktiverar eller uppdaterar till den senaste versionen av"
+
+#: includes/component/welcome-page/ts-welcome.php:166
+msgid "Welcome to "
+msgstr "Välkommen till"
+
+#: includes/component/tracking-data/ts-tracking.php:268
+msgid "Want to help make "
+msgstr "Vill du hjälpa till och göra "
+
+#: includes/component/faq-support/ts-faq-support.php:127
+msgid "Frequently Asked Questions for "
+msgstr "Vanliga frågor om"
+
+#: woocommerce-ac.php:2633
+msgid "Shipping Charges"
+msgstr "Fraktkostnader"
+
+#: woocommerce-ac.php:696
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "Ta bort övergivna ordrar automatiskt efter X dagar måste vara större än 0."
+
+#: woocommerce-ac.php:513
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "Ta bort beställningar från övergivna varukorgar automatiskt efter X dagar"
+
+#: woocommerce-ac.php:509
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "Ta bort övergivna varukorgar automatiskt efter X dagar"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:363
+msgid "Unsubscribed"
+msgstr "Avprenumererad"
+
+#: includes/admin/wcal_privacy_erase.php:90
+msgid "No personal data found for any abandoned carts."
+msgstr "Inga personuppgifter hittades för någon övergiven varukorg."
+
+#: woocommerce-ac.php:551
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>I överensstämmelse med GDPR, lägg till ett meddelande på butik och produkt sidor för att informera registrerade användare om hur deras data används.<br><i>Till exempel: Se vår integritetspolicy för att ta reda på hur vi använder dina personuppgifter.</i>"
+
+#: woocommerce-ac.php:547
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "Meddelande som visas för registrerade användare då deras kundvagn spåras."
+
+#: woocommerce-ac.php:542
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>I överensstämmelse med GDPR, lägg till ett meddelande på kassasidan för att informera gäst användare om hur deras data används.<br><i>Till exempel: Din e-post adress kommer hjälpa oss att göra din köpupplevelse bättre på hela webbplatsen. Vänligen se vår integritetspolicy för att får reda på hur vi använder dina personuppgifter.</i>"
+
+#: woocommerce-ac.php:538
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "Meddelande som visas för gästanvändare då deras kundvagn spåras"
+
+#: woocommerce-ac.php:257
+msgid "I want to upgrade the plugin to the PRO version."
+msgstr "Jag vill uppgradera tillägget till Pro versionen."
+
+#: woocommerce-ac.php:251
+msgid "I cannot see abandoned cart reminder emails records."
+msgstr "Jag kan inte se några poster för påminnelse e-post för övergivna varukorgar."
+
+#: woocommerce-ac.php:245
+msgid "Capturing of cart and other information was not satisfactory."
+msgstr "Räddning av varukorgar och annan information var inte till belåtenhet."
+
+#: woocommerce-ac.php:239
+msgid "Emails are not being sent to customers."
+msgstr "E-post skickas inte till kunder."
+
+#: includes/component/welcome-page/ts-welcome.php:165
+msgid "Welcome to %s %s"
+msgstr "Välkommen till %s %s"
+
+#: includes/component/tracking-data/ts-tracking.php:133
+msgid "Reset usage tracking"
+msgstr "Återställ användningsspårning"
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "Vanliga frågor och support"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "Vanliga frågor för %s"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:91
+msgctxt "the text of the 'other' reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "Annat"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:90
+msgid "I don't like to share my information with you"
+msgstr "Jag vill inte dela min information till er"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:89
+msgid "What feature?"
+msgstr "Vilken funktion?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Tillägget är fantastiskt, men jag behöver en specifik funktion som inte stöds"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:87
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Berätta gärna vad som inte fungerade så vi kan lösa detta för framtida användare..."
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:86
+msgid "The plugin is not working"
+msgstr "Tillägget fungerar inte"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:85
+msgid "I only needed the plugin for a short period"
+msgstr "Jag behövde bara tillägget under en kort period"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:84
+msgid "What's the plugin's name?"
+msgstr "Vad heter tillägget?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:83
+msgid "I found a better plugin"
+msgstr "Jag hittade ett bättre tillägg"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:79
+msgid "Yes - Deactivate"
+msgstr "Ja - Inaktivera"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:78
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:77
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:76
+msgid "Submit & Deactivate"
+msgstr "Skicka och inaktivera"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:75
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Om du har ett ögonblick, berätta varför du inaktiverar"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:283
+msgid "User Deleted"
+msgstr "Användaren borttagen"
+
+#: includes/admin/wcal_privacy_export.php:221
+msgid "Abandoned - Order Unpaid (Order #"
+msgstr "Övergiven - Obetald order (Order-nr."
+
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Abandoned but new cart created"
+msgstr "Övergiven, men ny varukorg har skapats"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Cart Recovered - Order #"
+msgstr "Räddad varukor - Order-nr."
+
+#: includes/admin/wcal_privacy_export.php:173
+#: includes/admin/wcal_privacy_export.php:184
+msgid "Billing Address"
+msgstr "Faktureringsadress"
+
+#: includes/admin/wcal_privacy_export.php:172
+msgid "Session ID"
+msgstr "Sessions-ID"
+
+#: includes/admin/wcal_privacy_export.php:171
+#: includes/admin/wcal_privacy_export.php:183
+msgid "Items Present"
+msgstr "Befintliga varor"
+
+#: includes/admin/wcal_privacy_export.php:170
+#: includes/admin/wcal_privacy_export.php:182
+msgid "Cart Total"
+msgstr "Varukorg totalt"
+
+#: includes/admin/wcal_privacy_export.php:169
+#: includes/admin/wcal_privacy_export.php:181
+msgid "Abandoned Cart Status"
+msgstr "Status för övergiven varukorg"
+
+#: includes/admin/wcal_privacy_export.php:167
+#: includes/admin/wcal_privacy_export.php:179
+msgid "Abandoned Cart ID"
+msgstr "ID för övergiven varukorg"
+
+#: includes/admin/wcal_privacy_erase.php:204
+msgid "ANONYMIZED"
+msgstr "ANONYMISERAT"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:127
+msgid "Personal data within cart %s has been retained."
+msgstr "Personuppgifterna från varukorgen %s har sparats."
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:123
+msgid "Removed personal data from cart %s."
+msgstr "Personuppgifter har tagits bort ur varukorgen %s."
+
+#: includes/admin/wcal_privacy_erase.php:41
+#: includes/admin/wcal_privacy_export.php:41
+msgid "Abandoned & Recovered Carts"
+msgstr "Övergivna och räddade varukorgar"
+
+#. Description of the plugin
+msgid "This plugin captures abandoned carts by logged-in users & emails them about it."
+msgstr "Det här tillägget räddar övergivna varukorgar för inloggade användare och skickar e-post till dem om detta."
+
+#: includes/wcal_admin_notice.php:37
+msgid "<div id=\"wcal_update\" class=\"updated woocommerce-message\" style=\"padding:15px;\"><span>We need to update your email template database for some improvements. Please take a backup of your databases for your piece of mind</span><span class=\"submit\"><a href=\"%s\" class=\"button-primary\" style=\"float:right;\">Update</a></span></div>"
+msgstr "<div id=\"wcal_update\" class=\"updated woocommerce-message\" style=\"padding:15px;\"><span>Vi behöver uppdatera din databas för att förbättra dina e-postmallar. Vänligen säkerhetskopiera din databas för din sinnesro</span><span class=\"submit\"><a href=\"%s\" class=\"button-primary\" style=\"float:right;\">Uppdatera</a></span></div>"
+
+#: includes/wcal-common.php:582
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "Databasuppdatering misslyckades. Försök igen om en stund"
+
+#: includes/wcal-common.php:567
+msgid "Database Updated Successfully"
+msgstr "Databasen har uppdaterats"
+
+#. Author URI of the plugin
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Plugin URI of the plugin
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#. Plugin Name of the plugin
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "Abandoned Cart Lite for WooCommerce"
+
+#: woocommerce-ac.php:3096 woocommerce-ac.php:3131
+msgid "Woman\\'\\s Hand Bags"
+msgstr "Handväskor för kvinnor"
+
+#: woocommerce-ac.php:3089 woocommerce-ac.php:3124
+msgid "Men\\'\\s Formal Shoes"
+msgstr "Formella skor för män"
+
+#: woocommerce-ac.php:2911
+msgid ""
+"If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            rating. Thank you in advance. :)"
+msgstr ""
+"Om du älskar <strong>Abandoned Cart Lite for WooCommerce</strong>, vänligen lämna oss ett <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            betyg. Tack på förhand. :)"
+
+#: woocommerce-ac.php:2878
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "Ange e-post id som test e-postmeddelanden behöver skickas till."
+
+#: woocommerce-ac.php:2873
+msgid "Send a test email to:"
+msgstr "Skicka ett test e-postmeddelande till:"
+
+#: woocommerce-ac.php:2866
+msgid "after cart is abandoned."
+msgstr "efter att varukorgen är övergiven."
+
+#: woocommerce-ac.php:2825
+msgid "Send this email:"
+msgstr "Skicka det här e-post meddelandet:"
+
+#: woocommerce-ac.php:2819
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr "Ange rubrik som visas i det abandoned WooCommerce e-postmeddelande som skickas. Detta värde används endast då ”Använd WooCommerce stilmall.” är ikryssat."
+
+#: woocommerce-ac.php:2805
+msgid "Email Template Header Text: "
+msgstr "Rubrik för e-post mall:"
+
+#: woocommerce-ac.php:2798
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "Använd WooCommerce standard stil mall för påminnelse e-post för övergivna varukorgar."
+
+#: woocommerce-ac.php:2783
+msgid "Use WooCommerce Template Style:"
+msgstr "Använd WooCommerce mall stil:"
+
+#: woocommerce-ac.php:2756
+msgid "Message to be sent in the reminder email."
+msgstr "Meddelande som skickas i påminnelse e-postmeddelandet."
+
+#: woocommerce-ac.php:2729
+msgid "Email Body:"
+msgstr "Meddelandetext:"
+
+#: woocommerce-ac.php:2723
+msgid "Enter the subject that should appear in the email sent"
+msgstr "Fyll i ämnet som ska visas i det skickade e-post meddelandet"
+
+#: woocommerce-ac.php:2714
+msgid "Subject:"
+msgstr "Ämne:"
+
+#: woocommerce-ac.php:2708
+msgid "Enter a template name for reference"
+msgstr "Ange ett mallnamn som referens"
+
+#: woocommerce-ac.php:2699
+msgid "Template Name:"
+msgstr "Mallnamn:"
+
+#: woocommerce-ac.php:2612
+msgid "Shipping Details"
+msgstr "Fraktinformation"
+
+#: woocommerce-ac.php:2607
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: woocommerce-ac.php:2603
+msgid "Email:"
+msgstr "E-post:"
+
+#: woocommerce-ac.php:2593 woocommerce-ac.php:2613
+msgid "Address:"
+msgstr "Adress:"
+
+#: woocommerce-ac.php:2590
+msgid "Name:"
+msgstr "Namn:"
+
+#: woocommerce-ac.php:2589
+msgid "Billing Details"
+msgstr "Faktureringsuppgifter"
+
+#: woocommerce-ac.php:2585
+msgid "Customer Details"
+msgstr "Kunduppgifter"
+
+#: woocommerce-ac.php:2397
+msgid "Line Total"
+msgstr "Radtotal"
+
+#: woocommerce-ac.php:2389
+msgid "Abandoned Order #%s Details"
+msgstr "Övergiven order #%s Detaljer"
+
+#: woocommerce-ac.php:2356
+msgid "Go"
+msgstr "Kör"
+
+#: woocommerce-ac.php:2354
+msgid "End Date:"
+msgstr "Slutdatum:"
+
+#: woocommerce-ac.php:2352
+msgid "Start Date:"
+msgstr "Startdatum:"
+
+#: woocommerce-ac.php:2303
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "Rapporten nedan visar hur många övergivna kundvagnar vi lyckades återskapa genom att skicka automatisk e-post för att uppmuntra kunder."
+
+#: woocommerce-ac.php:2226
+msgid "Add New Template"
+msgstr "Lägg till ny mall"
+
+#: woocommerce-ac.php:2217
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Ett problem uppstod med uppdatering av e-postmallen. Vänligen kontakta tilläggets författare genom <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">supportforumet</a>."
+
+#: woocommerce-ac.php:2208
+msgid "The Email Template has been successfully updated."
+msgstr "E-postmallen har uppdaterats."
+
+#: woocommerce-ac.php:2197
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Ett problem uppstod då e-post mallen lades till. Kontakta tilläggets författare via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">supportforumet</a>."
+
+#: woocommerce-ac.php:2068
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "Lägg till e-post mallar för olika intervaller för att maximera möjligheten att återskapa dina övergivna varukorgar."
+
+#: woocommerce-ac.php:2047
+msgid "Carts without Customer Details"
+msgstr "Varukorgar utan kunddetaljer"
+
+#: woocommerce-ac.php:2041
+msgid "Guest %s"
+msgstr "Gäst %s"
+
+#: woocommerce-ac.php:2035
+msgid "Registered %s"
+msgstr "Registrerad %s"
+
+#: woocommerce-ac.php:2030
+msgid "All "
+msgstr "Alla"
+
+#: woocommerce-ac.php:1988
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "Listan nedan visar alla övergivna varukorgar som har varit kvar längre än inställningen \"Övergiven varukorg avstängningstid\"."
+
+#: woocommerce-ac.php:1958
+msgid "Email Sending Settings"
+msgstr "E-postsändningsinställningar"
+
+#: woocommerce-ac.php:1955
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: woocommerce-ac.php:1937
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "Ändra inställningar för att skicka aviseringar till kunder, till administratörer etc."
+
+#: woocommerce-ac.php:1931
+msgid "The Template has been successfully deleted."
+msgstr "Mallen togs bort utan problem."
+
+#: woocommerce-ac.php:1926
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "Den övergivna varukorgen togs bort utan problem."
+
+#: woocommerce-ac.php:1866
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce - Abandon Cart Lite"
+
+#: woocommerce-ac.php:1862
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har inte tillräcklig behörighet för att komma åt den här sidan."
+
+#: woocommerce-ac.php:1697
+msgid "Product Report"
+msgstr "Produktrapport"
+
+#: woocommerce-ac.php:1696
+msgid "Recovered Orders"
+msgstr "Återskapade ordrar"
+
+#: woocommerce-ac.php:1694
+msgid "Email Templates"
+msgstr "E-post mallar"
+
+#: woocommerce-ac.php:1693
+msgid "Abandoned Orders"
+msgstr "Övergivna ordrar"
+
+#: woocommerce-ac.php:1084 includes/admin/wcal_privacy_export.php:123
+msgid "Abandoned Carts"
+msgstr "Övergivna varukorgar"
+
+#: includes/frontend/wcal_checkout_process.php:300
+#: includes/frontend/wcal_checkout_process.php:302
+msgid "New Customer Order - Recovered"
+msgstr "Ny kund order - Återskapad"
+
+#: woocommerce-ac.php:680
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "Bryttiden för övergivna varukorgar ska vara numerisk och måste vara större än 0."
+
+#: woocommerce-ac.php:586
+msgid "Send Reply Emails to"
+msgstr "Skicka e-postsvar till"
+
+#: woocommerce-ac.php:577
+msgid "\"From\" Address"
+msgstr "Adress ”Från”"
+
+#: woocommerce-ac.php:568
+msgid "\"From\" Name"
+msgstr "Namn ”Från”"
+
+#: woocommerce-ac.php:561
+msgid "Settings for abandoned cart recovery emails"
+msgstr "E-postinställningar för återskapande av övergivna varukorgar"
+
+#: woocommerce-ac.php:533
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "Aktivera spårning för övergivna produkter och varukorgar även om kunden inte besöker kassasidan eller inte fyller i några detaljer såsom namn eller e-postadress  på kassasidan. Spårningen kommer börja så fort en besökare lägger till en produkt i sin varukorg och besöker varukorgs sidan."
+
+#: woocommerce-ac.php:529
+msgid "Start tracking from Cart Page"
+msgstr "Börja spåra från varukorg sidan"
+
+#: woocommerce-ac.php:523
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "Skicka e-post till administratörer om en övergiven varukorg återskapas."
+
+#: woocommerce-ac.php:519
+msgid "Email admin On Order Recovery"
+msgstr "Skicka e-post till administratör vid återskapande av order"
+
+#: woocommerce-ac.php:504
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "Betrakta varukorg som övergiven efter X minuter efter det att en vara lagt i varukorgen och ingen beställning gjorts."
+
+#: woocommerce-ac.php:500
+msgid "Cart abandoned cut-off time"
+msgstr "Avstängningstid för övergivna varukorgar"
+
+#: woocommerce-ac.php:212 woocommerce-ac.php:493 woocommerce-ac.php:1695
+msgid "Settings"
+msgstr "Inställningar"
+
+#: woocommerce-ac.php:293
+msgid "Abandoned cart Email Template"
+msgstr "E-post mall för övergivna varukorgar"
+
+#: woocommerce-ac.php:287
+msgid "HTML Email Template"
+msgstr "HTML E-postmall"
+
+#: includes/component/tracking-data/ts-tracking.php:177
+msgid "Once in a Week"
+msgstr "En gång i veckan"
+
+#: woocommerce-ac.php:47
+msgid "Once Every Fifteen Minutes"
+msgstr "En gång var femtonde minut"
+
+#: includes/component/welcome-page/templates/social-media-elements.php:10
+#: includes/welcome.php:271
+msgid "Follow %s"
+msgstr "Följ %s"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:128
+#: includes/welcome.php:223
+msgid "Current Offers"
+msgstr "Aktuella erbjudanden"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:122
+#: includes/welcome.php:215
+msgid "Meet the team"
+msgstr "Möt laget"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:113
+#: includes/welcome.php:206
+msgid "View all Premium Plugins"
+msgstr "Visa alla premium tillägg"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:112
+#: includes/welcome.php:205
+msgid "Visit the Tyche Softwares Website"
+msgstr "Besök Tyche Softwares webbplats"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:110
+#: includes/welcome.php:202
+msgid "Getting to Know Tyche Softwares"
+msgstr "Lär känna Tyche Softwares"
+
+#: includes/welcome.php:193
+msgid "View full list of differences between Lite & Pro plugin"
+msgstr "Visa en full lista med skillnader mellan Lite & Pro tilläggen"
+
+#: includes/welcome.php:180
+msgid "The Lite version has only 3 merge tags available to personalize the abandoned cart recovery emails. The Pro version instead, has 20 different merge tags that can be used effectively to personalize each email that gets sent out to the customers for recovering their abandoned carts."
+msgstr "Lite versionen har endast 3 etiketter som kan användas för att märka upp e-postmeddelanden för övergivna varukorgar. Pro versionen har istället 20 olika etiketter som effektivt kan användas för att märka upp varje e-postmeddelande som skickas ut till kunder för att återskapa deras övergivna varukorgar."
+
+#: includes/welcome.php:178
+msgid "Full range of merge tags that allow you to personalize the abandoned cart email"
+msgstr "En full lista med etiketter som gör det möjligt för dig att märka upp e-postmeddelanden för övergivna varukorgar"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:99
+#: includes/welcome.php:167
+msgid "The ability to send the abandoned cart recovery email within first few minutes of cart being abandoned is a big advantage. In the Lite plugin, the earliest an email can be sent is after 1 hour. Whereas in the Pro version, the first recovery email gets sent 15 minutes after the cart is abandoned. This increases the recovery chances manifold."
+msgstr "Möjligheten att skicka e-post om övergivna varukorgar minuter efter det att varukorgen övergetts är en stor fördel. I Lite tillägget skickas tidigast ett e-postmeddelande efter 1 timme. Medan Pro versionen skickar ett e-postmeddelande 15 minuter efter det att varukorgen överges. Detta ökar chansen till återskapande mångfaldigt."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:97
+#: includes/welcome.php:165
+msgid "Send abandoned cart recovery email in minutes of cart being abandoned"
+msgstr "Skicka e-post om övergivna varukorgar minuter efter det att varukorgen överges"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:78
+#: includes/welcome.php:146
+msgid "The provision for setting two separate cut-off times for different roles is mainly because sometimes if the store admin wants the visitor carts to be captured earlier than the registered user carts, then these different settings can play an important role."
+msgstr "Möjligheten att ange två olika bryttider för olika roller beror huvudsakligen på att e-butikens administratör ibland vill fånga upp besökares varukorgar tidigare än varukorgar för registrerade användare och i dessa fall kan differentierade inställningar spela en viktig roll."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:76
+#: includes/welcome.php:144
+msgid "Set different cut-off times for visitors & logged-in users"
+msgstr "Ställ in olika bryttider för besökare och inloggade användare"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:67
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:80
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:101
+#: includes/welcome.php:135 includes/welcome.php:148 includes/welcome.php:169
+#: includes/welcome.php:182
+msgid "Learn More"
+msgstr "Lär dig mer"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:65
+#: includes/welcome.php:133
+msgid "The ability to capture the email address early in the order process is very important to reduce cart abandonment by unknown users as well as to be able to recover their carts if they abandon it. This ultimately leads to increase in your store sales."
+msgstr "Möjlighet att fånga upp e-postadresser tidigt i orderprocessen är väldig viktigt för att minska övergivna varukorgar för anonyma användare och för att kunna återskapa deras varukorgar om dom överges. I slutändan leder detta till en ökad butiksförsäljning."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:63
+#: includes/welcome.php:131
+msgid "Capture Visitor Emails on click of Add to Cart button"
+msgstr "Fånga upp besökares e-postadresser under klick på Lägg till i kundvagn knappen"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:54
+#: includes/welcome.php:122
+msgid "The Abandoned Cart Pro plugin gives you features where you are able to recover more sales compared to the Lite plugin. Here are some notable features the Pro version provides."
+msgstr "Abandoned Cart Pro tillägget tillhandahåller funktioner som gör det möjligt för dig att återskapa fler försäljningar än i Lite-tillägget. Här är några intressanta funktioner som Pro-versionen tillhandahåller."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:52
+#: includes/welcome.php:120
+msgid "Know more about Abandoned Cart Pro"
+msgstr "Läs mer om Abandoned Cart Pro"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:42
+#: includes/welcome.php:110
+msgid "Click Here to go to Email Templates page"
+msgstr "Klicka här för att gå till mallsidan för e-post"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:40
+#: includes/welcome.php:108
+msgid "To start sending out abandoned cart notification emails, simply activate the email template from under WooCommerce -> Abandoned Carts -> Email Templates page."
+msgstr "För att börja skicka våra e-post påminnelser om övergivna varukorgar, aktivera e-post mallen från WooCommerce -> Abandoned Carts -> Email Templates sidan."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:38
+#: includes/welcome.php:106
+msgid "Activate Email Template"
+msgstr "Aktivera e-postmall"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:34
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:59
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:86
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:93
+#: includes/welcome.php:102 includes/welcome.php:127 includes/welcome.php:154
+#: includes/welcome.php:161 includes/welcome.php:188
+msgid "WooCommerce Abandoned Cart Lite"
+msgstr "WooCommerce Abandoned Cart Lite"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:30
+#: includes/welcome.php:98
+msgid "Get Started with Abandoned Cart Lite"
+msgstr "Kom igång med Abandoned Cart Lite"
+
+#: includes/welcome.php:88
+msgid "Thank you for activating or updating to the latest version of Abandoned Cart Lite! If you're a first time user, welcome! You're well on your way to start recovering your lost revenues."
+msgstr "Tack för att du aktiverar eller uppdaterar till senaste versionen av Abandoned Cart Lite! Om du är en förstagångsanvändare, välkommen! Du är på väg att börja få tillbaka dina förlorade intäkter."
+
+#: includes/welcome.php:50
+msgid "Welcome to Abandoned Cart Lite"
+msgstr "Välkommen till Abandoned Cart Lite"
+
+#: includes/welcome.php:49
+msgid "Welcome to Abandoned Cart Lite %s"
+msgstr "Välkommen till Abandoned Cart Lite %s"
+
+#: includes/component/tracking-data/ts-tracking.php:271
+#: includes/wcal_ts_tracking.php:79
+msgid "No thanks"
+msgstr "Nej tack"
+
+#: includes/component/tracking-data/ts-tracking.php:270
+#: includes/wcal_ts_tracking.php:78
+msgid "Allow"
+msgstr "Godkänn"
+
+#: includes/wcal_ts_tracking.php:76
+msgid "Want to help make Abandoned Cart even more awesome? Allow Abandoned Cart to collect non-sensitive diagnostic data and usage information and get 20% off on your next purchase. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Find out more</a>. <br><br>"
+msgstr "Vill du hjälpa till och göra Abandoned Cart ännu bättre? Tillåt Abandoned Cart att samla in icke-känslig diagnostisk data och användarinformation och få 20% i rabatt på ditt nästa köp. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Få reda på mer</a>. <br><br>"
+
+#: includes/classes/class-wcal-templates-table.php:144
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/classes/class-wcal-templates-table.php:94
+msgid "Active ?"
+msgstr "Aktiv?"
+
+#: includes/classes/class-wcal-templates-table.php:93
+msgid "Sent After Set Time"
+msgstr "Skickat efter inställd tid"
+
+#: includes/classes/class-wcal-templates-table.php:92
+msgid "Name Of Template"
+msgstr "Namn på mall"
+
+#: includes/classes/class-wcal-templates-table.php:91
+msgid "Sr"
+msgstr "Sr"
+
+#: includes/classes/class-wcal-templates-table.php:54
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:53
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:161
+msgid "View Details"
+msgstr "Visa detaljer"
+
+#: includes/classes/class-wcal-recover-orders-table.php:127
+msgid "Cart Recovered Date"
+msgstr "Datum för återskapad varukorg"
+
+#: includes/classes/class-wcal-recover-orders-table.php:126
+msgid "Cart Abandoned Date"
+msgstr "Datum för övergiven varukorg"
+
+#: includes/classes/class-wcal-recover-orders-table.php:124
+msgid "Customer Name"
+msgstr "Kundnamn"
+
+#: includes/classes/class-wcal-recover-orders-table.php:87
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:86
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-product-report-table.php:93
+msgid "Number of Times Recovered"
+msgstr "Återskapad antal gånger"
+
+#: includes/classes/class-wcal-product-report-table.php:92
+msgid "Number of Times Abandoned"
+msgstr "Övergiven antal gånger"
+
+#: includes/classes/class-wcal-product-report-table.php:91
+msgid "Product Name"
+msgstr "Produktnamn"
+
+#: includes/classes/class-wcal-product-report-table.php:59
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:58
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/classes/class-wcal-abandoned-orders-table.php:365
+msgid "Abandoned"
+msgstr "Övergiven"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:359
+msgid "items"
+msgstr "varor"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:357
+msgid "item"
+msgstr "vara"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:151
+#: includes/classes/class-wcal-abandoned-orders-table.php:544
+#: includes/classes/class-wcal-templates-table.php:145
+#: includes/classes/class-wcal-templates-table.php:330
+msgid "Delete"
+msgstr "Ta bort"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:150
+msgid "View order"
+msgstr "Visa order"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:101
+msgid "Status of Cart"
+msgstr "Status för varukorg"
+
+#: includes/admin/wcal_privacy_export.php:168
+#: includes/admin/wcal_privacy_export.php:180
+#: includes/classes/class-wcal-abandoned-orders-table.php:100
+msgid "Abandoned Date"
+msgstr "Övergiven datum"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:99
+#: includes/classes/class-wcal-recover-orders-table.php:128
+msgid "Order Total"
+msgstr "Order totalt"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:98
+msgid "Customer"
+msgstr "Kund"
+
+#: includes/admin/wcal_privacy_export.php:174
+#: includes/admin/wcal_privacy_export.php:185
+#: includes/classes/class-wcal-abandoned-orders-table.php:97
+#: includes/classes/class-wcal-recover-orders-table.php:125
+msgid "Email Address"
+msgstr "E-postadress"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:96
+msgid "Id"
+msgstr "Id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:53
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:52
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: cron/wcal_send_email.php:576 cron/wcal_send_email.php:643
+#: includes/frontend/wcal_checkout_process.php:198
+#: includes/frontend/wcal_checkout_process.php:493
+msgid "This order was abandoned & subsequently recovered."
+msgstr "Denna order var övergiven och senare räddats."
+
+#: cron/wcal_send_email.php:381 woocommerce-ac.php:3105 woocommerce-ac.php:3140
+msgid "Cart Total:"
+msgstr "Varukorg totalt:"
+
+#: cron/wcal_send_email.php:281 cron/wcal_send_email.php:291
+#: woocommerce-ac.php:2396 woocommerce-ac.php:3085 woocommerce-ac.php:3120
+msgid "Line Subtotal"
+msgstr "Delsumma rad"
+
+#: cron/wcal_send_email.php:280 cron/wcal_send_email.php:290
+#: woocommerce-ac.php:3084 woocommerce-ac.php:3119
+msgid "Price"
+msgstr "Pris"
+
+#: cron/wcal_send_email.php:279 cron/wcal_send_email.php:289
+#: woocommerce-ac.php:2395 woocommerce-ac.php:3083 woocommerce-ac.php:3118
+msgid "Quantity"
+msgstr "Antal"
+
+#: cron/wcal_send_email.php:278 cron/wcal_send_email.php:288
+#: woocommerce-ac.php:2394 woocommerce-ac.php:3082 woocommerce-ac.php:3117
+msgid "Name"
+msgstr "Namn"
+
+#: cron/wcal_send_email.php:277 cron/wcal_send_email.php:287
+#: woocommerce-ac.php:2393 woocommerce-ac.php:3081 woocommerce-ac.php:3116
+msgid "Item"
+msgstr "Vara"
+
+#: cron/wcal_send_email.php:275 cron/wcal_send_email.php:284
+#: woocommerce-ac.php:3079 woocommerce-ac.php:3113
+msgid "Your Shopping Cart"
+msgstr "Din varukorg"
+
+#: cron/wcal_send_email.php:93
+msgid "Abandoned cart reminder"
+msgstr "Påminnelse om övergiven varukorg"

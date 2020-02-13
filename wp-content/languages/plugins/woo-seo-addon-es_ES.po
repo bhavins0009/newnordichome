@@ -1,0 +1,90 @@
+# Translation of Plugins - WooCommerce SEO Addon - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce SEO Addon - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-01 09:42:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce SEO Addon - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Premmerce WooCommerce SEO Addon plugin extends the functionality of Yoast SEO for microdata management."
+msgstr "El plugin Premmerce WooCommerce SEO Addon amplía la funcionalidad de Yoast SEO para la gestión de microdatos."
+
+#: src/Admin/Admin.php:86
+msgid "Account"
+msgstr "Cuenta"
+
+#: src/Admin/Admin.php:83
+msgid "Contact Us"
+msgstr "Contáctanos"
+
+#: src/Admin/Admin.php:80
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Author URI of the plugin
+msgid "https://premmerce.com/"
+msgstr "https://premmerce.com/"
+
+#. Author of the plugin
+msgid "premmerce"
+msgstr "premmerce"
+
+#. Plugin URI of the plugin
+msgid "https://premmerce.com/woocommerce-seo-addon-yoast/"
+msgstr "https://premmerce.com/woocommerce-seo-addon-yoast/"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce SEO Addon"
+msgstr "WooCommerce SEO Addon"
+
+#: views/admin/tabs/settings.php:86
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: views/admin/tabs/settings.php:72
+msgid "Payment accepted"
+msgstr "Pago aceptado"
+
+#: views/admin/tabs/settings.php:63
+msgid "Opening hours"
+msgstr "Horario de apertura"
+
+#: views/admin/tabs/settings.php:55
+msgid "Phone"
+msgstr "Teléfono"
+
+#: views/admin/tabs/settings.php:47
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: views/admin/tabs/settings.php:41 views/admin/tabs/settings.php:50
+#: views/admin/tabs/settings.php:58 views/admin/tabs/settings.php:66
+#: views/admin/tabs/settings.php:76
+msgid "For example"
+msgstr "Por ejemplo"
+
+#: views/admin/tabs/settings.php:38
+msgid "Address"
+msgstr "Dirección"
+
+#: views/admin/tabs/settings.php:25
+msgid "Select the attribute of the product that is used as a brand"
+msgstr "Elige el atributo del producto que se usa como marca"
+
+#: views/admin/tabs/settings.php:17
+msgid "Not specified"
+msgstr "Sin especificar"
+
+#: views/admin/tabs/settings.php:14
+msgid "Brand"
+msgstr "Marca"
+
+#: src/SeoAddonPlugin.php:73
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "¡El plugin %s requiere que el plugin %s esté activo!"

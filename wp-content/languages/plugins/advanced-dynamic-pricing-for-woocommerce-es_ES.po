@@ -1,0 +1,1695 @@
+# Translation of Plugins - Advanced Dynamic Pricing for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Advanced Dynamic Pricing for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-07 05:58:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Advanced Dynamic Pricing for WooCommerce - Stable (latest release)\n"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:25
+msgid "{{price}}, {{price_suffix}}, {{price_striked}}"
+msgstr "{{price}}, {{price_suffix}}, {{price_striked}}"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:25
+msgid "Available tags"
+msgstr "Etiquetas disponibles"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:21
+msgid "Output template"
+msgstr "Plantilla de salida"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:52
+msgid "%s product(s) without custom fields: %s"
+msgstr "%s producto(s) sin campos personalizados: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:51
+msgid "%s product(s) with custom fields: %s"
+msgstr "%s producto(s) con campos personalizados: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:37
+msgid "%s product(s) not from categories with slug: %s"
+msgstr "%s producto(s) que no son de las categorías con el slug: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:36
+msgid "%s product(s) from categories with slug: %s"
+msgstr "%s producto(s) que son de las categorías con el slug: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:27
+msgid "%s product(s) with SKUs not from list: %s"
+msgstr "%s producto(s) con SKUs que no son de la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:26
+msgid "%s product(s) with SKUs from list: %s"
+msgstr "%s producto(s) con SKUs que son de la lista: %s"
+
+#: classes/admin/class-wdp-customizer.php:322
+msgid "Category table layout"
+msgstr "Diseño de tabla de categorías"
+
+#: classes/admin/class-wdp-customizer.php:115
+msgid "Display ranges as headers"
+msgstr "Mostrar rangos como cabeceras"
+
+#: classes/admin/class-wdp-customizer.php:114
+#: classes/admin/class-wdp-customizer.php:326
+msgid "Display ranges as rows"
+msgstr "Mostrar rangos como filas"
+
+#: classes/admin/class-wdp-customizer.php:110
+msgid "Product table layout"
+msgstr "Diseño de tabla de dtos. en productos"
+
+#: classes/rules/class-wdp-rule-range-adjustments.php:45
+msgid "Impossible bulk rules detected for rule #"
+msgstr "Detectadas reglas de dtos. por volumen imposibles para la regla # "
+
+#: templates/reporter/main.php:27
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: views/tabs/options/show_debug_bar.php:9
+#: views/tabs/options/show_debug_bar.php:13
+msgid "Show debug panel at bottom of the page"
+msgstr "Mostrar el panel de depuración en parte inferior de la página"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:16
+msgid "Enable"
+msgstr "Activar"
+
+#: views/tabs/options/replace_price_with_min_bulk_price.php:10
+msgid "Replace price with lowest bulk price"
+msgstr "Reemplazar el precio con el más bajo de los precios por volumen"
+
+#: views/tabs/options/disable_external_coupons_only_if_items_updated.php:9
+#: views/tabs/options/disable_external_coupons_only_if_items_updated.php:12
+msgid "Disable external coupons only if any of cart items updated"
+msgstr "Desactivar los cupones externos solo si alguno de los artículos del carrito se ha actualizado"
+
+#: views/tabs/options/hide_coupon_word_in_totals.php:9
+#: views/tabs/options/hide_coupon_word_in_totals.php:13
+msgid "Hide \"Coupon\" word in cart totals"
+msgstr "Ocultar la palabra «Cupón» en los totales del carrito"
+
+#: views/tabs/options/show_cross_out_subtotal_in_cart_totals.php:9
+#: views/tabs/options/show_cross_out_subtotal_in_cart_totals.php:12
+msgid "Show striked subtotal in cart totals"
+msgstr "Mostrar el subtotal tachado en totales del carrito"
+
+#: views/rules/rule.php:286
+msgid "Don't gift products and add discount to cart as coupon"
+msgstr "No regalar productos y añadir un descuento al carrito como cupón"
+
+#: views/rules/templates.php:218
+msgid "Exclude on sale products"
+msgstr "Excluir productos en oferta"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:180
+msgid "Wrong \"reports\" key values"
+msgstr "Valores de la clave «informes» erróneos"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:139
+#: classes/reporter/class-wdp-calculation-profiler.php:176
+msgid "Wrong import key"
+msgstr "Clave de importación errónea"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:136
+msgid "Import key not found"
+msgstr "Clave de importación no encontrada"
+
+#: classes/reporter/class-wdp-report-output.php:60
+msgid "Rule"
+msgstr "Regla"
+
+#: classes/reporter/class-wdp-report-output.php:59
+msgid "Rule ID"
+msgstr "ID de la regla"
+
+#: classes/reporter/class-wdp-report-output.php:58
+msgid "Replaced by fee"
+msgstr "Sustituido por un recargo"
+
+#: classes/reporter/class-wdp-report-output.php:57
+msgid "Replaced by coupon"
+msgstr "Sustituido por un cupón"
+
+#: classes/reporter/class-wdp-report-output.php:56
+msgid "Fees"
+msgstr "Recargos"
+
+#: classes/reporter/class-wdp-report-output.php:55
+msgid "Coupons"
+msgstr "Cupones"
+
+#: classes/reporter/class-wdp-report-output.php:54
+msgid "Items"
+msgstr "Artículos"
+
+#: classes/reporter/class-wdp-report-output.php:36
+msgid "WDP report"
+msgstr "Informe de WDP"
+
+#: classes/reporter/collectors/class-wdp-reporter-wc-cart-collector.php:250
+msgid "Package"
+msgstr "Paquete"
+
+#: classes/common/class-wdp-helpers.php:49
+msgid "From {{price}} {{price_suffix}}"
+msgstr "Desde {{price}} {{price_suffix}}"
+
+#: classes/admin/tabs/class-wdp-collections-page.php:11
+msgid "Product Collections"
+msgstr "Colecciones de productos"
+
+#: classes/admin/tabs/class-wdp-options-page.php:84
+msgid "Debug"
+msgstr "Depuración"
+
+#: templates/reporter/tabs/reports.php:11
+msgid "Export all"
+msgstr "Exportar todo"
+
+#: templates/reporter/tabs/cart.php:125
+msgid "Free shipping!"
+msgstr "¡Envío gratuito!"
+
+#: templates/reporter/tabs/cart.php:106
+msgid "Cost"
+msgstr "Coste"
+
+#: templates/reporter/tabs/cart.php:105
+msgid "Initial cost"
+msgstr "Coste inicial"
+
+#: templates/reporter/tabs/cart.php:104
+msgid "Label"
+msgstr "Etiqueta"
+
+#: templates/reporter/tabs/cart.php:78
+msgid "Fee amount"
+msgstr "Importe del recargo"
+
+#: templates/reporter/tabs/cart.php:58 templates/reporter/tabs/cart.php:79
+#: templates/reporter/tabs/cart.php:107
+msgid "Affected rules"
+msgstr "Reglas afectadas"
+
+#: templates/reporter/tabs/cart.php:57
+msgid "Coupon amount"
+msgstr "Importe del cupón"
+
+#: templates/reporter/tabs/cart.php:56
+msgid "Coupon code"
+msgstr "Código del cupón"
+
+#: templates/reporter/tabs/cart.php:33
+msgid "Initial price"
+msgstr "Precio inicial"
+
+#: templates/reporter/tabs/cart.php:10
+msgid "Cart is empty"
+msgstr "El carrito está vacío"
+
+#: templates/reporter/tabs/base.php:25
+msgid "No changes!"
+msgstr "¡Sin cambios!"
+
+#: templates/reporter/tabs/base.php:19
+msgid "Gifted!"
+msgstr "¡Regalado!"
+
+#: templates/reporter/tabs/rules.php:46
+msgctxt "seconds short"
+msgid "s"
+msgstr "s"
+
+#: templates/reporter/tabs/rules.php:32
+msgid "Applied to cart items"
+msgstr "Aplicado a artículos del carrito"
+
+#: templates/reporter/tabs/rules.php:25 templates/reporter/tabs/rules.php:36
+msgid "Timing"
+msgstr "Tiempo"
+
+#: templates/reporter/tabs/rules.php:21
+msgid "Applied to visible products"
+msgstr "Aplicado a artículos visibles"
+
+#: templates/reporter/tabs/products.php:15 templates/reporter/tabs/cart.php:35
+msgid "History"
+msgstr "Historial"
+
+#: templates/reporter/tabs/products.php:13
+msgid "Original price"
+msgstr "Precio original"
+
+#: templates/reporter/tabs/products.php:12 templates/reporter/tabs/cart.php:77
+msgid "Name"
+msgstr "Nombre"
+
+#: templates/reporter/main.php:20
+#: classes/reporter/class-wdp-report-output.php:62
+msgid "Get system report"
+msgstr "Obtener el informe del sistema"
+
+#: views/rules/rule.php:278
+msgid "Repeat counter is subtotal amount divided by"
+msgstr "El contador de repetición es el importe del subtotal dividido por"
+
+#: views/rules/rule.php:272
+msgid "Based on"
+msgstr "Basado en"
+
+#: views/rules/rule.php:259
+msgid "Can be applied"
+msgstr "Se puede aplicar"
+
+#: views/tabs/common.php:17
+msgid "Rebuild Onsale List"
+msgstr "Reconstruir lista de ofertas"
+
+#: views/tabs/options/support_shortcode_products_on_sale.php:17
+msgid "Read short guide"
+msgstr "Leer la guía rápida"
+
+#: views/tabs/options/support_shortcode_products_on_sale.php:9
+#: views/tabs/options/support_shortcode_products_on_sale.php:13
+msgid "Support shortcode [adp_products_on_sale]"
+msgstr "Permitir el shortcode [adp_products_on_sale]"
+
+#: views/tabs/options/is_calculate_based_on_wc_precision.php:9
+#: views/tabs/options/is_calculate_based_on_wc_precision.php:12
+msgid "Calculate totals based on modified item price"
+msgstr "Calcular totales basado en los precios modificados de los artículos"
+
+#: views/rules/rule.php:94
+msgid "Don't modify prices and add discount to cart as fee/coupon"
+msgstr "No modificar precios. Añadir descuento al carrito como recargo/cupón"
+
+#: views/rules/templates.php:148
+msgid "Any product"
+msgstr "Cualquier producto"
+
+#: classes/admin/tabs/class-wdp-tools-page.php:153
+msgid "All"
+msgstr "Todas"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:45
+msgid "Add fixed fee to each item line affected by rule"
+msgstr "Añadir recargo fijo por cada línea de artículo afectado por la regla"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:39
+msgid "Add fixed fee on each rule execution"
+msgstr "Añadir recargo fijo por cada regla ejecutada"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:33
+msgid "Fixed fee, once"
+msgstr "Recargo fijo, una vez"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:27
+msgid "Add fixed discount to each item line affected by rule"
+msgstr "Añadir descuento fijo por cada línea de artículo afectado por la regla"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:21
+msgid "Add fixed discount on each rule execution"
+msgstr "Añadir descuento fijo por cada regla ejecutada"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:15
+msgid "Fixed discount, once"
+msgstr "Descuento fijo, una vez"
+
+#: views/tabs/help.php:16
+msgid "Variable products"
+msgstr "Productos variables"
+
+#: views/tabs/tools.php:66
+msgid "Import"
+msgstr "Importar"
+
+#: views/tabs/tools.php:58
+msgid "Clear all rules before import"
+msgstr "Vaciar todas las reglas antes de importar"
+
+#: views/tabs/tools.php:43
+msgid "Paste text into this field to import settings into the current WordPress install."
+msgstr "Pegar el texto dentro de este campo para importar ajustes en la actual instalación de WordPress."
+
+#: views/tabs/tools.php:40
+msgid "Import tool"
+msgstr "Herramienta de importación"
+
+#: views/tabs/tools.php:20
+msgid "Copy these settings and use it to migrate plugin to another WordPress install."
+msgstr "Copiar estos ajustes y usarlos para migrar el plugin a otra instalación WordPress."
+
+#: views/tabs/tools.php:16
+msgid "Export tool"
+msgstr "Herramienta de exportación"
+
+#: views/tabs/options/rules_per_page.php:9
+#: views/tabs/options/rules_per_page.php:13
+msgid "Rules per page"
+msgstr "Reglas por página"
+
+#: views/tabs/options/allow_to_exclude_products.php:9
+#: views/tabs/options/allow_to_exclude_products.php:13
+msgid "Allow to exclude products in filters"
+msgstr "Permitir la exclusión de productos en los filtros"
+
+#: views/tabs/options/allow_to_edit_prices_in_po.php:9
+#: views/tabs/options/allow_to_edit_prices_in_po.php:13
+msgid "Still allow to edit prices in Phone Orders"
+msgstr "Permitir edición de precios in Phone Orders"
+
+#: views/tabs/options/amount_saved_label.php:9
+#: views/tabs/options/amount_saved_label.php:13
+msgid "Label \"Amount Saved\""
+msgstr "Etiqueta «Importe ahorrado»"
+
+#: views/tabs/options/load_in_backend.php:15
+msgid "You should activate this option if the theme uses AJAX requests to show prices (for example, to support quickview popups)"
+msgstr "Deberías activar esta opción si el tema usa peticiones AJAX para mostrar precios (por ejemplo, permitir mensajes emergentes con vista rápida)"
+
+#: views/tabs/options/load_in_backend.php:12
+msgid "Use plugin %s to add backend orders"
+msgstr "Usar plugin %s para crear pedidos desde la administración"
+
+#: views/tabs/options/disable_external_coupons.php:9
+#: views/tabs/options/disable_external_coupons.php:12
+msgid "Disable external coupons if any rule applied"
+msgstr "Desactivar todos los cupones si se aplica alguna regla"
+
+#: views/tabs/options/rule_max_exec_time.php:9
+#: views/tabs/options/rule_max_exec_time.php:13
+msgid "Disable rule if it runs longer than X seconds"
+msgstr "Desactivar regla si tarda más de X segundos en ejecutarse"
+
+#: views/tabs/options/show_matched_bulk_table.php:24
+msgid "You can use shortcode [adp_product_bulk_rules_table] too"
+msgstr "Puedes usar también el shortcode [adp_product_bulk_rules_table]"
+
+#: views/rules/templates.php:429 views/rules/rule.php:143
+msgid "Fixed price"
+msgstr "Precio fijo"
+
+#: views/rules/templates.php:198
+msgid "Exclude products"
+msgstr "Excluir productos"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:199
+msgid "Last page"
+msgstr "Última página"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:188
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:180
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s de %2$s"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:170
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:174
+msgid "Current Page"
+msgstr "Página actual"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:163
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:152
+msgid "First page"
+msgstr "Primera página"
+
+#: classes/admin/tabs/class-wdp-abstract-rules-page.php:115
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s elemento"
+msgstr[1] "%s elementos"
+
+#: classes/admin/class-wdp-customizer.php:194
+#: classes/admin/class-wdp-customizer.php:383
+msgid "Use bulk table message as table header"
+msgstr "Usar mensaje de descuentos en masa como cabecera de tabla"
+
+#: classes/admin/class-wdp-settings.php:479
+msgid "exclusive rules were turned off, it were running too slow."
+msgstr "se desactivaron las reglas excluyentes, se estaba ejecutando demasiado lento."
+
+#: classes/admin/class-wdp-settings.php:477
+msgid "The exclusive rule was turned off, it was running too slow."
+msgstr "Se desactivó la regla excluyente, se estaba ejecutando demasiado lento."
+
+#: classes/admin/class-wdp-settings.php:465
+msgid "common rules were turned off, it were running too slow."
+msgstr "se desactivaron las reglas comunes, se estaba ejecutando demasiado lento."
+
+#: classes/admin/class-wdp-settings.php:463
+#: classes/admin/class-wdp-settings.php:465
+#: classes/admin/class-wdp-settings.php:477
+#: classes/admin/class-wdp-settings.php:479
+msgid "Edit rule"
+msgstr "Editar regla"
+
+#: classes/admin/class-wdp-settings.php:463
+msgid "The common rule was turned off, it was running too slow."
+msgstr "Se desactivó la regla común, se estaba ejecutando demasiado lento."
+
+#: classes/common/class-wdp-helpers.php:176
+msgid "Guest"
+msgstr "Invitado"
+
+#: classes/common/class-wdp-helpers.php:55
+msgid "Amount Saved"
+msgstr "Importe ahorrado"
+
+#: classes/rules/discount_range/qty_based_calculators/product_categories/class-wdp-rule-range-adjustments-bulk-qty-based-product-categories.php:23
+msgid "Qty based on product categories in all cart"
+msgstr "Cant. basada en categorías de productos del carrito"
+
+#: classes/rules/discount_range/qty_based_calculators/abstract/abstract-class-wdp-rule-range-adjustments-qty-based-product-selected-categories.php:20
+msgid "Qty based on selected categories in all cart"
+msgstr "Cant. basada en categorías seleccionadas del carrito"
+
+#: classes/rules/discount_range/qty_based_calculators/abstract/abstract-class-wdp-rule-range-adjustments-qty-based-sets.php:19
+msgid "Qty based on sets"
+msgstr "Cant. basada en conjuntos"
+
+#: classes/rules/exceptions/class-wdp-rule-execution-timeout-exception.php:8
+msgid "Rule execution timeout"
+msgstr "Tiempo máximo de ejecución de reglas"
+
+#: classes/rules/class-wdp-rule-range-adjustments.php:48
+msgid "Invalid discount type for quantity based calculator for rule #"
+msgstr "Tipo de descuento no válido para cálculos basados en cantidades para la regla #"
+
+#: classes/rules/class-wdp-rule-range-adjustments.php:27
+msgid "Invalid rule ID."
+msgstr "ID de regla no válido."
+
+#: classes/rules/class-wdp-rule-range-adjustments-qty-based-calculator.php:48
+msgid "Invalid quantity based parameter."
+msgstr "Parámetro basado en cantidad no válido."
+
+#: classes/engine/product/class-wdp-product.php:52
+#: classes/rules/class-wdp-rule.php:963
+msgid "Product does not exists"
+msgstr "El producto no existe"
+
+#: classes/engine/class-wdp-product-price-display.php:143
+msgid "Apply cart and calc should not be called before the wp_loaded action for including (e.g.) items which added during POST."
+msgstr "«Apply cart» y «calc» no deberían llamarse antes de la acción «wp_loaded» para incluir (ej.) artículos que se añadieron durante POST."
+
+#: views/tabs/options/do_not_modify_price_at_product_page.php:9
+#: views/tabs/options/do_not_modify_price_at_product_page.php:12
+msgid "Don't modify product price at product page"
+msgstr "No modificar el precio del producto en la página del producto "
+
+#: views/tabs/options/show_category_bulk_table.php:23
+msgid "You can use shortcode [adp_category_bulk_rules_table]"
+msgstr "Puedes usar el shortcode [adp_category_bulk_rules_table]"
+
+#: classes/rules/discount_range/qty_based_calculators/total_qty_in_cart/class-wdp-rule-range-adjustments-bulk-qty-based-total-qty-in-cart.php:23
+msgid "Qty based on all items in the cart"
+msgstr "Cant. basada en los artículos del carrito"
+
+#: views/rules/rule.php:101
+msgid "Filter by products"
+msgstr "Filtros de productos"
+
+#: templates/reporter/tabs/rules.php:23 templates/reporter/tabs/rules.php:34
+#: templates/reporter/tabs/products.php:11 templates/reporter/tabs/cart.php:30
+#: templates/reporter/tabs/cart.php:55 templates/reporter/tabs/cart.php:76
+#: templates/reporter/tabs/cart.php:103 views/rules/rule.php:39
+msgid "#"
+msgstr "#"
+
+#: views/rules/templates.php:162
+msgid "Custom fields"
+msgstr "Campos personalizados"
+
+#: views/rules/templates.php:161
+msgid "SKUs"
+msgstr "SKUs"
+
+#: views/rules/templates.php:153
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: views/rules/templates.php:152
+msgid "Attributes"
+msgstr "Atributos"
+
+#: views/rules/templates.php:151
+msgid "Category slugs"
+msgstr "Slugs de categorías"
+
+#: views/rules/templates.php:150
+msgid "Categories"
+msgstr "Categorías"
+
+#: classes/reporter/class-wdp-calculation-profiler.php:111
+#: classes/admin/class-wdp-customizer.php:612
+#: classes/class-wdp-functions.php:45
+msgid "%1$s should not be called before the %2$s action."
+msgstr "%1$s no debería ser llamado antes de la acción %2$s."
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:70
+#: classes/admin/class-wdp-settings.php:229
+msgid "Fixed price for set"
+msgstr "Precio fijo para el conjunto"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:49
+#: classes/admin/class-wdp-settings.php:228
+msgid "Fixed discount for set"
+msgstr "Descuento fijo para el conjunto"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:63
+#: classes/admin/class-wdp-settings.php:227
+msgid "Fixed price for item"
+msgstr "Precio fijo por artículo"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:42
+#: classes/admin/class-wdp-settings.php:226
+msgid "Fixed discount for item"
+msgstr "Descuento fijo por artículo"
+
+#: classes/admin/tabs/class-wdp-options-page.php:42
+msgid "Product page"
+msgstr "Página de producto"
+
+#: classes/admin/tabs/class-wdp-options-page.php:35
+msgid "Category page"
+msgstr "Página de categorías"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:56
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:57
+msgid "%s product(s) with "
+msgstr "%s producto(s) con "
+
+#: views/tabs/options/limit_results_in_autocomplete.php:9
+#: views/tabs/options/limit_results_in_autocomplete.php:13
+msgid "Show first X results in autocomplete (setup rule)"
+msgstr "Mostrar primeros X resultados al autocompletar (config. reglas)"
+
+#: views/rules/rule.php:317
+msgid "OR"
+msgstr "O"
+
+#: views/rules/rule.php:316
+msgid "AND"
+msgstr "Y"
+
+#: views/rules/rule.php:315
+msgid "Conditions relationship"
+msgstr "Relación entre condiciones "
+
+#: views/tabs/options/show_amount_save.php:16
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: views/tabs/options/load_in_backend.php:10
+#: views/tabs/options/load_in_backend.php:21
+msgid "Apply pricing rules to backend orders"
+msgstr "Aplicar reglas de precios a pedidos creados desde la administración"
+
+#: views/tabs/options.php:59
+msgid "Need more settings?"
+msgstr "¿Necesitas más ajustes?"
+
+#: views/rules/rule.php:181
+msgid "Skip bulk rules if role rule was applied"
+msgstr "Ignorar reglas de dtos. por volumen si se aplicó la regla por perfil"
+
+#: views/rules/rule.php:177
+msgid "Add role discount"
+msgstr "Añadir descuento por perfil"
+
+#: views/rules/rule.php:173 views/rules/rule.php:342 views/tabs/help.php:13
+msgid "Role discounts"
+msgstr "Dtos. por perfil"
+
+#: classes/admin/tabs/class-wdp-options-page.php:75
+msgid "System"
+msgstr "Sistema"
+
+#: classes/admin/tabs/class-wdp-options-page.php:62
+msgid "Calculation"
+msgstr "Cálculo"
+
+#: classes/admin/class-wdp-customizer.php:144
+msgid "Below product meta"
+msgstr "Debajo de la meta del producto"
+
+#: classes/admin/class-wdp-customizer.php:142
+msgid "Above product meta"
+msgstr "Encima de la meta del producto"
+
+#: views/tabs/options/default_fee_tax_class.php:28
+#: views/tabs/options/default_fee_tax_class.php:32
+msgid "Default Fee tax class"
+msgstr "Clase de impuesto por defecto para recargos"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:17
+msgid "Best between discounted and sale"
+msgstr "El mejor entre el descontado y el rebajado"
+
+#: views/tabs/options/show_matched_bulk_table.php:22
+#: views/tabs/options/show_category_bulk_table.php:21
+msgid "Customize"
+msgstr "Personalizar"
+
+#: views/cart_adjustments/fee.php:12
+#: views/tabs/options/default_fee_tax_class.php:16
+msgid "Standard rate"
+msgstr "Tarifa estándar"
+
+#: views/cart_adjustments/fee.php:8
+#: views/tabs/options/default_fee_tax_class.php:12
+msgid "Not taxable"
+msgstr "No gravable"
+
+#: classes/admin/customizer/controls/class-wdp-customizer-text-align-control.php:14
+msgid "Align right"
+msgstr "Alineación derecha"
+
+#: classes/admin/customizer/controls/class-wdp-customizer-text-align-control.php:13
+msgid "Align center"
+msgstr "Alineación centrada"
+
+#: classes/admin/customizer/controls/class-wdp-customizer-text-align-control.php:12
+msgid "Align left"
+msgstr "Alineación izquierda"
+
+#: classes/admin/class-wdp-customizer.php:503
+msgid "Category bulk table (Advanced Dynamic Pricing)"
+msgstr "Tabla de dtos. en categorías (Advanced Dynamic Pricing)"
+
+#: classes/admin/class-wdp-customizer.php:496
+msgid "Product bulk table (Advanced Dynamic Pricing)"
+msgstr "Tabla de dtos. en productos (Advanced Dynamic Pricing)"
+
+#: classes/admin/class-wdp-customizer.php:343
+msgid "At bottom of the page"
+msgstr "Al final de la página"
+
+#: classes/admin/class-wdp-customizer.php:341
+msgid "At top of the page"
+msgstr "Al principio de la página"
+
+#: classes/admin/class-wdp-customizer.php:297
+#: classes/admin/class-wdp-customizer.php:477
+msgid "Style footer"
+msgstr "Estilo de pie de página"
+
+#: classes/admin/class-wdp-customizer.php:279
+#: classes/admin/class-wdp-customizer.php:459
+msgid "Style body"
+msgstr "Estilo del cuerpo"
+
+#: classes/admin/class-wdp-customizer.php:265
+#: classes/admin/class-wdp-customizer.php:283
+#: classes/admin/class-wdp-customizer.php:445
+#: classes/admin/class-wdp-customizer.php:463
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: classes/admin/class-wdp-customizer.php:256
+msgid "Discounted price column title"
+msgstr "Título de columna para el precio descontado"
+
+#: classes/admin/class-wdp-customizer.php:247
+#: classes/admin/class-wdp-customizer.php:436
+msgid "Discount column title for fixed price"
+msgstr "Título de columna para el precio fijo"
+
+#: classes/admin/class-wdp-customizer.php:238
+#: classes/admin/class-wdp-customizer.php:427
+msgid "Discount column title"
+msgstr "Título de columna para descuento"
+
+#: classes/admin/class-wdp-customizer.php:229
+#: classes/admin/class-wdp-customizer.php:418
+msgid "Quantity column title"
+msgstr "Título de la columna de cantidad"
+
+#: classes/admin/class-wdp-customizer.php:225
+#: classes/admin/class-wdp-customizer.php:414
+msgid "Style columns"
+msgstr "Estilo de columnas"
+
+#: classes/admin/class-wdp-customizer.php:214
+#: classes/admin/class-wdp-customizer.php:403
+msgid "Header tier title"
+msgstr "Título de la columna de dtos. escalonados"
+
+#: classes/admin/class-wdp-customizer.php:205
+#: classes/admin/class-wdp-customizer.php:394
+msgid "Header bulk title"
+msgstr "Título de la columna de dtos. por volumen"
+
+#: classes/admin/class-wdp-customizer.php:190
+#: classes/admin/class-wdp-customizer.php:379
+msgid "Style header"
+msgstr "Estilo de cabecera"
+
+#: classes/admin/class-wdp-customizer.php:176
+#: classes/admin/class-wdp-customizer.php:365
+msgid "Show footer"
+msgstr "Mostrar pie de página"
+
+#: classes/admin/class-wdp-customizer.php:165
+#: classes/admin/class-wdp-customizer.php:354
+msgid "Show discount column"
+msgstr "Mostrar columna de descuento"
+
+#: classes/admin/class-wdp-customizer.php:138
+msgid "Above add to cart"
+msgstr "Encima de añadir al carrito"
+
+#: classes/admin/class-wdp-customizer.php:140
+msgid "Below add to cart"
+msgstr "Debajo de «Añadir al carrito»"
+
+#: classes/admin/class-wdp-customizer.php:134
+msgid "Above product"
+msgstr "Encima del producto"
+
+#: classes/admin/class-wdp-customizer.php:136
+msgid "Below product"
+msgstr "Debajo del producto"
+
+#: classes/admin/class-wdp-customizer.php:130
+msgid "Above product summary"
+msgstr "Encima del resumen del producto"
+
+#: classes/admin/class-wdp-customizer.php:132
+msgid "Below product summary"
+msgstr "Encima del resumen del producto"
+
+#: classes/admin/class-wdp-customizer.php:106
+#: classes/admin/class-wdp-customizer.php:318
+#: classes/admin/tabs/class-wdp-tools-page.php:22
+#: classes/admin/tabs/class-wdp-tools-page.php:78
+#: classes/admin/tabs/class-wdp-tools-page.php:83
+msgid "Options"
+msgstr "Opciones"
+
+#: classes/admin/class-wdp-customizer.php:80
+msgid "Text color"
+msgstr "Color del texto"
+
+#: classes/admin/class-wdp-customizer.php:69
+msgid "Text Align"
+msgstr "Alineación del texto"
+
+#: classes/admin/class-wdp-customizer.php:56
+msgid "Italic text"
+msgstr "Texto en cursiva"
+
+#: classes/admin/class-wdp-customizer.php:43
+msgid "Bold text"
+msgstr "Texto en negrita"
+
+#: views/tabs/options/suppress_other_pricing_plugins.php:9
+#: views/tabs/options/suppress_other_pricing_plugins.php:13
+msgid "Suppress other pricing plugins in frontend"
+msgstr "Suprimir otros plugins de gestión de precios en la tienda"
+
+#: classes/admin/class-wdp-customizer.php:154
+msgid "Show discounted price"
+msgstr "Mostrar precio descontado"
+
+#: classes/rules/discount_range/qty_based_calculators/variation/class-wdp-rule-range-adjustments-qty-based-variation.php:23
+msgid "Qty based on variation"
+msgstr "Cant. basada en la variación"
+
+#: classes/rules/discount_range/qty_based_calculators/product/class-wdp-rule-range-adjustments-qty-based-product.php:23
+msgid "Qty based on product"
+msgstr "Cant. basada en el producto"
+
+#: classes/rules/discount_range/qty_based_calculators/abstract/abstract-class-wdp-rule-range-adjustments-qty-based-total-all-matched-products.php:19
+msgid "Qty based on all matched products"
+msgstr "Cant. basada en los productos coincidentes"
+
+#: templates/reporter/tabs/products.php:14
+#: classes/admin/class-wdp-customizer.php:257
+msgid "Discounted price"
+msgstr "Precio descontado"
+
+#: classes/registries/class-wdp-condition-registry.php:48
+msgid "Product category slug"
+msgstr "Slug de categoría de producto"
+
+#: classes/admin/class-wdp-settings.php:378
+#: classes/admin/class-wdp-ajax.php:103
+msgid "Slug"
+msgstr "Slug"
+
+#: views/tabs/options/show_onsale_badge.php:9
+#: views/tabs/options/show_onsale_badge.php:12
+msgid "Show On Sale badge if product price was modified"
+msgstr "Mostrar cartel de oferta si el precio del producto fue modificado"
+
+#: classes/registries/class-wdp-condition-registry.php:81
+msgid "Product SKU"
+msgstr "SKU del producto"
+
+#. Author URI of the plugin
+msgid "https://algolplus.com/"
+msgstr "https://algolplus.com/"
+
+#. Author of the plugin
+msgid "AlgolPlus"
+msgstr "AlgolPlus"
+
+#. Description of the plugin
+msgid "Manage discounts/deals for WooCommerce"
+msgstr "Gestiona descuentos/ofertas para WooCommerce"
+
+#. Plugin Name of the plugin
+msgid "Advanced Dynamic Pricing for WooCommerce"
+msgstr "Advanced Dynamic Pricing for WooCommerce"
+
+#: views/tabs/collections.php:7
+msgid "Buy a pro version of our plugin and get an access to product collections"
+msgstr "Compra una versión pro de nuestro plugin y consigue acceso a las colecciones de productos"
+
+#: views/tabs/statistics.php:7
+msgid "Buy a pro version of our plugin and get an access to statistics"
+msgstr "Compra una versión pro de nuestro plugin y consigue acceso a estadísticas"
+
+#: views/tabs/options.php:63
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: views/tabs/options/uninstall_remove_data.php:9
+#: views/tabs/options/uninstall_remove_data.php:13
+msgid "Remove all data on uninstall"
+msgstr "Borrar todos los datos al desinstalar:"
+
+#: views/tabs/options/show_amount_save.php:25
+msgid "Mini cart"
+msgstr "Mini carrito"
+
+#: views/tabs/options/show_amount_save.php:10
+msgid "Show amount saved in"
+msgstr "Mostrar importe ahorrado en"
+
+#: views/tabs/options/override_cents.php:21
+msgid "If selected, prices will end with: "
+msgstr "Si se selecciona, los precios acabarán con: "
+
+#: views/tabs/options/override_cents.php:16
+msgid "Override the cents on the calculated price."
+msgstr "Omitir los céntimos en el precio calculado."
+
+#: views/tabs/options/override_cents.php:10
+msgid "Cents"
+msgstr "Céntimos"
+
+#: views/tabs/options/default_fee_name.php:20
+msgid "Fees with the same name are grouped in the cart."
+msgstr "Recargos con el mismo nombre son agrupados en el carrito."
+
+#: views/tabs/options/default_fee_name.php:9
+#: views/tabs/options/default_fee_name.php:13
+msgid "Default Fee Name"
+msgstr "Nombre por defecto del recargo"
+
+#: views/tabs/options/combine_fees.php:9 views/tabs/options/combine_fees.php:13
+msgid "Combine Multiple Fees"
+msgstr "Combinar múltiples recargos"
+
+#: views/tabs/options/default_discount_name.php:20
+msgid "Fixed discounts with the same name are grouped in the cart."
+msgstr "Descuentos fijos con el mismo nombre son agrupados en el carrito."
+
+#: views/tabs/options/default_discount_name.php:9
+#: views/tabs/options/default_discount_name.php:13
+msgid "Default Discount Name"
+msgstr "Nombre del descuento por defecto"
+
+#: views/tabs/options/combine_discounts.php:10
+#: views/tabs/options/combine_discounts.php:14
+msgid "Combine Multiple Fixed Discounts"
+msgstr "Combinar múltiples descuentos fijos"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:16
+msgid "Discount Sale Price"
+msgstr "Descuento sobre el precio rebajado"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:15
+msgid "Discount Regular Price"
+msgstr "Descuento sobre el precio normal"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:14
+msgid "Use Sale Price"
+msgstr "Usar el precio rebajado"
+
+#: views/tabs/options/apply_discount_for_onsale_products.php:10
+msgid "Apply Discount for \"Onsale\" products"
+msgstr "Aplicación de dtos. en productos en oferta"
+
+#: views/tabs/options/show_striked_prices.php:9
+#: views/tabs/options/show_striked_prices.php:12
+msgid "Show Striked Prices in the Cart"
+msgstr "Mostrar precios tachados en el carrito"
+
+#: classes/admin/class-wdp-customizer.php:125
+#: classes/admin/class-wdp-customizer.php:336
+msgid "You can use shortcode [adp_product_bulk_rules_table] in product template."
+msgstr "Puedes usar el shortcode [adp_product_bulk_rules_table] en la plantilla del producto."
+
+#: classes/admin/class-wdp-customizer.php:124
+msgid "Product Bulk Table position"
+msgstr "Posición de la tabla de dtos. por volumen del producto"
+
+#: views/tabs/options/show_matched_bulk_table.php:12
+#: views/tabs/options/show_matched_bulk_table.php:15
+msgid "Show Bulk Table inside Product page"
+msgstr "Mostrar tabla de dtos. por volumen en páginas de producto"
+
+#: classes/admin/class-wdp-customizer.php:335
+msgid "Category Bulk Table position"
+msgstr "Posición de la tabla de dtos. por volumen de la categoría"
+
+#: views/tabs/options/show_category_bulk_table.php:12
+#: views/tabs/options/show_category_bulk_table.php:15
+msgid "Show Bulk Table inside Category page"
+msgstr "Mostrar tabla de dtos. por volumen en páginas de categorías"
+
+#: views/tabs/help.php:22
+msgid "helpdesk system"
+msgstr "Sistema de soporte técnico"
+
+#: views/tabs/help.php:22
+msgid "Need help? Create ticket in"
+msgstr "¿Necesitas ayuda? Crea un ticket en"
+
+#: views/tabs/help.php:20
+msgid "Or review all examples on %s ."
+msgstr "O revisa todos los ejemplos en %s ."
+
+#: views/tabs/help.php:15
+msgid "Packages"
+msgstr "Paquetes"
+
+#: views/tabs/help.php:14
+msgid "Buy & get free"
+msgstr "Compra y llévate gratis"
+
+#: views/tabs/help.php:12
+msgid "Bulk discounts"
+msgstr "Dtos. por volumen"
+
+#: views/tabs/help.php:11
+msgid "Basics"
+msgstr "Básico"
+
+#: views/tabs/help.php:6
+msgid "our server"
+msgstr "nuestro servidor"
+
+#: views/tabs/exclusive.php:7
+msgid "Buy a pro version of our plugin and get an access to exclusive rules"
+msgstr "Compra una versión pro de nuestro plugin y consigue acceso a reglas excluyentes"
+
+#: views/tabs/common.php:44
+msgid "Add rule"
+msgstr "Añadir regla"
+
+#: views/tabs/common.php:41
+msgid "No common rules defined"
+msgstr "No hay reglas comunes definidas"
+
+#: views/tabs/common.php:26
+msgid "Hide inactive rules"
+msgstr "Ocultar reglas desactivadas"
+
+#: views/rules/templates.php:498
+msgid "Add Product Filter"
+msgstr "Añadir filtro de producto"
+
+#: views/rules/templates.php:493
+msgid "No filters"
+msgstr "No hay filtros"
+
+#: views/rules/rule.php:348
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: views/rules/rule.php:346
+msgid "Cart conditions"
+msgstr "Condiciones del carrito"
+
+#: views/tabs/help.php:17
+msgid "Cart rules"
+msgstr "Reglas del carrito"
+
+#: views/rules/rule.php:343
+msgid "Bulk rules"
+msgstr "Reglas de dtos. por volumen"
+
+#: views/rules/rule.php:344
+msgid "Free products"
+msgstr "Productos gratuitos"
+
+#: views/rules/rule.php:340
+msgid "Product filters"
+msgstr "Filtros de productos"
+
+#: views/rules/rule.php:334
+msgid "Add limit"
+msgstr "Añadir límite"
+
+#: views/rules/rule.php:330 views/rules/rule.php:347
+msgid "Limits"
+msgstr "Límites"
+
+#: views/rules/rule.php:324
+msgid "Need more conditions?"
+msgstr "¿Necesitas más condiciones?"
+
+#: views/rules/rule.php:321
+msgid "Add condition"
+msgstr "Añadir condición"
+
+#: views/rules/rule.php:312
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: views/rules/rule.php:306
+msgid "Add cart adjustment"
+msgstr "Añadir ajuste al carrito"
+
+#: views/rules/rule.php:302 views/rules/rule.php:345
+msgid "Cart adjustments"
+msgstr "Ajustes del carrito"
+
+#: views/rules/rule.php:243
+msgid "If you leave this field empty, we will show default bulk description"
+msgstr "Si dejas este campo vacío mostraremos la descripción por defecto de dtos. por volumen"
+
+#: views/rules/rule.php:241
+msgid "Bulk table message"
+msgstr "Mensaje de dtos. por volumen"
+
+#: views/rules/rule.php:234
+msgid "Add range"
+msgstr "Añadir rango"
+
+#: views/rules/rule.php:230
+msgid "No ranges"
+msgstr "No hay rangos"
+
+#: views/rules/rule.php:200
+msgid "Tier"
+msgstr "Dtos. escalonados"
+
+#: views/rules/rule.php:199
+msgid "Bulk"
+msgstr "Dtos. por volumen"
+
+#: views/rules/rule.php:194
+msgid "Bulk mode"
+msgstr "Modo de dtos. por volumen"
+
+#: views/rules/rule.php:296
+msgid "Add product"
+msgstr "Añadir producto"
+
+#: views/rules/rule.php:256
+msgid "Free products. Can be applied "
+msgstr "Productos gratuitos. Se puede aplicar "
+
+#: views/rules/rule.php:156
+msgid "Max discount sum:"
+msgstr "Total máximo en descuentos:"
+
+#: views/rules/templates.php:525
+msgid "Fixed unit price"
+msgstr "Precio fijo por unidad"
+
+#: classes/rules/class-wdp-rule-range-discount-types.php:56
+#: views/rules/templates.php:427 views/rules/templates.php:523
+#: views/rules/rule.php:142
+msgid "Percentage discount"
+msgstr "Porcentaje de descuento"
+
+#: views/rules/rule.php:127
+msgid "Split"
+msgstr "Repartir"
+
+#: views/rules/rule.php:119
+msgid "Total"
+msgstr "Total"
+
+#: views/rules/rule.php:111 views/rules/rule.php:341
+msgid "Product discounts"
+msgstr "Descuentos de producto"
+
+#: views/rules/rule.php:105
+msgid "Add product filter"
+msgstr "Añadir filtro de producto"
+
+#: views/rules/rule.php:83
+msgid "Cheap products"
+msgstr "Productos baratos"
+
+#: views/rules/rule.php:82
+msgid "Expensive products"
+msgstr "Productos caros"
+
+#: views/rules/rule.php:80
+msgid "Apply at first to:"
+msgstr "Aplicar al primero de:"
+
+#: views/rules/rule.php:65 views/rules/rule.php:261
+msgid "Once"
+msgstr "Una vez"
+
+#: views/rules/rule.php:64 views/rules/rule.php:260
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: views/rules/rule.php:62
+msgid "Can be applied:"
+msgstr "Se puede aplicar:"
+
+#: templates/reporter/tabs/rules.php:24 templates/reporter/tabs/rules.php:35
+#: templates/reporter/tabs/cart.php:31 views/rules/rule.php:57
+msgid "Title"
+msgstr "Título"
+
+#: views/rules/rule.php:33 views/rules/rule.php:36
+msgid "Delete"
+msgstr "Eliminar"
+
+#: views/rules/rule.php:27 views/rules/rule.php:30
+msgid "Clone"
+msgstr "Clonar"
+
+#: views/rules/rule.php:20 views/rules/rule.php:22
+msgid "Expand"
+msgstr "Expandir"
+
+#: views/conditions/shipping/country.php:17
+#: views/conditions/datetime/days-of-week.php:17
+msgid "Select values"
+msgstr "Seleccionar valores"
+
+#: views/conditions/datetime/date.php:10
+msgid "specific date"
+msgstr "fecha específica"
+
+#: views/conditions/datetime/time.php:9 views/conditions/datetime/date.php:9
+msgid "to"
+msgstr "hasta"
+
+#: views/conditions/datetime/time.php:8 views/conditions/datetime/date.php:8
+msgid "from"
+msgstr "desde"
+
+#: views/conditions/customer/subscriptions.php:12
+msgid "none of selected"
+msgstr "ninguno de los seleccionados"
+
+#: views/conditions/customer/subscriptions.php:11
+msgid "only selected"
+msgstr "solo los seleccionados"
+
+#: views/conditions/customer/subscriptions.php:10
+msgid "all of selected"
+msgstr "todos los seleccionados"
+
+#: views/conditions/customer/subscriptions.php:9
+msgid "at least one of selected"
+msgstr "al menos uno de los seleccionados"
+
+#: views/rules/templates.php:252 views/rules/templates.php:285
+#: views/rules/templates.php:305 views/rules/templates.php:325
+#: views/rules/templates.php:346 views/rules/templates.php:368
+#: views/rules/templates.php:386 views/rules/templates.php:404
+#: views/conditions/shipping/country.php:9
+#: views/conditions/products/product-category-slug.php:19
+#: views/conditions/products/product-sku.php:19
+#: views/conditions/products/product-taxonomy.php:22
+#: views/conditions/products/product-tags.php:19
+#: views/conditions/products/product-attributes.php:19
+#: views/conditions/products/products.php:19
+#: views/conditions/products/product-custom-fields.php:19
+#: views/conditions/products/product-categories.php:19
+#: views/conditions/customer/role.php:9
+#: views/conditions/datetime/days-of-week.php:9
+msgid "not in list"
+msgstr "no están en la lista"
+
+#: views/rules/templates.php:251 views/rules/templates.php:284
+#: views/rules/templates.php:304 views/rules/templates.php:324
+#: views/rules/templates.php:345 views/rules/templates.php:367
+#: views/rules/templates.php:385 views/rules/templates.php:403
+#: views/conditions/shipping/country.php:8
+#: views/conditions/products/product-category-slug.php:18
+#: views/conditions/products/product-sku.php:18
+#: views/conditions/products/product-taxonomy.php:21
+#: views/conditions/products/product-tags.php:18
+#: views/conditions/products/product-attributes.php:18
+#: views/conditions/products/products.php:18
+#: views/conditions/products/product-custom-fields.php:18
+#: views/conditions/products/product-categories.php:18
+#: views/conditions/customer/role.php:8
+#: views/conditions/datetime/days-of-week.php:8
+msgid "in list"
+msgstr "están en la lista"
+
+#: views/conditions/customer/order-count.php:46
+#: views/conditions/customer/order-count.php:47
+#: views/conditions/customer/order-count.php:48
+#: views/conditions/customer/order-count.php:49
+#: views/conditions/customer/order-count.php:50
+#: views/conditions/customer/order-count.php:51
+#: views/conditions/customer/order-count.php:52
+#: views/conditions/customer/order-count.php:53
+#: views/conditions/customer/order-count.php:54
+msgid "years"
+msgstr "años"
+
+#: views/conditions/customer/order-count.php:45
+msgid "Years"
+msgstr "Años"
+
+#: views/conditions/customer/order-count.php:33
+#: views/conditions/customer/order-count.php:34
+#: views/conditions/customer/order-count.php:35
+#: views/conditions/customer/order-count.php:36
+#: views/conditions/customer/order-count.php:37
+#: views/conditions/customer/order-count.php:38
+#: views/conditions/customer/order-count.php:39
+#: views/conditions/customer/order-count.php:40
+#: views/conditions/customer/order-count.php:41
+#: views/conditions/customer/order-count.php:42
+#: views/conditions/customer/order-count.php:43
+msgid "months"
+msgstr "meses"
+
+#: views/conditions/customer/order-count.php:32
+msgid "month"
+msgstr "mes"
+
+#: views/conditions/customer/order-count.php:31
+msgid "Months"
+msgstr "Meses"
+
+#: views/conditions/customer/order-count.php:27
+#: views/conditions/customer/order-count.php:28
+#: views/conditions/customer/order-count.php:29
+msgid "weeks"
+msgstr "semanas"
+
+#: views/conditions/customer/order-count.php:26
+msgid "week"
+msgstr "semana"
+
+#: views/conditions/customer/order-count.php:25
+msgid "Weeks"
+msgstr "Semanas"
+
+#: views/conditions/customer/order-count.php:19
+#: views/conditions/customer/order-count.php:20
+#: views/conditions/customer/order-count.php:21
+#: views/conditions/customer/order-count.php:22
+#: views/conditions/customer/order-count.php:23
+msgid "days"
+msgstr "días"
+
+#: views/conditions/customer/order-count.php:18
+msgid "day"
+msgstr "día"
+
+#: views/conditions/customer/order-count.php:17
+msgid "Days"
+msgstr "Días"
+
+#: views/conditions/customer/order-count.php:15
+msgid "current year"
+msgstr "año actual"
+
+#: views/conditions/customer/order-count.php:14
+msgid "current month"
+msgstr "mes actual"
+
+#: views/conditions/customer/order-count.php:13
+msgid "current week"
+msgstr "semana actual"
+
+#: views/conditions/customer/order-count.php:12
+msgid "current day"
+msgstr "día actual"
+
+#: views/conditions/customer/order-count.php:11
+msgid "Current"
+msgstr "Actual"
+
+#: views/conditions/customer/order-count.php:9
+msgid "all time"
+msgstr "todo el tiempo"
+
+#: views/conditions/customer/is-logged-in.php:9
+msgid "No"
+msgstr "No"
+
+#: views/conditions/customer/is-logged-in.php:8
+msgid "Yes"
+msgstr "Sí"
+
+#: views/conditions/cart/subtotal.php:11
+#: views/conditions/customer/order-count.php:64
+msgid "&gt;"
+msgstr "&gt;"
+
+#: views/conditions/cart/subtotal.php:10
+#: views/conditions/customer/order-count.php:63
+msgid "&gt;="
+msgstr "&gt;="
+
+#: views/conditions/cart/subtotal.php:9
+#: views/conditions/customer/order-count.php:62
+msgid "&lt;="
+msgstr "&lt;="
+
+#: views/conditions/cart/subtotal.php:8
+#: views/conditions/customer/order-count.php:61
+msgid "&lt;"
+msgstr "&lt;"
+
+#: views/cart_adjustments/fee.php:30
+msgid "fee name"
+msgstr "nombre del recargo"
+
+#: views/cart_adjustments/discount.php:12
+msgid "discount name"
+msgstr "nombre del descuento"
+
+#: templates/deals-table.php:7
+msgid "Active deals"
+msgstr "Ofertas activas"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:47
+msgid "%s product(s) with attributes not from list: %s"
+msgstr "%s producto(s) cuyos atributos no están en la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:46
+msgid "%s product(s) with attributes from list: %s"
+msgstr "%s producto(s) cuyos atributos están en la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:42
+msgid "%s product(s) with tags not from list: %s"
+msgstr "%s producto(s) cuyas etiquetas no están en la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:41
+msgid "%s product(s) with tags from list: %s"
+msgstr "%s producto(s) cuyas etiquetas están en la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:32
+msgid "%s product(s) not from categories: %s"
+msgstr "%s producto(s) cuyas categorías no son: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:31
+msgid "%s product(s) from categories: %s"
+msgstr "%s producto(s) en las categorías: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:22
+msgid "%s product(s) not from list: %s"
+msgstr "%s producto(s) no incluidos en la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:21
+msgid "%s product(s) from list: %s"
+msgstr "%s producto(s) en la lista: %s"
+
+#: classes/engine/range_discount_table/class-wdp-range-discounts-filters-formatter.php:16
+msgid "%s of any product(s)"
+msgstr "%s de cualquier producto(s)"
+
+#: classes/engine/range_discount_table/abstracts/abstract-wdp-range-discounts-table.php:130
+msgid "Bulk pricing will be applied to package:"
+msgstr "Los dtos. por volumen se aplicarán al paquete:"
+
+#: templates/reporter/tabs/cart.php:32
+#: classes/admin/class-wdp-customizer.php:230
+#: classes/admin/class-wdp-customizer.php:419
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: templates/reporter/tabs/cart.php:34
+#: classes/admin/class-wdp-customizer.php:248
+#: classes/admin/class-wdp-customizer.php:437
+msgid "Price"
+msgstr "Precio"
+
+#: classes/admin/class-wdp-customizer.php:215
+#: classes/admin/class-wdp-customizer.php:404
+msgid "Tier deal"
+msgstr "Oferta de dtos. escalonados"
+
+#: classes/admin/class-wdp-customizer.php:206
+#: classes/admin/class-wdp-customizer.php:395
+msgid "Bulk deal"
+msgstr "Oferta de dtos. por volumen"
+
+#: classes/registries/class-wdp-limit-registry.php:16
+msgid "Usage restrictions"
+msgstr "Restricciones de uso"
+
+#: classes/registries/class-wdp-limit-registry.php:15
+msgid "Max usage"
+msgstr "Uso máximo"
+
+#: classes/registries/class-wdp-condition-registry.php:161
+msgid "Country"
+msgstr "País"
+
+#: classes/registries/class-wdp-condition-registry.php:152
+msgid "Days of week"
+msgstr "Días de la semana"
+
+#: classes/registries/class-wdp-condition-registry.php:145
+msgid "Time"
+msgstr "Hora"
+
+#: classes/registries/class-wdp-condition-registry.php:139
+#: classes/registries/class-wdp-condition-registry.php:146
+#: classes/registries/class-wdp-condition-registry.php:153
+msgid "Date & time"
+msgstr "Fecha y hora"
+
+#: classes/registries/class-wdp-condition-registry.php:138
+msgid "Date"
+msgstr "Fecha"
+
+#: classes/registries/class-wdp-condition-registry.php:125
+msgid "Active subscriptions"
+msgstr "Suscripciones activas"
+
+#: classes/registries/class-wdp-condition-registry.php:118
+msgid "Order count"
+msgstr "Cantidad de pedidos"
+
+#: classes/registries/class-wdp-condition-registry.php:112
+msgid "Role"
+msgstr "Perfil"
+
+#: classes/registries/class-wdp-condition-registry.php:107
+#: classes/registries/class-wdp-condition-registry.php:113
+#: classes/registries/class-wdp-condition-registry.php:119
+#: classes/registries/class-wdp-condition-registry.php:126
+msgid "Customer"
+msgstr "Cliente"
+
+#: classes/registries/class-wdp-condition-registry.php:106
+msgid "Is logged in"
+msgstr "Está conectado"
+
+#: templates/reporter/main.php:17
+#: classes/registries/class-wdp-condition-registry.php:98
+#: classes/reporter/class-wdp-report-output.php:51
+#: classes/admin/tabs/class-wdp-options-page.php:50
+#: views/tabs/options/show_amount_save.php:21
+msgid "Cart"
+msgstr "Carrito"
+
+#: classes/registries/class-wdp-condition-registry.php:97
+#: views/rules/rule.php:273
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: classes/registries/class-wdp-condition-registry.php:88
+msgid "Product custom fields"
+msgstr "Campos personalizados del producto"
+
+#: classes/registries/class-wdp-condition-registry.php:74
+msgid "Product attributes"
+msgstr "Atributos del producto"
+
+#: classes/registries/class-wdp-condition-registry.php:55
+msgid "Product tags"
+msgstr "Etiquetas del producto"
+
+#: classes/registries/class-wdp-condition-registry.php:41
+msgid "Product categories"
+msgstr "Categorías del producto"
+
+#: classes/registries/class-wdp-condition-registry.php:35
+#: classes/registries/class-wdp-condition-registry.php:42
+#: classes/registries/class-wdp-condition-registry.php:49
+#: classes/registries/class-wdp-condition-registry.php:56
+#: classes/registries/class-wdp-condition-registry.php:64
+#: classes/registries/class-wdp-condition-registry.php:75
+#: classes/registries/class-wdp-condition-registry.php:82
+#: classes/registries/class-wdp-condition-registry.php:89
+msgid "Cart items"
+msgstr "Artículos en el carrito"
+
+#: templates/reporter/main.php:18
+#: classes/registries/class-wdp-condition-registry.php:34
+#: classes/reporter/class-wdp-report-output.php:52
+#: views/rules/templates.php:149 views/rules/templates.php:491
+msgid "Products"
+msgstr "Productos"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:52
+#: classes/registries/class-wdp-condition-registry.php:162
+#: classes/reporter/class-wdp-report-output.php:61
+msgid "Shipping"
+msgstr "Envío"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:51
+msgid "Free shipping"
+msgstr "Envío gratuito"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:16
+#: classes/registries/class-wdp-cart-adj-registry.php:22
+#: classes/registries/class-wdp-cart-adj-registry.php:28
+#: classes/admin/class-wdp-customizer.php:239
+#: classes/admin/class-wdp-customizer.php:428
+msgid "Discount"
+msgstr "Descuento"
+
+#: views/rules/templates.php:425 views/rules/templates.php:521
+#: views/rules/rule.php:141
+msgid "Fixed discount"
+msgstr "Descuento fijo"
+
+#: classes/engine/class-wdp-rule-factory.php:28
+msgid "Wrong rule type"
+msgstr "Tipo de regla erróneo"
+
+#: classes/common/class-wdp-helpers.php:270
+msgid "Saturday"
+msgstr "Sábado"
+
+#: classes/common/class-wdp-helpers.php:269
+msgid "Friday"
+msgstr "Viernes"
+
+#: classes/common/class-wdp-helpers.php:268
+msgid "Thursday"
+msgstr "Jueves"
+
+#: classes/common/class-wdp-helpers.php:267
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: classes/common/class-wdp-helpers.php:266
+msgid "Tuesday"
+msgstr "Martes"
+
+#: classes/common/class-wdp-helpers.php:265
+msgid "Monday"
+msgstr "Lunes"
+
+#: classes/common/class-wdp-helpers.php:264
+msgid "Sunday"
+msgstr "Domingo"
+
+#: classes/registries/class-wdp-cart-adj-registry.php:34
+#: classes/registries/class-wdp-cart-adj-registry.php:40
+#: classes/registries/class-wdp-cart-adj-registry.php:46
+#: classes/common/class-wdp-helpers.php:38 classes/class-wdp-functions.php:374
+msgid "Fee"
+msgstr "Recargo"
+
+#: classes/common/class-wdp-helpers.php:36
+msgid "Coupon"
+msgstr "Cupón"
+
+#: classes/class-wdp-loader.php:88
+msgid "<strong>Advanced Dynamic Pricing for WooCommerce</strong> requires WooCommerce version %s or later."
+msgstr "<strong>Advanced Dynamic Pricing for WooCommerce</strong> necesita la versión %s o superior de WooCommerce."
+
+#: classes/class-wdp-loader.php:82
+msgid "<strong>Advanced Dynamic Pricing for WooCommerce</strong> requires active WooCommerce!"
+msgstr "¡<strong>Advanced Dynamic Pricing for WooCommerce</strong> necesita que WooCommerce esté activo!"
+
+#: classes/class-wdp-loader.php:76
+msgid "<strong>Advanced Dynamic Pricing for WooCommerce</strong> requires PHP version %s or later."
+msgstr "<strong>Advanced Dynamic Pricing for WooCommerce</strong> necesita la versión %s o superior de PHP."
+
+#: classes/admin/tabs/class-wdp-tools-page.php:17
+msgid "Tools"
+msgstr "Herramientas"
+
+#: classes/admin/tabs/class-wdp-statistics-page.php:11
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: classes/admin/tabs/class-wdp-options-page.php:11
+msgid "Settings"
+msgstr "Ajustes"
+
+#: classes/admin/tabs/class-wdp-help-page.php:11
+msgid "Help"
+msgstr "Ayuda"
+
+#: classes/admin/tabs/class-wdp-exclusive-page.php:11
+msgid "Exclusive Rules"
+msgstr "Reglas excluyentes"
+
+#: templates/reporter/main.php:19
+#: classes/reporter/class-wdp-report-output.php:53
+#: classes/admin/tabs/class-wdp-common-page.php:12
+#: classes/admin/tabs/class-wdp-options-page.php:25
+#: classes/admin/tabs/class-wdp-tools-page.php:23
+#: classes/admin/tabs/class-wdp-tools-page.php:165
+msgid "Rules"
+msgstr "Reglas"
+
+#: classes/admin/class-wdp-settings.php:224
+msgid "Remove rule?"
+msgstr "¿Eliminar regla?"
+
+#: classes/admin/class-wdp-settings.php:223
+msgid "no results"
+msgstr "no hay resultados"
+
+#: classes/admin/class-wdp-settings.php:96
+msgid "Pricing Rules"
+msgstr "Reglas de precios"
+
+#: classes/admin/class-wdp-settings.php:84
+msgid "Advanced Dynamic Pricing for WooCommerce is available <a href=\"admin.php?page=wdp_settings\">on this page</a>."
+msgstr "Advanced Dynamic Pricing for WooCommerce está disponible <a href=\"admin.php?page=wdp_settings\">en esta página</a>."
+
+#: classes/admin/class-wdp-meta-box-order-applied-discount-rules.php:16
+#: classes/admin/class-wdp-preview-order-applied-discount-rules.php:14
+msgid "Applied discounts"
+msgstr "Descuentos aplicados"
+
+#: advanced-dynamic-pricing-for-woocommerce.php:25
+msgid "Please, <a href=\"plugins.php\">deactivate</a> Free version of Advanced Dynamic Pricing For WooCommerce!"
+msgstr "¡Por favor, <a href=\"plugins.php\">desactiva</a> la versión gratuita de Advanced Dynamic Pricing For WooCommerce!"

@@ -1,0 +1,16 @@
+2019-12-31T12:44:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 272740ad074b60b1249f06b5e50d0835
+2019-12-31T12:44:48+00:00 NOTICE abandoned_cart.success :: email: juliegoeth@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=272740ad074b60b1249f06b5e50d0835
+2019-12-31T12:45:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 11912
+2019-12-31T12:47:22+00:00 NOTICE order_submit.success :: addStoreOrder :: #11912 :: email: juliegoeth@hotmail.com :: abandoned cart deleted [272740ad074b60b1249f06b5e50d0835]
+2019-12-31T12:47:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 272740ad074b60b1249f06b5e50d0835
+2019-12-31T12:48:24+00:00 NOTICE abandoned_cart.success :: email: juliegoeth@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=272740ad074b60b1249f06b5e50d0835
+2019-12-31T12:48:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 11919
+2019-12-31T12:51:33+00:00 NOTICE order_submit.success :: addStoreOrder :: #11919 :: email: juliegoeth@hotmail.com :: abandoned cart deleted [272740ad074b60b1249f06b5e50d0835]
+2019-12-31T12:56:10+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 11919
+2019-12-31T12:57:43+00:00 NOTICE order_submit.success :: updateStoreOrder :: #11919 :: email: juliegoeth@hotmail.com
+2019-12-31T13:18:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 8607
+2019-12-31T13:19:41+00:00 NOTICE product_submit.success :: updateStoreProduct :: #8607
+2019-12-31T22:30:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 526fd7717426b9df02c99b3e3dad0bad
+2019-12-31T22:31:20+00:00 NOTICE abandoned_cart.success :: email: kiraberthelsen@hotmail.com :: checkout_url: https://newnordichome.dk/kasse/?mc_cart_id=526fd7717426b9df02c99b3e3dad0bad
+2019-12-31T22:31:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 11940
+2019-12-31T22:35:19+00:00 NOTICE order_submit.success :: addStoreOrder :: #11940 :: email: kiraberthelsen@hotmail.com :: abandoned cart deleted [526fd7717426b9df02c99b3e3dad0bad]

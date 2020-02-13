@@ -1,0 +1,1350 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-22 02:17:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk)\n"
+
+#: woocommerce-ac.php:1669
+msgid "Dashboard"
+msgstr "控制台"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:739
+msgid "Product has been deleted"
+msgstr "商品已被刪除"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:718
+msgid "includes Tax: "
+msgstr "含稅："
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:712
+msgid "Tax: "
+msgstr "稅："
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:479
+msgid "Close"
+msgstr "關閉"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:460
+msgid "Item Quantity"
+msgstr "項目數量"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:459
+msgid "Item Cost"
+msgstr "項目花費"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:458
+msgid "Item Name"
+msgstr "項目名稱"
+
+#. translators: Recovered Order Link, Order ID, Recovered Date.
+#: includes/admin/class-wcal-abandoned-cart-details.php:429
+msgid " <h5>recovered on %s</h5>"
+msgstr " <h5>恢復於 %s</h5>"
+
+#. translators: Recovered Order Link, Order ID, Recovered Date.
+#: includes/admin/class-wcal-abandoned-cart-details.php:429
+msgid "Order"
+msgstr "訂單"
+
+#. translators: Cart ID.
+#: includes/admin/class-wcal-abandoned-cart-details.php:414
+msgid "Cart #%s"
+msgstr "購物車 #%s"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:299
+msgid "Shipping Charges:"
+msgstr "運費："
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:278
+msgid "Shipping Address:"
+msgstr "運送地址："
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:271
+msgid "Billing Address:"
+msgstr "訂單地址："
+
+#: includes/classes/class-wcal-dashboard-report.php:291
+msgid "Select date range:"
+msgstr "選擇日期範圍："
+
+#: includes/classes/class-wcal-dashboard-report.php:276
+msgid "Custom"
+msgstr "自訂"
+
+#: includes/classes/class-wcal-dashboard-report.php:275
+msgid "Last Year"
+msgstr "去年"
+
+#: includes/classes/class-wcal-dashboard-report.php:274
+msgid "This Year"
+msgstr "今年"
+
+#: includes/classes/class-wcal-dashboard-report.php:273
+msgid "Last Quarter"
+msgstr "上一季"
+
+#: includes/classes/class-wcal-dashboard-report.php:272
+msgid "This Quarter"
+msgstr "本季"
+
+#: includes/classes/class-wcal-dashboard-report.php:271
+msgid "Last Month"
+msgstr "上個月"
+
+#: includes/classes/class-wcal-dashboard-report.php:270
+msgid "This Month"
+msgstr "本月"
+
+#. translators: Link to Purchase the Pro version.
+#: includes/classes/class-wcal-dashboard-report.php:243
+msgid "Upgrade to <a href='%s' target='_blank'>Abandoned Cart Pro for WooCommerce</a> to capture more guest carts."
+msgstr "升級至<a href='%s' target='_blank'>WooCommerce被遺棄的購物車進階版</a>即可捕捉更多訪客購物車。"
+
+#. translators: Number of guest emails captured.
+#: includes/classes/class-wcal-dashboard-report.php:237
+msgid "%s Guest emails captured."
+msgstr "已捕捉 %s 訪客電子郵件。"
+
+#: includes/classes/class-wcal-dashboard-report.php:221
+msgid "Emails Captured"
+msgstr "已捕捉電子郵件"
+
+#. translators: Link to Purchase the Pro version of the plugin.
+#: includes/classes/class-wcal-dashboard-report.php:202
+msgid "Upgrade to <a href='%s' target='_blank'>Abandoned Cart Pro for WooCommerce</a> to view the number of emails opened and links clicked."
+msgstr "升級至<a href='%s' target='_blank'>WooCommerce被遺棄的購物車進階版</a>即可檢視電子郵件開啟數量及連結點選次數。"
+
+#: includes/classes/class-wcal-dashboard-report.php:186
+msgid "Number of Emails Sent"
+msgstr "已傳送的電子郵件數量"
+
+#. translators: Abandoned Orders amount.
+#: includes/classes/class-wcal-dashboard-report.php:167
+msgid "%s amount of Abandoned Orders"
+msgstr "遺棄的訂單數量 %s"
+
+#. translators: Percent of sales.
+#: includes/classes/class-wcal-dashboard-report.php:132
+msgid "<strong>%s%%</strong> of Total Revenue"
+msgstr "總收入 <strong>%s%%</strong>"
+
+#. translators: recovered percent of carts.
+#: includes/classes/class-wcal-dashboard-report.php:125
+msgid "<strong>%s%%</strong> of Abandoned Carts Recovered"
+msgstr "已恢復的遺棄購物車數量 <strong>%s%%</strong>"
+
+#. translators: Count of carts recovered.
+#: includes/classes/class-wcal-dashboard-report.php:118
+msgid "<strong>%s</strong> Recovered Orders"
+msgstr "恢復的訂單數量 <strong>%s</strong>"
+
+#: includes/classes/class-wcal-dashboard-report.php:102
+msgid "Recovered Amount"
+msgstr "恢復的數量"
+
+#: includes/classes/class-wcal-templates-table.php:309
+msgid "off"
+msgstr "關閉"
+
+#: includes/classes/class-wcal-templates-table.php:306
+msgid "on"
+msgstr "開啟"
+
+#: includes/admin/wcap_pro_settings.php:759
+msgid "<i>Enter your Verify Token</i>"
+msgstr "<i>輸入你的驗證權杖</i>"
+
+#: includes/admin/wcap_pro_settings.php:741
+msgid "<i>Enter your Facebook Page Token</i>"
+msgstr "<i>輸入你的 Facebook粉絲專頁權杖</i>"
+
+#: includes/admin/wcap_pro_settings.php:723
+msgid "<i>Enter your Messenger App ID</i>"
+msgstr "<i>輸入你的 Messenger App ID</i>"
+
+#: includes/admin/wcap_pro_settings.php:705
+msgid "<i>Facebook Page ID in numberic format. You can find your page ID from <a href='https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger#fbpageid' target='_blank'>here</a></i>"
+msgstr "<i>Facebook粉絲專頁 ID為數字格式。你可以在<a href='https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger#fbpageid' target='_blank'>這裡</a>找到你的專頁 ID。</i>"
+
+#: includes/admin/wcap_pro_settings.php:687
+msgid "<i>Text that will appear above the consent checkbox. HTML tags are also allowed.</i>"
+msgstr "<i>文字將會顯示在同意複選框之前，允許使用 HTML標籤。</i>"
+
+#: includes/admin/wcap_pro_settings.php:651
+msgid "<i>Select the size of user icon which shall be displayed below the checkbox in case the user is logged in.</i>"
+msgstr "<i>選擇當使用者登入時顯示在選項下方的大頭貼尺寸。</i>"
+
+#: includes/admin/wcap_pro_settings.php:631
+msgid "<i>This option will display a checkbox on the pop-up modal to connect with Facebook.</i>"
+msgstr "<i>此選項將會彈出使用 Facebook登入的互動視窗。</i>"
+
+#: includes/admin/wcap_pro_settings.php:613
+msgid "<i>This option will display a checkbox after the Add to cart button for user consent to connect with Facebook.</i>"
+msgstr "<i>此選項將會在加入至購物車的按鈕後方顯示一個使用 Facebook登入的功能。</i>"
+
+#: includes/admin/wcap_pro_settings.php:503
+msgid "<i>Must be a Twilio phone number (in E.164 format) or alphanumeric sender ID.</i>"
+msgstr "<i>必須為 Twilio電話號碼（使用 E.164格式）或字母開頭的傳送者 ID。</i>"
+
+#: includes/admin/wcap_pro_settings.php:485
+msgid "<i>Enable the ability to send reminder SMS for abandoned carts.</i>"
+msgstr "<i>對被遺棄的購物車傳送 SMS提醒。</i>"
+
+#: includes/admin/wcap_pro_settings.php:374
+msgid "The carts abandoned from email addresses with these domains will not be tracked by the plugin. <i>Separate email address domains with commas.</i>"
+msgstr "使用以下電子郵件網域的顧客如有遺棄購物車，將不會被外掛追蹤。<i>使用小寫逗號分隔電子郵件網域。</i>"
+
+#: includes/admin/wcap_pro_settings.php:356
+msgid "The carts abandoned using these email addresses will not be tracked by the plugin. <i>Separate email addresses with commas.</i>"
+msgstr "使用以下電子郵件位置的顧客如有遺棄購物車，將不會被外掛追蹤。<i>使用小寫逗號分隔電子郵件位置。</i>"
+
+#: includes/admin/wcap_pro_settings.php:338
+msgid "The carts abandoned from these IP addresses will not be tracked by the plugin. Accepts wildcards, e.g <code>192.168.*</code> will block all IP addresses which starts from \"192.168\". <i>Separate IP addresses with commas.</i>"
+msgstr "來自以下 IP位置的顧客如有遺棄購物車，將不會被外掛追蹤。可以使用萬用字元，例如 <code>192.168.*</code>將會封鎖來自起始為 \"192.168\"的 IP。 <i>使用小寫逗號分隔 IP位置。</i>"
+
+#: includes/admin/wcap_pro_settings.php:246
+msgid "This setting affects the dimension of the product image in the abandoned cart reminder email."
+msgstr "此設定將會影響在被遺棄的購物車郵件中，商品圖片的尺寸。"
+
+#: includes/admin/wcap_pro_settings.php:162
+msgid "Abandoned carts of logged-in users will not be tracked."
+msgstr "登入的使用者將不會被追蹤遺棄購物車。"
+
+#: includes/admin/wcap_pro_settings.php:144
+msgid "Abandoned carts of guest users will not be tracked."
+msgstr "訪客將不會被追蹤遺棄購物車。"
+
+#. translators: %s Purchase Link
+#: includes/admin/wcap_pro_settings.php:66
+msgid "Upgrade to <a href='%s' target='_blank'>Abandoned Cart Pro for WooCommerce</a> to enable the feature."
+msgstr "升級至<a href='%s' target='_blank'>WooCommerce被遺棄的購物車進階版</a>即可使用此功能。"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:143
+msgid "Enable Add to cart popup modal"
+msgstr "啟用加入至購物車的互動視窗"
+
+#: includes/admin/wcal_privacy_export.php:221
+msgid "Abandoned - Unpaid Order #"
+msgstr "被遺棄的 - 未完成訂單 #"
+
+#: cron/wcal_send_email.php:393
+msgid "Product no longer exists"
+msgstr "商品已不存在"
+
+#: woocommerce-ac.php:2946
+msgid "Update Changes"
+msgstr "更新變更"
+
+#: includes/admin/wcap_pro_settings.php:95
+#: includes/admin/wcap_pro_settings.php:395 woocommerce-ac.php:2944
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: woocommerce-ac.php:633
+msgid "<br>Message to be displayed when the user chooses to opt out of cart tracking.</i>"
+msgstr "<br>當使用者選擇退出購物車追蹤時顯示訊息。</i>"
+
+#: woocommerce-ac.php:629
+msgid "Message to be displayed when the user chooses to opt out of cart tracking."
+msgstr "當使用者選擇退出購物車追蹤時顯示訊息。"
+
+#: woocommerce-ac.php:624
+msgid "<br>In compliance with GDPR, allow the site visitor (guests & registered users) to opt out from cart tracking. This message will be displayed in conjunction with the GDPR message above.</i>"
+msgstr "<br>為符合 GDPR，允許網站訪客（一般訪客與註冊的使用者）退出購物車追蹤。此訊息將會與上方的 GDPR訊息一起顯示。</i>"
+
+#: woocommerce-ac.php:620
+msgid "Allow the visitor to opt out of cart tracking."
+msgstr "允許顧客選擇退出購物車追蹤。"
+
+#: woocommerce-ac.php:559
+msgid "Yes, enable the abandoned cart emails."
+msgstr "是的，啟用被遺棄的購物車郵件。"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:719
+msgid "Please enter your email address."
+msgstr "請輸入你的電子郵件。"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:660
+#: includes/admin/wcap_add_cart_popup_modal.php:749
+msgid "No Thanks"
+msgstr "不了，謝謝"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:534
+#: includes/admin/wcap_add_cart_popup_modal.php:741
+msgid "Add to Cart"
+msgstr "加入購物車"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:493
+#: includes/admin/wcap_add_cart_popup_modal.php:733
+msgid "Email address"
+msgstr "電子郵件"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:440
+#: includes/admin/wcap_add_cart_popup_modal.php:721
+msgid "To add this item to your cart, please enter your email address."
+msgstr "請輸入你的電子郵件，以便加入此項目至購物車。"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:387
+msgid "Please enter your email address"
+msgstr "請輸入你的電子郵件"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:279
+msgid "<b>Note:</b> Please ensure that the Add to Cart button links on these pages are added with the correct classes and attributes to ensure the plugin can capture the cart data correctly. For further guidance, please check the documentation."
+msgstr "<b>備註：</b>請確認在頁面上的加入購物車按鈕連結已經新增正確的類別和屬性，以便讓外掛可以正確的取得購物車資訊。如需更多指引，請參閱說明文件。"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:267
+msgid "Please add any custom pages (not created by WooCommerce) where you wish to display the Add to cart Pop-up Modal."
+msgstr "請新增要你想顯示在加入購物車彈窗中的自訂頁面（非由 WooCommerce建立的頁面）。"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:216
+#: includes/admin/wcap_add_cart_popup_modal.php:259
+msgid "Search for a Page&hellip;"
+msgstr "搜尋頁面&hellip;"
+
+#: includes/admin/wcap_add_cart_popup_modal.php:200
+msgid "Custom pages to display the pop-up modal on"
+msgstr "自訂頁面顯示彈窗於"
+
+#: includes/admin/wcap_pro_settings.php:751
+msgid "Verify Token"
+msgstr "驗證存取權杖"
+
+#: includes/admin/wcap_pro_settings.php:733
+msgid "Facebook Page Token"
+msgstr "Facebook專頁存取權杖"
+
+#: includes/admin/wcap_pro_settings.php:715
+msgid "Messenger App ID"
+msgstr "Messenger App ID"
+
+#: includes/admin/wcap_pro_settings.php:697
+msgid "Facebook Page ID"
+msgstr "Facebook專頁 ID"
+
+#: includes/admin/wcap_pro_settings.php:679
+msgid "Consent text"
+msgstr "聲明文字"
+
+#: includes/admin/wcap_pro_settings.php:665
+msgid "Extra Large"
+msgstr "加大"
+
+#: includes/admin/wcap_pro_settings.php:663
+msgid "Standard"
+msgstr "標準"
+
+#: includes/admin/wcap_pro_settings.php:661
+msgid "Large"
+msgstr "大型"
+
+#: includes/admin/wcap_pro_settings.php:659
+msgid "Medium"
+msgstr "中型"
+
+#: includes/admin/wcap_pro_settings.php:657
+msgid "Small"
+msgstr "小型"
+
+#: includes/admin/wcap_pro_settings.php:641
+msgid "Icon size of user"
+msgstr "使用者圖示尺寸"
+
+#: includes/admin/wcap_pro_settings.php:623
+msgid "Facebook Messenger on Add to Cart Pop-up modal"
+msgstr "在加入購物車彈窗顯示 Facebook Messenger"
+
+#: includes/admin/wcap_pro_settings.php:605
+msgid "Enable Facebook Messenger Reminders"
+msgstr "啟用 Facebook Messenger提醒"
+
+#: includes/admin/wcap_pro_settings.php:591
+msgid "Facebook Messenger Settings"
+msgstr "Facebook Messenger設定"
+
+#: includes/admin/wcap_pro_settings.php:531
+msgid "Auth Token"
+msgstr "驗證存取權杖"
+
+#: includes/admin/wcap_pro_settings.php:513
+msgid "Account SID"
+msgstr "帳號識別碼"
+
+#: includes/admin/wcap_pro_settings.php:495
+msgid "From"
+msgstr "來自"
+
+#: includes/admin/wcap_pro_settings.php:477
+msgid "Enable SMS"
+msgstr "啟用 SMS簡訊"
+
+#: includes/admin/wcap_pro_settings.php:463
+msgid "Twilio"
+msgstr "Twilio"
+
+#: includes/admin/wcap_pro_settings.php:433
+msgid "Send"
+msgstr "傳送"
+
+#: includes/admin/wcap_pro_settings.php:427
+msgid "Hello World!"
+msgstr "Hello World!"
+
+#: includes/admin/wcap_pro_settings.php:425
+msgid "Message"
+msgstr "訊息"
+
+#: includes/admin/wcap_pro_settings.php:417
+msgid "Must be a valid phone number in E.164 format."
+msgstr "必須為正確的 E.164 國碼+區碼+電話號碼格式。"
+
+#: includes/admin/wcap_pro_settings.php:411
+msgid "Recipient"
+msgstr "收件人"
+
+#: includes/admin/wcap_pro_settings.php:403
+msgid "Send Test SMS"
+msgstr "傳送測試簡訊"
+
+#: includes/admin/wcap_pro_settings.php:366
+msgid "Do not capture abandoned carts for email addresses from these domains"
+msgstr "不要從這些網域取得被遺棄的購物車電子郵件"
+
+#: includes/admin/wcap_pro_settings.php:348
+msgid "Do not capture abandoned carts for these email addresses"
+msgstr "不要取得這些電子郵件的被遺棄購物車"
+
+#: includes/admin/wcap_pro_settings.php:330
+msgid "Do not capture abandoned carts for these IP addresses"
+msgstr "不要取得這些 IP位置的被遺棄購物車"
+
+#: includes/admin/wcap_pro_settings.php:316
+msgid "Rules to exclude capturing abandoned carts"
+msgstr "排除取得被遺棄購物車規則"
+
+#: includes/admin/wcap_pro_settings.php:298
+msgid "Run Automated WP Cron after X minutes"
+msgstr "執行 WP Cron自動化於 X 分鐘後"
+
+#: includes/admin/wcap_pro_settings.php:280
+msgid "Send  Abandoned cart emails automatically using WP Cron"
+msgstr "使用 WP Cron自動傳送被遺棄的購物車郵件。"
+
+#: includes/admin/wcap_pro_settings.php:266
+msgid "Setting for sending Emails & SMS using WP Cron"
+msgstr "設定使用 WP Cron傳送電子郵件和 SMS"
+
+#: includes/admin/wcap_pro_settings.php:238
+msgid "Product Image( H x W )"
+msgstr "商品圖片（高x寬）"
+
+#: includes/admin/wcap_pro_settings.php:172
+msgid "Capture Email address from URL"
+msgstr "從網址取得電子郵件位置"
+
+#: includes/admin/wcap_pro_settings.php:154
+msgid "Do not track carts of logged-in users"
+msgstr "不要追蹤已登入使用者的購物車"
+
+#: includes/admin/wcap_pro_settings.php:136
+msgid "Do not track carts of guest users"
+msgstr "不要追蹤訪客使用者的購物車"
+
+#: includes/admin/wcap_pro_settings.php:118
+msgid "Cart abandoned cut-off time for guest users"
+msgstr "訪客使用者被遺棄的購物車截止時間"
+
+#: woocommerce-ac.php:555
+msgid "Enable abandoned cart emails"
+msgstr "啟用被遺棄的購物車郵件"
+
+#: includes/admin/wcap_pro_settings_callbacks.php:183
+msgid "Configure the plugin to send notifications to Facebook Messenger using the settings below. Please refer the <a href=\"https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger\" target=\"_blank\">following documentation</a> to complete the setup."
+msgstr "在下方設定外掛傳送訊息至 Facebook Messenger。請參閱<a href=\"https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger\" target=\"_blank\">此處文件</a>完成設定。"
+
+#: includes/admin/wcap_pro_settings_callbacks.php:45
+msgid "Configure your Twilio account settings below. Please note that due to some restrictions from Twilio, customers <i>may sometimes</i> receive delayed messages"
+msgstr "在下方設定你的 Twilio帳戶。請注意，由於 Twilio的一些限制，顧客<i>有些時候</i>可能會延遲收到訊息"
+
+#: woocommerce-ac.php:2000
+msgid "SMS"
+msgstr "SMS簡訊"
+
+#: woocommerce-ac.php:1997
+msgid "Facebook Messenger"
+msgstr "Facebook Messenger"
+
+#: woocommerce-ac.php:1994
+msgid "Add To Cart Popup Editor"
+msgstr "新增至購物車彈窗編輯器"
+
+#: includes/wcal-common.php:849
+msgid "This product no longer exists"
+msgstr "此商品已不存在"
+
+#: woocommerce-ac.php:2423
+msgid "During the selected range <strong>%d</strong> carts totaling <strong>%s</strong> were abandoned. We were able to recover <strong>%d</strong> of them, which led to an extra <strong>%s</strong>"
+msgstr "根據選取的範圍 <strong>%d</strong> 共有 <strong>%s</strong> 個購物車被遺棄。我們已恢復其中的 <strong>%d</strong>個，並帶來額外的 <strong>%s</strong>收入"
+
+#: woocommerce-ac.php:2241
+msgid "The Email Template has been successfully added. In order to start sending this email to your customers, please activate it."
+msgstr "已成功新增電子郵件樣板，啟用後，即可開始傳送此郵件給你的顧客。"
+
+#: woocommerce-ac.php:1729
+msgid "Export"
+msgstr "匯出"
+
+#. translators: %s: decimal
+#: woocommerce-ac.php:1720
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "請輸入不含千位分隔符號的十進位 (%s) 格式。"
+
+#. translators: %s: price decimal separator
+#: woocommerce-ac.php:1722
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "請輸入不含千位分隔符號及貨幣符號的十進位貨幣 (%s) 格式。"
+
+#: woocommerce-ac.php:1723
+msgid "Please enter in country code with two capital letters."
+msgstr "請輸入兩個大寫字母的國碼。"
+
+#: woocommerce-ac.php:1724
+msgid "Please enter in a value less than the regular price."
+msgstr "請輸入低於一般售價的數值。"
+
+#: woocommerce-ac.php:1728
+msgid "Import"
+msgstr "匯入"
+
+#. translators: %s Link to WooCommerce Booking Plugin
+#: includes/wcal_all_component.php:119
+msgid "Allow your customers to book an appointment or rent an apartment with our Booking and Appointment for WooCommerce plugin. You can also sell your product as a resource or integrate with a few Vendor plugins. <br>Shop now & Save 20% on the plugin with the code \"BKAP20\". Only for first 20 customers. <strong><a target=\"_blank\" href= \"%s\">Have it now!</a></strong>"
+msgstr "使用我們的 WooCommerce預約與預定外掛，讓你的顧客可以預約租用公寓。你也可以將商品做為資源販售或予其他供應商外掛整合。<br>立即使用代碼「BKAP20」訂購外掛可享有 20%的優惠，僅限前 20名訂購人。<strong><a target=\"_blank\" href= \"%s\">立即擁有！</a></strong>"
+
+#. translators: %s Link to Order Delivery Date Pro
+#: includes/wcal_all_component.php:110
+msgid "Reduce cart abandonment rate by 57% with our Order Delivery Date Pro WooCommerce plugin. You can Create Delivery Settings by Shipping Zones & Shipping Classes. <br>Use discount code \"ORDPRO20\" and grab 20% discount on the purchase of the plugin. The discount code is valid only for the first 20 customers. <strong><a target=\"_blank\" href= \"%s\">Purchase now</a></strong>"
+msgstr "使用我們的 WooCommerce訂單運送日期進階版外掛，減少購物車 57%的遺棄機率，你還可以針對運送區域和運送類別建立相關設定。<br>使用「ORDPRO20」代碼訂購外掛可享 20%的優惠，僅限前 20名訂購人。<strong><a target=\"_blank\" href= \"%s\">立即訂購</a></strong>"
+
+#. translators: %s Link to Abandoned Cart Pro
+#: includes/wcal_all_component.php:105
+msgid ""
+"Increase your store sales by recovering your abandoned carts for just $119. No profit sharing, no monthly fees. Our Abandoned Cart Pro plugin comes with a 30 day money back guarantee as well. :) Use coupon code ACPRO20 & save $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \"%s\">Grab your copy now!</a></strong>"
+msgstr ""
+"只要 $119，透過拯救被遺棄的購物車提升你的商店銷售額。免分潤免月費，我們的被遺棄的購物車進階版外掛還提供 30天退款保證。使用 ACPR20代碼訂購可省下 $24的費用！<br>\n"
+"            <strong><a target=\"_blank\" href= \"%s\">立即幫自己訂購一份！</a></strong>"
+
+#. translators: %s Link to Abandoned Cart Pro
+#: includes/wcal_all_component.php:101
+msgid "Send Abandoned Cart reminders that actually convert. Take advantage of our fully responsive email templates designed specially with an intent to trigger conversion. <strong><a target=\"_blank\" href= \"%s\">Purchase now</a></strong>."
+msgstr "使用我們專為觸發轉換的響應式電子郵件樣板設計，傳送購物車被遺棄的提醒郵件以改善轉換率。<strong><a target=\"_blank\" href= \"%s\">立即訂購</a></strong>."
+
+#. translators: %s Link to Abandoned Cart Pro
+#: includes/wcal_all_component.php:97
+msgid "Don't loose your sales to abandoned carts. Use our Abandon Cart Pro plugin & start recovering your lost sales in less then 60 seconds. <strong><a target=\"_blank\" href= \"%s\">Grab it now!</a></strong>."
+msgstr "不要因為購物車被遺棄就損失銷售利潤，使用我們的進階版外掛，60秒馬上可以開始恢復你的利潤。<strong><a target=\"_blank\" href= \"%s\">立即擁有！</a></strong>."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:18
+msgid "Thank you for activating or updating to the latest version of "
+msgstr "感謝您啟用或更新至最新版"
+
+#: includes/component/welcome-page/ts-welcome.php:166
+msgid "Welcome to "
+msgstr "歡迎使用"
+
+#: includes/component/tracking-data/ts-tracking.php:268
+msgid "Want to help make "
+msgstr "希望協助"
+
+#: includes/component/faq-support/ts-faq-support.php:127
+msgid "Frequently Asked Questions for "
+msgstr "常見問題"
+
+#: woocommerce-ac.php:2686
+msgid "Shipping Charges"
+msgstr "運費"
+
+#: woocommerce-ac.php:809
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "自動於幾日後刪除被遺棄的訂單，建議大於 0。"
+
+#: woocommerce-ac.php:577
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "要於幾日後刪除被遺棄的購物車訂單。"
+
+#: woocommerce-ac.php:573
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "於幾日後刪除被遺棄的訂單"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:372
+msgid "Unsubscribed"
+msgstr "退訂"
+
+#: includes/admin/wcal_privacy_erase.php:90
+msgid "No personal data found for any abandoned carts."
+msgstr "未從任何遺棄的購物車中找到個人資訊"
+
+#: woocommerce-ac.php:615
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>為了符合 GDPR，在商店和商品頁上新增訊息，告知已註冊的使用者如何使用他們的資料。<br><i>例如：請查看我們的隱私政策，瞭解我們如何使用您的個人資料。</i>"
+
+#: woocommerce-ac.php:611
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "追蹤已註冊的使用者購物車時要顯示的訊息。"
+
+#: woocommerce-ac.php:606
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>為了符合 GDPR，需在「結帳頁」上新增訊息，告知顧客如何使用他們的資料。<br><i>例如：您的電子郵件將協助我們支援您在整個網站上的購物體驗。請查看我們的隱私政策，瞭解我們如何使用您的個人資料. </i>"
+
+#: woocommerce-ac.php:602
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "當追蹤訪客購物車時要顯示的訊息"
+
+#: woocommerce-ac.php:274
+msgid "I want to upgrade the plugin to the PRO version."
+msgstr "我想升級外掛為進階版。"
+
+#: woocommerce-ac.php:268
+msgid "I cannot see abandoned cart reminder emails records."
+msgstr "我無法看到被遺棄的購物車提醒郵件記錄。"
+
+#: woocommerce-ac.php:262
+msgid "Capturing of cart and other information was not satisfactory."
+msgstr "追蹤購物車和其他資訊並不令人開心。"
+
+#: woocommerce-ac.php:256
+msgid "Emails are not being sent to customers."
+msgstr "電子郵件沒有傳送給顧客。"
+
+#: includes/component/welcome-page/ts-welcome.php:165
+msgid "Welcome to %s %s"
+msgstr "歡迎使用 %s %s"
+
+#: includes/component/tracking-data/ts-tracking.php:133
+msgid "Reset usage tracking"
+msgstr "重設使用追蹤"
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "FAQ & 支援"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "%s 的常見問題"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:91
+msgctxt "the text of the 'other' reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "其他"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:90
+msgid "I don't like to share my information with you"
+msgstr "我不想和你分享資訊"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:89
+msgid "What feature?"
+msgstr "什麼功能？"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "外掛很棒，但我需要你們不支援的功能"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:87
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "請分享是哪裡無法運作，讓我們為其他使用者在未來修復..."
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:86
+msgid "The plugin is not working"
+msgstr "外掛無法使用"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:85
+msgid "I only needed the plugin for a short period"
+msgstr "我只是短時間使用"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:84
+msgid "What's the plugin's name?"
+msgstr "外掛的名稱是什麼？"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:83
+msgid "I found a better plugin"
+msgstr "我發現更棒的外掛"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:79
+msgid "Yes - Deactivate"
+msgstr "是的 - 停用"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:78
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:77
+msgid "Deactivate"
+msgstr "停用"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:76
+msgid "Submit & Deactivate"
+msgstr "傳送&停用"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:75
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "有時間嗎，請讓我們知道為什麼您要停用"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:292
+msgid "User Deleted"
+msgstr "已刪除的使用者"
+
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Abandoned but new cart created"
+msgstr "已遺棄但已建立新購物車"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Cart Recovered - Order #"
+msgstr "恢復的購物車 - 訂單 #"
+
+#: includes/admin/wcal_privacy_export.php:173
+#: includes/admin/wcal_privacy_export.php:184
+msgid "Billing Address"
+msgstr "帳單地址"
+
+#: includes/admin/wcal_privacy_export.php:172
+msgid "Session ID"
+msgstr "識別碼"
+
+#: includes/admin/wcal_privacy_export.php:171
+#: includes/admin/wcal_privacy_export.php:183
+msgid "Items Present"
+msgstr "項目存在"
+
+#: includes/admin/wcal_privacy_export.php:170
+#: includes/admin/wcal_privacy_export.php:182
+msgid "Cart Total"
+msgstr "購物車總計"
+
+#: includes/admin/wcal_privacy_export.php:169
+#: includes/admin/wcal_privacy_export.php:181
+msgid "Abandoned Cart Status"
+msgstr "遺棄的購物車狀態"
+
+#: includes/admin/wcal_privacy_export.php:167
+#: includes/admin/wcal_privacy_export.php:179
+msgid "Abandoned Cart ID"
+msgstr "遺棄的購物車 ID"
+
+#: includes/admin/wcal_privacy_erase.php:204
+msgid "ANONYMIZED"
+msgstr "匿名"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:127
+msgid "Personal data within cart %s has been retained."
+msgstr "已保留在購物車 %s 內的個人資料。"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:123
+msgid "Removed personal data from cart %s."
+msgstr "已移除在購物車 %s內的個人資料。"
+
+#: includes/admin/wcal_privacy_export.php:41
+#: includes/admin/wcal_privacy_erase.php:41
+msgid "Abandoned & Recovered Carts"
+msgstr "遺棄&恢復的購物車"
+
+#. Description of the plugin
+msgid "This plugin captures abandoned carts by logged-in users & emails them about it."
+msgstr "此外掛透過登入的使用者和電子郵件來追蹤被遺棄的購物車。"
+
+#. translators: %s Link to Email Templates page
+#: includes/class-wcal-admin-notice.php:46
+msgid "<div id=\"wcal_update\" class=\"updated woocommerce-message\" style=\"padding:15px;\"><span>We need to update your email template database for some improvements. Please take a backup of your databases for your piece of mind</span><span class=\"submit\"><a href=\"%s\" class=\"button-primary\" style=\"float:right;\">Update</a></span></div>"
+msgstr "<div id=\"wcal_update\" class=\"updated woocommerce-message\" style=\"padding:15px;\"><span>為了改善體驗我們需要從資料庫更新你的電子郵件樣板，請先備份資料庫後進行</span><span class=\"submit\"><a href=\"%s\" class=\"button-primary\" style=\"float:right;\">更新</a></span></div>"
+
+#: includes/wcal-common.php:689
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "資料庫更新失敗，請稍後重試"
+
+#: includes/wcal-common.php:674
+msgid "Database Updated Successfully"
+msgstr "資料庫更新成功"
+
+#. Author URI of the plugin
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Plugin URI of the plugin
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#. Plugin Name of the plugin
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "WooCommerce被遺棄的購物車簡易版"
+
+#: woocommerce-ac.php:3165 woocommerce-ac.php:3200
+msgid "Woman's Hand Bags"
+msgstr "女性的手拿包"
+
+#: woocommerce-ac.php:3158 woocommerce-ac.php:3193
+msgid "Men's Formal Shoes"
+msgstr "男性的鞋子"
+
+#: woocommerce-ac.php:2967
+msgid "If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a> rating. Thank you in advance. :)"
+msgstr "如果你喜歡<strong>WooCommerce被遺棄的購物車簡易版</strong>，請給我們<a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>評價，感謝您 :)"
+
+#: woocommerce-ac.php:2932
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "輸入電子郵件地址以測試郵件傳送。"
+
+#: woocommerce-ac.php:2927
+msgid "Send a test email to:"
+msgstr "傳送測試郵件至："
+
+#: woocommerce-ac.php:2920
+msgid "after cart is abandoned."
+msgstr "於購物車被遺棄後。"
+
+#: woocommerce-ac.php:2879
+msgid "Send this email:"
+msgstr "傳送此郵件："
+
+#: woocommerce-ac.php:2873
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr "輸入將顯示在已發送的被遺棄的 WooCommerce電子郵件中的標頭。僅適用於在選中 「使用 WooCommerce樣板樣式：」時使用。"
+
+#: woocommerce-ac.php:2859
+msgid "Email Template Header Text: "
+msgstr "郵件樣板標頭文字："
+
+#: woocommerce-ac.php:2852
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "在被遺棄的購物車提醒郵件中使用 WooCommerce預設風格樣式。"
+
+#: woocommerce-ac.php:2837
+msgid "Use WooCommerce Template Style:"
+msgstr "使用 WooCommerce樣板樣式："
+
+#: woocommerce-ac.php:2810
+msgid "Message to be sent in the reminder email."
+msgstr "要在提醒郵件中傳送的訊息。"
+
+#: woocommerce-ac.php:2783
+msgid "Email Body:"
+msgstr "郵件內容："
+
+#: woocommerce-ac.php:2777
+msgid "Enter the subject that should appear in the email sent"
+msgstr "輸入顯示在傳送郵件上的主旨"
+
+#: woocommerce-ac.php:2768
+msgid "Subject:"
+msgstr "主旨："
+
+#: woocommerce-ac.php:2762
+msgid "Enter a template name for reference"
+msgstr "輸入樣板名稱參考資料"
+
+#: woocommerce-ac.php:2753
+msgid "Template Name:"
+msgstr "樣板名稱："
+
+#: woocommerce-ac.php:2665
+msgid "Shipping Details"
+msgstr "運送資訊"
+
+#: woocommerce-ac.php:2660
+msgid "Phone:"
+msgstr "電話："
+
+#: woocommerce-ac.php:2656
+msgid "Email:"
+msgstr "電子郵件："
+
+#: woocommerce-ac.php:2646 woocommerce-ac.php:2666
+msgid "Address:"
+msgstr "地址："
+
+#: woocommerce-ac.php:2643
+msgid "Name:"
+msgstr "名稱："
+
+#: woocommerce-ac.php:2642
+msgid "Billing Details"
+msgstr "帳單資訊"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:441
+#: woocommerce-ac.php:2638
+msgid "Customer Details"
+msgstr "顧客資訊"
+
+#: woocommerce-ac.php:2450
+msgid "Line Total"
+msgstr "小計"
+
+#: woocommerce-ac.php:2442
+msgid "Abandoned Order #%s Details"
+msgstr "遺棄的訂單 #%s 資訊"
+
+#: includes/classes/class-wcal-dashboard-report.php:311 woocommerce-ac.php:2409
+msgid "Go"
+msgstr "前往"
+
+#: woocommerce-ac.php:2407
+msgid "End Date:"
+msgstr "截止日："
+
+#: woocommerce-ac.php:2405
+msgid "Start Date:"
+msgstr "起始日："
+
+#: woocommerce-ac.php:2356
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "以下報告顯示我們為您透過多少自動傳送的郵件來鼓勵顧客，恢復遺棄的購物車。"
+
+#: woocommerce-ac.php:2279
+msgid "Add New Template"
+msgstr "新增樣板"
+
+#: woocommerce-ac.php:2270
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "更新電子郵件樣板時發生問題，請從<a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">支援論壇</a>聯繫外掛作者。"
+
+#: woocommerce-ac.php:2261
+msgid "The Email Template has been successfully updated."
+msgstr "郵件樣板更新成功。"
+
+#: woocommerce-ac.php:2250
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "加入郵件樣板錯誤，請前往<a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">支援論壇</a>聯繫外掛作者。"
+
+#: woocommerce-ac.php:2121
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "加入不同的時間間的電子郵件樣板，將恢復購物車的可能性提升到最高。"
+
+#: woocommerce-ac.php:2100
+msgid "Carts without Customer Details"
+msgstr "沒有顧客資訊的購物車"
+
+#: woocommerce-ac.php:2094
+msgid "Guest %s"
+msgstr "顧客 %s"
+
+#: woocommerce-ac.php:2088
+msgid "Registered %s"
+msgstr "已註冊 %s"
+
+#: woocommerce-ac.php:2083
+msgid "All "
+msgstr "全部"
+
+#: woocommerce-ac.php:2041
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "以下的清單顯示所有被遺棄的購物車，這些購物車在車裡停留了一段時間，高於 「遺棄購物車的截止時間」設定。"
+
+#: woocommerce-ac.php:1991
+msgid "Email Sending Settings"
+msgstr "電子郵件傳送設定"
+
+#: woocommerce-ac.php:1988
+msgid "General Settings"
+msgstr "一般設定"
+
+#: woocommerce-ac.php:1950
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "變更傳送郵件通知至顧客、管理員等的設定。"
+
+#: woocommerce-ac.php:1944
+msgid "The Template has been successfully deleted."
+msgstr "樣板刪除成功。"
+
+#: woocommerce-ac.php:1939
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "刪除被遺棄的購物車成功。"
+
+#: woocommerce-ac.php:1879
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce - 被遺棄的購物車簡易版"
+
+#: woocommerce-ac.php:1875
+msgid "You do not have sufficient permissions to access this page."
+msgstr "你沒有權限存取此頁面。"
+
+#: woocommerce-ac.php:1674
+msgid "Product Report"
+msgstr "商品報告"
+
+#: woocommerce-ac.php:1673
+msgid "Recovered Orders"
+msgstr "已恢復的訂單"
+
+#: woocommerce-ac.php:1671
+msgid "Email Templates"
+msgstr "電子郵件樣板"
+
+#: includes/classes/class-wcal-dashboard-report.php:151 woocommerce-ac.php:1670
+msgid "Abandoned Orders"
+msgstr "遺棄的訂單"
+
+#: includes/admin/wcal_privacy_export.php:123 woocommerce-ac.php:1013
+msgid "Abandoned Carts"
+msgstr "遺棄的購物車"
+
+#: includes/frontend/wcal_checkout_process.php:300
+#: includes/frontend/wcal_checkout_process.php:302
+msgid "New Customer Order - Recovered"
+msgstr "新顧客訂單 - 已恢復"
+
+#: woocommerce-ac.php:793
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "被遺棄的購物車截止時間建議設定大於 0。"
+
+#: woocommerce-ac.php:668
+msgid "Send Reply Emails to"
+msgstr "傳送回覆郵件至"
+
+#: woocommerce-ac.php:659
+msgid "\"From\" Address"
+msgstr "「來自」地址"
+
+#: woocommerce-ac.php:650
+msgid "\"From\" Name"
+msgstr "「來自」名稱"
+
+#: woocommerce-ac.php:643
+msgid "Settings for abandoned cart recovery emails"
+msgstr "恢復被遺棄的購物車郵件設定"
+
+#: woocommerce-ac.php:597
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "即使顧客沒有前往結帳頁面或沒有在結帳頁面上輸入任何詳細資訊，如 「姓名」或「電子郵件」，也可以追蹤被放棄的商品和購物車。當訪客將產品加入至購物車並前往購物車頁面時，就會開始追蹤。"
+
+#: woocommerce-ac.php:593
+msgid "Start tracking from Cart Page"
+msgstr "從購物車頁面開始追蹤"
+
+#: woocommerce-ac.php:587
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "如果被遺棄的購物車恢復訂單傳送郵件給管理員"
+
+#: woocommerce-ac.php:583
+msgid "Email admin On Order Recovery"
+msgstr "當訂單恢復時郵件通知管理員"
+
+#: woocommerce-ac.php:568
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "在商品被加入購物車 X分鐘後且未完成的訂單視為被遺棄的購物車。"
+
+#: woocommerce-ac.php:564
+msgid "Cart abandoned cut-off time"
+msgstr "遺棄購物車截止時間"
+
+#: woocommerce-ac.php:229 woocommerce-ac.php:548 woocommerce-ac.php:1672
+msgid "Settings"
+msgstr "設定"
+
+#: woocommerce-ac.php:310
+msgid "Abandoned cart Email Template"
+msgstr "被遺棄的購物車電子郵件樣板"
+
+#: woocommerce-ac.php:304
+msgid "HTML Email Template"
+msgstr "HTML電子郵件樣板"
+
+#: includes/component/tracking-data/ts-tracking.php:177
+msgid "Once in a Week"
+msgstr "每周一次"
+
+#: woocommerce-ac.php:52
+msgid "Once Every Fifteen Minutes"
+msgstr "每五分鐘一次"
+
+#: includes/component/welcome-page/templates/social-media-elements.php:10
+msgid "Follow %s"
+msgstr "追蹤 %s"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:128
+msgid "Current Offers"
+msgstr "目前提供"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:122
+msgid "Meet the team"
+msgstr "與團隊聯繫"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:113
+msgid "View all Premium Plugins"
+msgstr "檢視全部進階外掛"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:112
+msgid "Visit the Tyche Softwares Website"
+msgstr "訪問 Tyche Softwares網站"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:110
+msgid "Getting to Know Tyche Softwares"
+msgstr "了解 Tyche Softwares"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:99
+msgid "The ability to send the abandoned cart recovery email within first few minutes of cart being abandoned is a big advantage. In the Lite plugin, the earliest an email can be sent is after 1 hour. Whereas in the Pro version, the first recovery email gets sent 15 minutes after the cart is abandoned. This increases the recovery chances manifold."
+msgstr "能在購物車被遺棄的起分鐘內傳送提醒恢復的郵件，是非常重要的。在簡易版外掛中，最短可發送郵件的時間為 1小時後，而在進階版中，郵件可以在購物車被遺棄的 15分鐘後傳送，增加更多的恢復機會。"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:97
+msgid "Send abandoned cart recovery email in minutes of cart being abandoned"
+msgstr "當購物車開始被遺棄時於幾分鐘內傳送復原郵件"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:78
+msgid "The provision for setting two separate cut-off times for different roles is mainly because sometimes if the store admin wants the visitor carts to be captured earlier than the registered user carts, then these different settings can play an important role."
+msgstr "根據不同角色設定兩個不同的的截止時間是因為, 有時商店管理員希望未註冊的訪客購物車可以比已註冊顧客的購物車更快被取得，這時候不同的設定就非常重要了。"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:76
+msgid "Set different cut-off times for visitors & logged-in users"
+msgstr "針對訪客和登入的使用者設定不同的截止時間"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:67
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:80
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:101
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:65
+msgid "The ability to capture the email address early in the order process is very important to reduce cart abandonment by unknown users as well as to be able to recover their carts if they abandon it. This ultimately leads to increase in your store sales."
+msgstr "能及早取得電子郵件是非常重要的，這可以減少未註冊的使用者放棄購物車，也能協助他們在未來恢復購物車，最終改善你的商店營業額。"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:63
+msgid "Capture Visitor Emails on click of Add to Cart button"
+msgstr "在訪客郵件的加入購物車按鈕上追蹤點選動作"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:54
+msgid "The Abandoned Cart Pro plugin gives you features where you are able to recover more sales compared to the Lite plugin. Here are some notable features the Pro version provides."
+msgstr "被遺棄的購物車進階版比起簡易版，可以提供你更多功能協助改善銷售，以下是一些只在進階版提供的功能。"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:52
+msgid "Know more about Abandoned Cart Pro"
+msgstr "了解更多關於進階版資訊"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:42
+msgid "Click Here to go to Email Templates page"
+msgstr "點此前往郵件樣板頁面"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:40
+msgid "To start sending out abandoned cart notification emails, simply activate the email template from under WooCommerce -> Abandoned Carts -> Email Templates page."
+msgstr "要開始傳送被遺棄的購物車郵件，只要簡單的從 WooCommerce -> 被遺棄的購物車 -> 電子郵件樣板中啟用即可。"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:38
+msgid "Activate Email Template"
+msgstr "啟用電子郵件樣板"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:34
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:59
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:86
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:93
+msgid "WooCommerce Abandoned Cart Lite"
+msgstr "WooCommerce被遺棄的購物車簡易版"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:30
+msgid "Get Started with Abandoned Cart Lite"
+msgstr "開始使用被遺棄的購物車簡易版"
+
+#: includes/component/tracking-data/ts-tracking.php:271
+msgid "No thanks"
+msgstr "不了謝謝"
+
+#: includes/component/tracking-data/ts-tracking.php:270
+msgid "Allow"
+msgstr "允許"
+
+#: includes/classes/class-wcal-templates-table.php:144
+msgid "Edit"
+msgstr "編輯"
+
+#: includes/classes/class-wcal-templates-table.php:94
+msgid "Active ?"
+msgstr "啟動？"
+
+#: includes/classes/class-wcal-templates-table.php:93
+msgid "Sent After Set Time"
+msgstr "於設定時間後傳送"
+
+#: includes/classes/class-wcal-templates-table.php:92
+msgid "Name Of Template"
+msgstr "樣板名稱"
+
+#: includes/classes/class-wcal-templates-table.php:91
+msgid "Sr"
+msgstr "Sr"
+
+#: includes/classes/class-wcal-templates-table.php:54
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:53
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:161
+#: includes/classes/class-wcal-dashboard-report.php:107
+#: includes/classes/class-wcal-dashboard-report.php:156
+#: includes/classes/class-wcal-dashboard-report.php:191
+#: includes/classes/class-wcal-dashboard-report.php:226
+msgid "View Details"
+msgstr "檢視詳細資料"
+
+#: includes/classes/class-wcal-recover-orders-table.php:127
+msgid "Cart Recovered Date"
+msgstr "購物車恢復日期"
+
+#: includes/classes/class-wcal-recover-orders-table.php:126
+msgid "Cart Abandoned Date"
+msgstr "購物車遺棄日期"
+
+#: includes/classes/class-wcal-recover-orders-table.php:124
+msgid "Customer Name"
+msgstr "顧客名稱"
+
+#: includes/classes/class-wcal-recover-orders-table.php:87
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:86
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-product-report-table.php:93
+msgid "Number of Times Recovered"
+msgstr "恢復次數"
+
+#: includes/classes/class-wcal-product-report-table.php:92
+msgid "Number of Times Abandoned"
+msgstr "遺棄次數"
+
+#: includes/classes/class-wcal-product-report-table.php:91
+msgid "Product Name"
+msgstr "商品名稱"
+
+#: includes/classes/class-wcal-product-report-table.php:59
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:58
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:374
+#: includes/admin/wcal_privacy_export.php:215
+msgid "Abandoned"
+msgstr "遺棄的"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:368
+#: includes/admin/class-wcal-abandoned-cart-details.php:372
+msgid "items"
+msgstr "項目"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:366
+#: includes/admin/class-wcal-abandoned-cart-details.php:372
+msgid "item"
+msgstr "項目"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:160
+#: includes/classes/class-wcal-abandoned-orders-table.php:565
+#: includes/classes/class-wcal-templates-table.php:145
+#: includes/classes/class-wcal-templates-table.php:332
+msgid "Delete"
+msgstr "刪除"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:159
+#: includes/classes/class-wcal-abandoned-orders-table.php:526
+msgid "View order"
+msgstr "檢視訂單"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:101
+msgid "Status of Cart"
+msgstr "購物車狀態"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:100
+#: includes/admin/wcal_privacy_export.php:168
+#: includes/admin/wcal_privacy_export.php:180
+#: includes/admin/class-wcal-abandoned-cart-details.php:443
+msgid "Abandoned Date"
+msgstr "遺棄日期"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:99
+#: includes/classes/class-wcal-recover-orders-table.php:128
+#: includes/admin/class-wcal-abandoned-cart-details.php:442
+msgid "Order Total"
+msgstr "訂單總額"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:98
+msgid "Customer"
+msgstr "顧客"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:97
+#: includes/classes/class-wcal-recover-orders-table.php:125
+#: includes/admin/wcal_privacy_export.php:174
+#: includes/admin/wcal_privacy_export.php:185
+#: includes/admin/class-wcal-abandoned-cart-details.php:440
+msgid "Email Address"
+msgstr "電子郵件"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:96
+msgid "Id"
+msgstr "Id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:53
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:52
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: includes/frontend/wcal_checkout_process.php:198
+#: includes/frontend/wcal_checkout_process.php:493 cron/wcal_send_email.php:581
+#: cron/wcal_send_email.php:648
+msgid "This order was abandoned & subsequently recovered."
+msgstr "此訂單被遺棄後隨即被恢復。"
+
+#: cron/wcal_send_email.php:385 woocommerce-ac.php:3174 woocommerce-ac.php:3209
+msgid "Cart Total:"
+msgstr "購物車總計："
+
+#: cron/wcal_send_email.php:285 cron/wcal_send_email.php:295
+#: woocommerce-ac.php:2449 woocommerce-ac.php:3154 woocommerce-ac.php:3189
+msgid "Line Subtotal"
+msgstr "小計"
+
+#: cron/wcal_send_email.php:284 cron/wcal_send_email.php:294
+#: woocommerce-ac.php:3153 woocommerce-ac.php:3188
+msgid "Price"
+msgstr "售價"
+
+#: cron/wcal_send_email.php:283 cron/wcal_send_email.php:293
+#: woocommerce-ac.php:2448 woocommerce-ac.php:3152 woocommerce-ac.php:3187
+msgid "Quantity"
+msgstr "數量"
+
+#: cron/wcal_send_email.php:282 cron/wcal_send_email.php:292
+#: woocommerce-ac.php:2447 woocommerce-ac.php:3151 woocommerce-ac.php:3186
+msgid "Name"
+msgstr "名稱"
+
+#: cron/wcal_send_email.php:281 cron/wcal_send_email.php:291
+#: woocommerce-ac.php:2446 woocommerce-ac.php:3150 woocommerce-ac.php:3185
+msgid "Item"
+msgstr "項目"
+
+#: cron/wcal_send_email.php:279 cron/wcal_send_email.php:288
+#: woocommerce-ac.php:3148 woocommerce-ac.php:3182
+msgid "Your Shopping Cart"
+msgstr "您的購物車"
+
+#: cron/wcal_send_email.php:95
+msgid "Abandoned cart reminder"
+msgstr "被遺棄的購物車提醒"

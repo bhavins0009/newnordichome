@@ -1,0 +1,928 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) in Danish
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-03 14:32:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk)\n"
+
+#: woocommerce-ac.php:1751
+msgid "Import"
+msgstr "Import"
+
+#: woocommerce-ac.php:1747
+msgid "Please enter in a value less than the regular price."
+msgstr "Indtast venligst en værdi, mindre end den regulære pris."
+
+#: woocommerce-ac.php:1746
+msgid "Please enter in country code with two capital letters."
+msgstr "Indtast venligst en landekode, bestående af to store bogstaver."
+
+#. translators: %s: price decimal separator
+#: woocommerce-ac.php:1745
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "Indtast venligst, i monetære decimal (%s) format, uden tusindtal separator og valuta symbol."
+
+#. translators: %s: decimal
+#: woocommerce-ac.php:1743
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "Indtast venligst, i decimaler (%s) format, uden tusindtals separator."
+
+#: woocommerce-ac.php:1752
+msgid "Export"
+msgstr "Eksport"
+
+#: includes/component/faq-support/ts-faq-support.php:127
+msgid "Frequently Asked Questions for "
+msgstr "Ofte Stillede Spørgsmål til "
+
+#: includes/component/tracking-data/ts-tracking.php:268
+msgid "Want to help make "
+msgstr "Vil du hjælpe med "
+
+#: includes/component/welcome-page/ts-welcome.php:166
+msgid "Welcome to "
+msgstr "Velkommen til "
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:18
+msgid "Thank you for activating or updating to the latest version of "
+msgstr "Tak for du aktiverede eller opdaterede til den seneste version af "
+
+#: includes/wcal_all_component.php:88
+msgid "Now that you are all set with the Lite version, you can upgrade to Pro version to take your abandoned cart recovery to the next level. You can capture  customer’s email address when they click Add to Cart, get access to 11 unique, fully responsive email templates, send text messages for recovery & <strong><a target=\"_blank\" href= \""
+msgstr "Nu da alt er gjort med Lite versionen, kan du opgradere til Pro versionen for, at tage et niveau op. Du kan indsamle  kunders e-mail adresse når de trykker på Tilføj til kurv, få adgang til 11 unikke fuldt responsive e-mail skabelonber, sende tekst beskeder om genskabelse & <strong><a href=\""
+
+#: includes/wcal_all_component.php:91
+msgid "Boost your sales by recovering up to 60% of the abandoned carts with our Abandoned Cart Pro for WooCommerce plugin. You can capture customer email addresses right when they click the Add To Cart button. <strong><a target=\"_blank\" href= \""
+msgstr "Boost dit salg ved at genskabe op til 60% af de efterladte varekurve med vores Abandoned Cart Pro for WooCommerce plugin. Du kan indsamle kunde e-mail adresser når de klikker på knappen Tilføj til kurv. <strong> <a href =\""
+
+#: includes/wcal_all_component.php:94
+msgid "Don't loose your sales to abandoned carts. Use our Abandon Cart Pro plugin & start recovering your lost sales in less then 60 seconds. <strong><a target=\"_blank\" href= \""
+msgstr "Miste ikke dit salg på grund af efterladte varekurve. Brug vores Abandon Cart Pro plugin og begynd at genskabe dit tabte salg indenfor 60 sekunder<strong> <a href =\""
+
+#: includes/wcal_all_component.php:97
+msgid "Send Abandoned Cart reminders that actually convert. Take advantage of our fully responsive email templates designed specially with an intent to trigger conversion. <strong><a target=\"_blank\" href= \""
+msgstr "Send påmindelser om efterladte varekurve, der faktisk konventere. Udnyt vores fulde responsive e-mail skabeloner, designet specielt med hensigt at udløse konvertering. <strong> <a href =\""
+
+#: includes/wcal_all_component.php:104
+msgid "Reduce cart abandonment rate by 57% with our Order Delivery Date Pro WooCommerce plugin. You can Create Delivery Settings by Shipping Zones & Shipping Classes. <br>Use discount code \"ORDPRO20\" and grab 20% discount on the purchase of the plugin. The discount code is valid only for the first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr "Reducer efterladte varekurve med 57% ved anvendelse af vores Order Delivery Pro WooCommerce plugin. Du kan oprette leverings indstillinger efter forsendelses zoner og forsendelses klasser. <br>Brug rabat kode \"ORDPRO20\" og få 20% rabat på køb af plugin'et. Rabatkoden er kun gyldig for de første 20 kunder. <strong> <a href =\""
+
+#: includes/wcal_all_component.php:111
+msgid " Allow your customers to book an appointment or rent an apartment with our Booking and Appointment for WooCommerce plugin. You can also sell your product as a resource or integrate with a few Vendor plugins. <br>Shop now & Save 20% on the plugin with the code \"BKAP20\". Only for first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr " Tillad dine kunder at booke en aftale eller leje en lejlighed med vores Booking and Appointment for WooCommerce plugin. Du kan også sælge dit produkt som en ressource eller integrere med et par Vendor plugin'er. <br>Køb nu og spar 20% på plugin'et med koden \"BKAP20\". Kun for de første 20 kunder. <strong> <a href =\""
+
+#: includes/wcal_all_component.php:114
+msgid ""
+" Allow your customers to pay deposits on products using our Deposits for WooCommerce plugin. <br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+" Tillad dine kunder til at betale indskud på produkter ved hjælp af vores Deposits for WooCommerce plugin. <br>\n"
+"            <strong><a href=\""
+
+#: includes/wcal_all_component.php:100
+msgid ""
+"Increase your store sales by recovering your abandoned carts for just $119. No profit sharing, no monthly fees. Our Abandoned Cart Pro plugin comes with a 30 day money back guarantee as well. :) Use coupon code ACPRO20 & save $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Forøg din webshops salg ved, at genskabe dine efterladte varekurve for kun $119. Ingen overskudsdeling, ingen månedlige gebyrer. Vores Abandoned Cart Pro plugin kommer også med en '30 dages pengene tilbage garanti'. :-) Brug kupon kode ACPRO20 og spare $24! <br>\n"
+"            <strong><a href=\""
+
+#: includes/wcal_all_component.php:107
+msgid ""
+"Allow your customers to select the Delivery Date on Single Product Page using our Product Delivery Date pro for WooCommerce Plugin. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Giv dine kunder mulighed for at vælge leveringsdato på vare siden ved hjælp af vores Product Delivery Date Pro for WooCommerce Plugin. Product Delivery Date pro for WooCommerce Plugin. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: woocommerce-ac.php:2633
+msgid "Shipping Charges"
+msgstr "Forsendelse omkostninger"
+
+#: includes/admin/wcal_privacy_erase.php:90
+msgid "No personal data found for any abandoned carts."
+msgstr "Ingen personlige data blev fundet i nogen efterladte varekurve."
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:363
+msgid "Unsubscribed"
+msgstr "Afmeld"
+
+#: woocommerce-ac.php:509
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "Slet automatisk efterladte varekurve efter X antal dage"
+
+#: woocommerce-ac.php:513
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "Slet automatisk efterladte varekurves ordre efter X antal dage."
+
+#: woocommerce-ac.php:696
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "Slet automatisk efterladte ordrer efter X antal dage skal være et tal større end 0."
+
+#: includes/admin/wcal_privacy_erase.php:41
+#: includes/admin/wcal_privacy_export.php:41
+msgid "Abandoned & Recovered Carts"
+msgstr "Efterladte & Genskabte Varekurve"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:127
+msgid "Personal data within cart %s has been retained."
+msgstr "Personlige data inde i varekurv %s er blevet bevaret."
+
+#: includes/admin/wcal_privacy_erase.php:204
+msgid "ANONYMIZED"
+msgstr "ANONYMISERES"
+
+#: includes/admin/wcal_privacy_export.php:167
+#: includes/admin/wcal_privacy_export.php:179
+msgid "Abandoned Cart ID"
+msgstr "Efterladt varekurv ID"
+
+#: includes/admin/wcal_privacy_export.php:169
+#: includes/admin/wcal_privacy_export.php:181
+msgid "Abandoned Cart Status"
+msgstr "Status på efterladt varekurv"
+
+#: includes/admin/wcal_privacy_export.php:170
+#: includes/admin/wcal_privacy_export.php:182
+msgid "Cart Total"
+msgstr "Varekurv total"
+
+#: includes/admin/wcal_privacy_export.php:171
+#: includes/admin/wcal_privacy_export.php:183
+msgid "Items Present"
+msgstr "Varer er tilstede"
+
+#: includes/admin/wcal_privacy_export.php:172
+msgid "Session ID"
+msgstr "Session ID"
+
+#: includes/admin/wcal_privacy_export.php:173
+#: includes/admin/wcal_privacy_export.php:184
+msgid "Billing Address"
+msgstr "Faktura adresse"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Cart Recovered - Order #"
+msgstr "Varekurv genskabt - Ordre #"
+
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Abandoned but new cart created"
+msgstr "Efterladt men ny varekurv blev oprettet"
+
+#: includes/admin/wcal_privacy_export.php:221
+msgid "Abandoned - Order Unpaid (Order #"
+msgstr "Efterladt - Ordren er ubetalt (Order #"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:283
+msgid "User Deleted"
+msgstr "Bruger er slettet"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:75
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Hvis du har et minut, så fortæl os gerne hvorfor du deaktiverede"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:76
+msgid "Submit & Deactivate"
+msgstr "Send og deaktiver"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:77
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:78
+msgid "Cancel"
+msgstr "Annuller"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:79
+msgid "Yes - Deactivate"
+msgstr "Ja- deaktiver"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:83
+msgid "I found a better plugin"
+msgstr "Jeg fandt et bedre plugin"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:84
+msgid "What's the plugin's name?"
+msgstr "Hvad er plugin'ets navn?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:85
+msgid "I only needed the plugin for a short period"
+msgstr "Jeg behøvede kun plugin'et for en kort stund"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:86
+msgid "The plugin is not working"
+msgstr "Plugin'et virkede ikke"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:87
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Del venligst hvad som ikke virkede, så vi kan rette det for andre brugere..."
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Plugin'et er fantastisk, men jeg behøver en specifik funktion som du ikke tilbyder"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:89
+msgid "What feature?"
+msgstr "Hvilken funktion?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:90
+msgid "I don't like to share my information with you"
+msgstr "Jeg kunne ikke lide, at dele mine informationer med jer"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:91
+msgctxt "the text of the 'other' reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "Andet"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "Ofte Stillede Spørgsmål til %s"
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "OSS & Support"
+
+#: includes/component/tracking-data/ts-tracking.php:133
+msgid "Reset usage tracking"
+msgstr "Nulstil sporing af brugere"
+
+#: includes/component/welcome-page/ts-welcome.php:165
+msgid "Welcome to %s %s"
+msgstr "Velkommen til %s %s"
+
+#: woocommerce-ac.php:239
+msgid "Emails are not being sent to customers."
+msgstr "E-mails bliver ikke sendt til kunder."
+
+#: woocommerce-ac.php:245
+msgid "Capturing of cart and other information was not satisfactory."
+msgstr "Indsamling af varekurve og andre informationer var ikke tilfredsstillende."
+
+#: woocommerce-ac.php:251
+msgid "I cannot see abandoned cart reminder emails records."
+msgstr "Jeg kan ikke se optegnelserne for efterladte varekurves påmindelser."
+
+#: woocommerce-ac.php:257
+msgid "I want to upgrade the plugin to the PRO version."
+msgstr "Jeg ønsker, at opgradere plugin'et til PRO versionen."
+
+#: woocommerce-ac.php:538
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "Besked som vises til gæste brugere når deres varekurv spores"
+
+#: woocommerce-ac.php:547
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "Besked, der vises for registrerede brugere når deres varekurv spores."
+
+#: woocommerce-ac.php:542
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>I overensstemmelse med GDPR, skal du tilføje en meddelelse på kassesiden, der informere gæste brugere om hvordan deres data bliver anvendt og til hvilken formål.<br><i>For eksempel: Din e-mail adresse vil hjælpe os med, at forbedre din indkøbsoplevelse i webshoppen. Læs venligst vores Privatlivspolitik for, at se hvordan dine personlige data anvendes.</i>"
+
+#: woocommerce-ac.php:551
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>I overensstemmelse med GDPR, skal du tilføje en meddelelse på webshop- og vare siderne, der informere registrerede brugere om hvordan deres data bliver anvendt og til hvilken formål.<br><i>For eksempel: Læs venligst vores Privatlivspolitik for, at se hvordan dine personlige data anvendes.</i>"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:123
+msgid "Removed personal data from cart %s."
+msgstr "Fjern personlige data fra varekurv %s."
+
+#: includes/wcal-common.php:567
+msgid "Database Updated Successfully"
+msgstr "Databasen blev korrekt opdateret"
+
+#: includes/wcal-common.php:582
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "Database opdateringen mislykkedes. Prøv venligst igen efter lidt tid"
+
+#. Description of the plugin
+msgid "This plugin captures abandoned carts by logged-in users & emails them about it."
+msgstr "Plugin'et indfanger efterladte varekurve fra ind loggede brugere og sender dem efterfølgende e-mails om varekurven."
+
+#: cron/wcal_send_email.php:93
+msgid "Abandoned cart reminder"
+msgstr "Påmindelse om efterladt varekurv"
+
+#: cron/wcal_send_email.php:275 cron/wcal_send_email.php:284
+#: woocommerce-ac.php:3079 woocommerce-ac.php:3113
+msgid "Your Shopping Cart"
+msgstr "Din varekurv"
+
+#: cron/wcal_send_email.php:277 cron/wcal_send_email.php:287
+#: woocommerce-ac.php:2393 woocommerce-ac.php:3081 woocommerce-ac.php:3116
+msgid "Item"
+msgstr "Vare"
+
+#: cron/wcal_send_email.php:278 cron/wcal_send_email.php:288
+#: woocommerce-ac.php:2394 woocommerce-ac.php:3082 woocommerce-ac.php:3117
+msgid "Name"
+msgstr "Navn"
+
+#: cron/wcal_send_email.php:279 cron/wcal_send_email.php:289
+#: woocommerce-ac.php:2395 woocommerce-ac.php:3083 woocommerce-ac.php:3118
+msgid "Quantity"
+msgstr "Antal"
+
+#: cron/wcal_send_email.php:280 cron/wcal_send_email.php:290
+#: woocommerce-ac.php:3084 woocommerce-ac.php:3119
+msgid "Price"
+msgstr "Pris"
+
+#: cron/wcal_send_email.php:281 cron/wcal_send_email.php:291
+#: woocommerce-ac.php:2396 woocommerce-ac.php:3085 woocommerce-ac.php:3120
+msgid "Line Subtotal"
+msgstr "Subtotal"
+
+#: cron/wcal_send_email.php:381 woocommerce-ac.php:3105 woocommerce-ac.php:3140
+msgid "Cart Total:"
+msgstr "Varekurvens beløb:"
+
+#: cron/wcal_send_email.php:576 cron/wcal_send_email.php:643
+#: includes/frontend/wcal_checkout_process.php:198
+#: includes/frontend/wcal_checkout_process.php:493
+msgid "This order was abandoned & subsequently recovered."
+msgstr "Denne ordre blev efterladt og efterfølgende genskabt."
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:52
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:53
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:96
+msgid "Id"
+msgstr "ID"
+
+#: includes/admin/wcal_privacy_export.php:174
+#: includes/admin/wcal_privacy_export.php:185
+#: includes/classes/class-wcal-abandoned-orders-table.php:97
+#: includes/classes/class-wcal-recover-orders-table.php:125
+msgid "Email Address"
+msgstr "E-mail adresse"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:98
+msgid "Customer"
+msgstr "Kunde"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:99
+#: includes/classes/class-wcal-recover-orders-table.php:128
+msgid "Order Total"
+msgstr "Ordre total"
+
+#: includes/admin/wcal_privacy_export.php:168
+#: includes/admin/wcal_privacy_export.php:180
+#: includes/classes/class-wcal-abandoned-orders-table.php:100
+msgid "Abandoned Date"
+msgstr "Dato for efterladelse"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:101
+msgid "Status of Cart"
+msgstr "Varekurvens status"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:150
+msgid "View order"
+msgstr "Vis ordre"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:151
+#: includes/classes/class-wcal-abandoned-orders-table.php:544
+#: includes/classes/class-wcal-templates-table.php:145
+#: includes/classes/class-wcal-templates-table.php:330
+msgid "Delete"
+msgstr "Slet"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:357
+msgid "item"
+msgstr "vare"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:359
+msgid "items"
+msgstr "varer"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/classes/class-wcal-abandoned-orders-table.php:365
+msgid "Abandoned"
+msgstr "Efterladt"
+
+#: includes/classes/class-wcal-product-report-table.php:58
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/classes/class-wcal-product-report-table.php:59
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:91
+msgid "Product Name"
+msgstr "Vare navn"
+
+#: includes/classes/class-wcal-product-report-table.php:92
+msgid "Number of Times Abandoned"
+msgstr "Antal efterladte gange"
+
+#: includes/classes/class-wcal-product-report-table.php:93
+msgid "Number of Times Recovered"
+msgstr "Antal genskabte gange"
+
+#: includes/classes/class-wcal-recover-orders-table.php:86
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:87
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:124
+msgid "Customer Name"
+msgstr "Kunde navn"
+
+#: includes/classes/class-wcal-recover-orders-table.php:126
+msgid "Cart Abandoned Date"
+msgstr "Dato hvor varekurven blev efterladt"
+
+#: includes/classes/class-wcal-recover-orders-table.php:127
+msgid "Cart Recovered Date"
+msgstr "Dato hvor varekurven blev genskabt"
+
+#: includes/classes/class-wcal-recover-orders-table.php:161
+msgid "View Details"
+msgstr "Vis detaljer"
+
+#: includes/classes/class-wcal-templates-table.php:53
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-templates-table.php:54
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:91
+msgid "Sr"
+msgstr "Sr"
+
+#: includes/classes/class-wcal-templates-table.php:92
+msgid "Name Of Template"
+msgstr "Skabelon navn"
+
+#: includes/classes/class-wcal-templates-table.php:93
+msgid "Sent After Set Time"
+msgstr "Sendt efter angivende tid"
+
+#: includes/classes/class-wcal-templates-table.php:94
+msgid "Active ?"
+msgstr "Aktiv ?"
+
+#: includes/classes/class-wcal-templates-table.php:144
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/component/tracking-data/ts-tracking.php:270
+#: includes/wcal_ts_tracking.php:78
+msgid "Allow"
+msgstr "Tillad"
+
+#: includes/component/tracking-data/ts-tracking.php:271
+#: includes/wcal_ts_tracking.php:79
+msgid "No thanks"
+msgstr "Nej tak"
+
+#: includes/welcome.php:49
+msgid "Welcome to Abandoned Cart Lite %s"
+msgstr "Velkommen til Abandoned Cart Lite %s"
+
+#: includes/welcome.php:50
+msgid "Welcome to Abandoned Cart Lite"
+msgstr "Velkommen til Abandoned Cart Lite"
+
+#: includes/welcome.php:88
+msgid "Thank you for activating or updating to the latest version of Abandoned Cart Lite! If you're a first time user, welcome! You're well on your way to start recovering your lost revenues."
+msgstr "Tak for at aktivere eller opdatere til den nyeste version af Abandoned Cart Lite! Hvis du er en første gang bruger, så velkommen! Du er godt på vej til at begynde at inddrive dine tabte indtægter."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:30
+#: includes/welcome.php:98
+msgid "Get Started with Abandoned Cart Lite"
+msgstr "Kom i gang med Abandoned Cart Lite"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:34
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:59
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:86
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:93
+#: includes/welcome.php:102 includes/welcome.php:127 includes/welcome.php:154
+#: includes/welcome.php:161 includes/welcome.php:188
+msgid "WooCommerce Abandoned Cart Lite"
+msgstr "WooCommerce Abandoned Cart Lite"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:38
+#: includes/welcome.php:106
+msgid "Activate Email Template"
+msgstr "Aktiver e-mail skabelon"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:40
+#: includes/welcome.php:108
+msgid "To start sending out abandoned cart notification emails, simply activate the email template from under WooCommerce -> Abandoned Carts -> Email Templates page."
+msgstr "For at begynde at sende notifikation e-mails ud om efterladte varekurve, skal du blot aktivere e-mail skabelon under WooCommerce -> Efterladte varekurve -> E-mail skabeloner side."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:42
+#: includes/welcome.php:110
+msgid "Click Here to go to Email Templates page"
+msgstr "Klik her for at gå til E-mail skabeloner siden"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:52
+#: includes/welcome.php:120
+msgid "Know more about Abandoned Cart Pro"
+msgstr "Lær mere om Abandoned Cart Pro"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:54
+#: includes/welcome.php:122
+msgid "The Abandoned Cart Pro plugin gives you features where you are able to recover more sales compared to the Lite plugin. Here are some notable features the Pro version provides."
+msgstr "Abandoned Cart Pro plugin'et giver dig funktioner, hvor du er i stand til at generere mere salg i forhold til Lite plugin'et. Her er nogle fremhævede funktioner Pro-versionen giver."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:63
+#: includes/welcome.php:131
+msgid "Capture Visitor Emails on click of Add to Cart button"
+msgstr "Indsamle kunde e-mail adresser ved klik på 'Tilføj til kurv' knappen"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:65
+#: includes/welcome.php:133
+msgid "The ability to capture the email address early in the order process is very important to reduce cart abandonment by unknown users as well as to be able to recover their carts if they abandon it. This ultimately leads to increase in your store sales."
+msgstr "Muligheden for, at indsamle e-mail adressen tidligere i ordre forløbet, er en vigtig proces for, at reducere efterladte varekurve hvor kunden er ukendt, så vel som evnet til at genskabe varekurven hvis den efterlades. Dette er vil ubetinget føre til et øget salg i din webshop."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:67
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:80
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:101
+#: includes/welcome.php:135 includes/welcome.php:148 includes/welcome.php:169
+#: includes/welcome.php:182
+msgid "Learn More"
+msgstr "Lær mere"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:76
+#: includes/welcome.php:144
+msgid "Set different cut-off times for visitors & logged-in users"
+msgstr "Angiv forskellige skæringspunkter for besøgende og ind loggede brugere"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:78
+#: includes/welcome.php:146
+msgid "The provision for setting two separate cut-off times for different roles is mainly because sometimes if the store admin wants the visitor carts to be captured earlier than the registered user carts, then these different settings can play an important role."
+msgstr "Meningen med indstillingen af to separate skæringspunkter er hovedsagelig, at nogle gange ønsker webshop administratoren, at de besøgendes varekurv skal indfanges tidligere end de skal ved registrerede brugere, skal denne indstilling være af vigtig betydning."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:97
+#: includes/welcome.php:165
+msgid "Send abandoned cart recovery email in minutes of cart being abandoned"
+msgstr "Send en e-mail om den efterladte varekurv kan genskabes efter et antal minutter fra den er efterladt"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:99
+#: includes/welcome.php:167
+msgid "The ability to send the abandoned cart recovery email within first few minutes of cart being abandoned is a big advantage. In the Lite plugin, the earliest an email can be sent is after 1 hour. Whereas in the Pro version, the first recovery email gets sent 15 minutes after the cart is abandoned. This increases the recovery chances manifold."
+msgstr "Muligheden for, at sende e-mail om den efterladte varekurv indenfor de første minutter efter den er efterladt er af stor betydning. I Lite versionen, kan e-mailen tidligst sendes efter 1 time, mens i Pro versionen, kan den første e-mail blive sendt allerede efter 15 minutter efter varekurven er efterladt. Dette giver en større chance for, at kunden genskaber varekurven."
+
+#: includes/welcome.php:178
+msgid "Full range of merge tags that allow you to personalize the abandoned cart email"
+msgstr "En bred vifte af indlejrings-tags giver dig mulighed for, at personliggøre e-mailen for den efterladte varekurv"
+
+#: includes/welcome.php:180
+msgid "The Lite version has only 3 merge tags available to personalize the abandoned cart recovery emails. The Pro version instead, has 20 different merge tags that can be used effectively to personalize each email that gets sent out to the customers for recovering their abandoned carts."
+msgstr "Lite versionen har kun 3 indlejrings-tags tilgængelig, som kan personliggøre e-mailen om den efterladte varekurv. Pro versionen har 20 forskellige indlejrings-tags, der kan anvendes til effektivt, at personliggøre hver enkelt e-mail, der sendes til kunden om genskabelse af deres efterladte varekurv."
+
+#: includes/welcome.php:193
+msgid "View full list of differences between Lite & Pro plugin"
+msgstr "Se den fulde liste over forskellene mellem Lite og Pro plugin'erne"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:110
+#: includes/welcome.php:202
+msgid "Getting to Know Tyche Softwares"
+msgstr "Lær at kende Tyche Softwares"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:112
+#: includes/welcome.php:205
+msgid "Visit the Tyche Softwares Website"
+msgstr "Besøg Tyche Softwares websted"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:113
+#: includes/welcome.php:206
+msgid "View all Premium Plugins"
+msgstr "Se alle Premium plugin'er"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:122
+#: includes/welcome.php:215
+msgid "Meet the team"
+msgstr "Mød teamet"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:128
+#: includes/welcome.php:223
+msgid "Current Offers"
+msgstr "Aktuelle tilbud"
+
+#: includes/component/welcome-page/templates/social-media-elements.php:10
+#: includes/welcome.php:271
+msgid "Follow %s"
+msgstr "Følg %s"
+
+#: woocommerce-ac.php:47
+msgid "Once Every Fifteen Minutes"
+msgstr "En gang hver 15. miunt"
+
+#: includes/component/tracking-data/ts-tracking.php:177
+msgid "Once in a Week"
+msgstr "En gang om ugen"
+
+#: woocommerce-ac.php:287
+msgid "HTML Email Template"
+msgstr "HTML e-mail skabelon"
+
+#: woocommerce-ac.php:293
+msgid "Abandoned cart Email Template"
+msgstr "Efterladte varekurves e-mail skabelon"
+
+#: woocommerce-ac.php:212 woocommerce-ac.php:493 woocommerce-ac.php:1695
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: woocommerce-ac.php:500
+msgid "Cart abandoned cut-off time"
+msgstr "Skæringspunkt for den efterladte varekurv"
+
+#: woocommerce-ac.php:504
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "Betragt varekurven som efterladt efter X antal minutter efter sidste vare er tilføjet varekurven uden en ordre er afgivet."
+
+#: woocommerce-ac.php:519
+msgid "Email admin On Order Recovery"
+msgstr "Send e-mail til admin om ordre genskabelse"
+
+#: woocommerce-ac.php:523
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "Send e-mail til admin hvis en efterladt varekurv bliver genskabt."
+
+#: woocommerce-ac.php:529
+msgid "Start tracking from Cart Page"
+msgstr "Start sporing fra varekurv siden"
+
+#: woocommerce-ac.php:533
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "Aktiver sporing af efterladte varer og varekurve, selv hvis kunden ikke besøger kassesiden eller ikke indtaster nogen detaljer på kassesiden så som navn eller e-mail. Sporingen vil begynde så snart en besøgende tilføjer en vare til deres varekurv og besøger varekurv siden."
+
+#: woocommerce-ac.php:561
+msgid "Settings for abandoned cart recovery emails"
+msgstr "Indstillinger for efterladte varekurve e-mail afsendelse"
+
+#: woocommerce-ac.php:568
+msgid "\"From\" Name"
+msgstr "\"Fra\" navn"
+
+#: woocommerce-ac.php:577
+msgid "\"From\" Address"
+msgstr "\"Fra\" adresse"
+
+#: woocommerce-ac.php:586
+msgid "Send Reply Emails to"
+msgstr "Send e-mail svar til"
+
+#: woocommerce-ac.php:680
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "Efterladte varekurves skæringstid skal være numerisk og større end 0."
+
+#: includes/frontend/wcal_checkout_process.php:300
+#: includes/frontend/wcal_checkout_process.php:302
+msgid "New Customer Order - Recovered"
+msgstr "Ny kunde ordre, genskabt"
+
+#: woocommerce-ac.php:1084 includes/admin/wcal_privacy_export.php:123
+msgid "Abandoned Carts"
+msgstr "Efterladte varekurve"
+
+#: woocommerce-ac.php:1693
+msgid "Abandoned Orders"
+msgstr "Efterladte ordrer"
+
+#: woocommerce-ac.php:1694
+msgid "Email Templates"
+msgstr "E-mail skabeloner"
+
+#: woocommerce-ac.php:1696
+msgid "Recovered Orders"
+msgstr "Genskabte ordrer"
+
+#: woocommerce-ac.php:1697
+msgid "Product Report"
+msgstr "Vare rapport"
+
+#: woocommerce-ac.php:1862
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du har ikke de nødvendige rettigheder til at tilgå denne side."
+
+#: woocommerce-ac.php:1866
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce - Abandon Cart Lite"
+
+#: woocommerce-ac.php:1926
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "Den efterladte varekurv er blevet slettet."
+
+#: woocommerce-ac.php:1931
+msgid "The Template has been successfully deleted."
+msgstr "Skabelonen er blevet slettet."
+
+#: woocommerce-ac.php:1937
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "Ændre indstillingerne for e-mail notifikationerne til kunder, til admin og flere."
+
+#: woocommerce-ac.php:1955
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: woocommerce-ac.php:1958
+msgid "Email Sending Settings"
+msgstr "Indstillinger for afsendelse af e-mail"
+
+#: woocommerce-ac.php:1988
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "Lisen nedenfor viser alle efterladte varekurve som har været efterladt i længere tid end angivet i \"Varekurvs skæringstid\" indstillingerne."
+
+#: woocommerce-ac.php:2030
+msgid "All "
+msgstr "Alle "
+
+#: woocommerce-ac.php:2035
+msgid "Registered %s"
+msgstr "Registrerede %s"
+
+#: woocommerce-ac.php:2041
+msgid "Guest %s"
+msgstr "Gæst %s"
+
+#: woocommerce-ac.php:2047
+msgid "Carts without Customer Details"
+msgstr "Varekurve uden kunde detaljer"
+
+#: woocommerce-ac.php:2068
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "Tilføj e-mail skabeloner med forskellige intervaller for, at maksimere muligheden, for at genskabe efterladte varekurve."
+
+#: woocommerce-ac.php:2208
+msgid "The Email Template has been successfully updated."
+msgstr "E-mail skabelonen blev korrekt opdateret."
+
+#: woocommerce-ac.php:2226
+msgid "Add New Template"
+msgstr "Tilføj ny skabelon"
+
+#: woocommerce-ac.php:2303
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "Rapporten nedenfor viser hvor mange efterladte varekurve vi kunne genskabe for dig ved, at udsende automatiske e-mails med opfordring til at fortsætte."
+
+#: woocommerce-ac.php:2352
+msgid "Start Date:"
+msgstr "Start dato:"
+
+#: woocommerce-ac.php:2354
+msgid "End Date:"
+msgstr "Slut dato:"
+
+#: woocommerce-ac.php:2356
+msgid "Go"
+msgstr "Fortsæt"
+
+#: woocommerce-ac.php:2389
+msgid "Abandoned Order #%s Details"
+msgstr "Efterladte ordre #%s oplysninger"
+
+#: woocommerce-ac.php:2397
+msgid "Line Total"
+msgstr "Linje total"
+
+#: woocommerce-ac.php:2585
+msgid "Customer Details"
+msgstr "Kunde oplysninger"
+
+#: woocommerce-ac.php:2589
+msgid "Billing Details"
+msgstr "Faktura oplysninger"
+
+#: woocommerce-ac.php:2590
+msgid "Name:"
+msgstr "Navn:"
+
+#: woocommerce-ac.php:2593 woocommerce-ac.php:2613
+msgid "Address:"
+msgstr "Adresse:"
+
+#: woocommerce-ac.php:2603
+msgid "Email:"
+msgstr "E-mail:"
+
+#: woocommerce-ac.php:2607
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: woocommerce-ac.php:2612
+msgid "Shipping Details"
+msgstr "Forsendelse oplysninger"
+
+#: woocommerce-ac.php:2699
+msgid "Template Name:"
+msgstr "Skabelon navn:"
+
+#: woocommerce-ac.php:2708
+msgid "Enter a template name for reference"
+msgstr "Indtast et skabelon navn som referance"
+
+#: woocommerce-ac.php:2714
+msgid "Subject:"
+msgstr "Emne:"
+
+#: woocommerce-ac.php:2723
+msgid "Enter the subject that should appear in the email sent"
+msgstr "Indtast emnet som det skal fremgå i den sendte e-mail"
+
+#: woocommerce-ac.php:2729
+msgid "Email Body:"
+msgstr "E-mail indhold:"
+
+#: woocommerce-ac.php:2756
+msgid "Message to be sent in the reminder email."
+msgstr "Besked, der skal sendes som påmindelse i e-mail."
+
+#: woocommerce-ac.php:2783
+msgid "Use WooCommerce Template Style:"
+msgstr "Brug WooCommerce skabelon stilart:"
+
+#: woocommerce-ac.php:2798
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "Brug WooCommerce standard skabelon stilart til efterladte varekurves påmindelse e-mails."
+
+#: woocommerce-ac.php:2805
+msgid "Email Template Header Text: "
+msgstr "E-mail skabelonens sidehoved tekst "
+
+#: woocommerce-ac.php:2819
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr "Indtast overskriften, der skal fremgå i den sendt e-mail om efterladte varekurve. Dette vil kun gælde når \"Brug WooCommerce skabelon stilart\" er markeret."
+
+#: woocommerce-ac.php:2825
+msgid "Send this email:"
+msgstr "Send denne e-mail:"
+
+#: woocommerce-ac.php:2866
+msgid "after cart is abandoned."
+msgstr "efter varekurven er eferladt."
+
+#: woocommerce-ac.php:2873
+msgid "Send a test email to:"
+msgstr "Send en test e-mail til:"
+
+#: woocommerce-ac.php:2878
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "Indtast e-mail ID, til hvem test e-mailen skal sendes til."
+
+#: woocommerce-ac.php:3089 woocommerce-ac.php:3124
+msgid "Men\\'\\s Formal Shoes"
+msgstr "Mænd\\'\\s formelle sko"
+
+#: woocommerce-ac.php:3096 woocommerce-ac.php:3131
+msgid "Woman\\'\\s Hand Bags"
+msgstr "Kvinder\\'\\s håndtasker"
+
+#. Plugin Name of the plugin
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "Abandoned Cart Lite for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Author URI of the plugin
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#: woocommerce-ac.php:2911
+msgid ""
+"If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            rating. Thank you in advance. :)"
+msgstr ""
+"Hvis du kan lide <strong>Abandoned Cart Lite for WooCommerce</strong>, så giv os gerne en <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            bedømmelse. Mange tak på forskud. :-)"
+
+#: includes/wcal_ts_tracking.php:76
+msgid "Want to help make Abandoned Cart even more awesome? Allow Abandoned Cart to collect non-sensitive diagnostic data and usage information and get 20% off on your next purchase. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Find out more</a>. <br><br>"
+msgstr "Vil du hjælpe med at udvikle Abandoned Cart endnu mere? Tillad Abandoned Cart at indsamle ikke-sensitive diagnose data og information om brug og få 20% rabat på dit næste køb. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Find ud af mere</a>. <br><br>"
+
+#: woocommerce-ac.php:2197
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Der opstod et problem med, at tilføje e-mail skabelonen. Kontakt venligst plugin udvikleren via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+
+#: woocommerce-ac.php:2217
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Der opstod med, at opdatere e-mail skabelonen. Kontakt venligst plugin udvikleren via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."

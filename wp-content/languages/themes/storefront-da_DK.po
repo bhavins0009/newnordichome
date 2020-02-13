@@ -1,0 +1,786 @@
+# Translation of Themes - Storefront in Danish
+# This file is distributed under the same license as the Themes - Storefront package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-09 08:49:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Themes - Storefront\n"
+
+#. Theme Name of the theme
+msgid "Storefront"
+msgstr "Storefront"
+
+#. Description of the theme
+msgid "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!"
+msgstr "Storefront er det perfekte tema for dit næste WooCommerce projekt. Designet og udviklet af WooCommerce udviklerne, skræddersyet integration til WooCommerce og mange af de spændende WooCommerce udvidelser. Der er adskillige layout og farveskemaer så du kan personliggøre din webshop, flerdelte widget områder, et responsivt design og meget mere. Udviklere vil elske den enkelte og strømlinet kodning som gør det let at brugertilpasse og udvide. Leder du efter et WooCommerce tema?. Så skal du ikke lede længere!"
+
+#: inc/storefront-template-functions.php:517
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Tag:"
+msgstr[1] "Tags:"
+
+#: inc/storefront-template-functions.php:511
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Kategori:"
+msgstr[1] "Kategorier:"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:451
+msgid "Posted on %s"
+msgstr "Udgivet i %s"
+
+#: inc/storefront-template-functions.php:457
+msgid "by"
+msgstr "af"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:825
+msgid "Product Brands"
+msgstr "Varemærker"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:810
+msgid "Shop by Brand"
+msgstr "Shop efter varemærke"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:775
+msgid "You're viewing:"
+msgstr "Du ser på:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:724
+msgid "More products"
+msgstr "Flere varer"
+
+#: inc/storefront-template-functions.php:550
+msgid "Previous post:"
+msgstr "Forrige indlæg:"
+
+#: inc/storefront-template-functions.php:549
+msgid "Next post:"
+msgstr "Næste indlæg:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:93
+msgid "Displays next and previous links on product pages. A product thumbnail is displayed with the title revealed on hover."
+msgstr "Viser næste og tidligere links på vare sider. Et miniaturebillede af varen vises med titlen hover-sløret."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:92
+msgid "Product Pagination"
+msgstr "Vare sideinddeling"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:83
+msgid "A small content bar at the top of the browser window which includes relevant product information and an add-to-cart button. It slides into view once the standard add-to-cart button has scrolled out of view."
+msgstr "En lille indholdsbjælke øverst i browservinduet, der indeholder relevant vareinformation og en knap til tilføj-til-kurv. Den glider ind, når standardknap til standard-til-kurv er rullet ud af visningen."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:82
+msgid "Sticky Add-To-Cart"
+msgstr "Klæbelig tilføj-til-kurv"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:59
+msgid "Product Page"
+msgstr "Vare side"
+
+#: inc/customizer/class-storefront-customizer.php:274
+msgid "Hero text color"
+msgstr "Bannertekstens tekst farve"
+
+#: inc/customizer/class-storefront-customizer.php:252
+msgid "Hero heading color"
+msgstr "Bannertekstens overskriftsfarve"
+
+#: inc/class-storefront.php:308
+msgid "Collapse child menu"
+msgstr "Sammenfold undermenu"
+
+#: inc/class-storefront.php:307
+msgid "Expand child menu"
+msgstr "Udfold undermenu"
+
+#: inc/storefront-template-functions.php:147
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "Designet med Storefront &amp; WooCommerce"
+
+#: inc/storefront-template-functions.php:147
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "WooCommerce - Bedste e-handels platform til WordPress"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr "Organiser dine menuer ved at tilføje sider, kategorier, tags og tilpasset links."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "Tilpas dine navigations menuer"
+
+#: inc/class-storefront.php:467
+msgid "Post Navigation"
+msgstr "Indlægs navigation"
+
+#: comments.php:58
+msgid "Comment Navigation Below"
+msgstr "Kommentar Navigationen nederst"
+
+#: comments.php:38
+msgid "Comment Navigation Above"
+msgstr "Kommentar navigationen øverst"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "Send kommentarer"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "Reklamerede varer"
+
+#: inc/admin/class-storefront-plugin-install.php:62
+#: inc/admin/class-storefront-admin.php:174
+msgid "Activated"
+msgstr "Aktiveret"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:542
+msgid "Best Selling Products"
+msgstr "Bedst sælgende varer"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:490
+msgid "On Sale Products"
+msgstr "Varer på tilbud"
+
+#: inc/storefront-template-functions.php:297
+msgid "Edit this section"
+msgstr "Rediger dette afsnit"
+
+#: inc/nux/class-storefront-nux-starter-content.php:863
+msgid "Vneck Tshirt"
+msgstr "Vneck T-Shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:842
+msgid "Tshirt"
+msgstr "T-Shirt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:821
+msgid "Polo"
+msgstr "Polo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:800
+msgid "Long Sleeve Tee"
+msgstr "Lang ærmet trøje"
+
+#: inc/nux/class-storefront-nux-starter-content.php:778
+msgid "Hoodie"
+msgstr "Hættetrøje"
+
+#: inc/nux/class-storefront-nux-starter-content.php:757
+msgid "Hoodie with Zipper"
+msgstr "Hættetrøje med lynlås"
+
+#: inc/nux/class-storefront-nux-starter-content.php:735
+msgid "Hoodie with Pocket"
+msgstr "Hættetrøje med lomme"
+
+#: inc/nux/class-storefront-nux-starter-content.php:714
+msgid "Hoodie with Logo"
+msgstr "Hættetrøje med Logo"
+
+#: inc/nux/class-storefront-nux-starter-content.php:693
+msgid "Sunglasses"
+msgstr "Solbriller"
+
+#: inc/nux/class-storefront-nux-starter-content.php:671
+msgid "Cap"
+msgstr "Kasket"
+
+#: inc/nux/class-storefront-nux-starter-content.php:649
+msgid "Belt"
+msgstr "Bælte"
+
+#: inc/nux/class-storefront-nux-starter-content.php:627
+msgid "Beanie"
+msgstr "Hue"
+
+#: inc/nux/class-storefront-nux-starter-content.php:621
+msgid "Tshirts"
+msgstr "T-Shirts"
+
+#: inc/nux/class-storefront-nux-starter-content.php:618
+msgid "Hoodies"
+msgstr "Hættetrøjer"
+
+#: inc/nux/class-storefront-nux-starter-content.php:616
+#: inc/nux/class-storefront-nux-starter-content.php:619
+#: inc/nux/class-storefront-nux-starter-content.php:622
+msgid "A short category description"
+msgstr "Angiv en kort beskrivelse af kategorien"
+
+#: inc/nux/class-storefront-nux-starter-content.php:615
+msgid "Accessories"
+msgstr "Tilbehør"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid "This is a page with some basic contact information, such as an address and phone number. You might also try a plugin to add a contact form."
+msgstr "Dette er en side med nogle grundlæggende kontaktoplysninger, såsom en adresse og telefon nummer. Du kan også prøve et plugin for at tilføje en kontakt formular."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "Kontakt"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid "You might be an artist who would like to introduce yourself and your work here or maybe you&rsquo;re a business with a mission to describe."
+msgstr "Du kan være en kunstner, der ønsker at introducere dig selv og dit arbejde her, eller måske du er en virksomhed med en mission du vil beskrive."
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "Om"
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-starter-content.php:65
+msgid "This is your homepage which is what most visitors will see when they first visit your shop.%sYou can change this text by editing the \"Welcome\" page via the \"Pages\" menu in your dashboard."
+msgstr "Dette er din hjemmeside, som de fleste besøgende vil se, når de første besøg din webshop.%sDu kan ændre denne tekst ved at redigere siden \"Velkommen\" via menuen \"Sider\" i Kontrolpanelet."
+
+#: inc/nux/class-storefront-nux-starter-content.php:63
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "Udført"
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid "All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou can return to your dashboard by clicking the X in the top left corner."
+msgstr "Sådan!. Husk at %1$sgemme & udgive%2$s dine ændringer du har lavet. %3$sDu kan returnere til Kontrolpanelet ved at klikke på X i øverste venstre hjørne."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid "Choose colors for your button backgrounds and text. Once again, brand colors are good choices here."
+msgstr "Vælg farver til dine knap baggrunde og tekst. Igen, er dit varemærkes farverne gode valg her."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "Farvelæg dine knapper"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid "In the typography panel you can specify an accent color which will be applied to things like links and star ratings. We recommend using your brand color for this setting."
+msgstr "I panelet Typografi kan du angive en markeringsfarve, som vil blive anvendt til ting som links, og stjernevurderinger. Vi anbefaler at bruge dit varemærkes farver for denne indstilling."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "Vælg din primære farve"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid "Open the Site Identity Panel, then click the 'Select Logo' button to upload your logo."
+msgstr "Åbne panelet Websted Identitet og klik på knappen 'Vælg Logo' for, at uploade dit logo."
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid "Here you can control the overall look and feel of your store.%sTo get started, let's add your logo"
+msgstr "Her kan du kontrollere det overordnede udseende og indtryk af din webshop.%sFor at komme i gang, så lad os tilføje dit logo"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "Velkommen til Tilpasseren"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "Spring dette trin over"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "Nej tak, spring over rundturen"
+
+#: inc/nux/class-storefront-nux-admin.php:131
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+msgid "Let's go!"
+msgstr "Kom i gang!"
+
+#: inc/nux/class-storefront-nux-admin.php:126
+msgid "Add example products"
+msgstr "Tilføj eksempel varer"
+
+#: inc/nux/class-storefront-nux-admin.php:118
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "Opret en hjemmeside ved hjælp af Storefront's skabelon"
+
+#: inc/nux/class-storefront-nux-admin.php:116
+msgid "Apply the Storefront homepage template"
+msgstr "Anvend Storefront skabelonen"
+
+#: inc/nux/class-storefront-nux-admin.php:95
+msgid "You've set up WooCommerce, now it's time to give it some style! Let's get started by entering the Customizer and adding your logo."
+msgstr "Du har opsat WooCommerce, nu er det tid til at give det noget stil! ! Lad os komme i gang ved at anvende Tilpasseren og tilføje dit logo."
+
+#: inc/nux/class-storefront-nux-admin.php:93
+msgid "Before you add your first product let's design your store. We'll add some example products for you. When you're ready let's get started by adding your logo."
+msgstr "Før du tilføjer dit første vare så lad os designe din webshop. Vi vil tilføje nogle eksempel varer for dig. Når du er klar så lad os komme i gang ved at tilføje dit logo."
+
+#: inc/nux/class-storefront-nux-admin.php:89
+msgid "Design your store 🎨"
+msgstr "Design din webshop 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "Activate WooCommerce"
+msgstr "Aktiver WooCommerce"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "WooCommerce activated"
+msgstr "WooCommerce er aktiveret"
+
+#: inc/nux/class-storefront-nux-admin.php:84
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "Hvis du vil aktivere e-handel funktioner du har brug at installere WooCommerce-plugin."
+
+#: inc/nux/class-storefront-nux-admin.php:83
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "Tak for du installerede Storefront! 🤘"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:231
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "Widgets som tilføjes her vil vises i kolonne %1$d i sidefods række %2$d."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:228
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "Sidefods række %1$d - Kolonne %2$d"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:225
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "Widgets der tilføjes her vil vises i kolonne %1$d i sidefoden."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:222
+msgid "Footer Column %1$d"
+msgstr "Sidefods kolonne %1$d"
+
+#: inc/admin/class-storefront-plugin-install.php:114
+#: inc/admin/class-storefront-admin.php:205
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: inc/admin/class-storefront-plugin-install.php:94
+#: inc/admin/class-storefront-admin.php:198
+msgid "Install now"
+msgstr "Installer nu"
+
+#: inc/admin/class-storefront-admin.php:136
+msgid "Check 'em out"
+msgstr "Tjek dem ud"
+
+#: inc/admin/class-storefront-admin.php:132
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "De er naturligvis alle fuldt kompatibel Storefront udvidelserne."
+
+#: inc/admin/class-storefront-admin.php:128
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "Hver er blevet designet til forskellige erhverv - fra mode til mad."
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "Omdan hurtig og let din webshop med Storefront Undertemaer."
+
+#: inc/admin/class-storefront-admin.php:120
+msgid "Alternate designs"
+msgstr "Alternative design"
+
+#: inc/admin/class-storefront-admin.php:116
+msgid "Read more and purchase"
+msgstr "Læs mere og køb"
+
+#: inc/admin/class-storefront-admin.php:111
+msgid "Make it yours without touching code with the Storefront Extensions bundle. Express yourself, optimize conversions, delight customers."
+msgstr "Gøre det til dit personlige tema uden at skrive kode med Storefront Udvidelses Pakke. Udtryk dig, optrimér, glæde kunderne."
+
+#: inc/admin/class-storefront-admin.php:107
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "Alle de værktøjer, du bliver nødt til at definere din stil og tilpasse Storefront."
+
+#: inc/admin/class-storefront-admin.php:101
+msgid "Storefront Extensions Bundle"
+msgstr "Storefront Udvidelses Pakke"
+
+#: inc/admin/class-storefront-admin.php:94
+msgid "Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "Hej! Du er måske også interesseret i følgende Storefront udvidelser og designs."
+
+#: inc/admin/class-storefront-admin.php:92
+msgid "One more thing... You might be interested in the following Storefront extensions and designs."
+msgstr "En ting mere... Du er måske også interesseret i følgende Storefront udvidelser og designs."
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:91
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "Opsætningen er fuldført %1$sDit Storefront eventyr begynder nu 🚀%2$s "
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Development blog"
+msgstr "Udviklingsblog"
+
+#: inc/admin/class-storefront-admin.php:73
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/admin/class-storefront-admin.php:72
+msgid "Support"
+msgstr "Support"
+
+#: inc/class-storefront.php:209
+msgid "Widgets added to this region will appear beneath the header and above the main content."
+msgstr "Widgets føjet til dette område vil blive vist under overskriften og over hovedindhold.."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:696
+msgid "My Account"
+msgstr "Min konto"
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:669
+msgid "Search"
+msgstr "Søg"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:523
+msgid "Best Sellers"
+msgstr "Bedst sælgende"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:417
+msgid "Fan Favorites"
+msgstr "Fan favoritter"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:364
+msgid "We Recommend"
+msgstr "Vi anbefaler"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:311
+msgid "New In"
+msgstr "Nye varer"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:259
+msgid "Shop by Category"
+msgstr "Shop efter kategori"
+
+#: inc/storefront-template-functions.php:229
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/class-storefront.php:207
+msgid "Below Header"
+msgstr "Under Sidehoved"
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "Nyder du %s?"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:145
+msgid "An %s project"
+msgstr "Et %s projekt"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:590
+msgid "On Sale Now"
+msgstr "På udsalg nu"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:600
+msgid "New In Store"
+msgstr "Nyt i webshoppen"
+
+#: inc/customizer/class-storefront-customizer.php:288
+msgid "Header background image"
+msgstr "Sidehovedets baggrundsbillede"
+
+#: inc/storefront-template-functions.php:535
+msgctxt "Next post"
+msgid "Next"
+msgstr "Næste"
+
+#: inc/storefront-template-functions.php:536
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "Forrige"
+
+#: 404.php:59 404.php:61
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:436
+msgid "Popular Products"
+msgstr "Populære varer"
+
+#: 404.php:22
+msgid "Nothing was found at this location. Try searching, or check out the links below."
+msgstr "Intet blev fundet på denne placering. Prøv at søge, eller tjek nedenstående links."
+
+#. Template Name of the theme
+msgid "Homepage"
+msgstr "Startside"
+
+#. Template Name of the theme
+msgid "Full width"
+msgstr "Fuld bredde"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:77
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d vare"
+msgstr[1] "%d varer"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:330
+msgid "Recent Products"
+msgstr "Nye varer"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:278
+msgid "Product Categories"
+msgstr "Vare kategorier"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:384
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:580
+msgid "Featured Products"
+msgstr "Fremhævede varer"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:75
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:682
+msgid "View your shopping cart"
+msgstr "Vis kurv"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:470
+msgid "On Sale"
+msgstr "På Udsalg"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "Næste"
+
+#: inc/storefront-template-functions.php:466
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/storefront-template-functions.php:466
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/storefront-template-functions.php:466
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:502
+#: inc/storefront-template-functions.php:505
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:401
+msgid "Continue reading %s"
+msgstr "Læs mere %s"
+
+#: inc/storefront-template-functions.php:339
+#: inc/storefront-template-functions.php:410
+msgid "Pages:"
+msgstr "Sider:"
+
+#: inc/storefront-template-functions.php:284
+msgid "Skip to navigation"
+msgstr "Spring til navigation"
+
+#: inc/storefront-template-functions.php:260
+msgid "Secondary Navigation"
+msgstr "Sekundær navigation"
+
+#: inc/storefront-template-functions.php:285
+msgid "Skip to content"
+msgstr "Spring til indhold"
+
+#: inc/storefront-template-functions.php:228
+msgid "Primary Navigation"
+msgstr "Primær navigation"
+
+#: inc/storefront-template-functions.php:74
+msgid "Edit"
+msgstr "Rediger"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: inc/class-storefront.php:95
+#: inc/nux/class-storefront-nux-starter-content.php:192
+msgid "Handheld Menu"
+msgstr "Mobilmenu"
+
+#: inc/class-storefront.php:201
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/class-storefront.php:94
+#: inc/nux/class-storefront-nux-starter-content.php:182
+msgid "Secondary Menu"
+msgstr "Sekundær menu"
+
+#: inc/customizer/class-storefront-customizer.php:600
+msgid "Looking for more options?"
+msgstr "Leder du efter flere muligheder?"
+
+#: inc/class-storefront.php:93
+#: inc/nux/class-storefront-nux-starter-content.php:162
+msgid "Primary Menu"
+msgstr "Primær menu"
+
+#: inc/customizer/class-storefront-customizer.php:569
+msgid "General Layout"
+msgstr "Overordnet Layout"
+
+#: inc/customizer/class-storefront-customizer.php:585
+msgid "More"
+msgstr "Mere"
+
+#: inc/customizer/class-storefront-customizer.php:364
+msgid "Customize the look & feel of your website footer."
+msgstr "Tilpas udseendet af websidens sidefod."
+
+#: inc/customizer/class-storefront-customizer.php:459
+msgid "Customize the look & feel of your website buttons."
+msgstr "Tilpas udseendet af websidens knapper."
+
+#: inc/customizer/class-storefront-customizer.php:457
+msgid "Buttons"
+msgstr "Knapper"
+
+#: inc/customizer/class-storefront-customizer.php:539
+msgid "Alternate button text color"
+msgstr "Alternativ knap tekstfarve"
+
+#: inc/customizer/class-storefront-customizer.php:518
+msgid "Alternate button background color"
+msgstr "Alternativ knap baggrundsfarve"
+
+#: inc/customizer/class-storefront-customizer.php:552
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/class-storefront-customizer.php:362
+msgid "Footer"
+msgstr "Sidefod"
+
+#: inc/customizer/class-storefront-customizer.php:349
+#: inc/customizer/class-storefront-customizer.php:444
+msgid "Link color"
+msgstr "Link farve"
+
+#: inc/customizer/class-storefront-customizer.php:307
+#: inc/customizer/class-storefront-customizer.php:381
+#: inc/customizer/class-storefront-customizer.php:476
+msgid "Background color"
+msgstr "Baggrunds farve"
+
+#: inc/customizer/class-storefront-customizer.php:189
+#: inc/customizer/class-storefront-customizer.php:402
+msgid "Heading color"
+msgstr "Overskrift farve"
+
+#: inc/customizer/class-storefront-customizer.php:231
+msgid "Link / accent color"
+msgstr "Link / fremhævet farve"
+
+#: inc/customizer/class-storefront-customizer.php:210
+#: inc/customizer/class-storefront-customizer.php:328
+#: inc/customizer/class-storefront-customizer.php:423
+#: inc/customizer/class-storefront-customizer.php:497
+msgid "Text color"
+msgstr "Tekst farve"
+
+#: inc/customizer/class-storefront-customizer.php:171
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/customizer/class-storefront-customizer.php:126
+msgid "Header"
+msgstr "Sidehoved"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid "There's a range of %1$s extensions available to put additional power in your hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr "Der er en række af %1$s udvidelser tilgængelig som giver ekstra funktionalitet. Check ud %2$s%3$s%4$s siden på dit kontrolpanel for mere information."
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid "Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "Hvorfor ikke give os en bedømmelse på %1$sWordPress.org%2$s? Vi vil værdsætte det!"
+
+#: inc/customizer/class-storefront-customizer.php:122
+msgid "Background"
+msgstr "Baggrund"
+
+#: inc/nux/class-storefront-nux-admin.php:85
+msgid "Install WooCommerce"
+msgstr "Installer WooCommerce"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "Tilføj logo"
+
+#: inc/admin/class-storefront-plugin-install.php:75
+#: inc/admin/class-storefront-admin.php:183
+msgid "Activate"
+msgstr "Aktivér"
+
+#: content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ud til, at vi ikke kan finde det, du leder efter. Måske vil en søgning hjælpe."
+
+#: content-none.php:29
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklager, men din søgning gav ingen resultater. Prøv igen med nogle andre søgeord."
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar til at udgive dit første indlæg? <a href=\"%1$s\">Start her</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Ældre kommentarer"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:30
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s tanke om &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tanker om &ldquo;%2$s&rdquo;"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hov! Den side findes ikke."
+
+#. Author of the theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Theme URI of the theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"

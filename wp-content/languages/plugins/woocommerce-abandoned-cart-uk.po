@@ -1,0 +1,928 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-04 20:49:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Development (trunk)\n"
+
+#: woocommerce-ac.php:1752
+msgid "Export"
+msgstr "Експорт"
+
+#. translators: %s: decimal
+#: woocommerce-ac.php:1743
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "Будь ласка, введіть число в десятковому форматі (%s) без роздільника тисяч."
+
+#. translators: %s: price decimal separator
+#: woocommerce-ac.php:1745
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "Будь ласка, введіть число в грошовому десятковому форматі (%s) без роздільника тисяч і символів валюти."
+
+#: woocommerce-ac.php:1746
+msgid "Please enter in country code with two capital letters."
+msgstr "Будь ласка введіть код країни з двома великими літерами."
+
+#: woocommerce-ac.php:1747
+msgid "Please enter in a value less than the regular price."
+msgstr "Будь ласка, введіть значення, яке менше звичайної ціни."
+
+#: woocommerce-ac.php:1751
+msgid "Import"
+msgstr "Імпорт"
+
+#: includes/wcal_all_component.php:114
+msgid ""
+" Allow your customers to pay deposits on products using our Deposits for WooCommerce plugin. <br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+" Дозвольте своїм клієнтам сплачувати депозити за продуктами, використовуючи плагін Deposits for WooCommerce. <br>\n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:107
+msgid ""
+"Allow your customers to select the Delivery Date on Single Product Page using our Product Delivery Date pro for WooCommerce Plugin. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Дозвольте вашим клієнтам вибрати дату доставки на одній сторінці товару за допомогою нашого плагіну Product Delivery Date pro for WooCommerce. <br> \n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:97
+msgid "Send Abandoned Cart reminders that actually convert. Take advantage of our fully responsive email templates designed specially with an intent to trigger conversion. <strong><a target=\"_blank\" href= \""
+msgstr "Надішліть нагадування про забутий кошик, які фактично конвертуються. Скористайтеся нашими повністю адаптивними шаблонами електронної пошти, розробленими спеціально з метою ініціювання конверсії. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:94
+msgid "Don't loose your sales to abandoned carts. Use our Abandon Cart Pro plugin & start recovering your lost sales in less then 60 seconds. <strong><a target=\"_blank\" href= \""
+msgstr "Не втрачайте продажів через забуті кошики. Використовуйте наш плагін Abandon Cart Pro і почніть відновлювати втрачені продажі менш ніж за 60 секунд. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:91
+msgid "Boost your sales by recovering up to 60% of the abandoned carts with our Abandoned Cart Pro for WooCommerce plugin. You can capture customer email addresses right when they click the Add To Cart button. <strong><a target=\"_blank\" href= \""
+msgstr "Збільште обсяг продажів, відновивши до 60% забутих кошиків за допомогою нашого плагіну Abandoned Cart Pro for WooCommerce. Ви можете захопити адреси електронної пошти клієнтів, коли вони натиснули кнопку Додати до кошика. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:111
+msgid " Allow your customers to book an appointment or rent an apartment with our Booking and Appointment for WooCommerce plugin. You can also sell your product as a resource or integrate with a few Vendor plugins. <br>Shop now & Save 20% on the plugin with the code \"BKAP20\". Only for first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr " Дозвольте своїм клієнтам замовити зустріч або орендувати квартиру за допомогою нашого плагіну Booking and Appointment for WooCommerce. Ви також можете продавати свій товар як ресурс або інтегруватися з декількома додатками постачальника. <br>Купуйте зараз & Збережіть 20% на плагін з кодом \"BKAP20\". Тільки для перших 20 клієнтів. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:104
+msgid "Reduce cart abandonment rate by 57% with our Order Delivery Date Pro WooCommerce plugin. You can Create Delivery Settings by Shipping Zones & Shipping Classes. <br>Use discount code \"ORDPRO20\" and grab 20% discount on the purchase of the plugin. The discount code is valid only for the first 20 customers. <strong><a target=\"_blank\" href= \""
+msgstr "Зменшіть показник забування кошика на 57% завдяки нашому плагіну Order Delivery Date Pro WooCommerce. Ви можете створити налаштування доставки за допомогою зони доставки та класів доставки. <br> Використовуйте код знижки \"ORDPRO20\" і отримайте 20% знижку на придбання плагіну. Код знижки діє тільки для перших 20 клієнтів. <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:100
+msgid ""
+"Increase your store sales by recovering your abandoned carts for just $119. No profit sharing, no monthly fees. Our Abandoned Cart Pro plugin comes with a 30 day money back guarantee as well. :) Use coupon code ACPRO20 & save $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \""
+msgstr ""
+"Збільште обсяг продажів у магазинах, відновивши забуті кошики всього за $119. Відсутність розподілу прибутку, відсутність щомісячної оплати. Наш Abandoned Cart Pro плагін поставляється з 30-денною гарантією повернення грошей. :) Використовуйте код купона ACPRO20 і збережіть $24!<br>\n"
+"            <strong><a target=\"_blank\" href= \""
+
+#: includes/wcal_all_component.php:88
+msgid "Now that you are all set with the Lite version, you can upgrade to Pro version to take your abandoned cart recovery to the next level. You can capture  customer’s email address when they click Add to Cart, get access to 11 unique, fully responsive email templates, send text messages for recovery & <strong><a target=\"_blank\" href= \""
+msgstr "Тепер, коли ви все налаштували у версіхї Lite, ви можете оновитись до версії Pro, щоб змістити відновлення забитих кошиків на наступний рівень. Ви можете зафіксувати електронну адресу клієнта, коли вони натискають кнопку Додати до кошика, отримати доступ до 11 унікальних, повністю адаптивних шаблонів електронної пошти, відправити текстові повідомлення для відновлення та <strong><a target=\"_blank\" href= \""
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:18
+msgid "Thank you for activating or updating to the latest version of "
+msgstr "Дякуємо за активацію або оновлення до останньої версії"
+
+#: includes/component/welcome-page/ts-welcome.php:166
+msgid "Welcome to "
+msgstr "Вітаємо у"
+
+#: includes/component/tracking-data/ts-tracking.php:268
+msgid "Want to help make "
+msgstr "Хочете допомогти зробити"
+
+#: includes/component/faq-support/ts-faq-support.php:127
+msgid "Frequently Asked Questions for "
+msgstr "Часті питання до"
+
+#: woocommerce-ac.php:2633
+msgid "Shipping Charges"
+msgstr "Вартість доставки"
+
+#: woocommerce-ac.php:696
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "Автоматично видаляти забуті замовлення після X днів має бути більше 0."
+
+#: woocommerce-ac.php:513
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "Автоматично видаляти забуті замовлення кошика після X днів."
+
+#: woocommerce-ac.php:509
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "Автоматично видаляти забуті замовлення після X днів"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:363
+msgid "Unsubscribed"
+msgstr "Відписано"
+
+#: includes/admin/wcal_privacy_erase.php:90
+msgid "No personal data found for any abandoned carts."
+msgstr "Не знайдено жодних особистих даних для будь-яких забутих кошиків."
+
+#: includes/component/welcome-page/ts-welcome.php:165
+msgid "Welcome to %s %s"
+msgstr "Вітаємо у %s %s"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:91
+msgctxt "the text of the 'other' reason for deactivating the plugin that is shown in the modal box."
+msgid "Other"
+msgstr "Інше"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:78
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:77
+msgid "Deactivate"
+msgstr "Вимкнути"
+
+#: includes/admin/wcal_privacy_export.php:173
+#: includes/admin/wcal_privacy_export.php:184
+msgid "Billing Address"
+msgstr "Платіжна адреса"
+
+#: includes/component/tracking-data/ts-tracking.php:133
+msgid "Reset usage tracking"
+msgstr "Скинути використання трекінгу"
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "Питання та Підтримка"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "Часті Питання для %s"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:90
+msgid "I don't like to share my information with you"
+msgstr "Я не хочу ділитися своєю інформацією з вами"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:89
+msgid "What feature?"
+msgstr "Які функції?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:88
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Плагін чудовий, але мені потрібна особлива функція, яку ви не підтримуєте"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:87
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Прохання поділитися тим, що не працює, щоб ми могли виправити її для майбутніх користувачів..."
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:86
+msgid "The plugin is not working"
+msgstr "Плагін не працює"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:85
+msgid "I only needed the plugin for a short period"
+msgstr "Мені потрібен плагін лише на короткий проміжок часу"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:84
+msgid "What's the plugin's name?"
+msgstr "Яка назва плагіна?"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:83
+msgid "I found a better plugin"
+msgstr "Я знайшов кращий плагін"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:79
+msgid "Yes - Deactivate"
+msgstr "Так - Вимкнути"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:76
+msgid "Submit & Deactivate"
+msgstr "Відправити та Вимкнути"
+
+#: includes/component/deactivate-survey-popup/class-ts-deactivation.php:75
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr "Якщо у вас є хвилина, будь ласка, повідомте нам, чому ви вимикаєте плагін"
+
+#: woocommerce-ac.php:547
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "Повідомлення, яке буде відображатися для зареєстрованих користувачів під час відстеження своїх кошиків."
+
+#: woocommerce-ac.php:551
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>Відповідно до GDPR, додайте повідомлення на сторінках Магазин та Товари, щоб повідомити зареєстрованим користувачам про те, як використовуються їхні дані.<br><i>Наприклад: Будь ласка, перевірте нашу політику конфіденційності, щоб дізнатися, як ми використовуємо ваші особисті дані.</i>"
+
+#: woocommerce-ac.php:542
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>Відповідно до GDPR, додайте повідомлення на сторінці Замовлення, щоб повідомити відвідувачів про те, як використовуються їхні дані.<br><i>Наприклад: Ваша адреса електронної пошти допоможе нам допомогти вам зробити покупку на нашому сайті. Перевірте нашу політику конфіденційності, щоб дізнатися, як ми використовуємо ваші особисті дані.</i>"
+
+#: woocommerce-ac.php:538
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "Повідомлення, яке відображатиметься для відвідувачів під час відстеження їх кошиків"
+
+#: woocommerce-ac.php:257
+msgid "I want to upgrade the plugin to the PRO version."
+msgstr "Я хочу оновити плагін до версії PRO."
+
+#: woocommerce-ac.php:251
+msgid "I cannot see abandoned cart reminder emails records."
+msgstr "Я не бачу записів емейлів щодо нагадувань про забутих кошиків."
+
+#: woocommerce-ac.php:245
+msgid "Capturing of cart and other information was not satisfactory."
+msgstr "Захоплення кошика та інша інформація не була задовільною."
+
+#: woocommerce-ac.php:239
+msgid "Emails are not being sent to customers."
+msgstr "Електронні листи не були надіслані покупцям."
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:283
+msgid "User Deleted"
+msgstr "Користувача видалено"
+
+#: includes/admin/wcal_privacy_export.php:221
+msgid "Abandoned - Order Unpaid (Order #"
+msgstr "Забутий - Неоплачене замовлення (Замовлення #"
+
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Abandoned but new cart created"
+msgstr "Забуте, але створено новий кошик"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/admin/wcal_privacy_export.php:218
+msgid "Cart Recovered - Order #"
+msgstr "Кошик відновлено - Замовлення #"
+
+#: includes/admin/wcal_privacy_export.php:172
+msgid "Session ID"
+msgstr "ID сесії"
+
+#: includes/admin/wcal_privacy_export.php:171
+#: includes/admin/wcal_privacy_export.php:183
+msgid "Items Present"
+msgstr "Присутні елементи"
+
+#: includes/admin/wcal_privacy_export.php:170
+#: includes/admin/wcal_privacy_export.php:182
+msgid "Cart Total"
+msgstr "Сума кошику"
+
+#: includes/admin/wcal_privacy_export.php:169
+#: includes/admin/wcal_privacy_export.php:181
+msgid "Abandoned Cart Status"
+msgstr "Статус забутого кошика"
+
+#: includes/admin/wcal_privacy_export.php:167
+#: includes/admin/wcal_privacy_export.php:179
+msgid "Abandoned Cart ID"
+msgstr "ID забутого кошика"
+
+#: includes/admin/wcal_privacy_erase.php:204
+msgid "ANONYMIZED"
+msgstr "АНОНІМІЗОВАНИЙ"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:127
+msgid "Personal data within cart %s has been retained."
+msgstr "Особисті дані в кошику %s збережено."
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/wcal_privacy_erase.php:123
+msgid "Removed personal data from cart %s."
+msgstr "Видалено персональні дані з кошика %s."
+
+#: includes/admin/wcal_privacy_erase.php:41
+#: includes/admin/wcal_privacy_export.php:41
+msgid "Abandoned & Recovered Carts"
+msgstr "Забуті і відновлені кошики"
+
+#. Description of the plugin
+msgid "This plugin captures abandoned carts by logged-in users & emails them about it."
+msgstr "Цей плагін захоплює забуті користувачами кошики, що ввійшли в систему, і надсилає їм повідомлення про це."
+
+#: includes/wcal-common.php:582
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "Помилка оновлення бази даних. Повторіть спробу через деякий час"
+
+#: includes/wcal-common.php:567
+msgid "Database Updated Successfully"
+msgstr "База даних успішно оновлена"
+
+#: cron/wcal_send_email.php:277 cron/wcal_send_email.php:287
+#: woocommerce-ac.php:2393 woocommerce-ac.php:3081 woocommerce-ac.php:3116
+msgid "Item"
+msgstr "Елемент"
+
+#: cron/wcal_send_email.php:275 cron/wcal_send_email.php:284
+#: woocommerce-ac.php:3079 woocommerce-ac.php:3113
+msgid "Your Shopping Cart"
+msgstr "Ваш кошик"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:96
+msgid "Id"
+msgstr "Id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:53
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:52
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: woocommerce-ac.php:2612
+msgid "Shipping Details"
+msgstr "Реквізити доставки"
+
+#: woocommerce-ac.php:2603
+msgid "Email:"
+msgstr "Email:"
+
+#: woocommerce-ac.php:2593 woocommerce-ac.php:2613
+msgid "Address:"
+msgstr "Адреса:"
+
+#: woocommerce-ac.php:2590
+msgid "Name:"
+msgstr "Ім’я:"
+
+#: woocommerce-ac.php:2589
+msgid "Billing Details"
+msgstr "Платіжні дані"
+
+#: woocommerce-ac.php:2585
+msgid "Customer Details"
+msgstr "Реквізити покупця"
+
+#: woocommerce-ac.php:2356
+msgid "Go"
+msgstr "Перейти"
+
+#: woocommerce-ac.php:2354
+msgid "End Date:"
+msgstr "Кінцева дата:"
+
+#: woocommerce-ac.php:2352
+msgid "Start Date:"
+msgstr "Дата початку:"
+
+#: woocommerce-ac.php:2030
+msgid "All "
+msgstr "Всі"
+
+#: woocommerce-ac.php:1955
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#: woocommerce-ac.php:1862
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У Вас немає доступу до цієї сторінки."
+
+#: woocommerce-ac.php:577
+msgid "\"From\" Address"
+msgstr "Адреса електронної пошти \"Від кого\""
+
+#: woocommerce-ac.php:568
+msgid "\"From\" Name"
+msgstr "Ім'я \"Від кого\""
+
+#: woocommerce-ac.php:212 woocommerce-ac.php:493 woocommerce-ac.php:1695
+msgid "Settings"
+msgstr "Налаштування"
+
+#: woocommerce-ac.php:287
+msgid "HTML Email Template"
+msgstr "HTML шаблон email"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:67
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:80
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:101
+#: includes/welcome.php:135 includes/welcome.php:148 includes/welcome.php:169
+#: includes/welcome.php:182
+msgid "Learn More"
+msgstr "Дізнатись більше"
+
+#: includes/component/tracking-data/ts-tracking.php:270
+#: includes/wcal_ts_tracking.php:78
+msgid "Allow"
+msgstr "Дозволити"
+
+#: includes/classes/class-wcal-templates-table.php:144
+msgid "Edit"
+msgstr "Редагувати"
+
+#: includes/classes/class-wcal-recover-orders-table.php:161
+msgid "View Details"
+msgstr "Переглянути деталі"
+
+#: includes/classes/class-wcal-product-report-table.php:91
+msgid "Product Name"
+msgstr "Назва товару"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:359
+msgid "items"
+msgstr "елементи"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:151
+#: includes/classes/class-wcal-abandoned-orders-table.php:544
+#: includes/classes/class-wcal-templates-table.php:145
+#: includes/classes/class-wcal-templates-table.php:330
+msgid "Delete"
+msgstr "Видалити"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:150
+msgid "View order"
+msgstr "Переглянути замовлення"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:98
+msgid "Customer"
+msgstr "Покупець"
+
+#: includes/admin/wcal_privacy_export.php:174
+#: includes/admin/wcal_privacy_export.php:185
+#: includes/classes/class-wcal-abandoned-orders-table.php:97
+#: includes/classes/class-wcal-recover-orders-table.php:125
+msgid "Email Address"
+msgstr "Електронна пошта"
+
+#: cron/wcal_send_email.php:280 cron/wcal_send_email.php:290
+#: woocommerce-ac.php:3084 woocommerce-ac.php:3119
+msgid "Price"
+msgstr "Ціна"
+
+#: cron/wcal_send_email.php:279 cron/wcal_send_email.php:289
+#: woocommerce-ac.php:2395 woocommerce-ac.php:3083 woocommerce-ac.php:3118
+msgid "Quantity"
+msgstr "Кількість"
+
+#: cron/wcal_send_email.php:278 cron/wcal_send_email.php:288
+#: woocommerce-ac.php:2394 woocommerce-ac.php:3082 woocommerce-ac.php:3117
+msgid "Name"
+msgstr "Ім’я"
+
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#: includes/component/tracking-data/ts-tracking.php:177
+msgid "Once in a Week"
+msgstr "Раз на тиждень"
+
+#: includes/component/welcome-page/templates/social-media-elements.php:10
+#: includes/welcome.php:271
+msgid "Follow %s"
+msgstr "Підписуйтесь %s"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:128
+#: includes/welcome.php:223
+msgid "Current Offers"
+msgstr "Поточні пропозиції"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:122
+#: includes/welcome.php:215
+msgid "Meet the team"
+msgstr "Знайомтеся з командою"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:113
+#: includes/welcome.php:206
+msgid "View all Premium Plugins"
+msgstr "Перегляньте усі Преміальні плагіни"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:112
+#: includes/welcome.php:205
+msgid "Visit the Tyche Softwares Website"
+msgstr "Відвідайте сайт Tyche Softwares"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:110
+#: includes/welcome.php:202
+msgid "Getting to Know Tyche Softwares"
+msgstr "Познайомтесь з Tyche Softwares"
+
+#: includes/welcome.php:193
+msgid "View full list of differences between Lite & Pro plugin"
+msgstr "Переглянути повний список відмінностей між плагіном Lite та Pro"
+
+#: includes/component/tracking-data/ts-tracking.php:271
+#: includes/wcal_ts_tracking.php:79
+msgid "No thanks"
+msgstr "Ні, дякую"
+
+#: cron/wcal_send_email.php:93
+msgid "Abandoned cart reminder"
+msgstr "Нагадування покинутого кошика"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:101
+msgid "Status of Cart"
+msgstr "Статус кошика"
+
+#: includes/admin/wcal_privacy_export.php:168
+#: includes/admin/wcal_privacy_export.php:180
+#: includes/classes/class-wcal-abandoned-orders-table.php:100
+msgid "Abandoned Date"
+msgstr "Дата нагадування"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:99
+#: includes/classes/class-wcal-recover-orders-table.php:128
+msgid "Order Total"
+msgstr "Всього замовлення"
+
+#: cron/wcal_send_email.php:576 cron/wcal_send_email.php:643
+#: includes/frontend/wcal_checkout_process.php:198
+#: includes/frontend/wcal_checkout_process.php:493
+msgid "This order was abandoned & subsequently recovered."
+msgstr "Це замовлення було залишено і згодом відновлено."
+
+#: cron/wcal_send_email.php:381 woocommerce-ac.php:3105 woocommerce-ac.php:3140
+msgid "Cart Total:"
+msgstr "Всього:"
+
+#: cron/wcal_send_email.php:281 cron/wcal_send_email.php:291
+#: woocommerce-ac.php:2396 woocommerce-ac.php:3085 woocommerce-ac.php:3120
+msgid "Line Subtotal"
+msgstr "Рядок сукупної суми"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:357
+msgid "item"
+msgstr "елемент"
+
+#: includes/classes/class-wcal-templates-table.php:91
+msgid "Sr"
+msgstr "Пан"
+
+#: includes/classes/class-wcal-templates-table.php:54
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:53
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:87
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:86
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-product-report-table.php:59
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:58
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/admin/wcal_privacy_export.php:215
+#: includes/classes/class-wcal-abandoned-orders-table.php:365
+msgid "Abandoned"
+msgstr "Покинуті"
+
+#: includes/classes/class-wcal-recover-orders-table.php:127
+msgid "Cart Recovered Date"
+msgstr "Дата відновлення кошика"
+
+#: includes/classes/class-wcal-recover-orders-table.php:126
+msgid "Cart Abandoned Date"
+msgstr "Дата покидання кошику"
+
+#: includes/classes/class-wcal-recover-orders-table.php:124
+msgid "Customer Name"
+msgstr "Ім'я покупця"
+
+#: includes/classes/class-wcal-product-report-table.php:93
+msgid "Number of Times Recovered"
+msgstr "Кількість відновлених разів"
+
+#: includes/classes/class-wcal-product-report-table.php:92
+msgid "Number of Times Abandoned"
+msgstr "Кількість покинутих разів"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:34
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:59
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:86
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:93
+#: includes/welcome.php:102 includes/welcome.php:127 includes/welcome.php:154
+#: includes/welcome.php:161 includes/welcome.php:188
+msgid "WooCommerce Abandoned Cart Lite"
+msgstr "WooCommerce Abandoned Cart Lite"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:30
+#: includes/welcome.php:98
+msgid "Get Started with Abandoned Cart Lite"
+msgstr "Почніть з Abandoned Cart Lite"
+
+#: includes/welcome.php:50
+msgid "Welcome to Abandoned Cart Lite"
+msgstr "Вітаємо у Abandoned Cart Lite"
+
+#: includes/welcome.php:49
+msgid "Welcome to Abandoned Cart Lite %s"
+msgstr "Вітаємо у Abandoned Cart Lite %s"
+
+#: includes/classes/class-wcal-templates-table.php:94
+msgid "Active ?"
+msgstr "Діючий ?"
+
+#: includes/classes/class-wcal-templates-table.php:93
+msgid "Sent After Set Time"
+msgstr "Надіслано після встановленого часу"
+
+#: includes/classes/class-wcal-templates-table.php:92
+msgid "Name Of Template"
+msgstr "Назва шаблону"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:38
+#: includes/welcome.php:106
+msgid "Activate Email Template"
+msgstr "Активувати шаблон електронного листа"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:52
+#: includes/welcome.php:120
+msgid "Know more about Abandoned Cart Pro"
+msgstr "Дізнатися більше про Abandoned Cart Pro"
+
+#: woocommerce-ac.php:47
+msgid "Once Every Fifteen Minutes"
+msgstr "Раз кожні п'ятнадцять хвилин"
+
+#: woocommerce-ac.php:293
+msgid "Abandoned cart Email Template"
+msgstr "Шаблон електронного листа покинутого кошику"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:97
+#: includes/welcome.php:165
+msgid "Send abandoned cart recovery email in minutes of cart being abandoned"
+msgstr "Надіслати емейл для відновлення забутого кошика за кілька хвилин після відмови від кошика"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:78
+#: includes/welcome.php:146
+msgid "The provision for setting two separate cut-off times for different roles is mainly because sometimes if the store admin wants the visitor carts to be captured earlier than the registered user carts, then these different settings can play an important role."
+msgstr "Положення про встановлення двох окремих періодів відключення для різних ролей полягає в тому, що іноді, якщо адміністратор магазину хоче, щоб кошики відвідувачів були захоплені раніше, ніж кошики зареєстрованих користувачів, то ці різні налаштування можуть відігравати важливу роль."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:76
+#: includes/welcome.php:144
+msgid "Set different cut-off times for visitors & logged-in users"
+msgstr "Встановити різні періоди відключення для відвідувачів та зареєстрованих користувачів"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:63
+#: includes/welcome.php:131
+msgid "Capture Visitor Emails on click of Add to Cart button"
+msgstr "Захоплення емейлів відвідувачів натисканням кнопки Додати до кошика"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:54
+#: includes/welcome.php:122
+msgid "The Abandoned Cart Pro plugin gives you features where you are able to recover more sales compared to the Lite plugin. Here are some notable features the Pro version provides."
+msgstr "Плагін Abandoned Cart Pro надає функції, які дозволяють значно відновити продажі в порівнянні з плагіном Lite. Ось деякі особливості, які має версія Pro."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:42
+#: includes/welcome.php:110
+msgid "Click Here to go to Email Templates page"
+msgstr "Натисніть тут, щоб перейти на сторінку шаблонів емейлів"
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:40
+#: includes/welcome.php:108
+msgid "To start sending out abandoned cart notification emails, simply activate the email template from under WooCommerce -> Abandoned Carts -> Email Templates page."
+msgstr "Щоб почати відправляти емейли про забуті кошики, просто активуйте шаблон електронної пошти зі сторінки WooCommerce -> Abandoned Carts -> Шаблони."
+
+#: includes/welcome.php:88
+msgid "Thank you for activating or updating to the latest version of Abandoned Cart Lite! If you're a first time user, welcome! You're well on your way to start recovering your lost revenues."
+msgstr "Дякуємо за активацію або оновлення до останньої версії Abandoned Cart Lite! Якщо ви вперше з нами, ласкаво просимо! Ви на вірному шляху до повернення втрачених доходів."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:65
+#: includes/welcome.php:133
+msgid "The ability to capture the email address early in the order process is very important to reduce cart abandonment by unknown users as well as to be able to recover their carts if they abandon it. This ultimately leads to increase in your store sales."
+msgstr "Можливість захопити емейл на початку процесу замовлення дуже важлива для зменшення проценту залишення кошика відвідувачами, а також для відновлення їх кошиків, якщо вони відмовляться від нього. Це в кінцевому підсумку призведе до збільшення продажів вашого магазину."
+
+#: includes/wcal_ts_tracking.php:76
+msgid "Want to help make Abandoned Cart even more awesome? Allow Abandoned Cart to collect non-sensitive diagnostic data and usage information and get 20% off on your next purchase. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Find out more</a>. <br><br>"
+msgstr "Хочете допомогти зробити Abandoned Cart ще більш приголомшливим? Дозвольте Abandoned Cart збирати нечутливі дані діагностики та використання та отримайте 20% знижки на наступну покупку. <a href=\"https://www.tychesoftwares.com/abandoned-cart-lite-usage-tracking/\" target=\"_blank\">Дізнайтеся більше</a>. <br><br>"
+
+#: woocommerce-ac.php:1693
+msgid "Abandoned Orders"
+msgstr "Забуті замовлення"
+
+#: woocommerce-ac.php:1084 includes/admin/wcal_privacy_export.php:123
+msgid "Abandoned Carts"
+msgstr "Забуті кошики"
+
+#: includes/frontend/wcal_checkout_process.php:300
+#: includes/frontend/wcal_checkout_process.php:302
+msgid "New Customer Order - Recovered"
+msgstr "Нове користувацьке замовлення - відновлено"
+
+#: woocommerce-ac.php:680
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "Час відключення забутого кошика має бути числовим і має бути більше 0."
+
+#: woocommerce-ac.php:586
+msgid "Send Reply Emails to"
+msgstr "Відправити лист відповідь до"
+
+#: woocommerce-ac.php:561
+msgid "Settings for abandoned cart recovery emails"
+msgstr "Налаштування відновлювальних емейлів для забутих кошиків"
+
+#: woocommerce-ac.php:533
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "Увімкніть відстеження забутих товарів і кошиківв, навіть якщо клієнт не відвідує сторінку перевірки або не вводить жодних деталей на сторінці оплати, наприклад, ім'я чи електронна пошта. Відстеження розпочнеться, як тільки відвідувач додасть товар до свого кошика та відвідає сторінку кошика."
+
+#: woocommerce-ac.php:529
+msgid "Start tracking from Cart Page"
+msgstr "Почати відстеження з сторінки кошика"
+
+#: woocommerce-ac.php:523
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "Надсилає електронну пошту адміністратору, якщо відновлено замовлення забутого кошика."
+
+#: woocommerce-ac.php:519
+msgid "Email admin On Order Recovery"
+msgstr "Надсилати листа адміністратору при відновлені замовлення"
+
+#: woocommerce-ac.php:504
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "Вважати кошик залишеним, після X хвилин додавання товару до кошика, і замовлення не розміщено."
+
+#: woocommerce-ac.php:500
+msgid "Cart abandoned cut-off time"
+msgstr "Час відключення забутого кошика"
+
+#: includes/welcome.php:178
+msgid "Full range of merge tags that allow you to personalize the abandoned cart email"
+msgstr "Повний набір тегів злиття, які дозволяють персоналізувати повідомлення емейлів забутих кошиків"
+
+#: woocommerce-ac.php:2197
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Під час додавання шаблону емейлу виникла проблема. Зв'яжіться з автором плагіна через <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">форум підтримки</a>."
+
+#: woocommerce-ac.php:2068
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "Додайте шаблони емейлів з різними інтервалами, щоб максимізувати можливість відновлення покинутих кошиків."
+
+#: includes/welcome.php:180
+msgid "The Lite version has only 3 merge tags available to personalize the abandoned cart recovery emails. The Pro version instead, has 20 different merge tags that can be used effectively to personalize each email that gets sent out to the customers for recovering their abandoned carts."
+msgstr "У версії Lite доступні лише 3 теги для об'єднання, які дозволяють персоналізувати електронні листи відновлення забутого кошика. Натомість версія Pro має 20 різних тегів злиття, які можна ефективно використовувати для персоналізації кожного електронного листа, який надсилається клієнтам для відновлення їхніх покинутих кошиків."
+
+#: includes/component/welcome-page/templates/welcome/welcome-page.php:99
+#: includes/welcome.php:167
+msgid "The ability to send the abandoned cart recovery email within first few minutes of cart being abandoned is a big advantage. In the Lite plugin, the earliest an email can be sent is after 1 hour. Whereas in the Pro version, the first recovery email gets sent 15 minutes after the cart is abandoned. This increases the recovery chances manifold."
+msgstr "Можливість надсилати емейли відновлення забутих кошиків протягом перших кількох хвилин, є великою перевагою. У плагіні Lite найшвидше електронне повідомлення може бути надіслано через 1 годину. В той час як у версії Pro перша електронний лист відновлення надсилається через 15 хвилин після того, як кошик залишиться. Це збільшує можливості відновлення."
+
+#: woocommerce-ac.php:2047
+msgid "Carts without Customer Details"
+msgstr "Кошики без деталей клієнта"
+
+#: woocommerce-ac.php:2041
+msgid "Guest %s"
+msgstr "Гості %s"
+
+#: woocommerce-ac.php:2035
+msgid "Registered %s"
+msgstr "Зареєстровано %s"
+
+#: woocommerce-ac.php:1988
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "Наведений нижче список показує всіх забутих кошиків, які залишилися в кошику протягом часу, що перевищує налаштування \"Час відключення забутого кошика\"."
+
+#: woocommerce-ac.php:1958
+msgid "Email Sending Settings"
+msgstr "Налаштування надсилання емейлу"
+
+#: woocommerce-ac.php:1937
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "Змініть налаштування для надсилання сповіщень емейлом клієнтам, адміністратору тощо."
+
+#: woocommerce-ac.php:1931
+msgid "The Template has been successfully deleted."
+msgstr "Шаблон було успішно видалено."
+
+#: woocommerce-ac.php:1926
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "Забутий кошик було успішно видалено."
+
+#: woocommerce-ac.php:1866
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce - Abandon Cart Lite"
+
+#: woocommerce-ac.php:1697
+msgid "Product Report"
+msgstr "Звіт про товар"
+
+#: woocommerce-ac.php:1696
+msgid "Recovered Orders"
+msgstr "Відновленні замовлення"
+
+#: woocommerce-ac.php:1694
+msgid "Email Templates"
+msgstr "Шаблони емейлу"
+
+#: woocommerce-ac.php:2723
+msgid "Enter the subject that should appear in the email sent"
+msgstr "Введіть тему, яка повинна з'явитися в надісланому повідомленні"
+
+#: woocommerce-ac.php:2714
+msgid "Subject:"
+msgstr "Тема:"
+
+#: woocommerce-ac.php:2708
+msgid "Enter a template name for reference"
+msgstr "Введіть назву шаблону для довідки"
+
+#: woocommerce-ac.php:2699
+msgid "Template Name:"
+msgstr "Назва шаблону:"
+
+#: woocommerce-ac.php:2607
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: woocommerce-ac.php:2397
+msgid "Line Total"
+msgstr "Всього рядків"
+
+#: woocommerce-ac.php:2389
+msgid "Abandoned Order #%s Details"
+msgstr "Покинуте замовлення #%s Деталі"
+
+#: woocommerce-ac.php:2303
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "Наведений нижче звіт показує, скільки залишених кошиків ми змогли відновити для вас, надіславши автоматичні електронні листи для заохочення покупців."
+
+#: woocommerce-ac.php:2226
+msgid "Add New Template"
+msgstr "Додати новий шаблон"
+
+#: woocommerce-ac.php:2217
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Під час оновлення шаблону електроного листа виникла проблема. Зв'яжіться з автором плагіна через <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">форум підтримки</a>."
+
+#: woocommerce-ac.php:2208
+msgid "The Email Template has been successfully updated."
+msgstr "Шаблон електронного листа було успішно оновлено."
+
+#. Plugin URI of the plugin
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#. Plugin Name of the plugin
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "Abandoned Cart Lite for WooCommerce"
+
+#: woocommerce-ac.php:3096 woocommerce-ac.php:3131
+msgid "Woman\\'\\s Hand Bags"
+msgstr "Жіночі сумки"
+
+#: woocommerce-ac.php:3089 woocommerce-ac.php:3124
+msgid "Men\\'\\s Formal Shoes"
+msgstr "Чоловіче взуття"
+
+#: woocommerce-ac.php:2911
+msgid ""
+"If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            rating. Thank you in advance. :)"
+msgstr ""
+"Якщо вам подобається <strong>Abandoned Cart Lite for WooCommerce</strong>, тоді, будь ласка залиште <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a>\n"
+"                            відгук. Заздалегідь спасибі. :)"
+
+#: woocommerce-ac.php:2878
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "Введіть ідентифікатор емейла, на який потрібно надіслати тестове повідомлення електронної пошти."
+
+#: woocommerce-ac.php:2873
+msgid "Send a test email to:"
+msgstr "Надіслати тестового листа до:"
+
+#: woocommerce-ac.php:2866
+msgid "after cart is abandoned."
+msgstr "після того, як кошик був забутий ."
+
+#: woocommerce-ac.php:2825
+msgid "Send this email:"
+msgstr "Відправити цей емейл:"
+
+#: woocommerce-ac.php:2729
+msgid "Email Body:"
+msgstr "Тіло листа:"
+
+#. Author URI of the plugin
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#: woocommerce-ac.php:2819
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr "Введіть заголовок, який відображатиметься в надісланому електронному листі забутих кошиків WooCommerce. Це застосовується лише тоді, коли відмічено \"Використовувати стиль шаблону WooCommerce:\"."
+
+#: woocommerce-ac.php:2805
+msgid "Email Template Header Text: "
+msgstr "Текст заголовку шаблону електронної пошти:"
+
+#: woocommerce-ac.php:2798
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "Використовуйте шаблон стилю WooCommerce за замовчуванням для електронних листів нагадувань про забуті кошики."
+
+#: woocommerce-ac.php:2783
+msgid "Use WooCommerce Template Style:"
+msgstr "Використовувати стиль шаблону WooCommerce:"
+
+#: woocommerce-ac.php:2756
+msgid "Message to be sent in the reminder email."
+msgstr "Повідомлення, яке буде надіслано у листі нагадуванні."

@@ -1,0 +1,5 @@
+# MC4WP Start
+<Files mc4wp-debug-log.php>
+deny from all
+</Files>
+# MC4WP End
