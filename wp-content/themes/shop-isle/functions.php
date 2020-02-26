@@ -37,8 +37,6 @@ require get_template_directory() . '/inc/init.php';
  * http://codex.wordpress.org/Child_Themes
  */
 
-
-
 // ADDING 2 NEW COLUMNS WITH THEIR TITLES (keeping "Total" and "Actions" columns at the end)
 add_filter( 'manage_edit-shop_order_columns', 'custom_shop_order_column', 20 );
 function custom_shop_order_column($columns)
@@ -60,6 +58,7 @@ function custom_shop_order_column($columns)
 function wc_new_order_column( $columns ) {
 	$columns['approve_btn_column'] = 'Approve';
 	return $columns;
+
 }
 add_filter( 'manage_edit-shop_order_columns', 'wc_new_order_column' );
 
@@ -67,6 +66,7 @@ add_filter( 'manage_edit-shop_order_columns', 'wc_new_order_column' );
 add_action( 'manage_shop_order_posts_custom_column' , 'custom_orders_list_column_content', 20, 2 );
 function custom_orders_list_column_content( $column, $post_id )
 {
+
 	require_once(get_template_directory().'/inc/admin/milcom_order_api.php');
 	$objMilcomOrder = new Milcom_Order_Table();
 
@@ -97,6 +97,7 @@ function custom_orders_list_column_content( $column, $post_id )
             break;
 
         case 'approve_btn_column' :
+            echo "1-" .$post_id ."-1";
             // Get custom post meta data
             $my_var_three = get_post_meta( $post_id, '_the_meta_key3', true );
             if(!empty($my_var_three))

@@ -372,11 +372,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 
 							<div class="wc-order-preview-addresses">
 								<div class="wc-order-preview-address">
-									<h2><?php esc_html_e( 'Billing details 111', 'woocommerce' ); ?></h2>
+									<h2><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h2>
 									{{{ data.formatted_billing_address }}}
 
 									<# if ( data.data.billing.email ) { #>
-										<strong><?php esc_html_e( 'Email 222', 'woocommerce' ); ?></strong>
+										<strong><?php esc_html_e( 'Email', 'woocommerce' ); ?></strong>
 										<a href="mailto:{{ data.data.billing.email }}">{{ data.data.billing.email }}</a>
 									<# } #>
 
@@ -421,7 +421,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						<footer>
 							<div class="inner">
 								{{{ data.actions_html }}}
-
+bhavin
 								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}"><?php esc_html_e( 'Edit', 'woocommerce' ); ?></a>
 							</div>
 						</footer>
@@ -440,6 +440,9 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 * @return string
 	 */
 	public static function get_order_preview_item_html( $order ) {
+		
+		//require_once(ABSPATH.'/inc/admin/milcom_order_api.php');
+
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
 			array(
@@ -537,6 +540,8 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 
 			$html .= '</tr>';
 		}
+
+		$html .= '<tr><td>111</td><td>222</td><td>333</td><td>444</td></tr>';
 
 		$html .= '
 				</tbody>
