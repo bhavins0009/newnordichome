@@ -37,6 +37,7 @@ require get_template_directory() . '/inc/init.php';
  * http://codex.wordpress.org/Child_Themes
  */
 
+/*
 // ADDING 2 NEW COLUMNS WITH THEIR TITLES (keeping "Total" and "Actions" columns at the end)
 add_filter( 'manage_edit-shop_order_columns', 'custom_shop_order_column', 20 );
 function custom_shop_order_column($columns)
@@ -112,3 +113,4 @@ function custom_orders_list_column_content( $column, $post_id )
     }
 }
 
+*/

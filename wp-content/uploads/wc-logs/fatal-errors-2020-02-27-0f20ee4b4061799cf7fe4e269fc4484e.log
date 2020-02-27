@@ -1,0 +1,111 @@
+2020-02-27T05:49:38+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:449
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(449): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(655): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 449
+
+2020-02-27T05:50:23+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:449
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(449): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(657): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 449
+
+2020-02-27T05:56:32+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:449
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(449): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(657): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 449
+
+2020-02-27T05:57:28+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:449
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(449): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(657): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 449
+
+2020-02-27T05:59:54+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:449
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(449): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(657): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 449
+
+2020-02-27T06:04:57+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:451
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(451): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(659): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 451
+
+2020-02-27T06:11:27+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\newnordichome//inc/admin/milcom_order_api.php' (include_path='C:\xampp\php\PEAR') i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 444
+
+2020-02-27T06:11:49+00:00 CRITICAL require_once(): Failed opening required 'C:\xampp\htdocs\newnordichome//inc/admin/milcom_order_api.php' (include_path='C:\xampp\php\PEAR') i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 444
+
+2020-02-27T08:30:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_site_uri() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:426
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_Admin_List_Table_Orders->order_preview_template('')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(448): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 426
+
+2020-02-27T08:37:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_site_uri() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:426
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_Admin_List_Table_Orders->order_preview_template('')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(448): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 426
+
+2020-02-27T09:00:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_site_uri() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:426
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_Admin_List_Table_Orders->order_preview_template('')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(448): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 426
+
+2020-02-27T09:07:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_site_uri() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:426
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_Admin_List_Table_Orders->order_preview_template('')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(448): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 426
+
+2020-02-27T09:07:30+00:00 CRITICAL Uncaught Error: Call to undefined function get_site_uri() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:426
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_Admin_List_Table_Orders->order_preview_template('')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(448): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 426
+
+2020-02-27T09:07:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_site_uri() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:426
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_Admin_List_Table_Orders->order_preview_template('')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin-footer.php(78): do_action('admin_footer', '')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(448): include('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown i C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php på linje 426
+
+2020-02-27T11:53:20+00:00 CRITICAL Uncaught Error: Call to a member function date() on null in C:\xampp\htdocs\newnordichome\milcom-place-order.php:210
+Stack trace:
+#0 {main}
+  thrown i C:\xampp\htdocs\newnordichome\milcom-place-order.php på linje 210
+

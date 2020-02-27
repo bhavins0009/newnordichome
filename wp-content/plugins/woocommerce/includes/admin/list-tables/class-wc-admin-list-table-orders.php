@@ -358,6 +358,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		<script type="text/template" id="tmpl-wc-modal-view-order">
 			<div class="wc-backbone-modal wc-order-preview">
 				<div class="wc-backbone-modal-content">
+					
 					<section class="wc-backbone-modal-main" role="main">
 						<header class="wc-backbone-modal-header">
 							<mark class="order-status status-{{ data.status }}"><span>{{ data.status_name }}</span></mark>
@@ -367,9 +368,9 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 								<span class="screen-reader-text"><?php esc_html_e( 'Close modal panel', 'woocommerce' ); ?></span>
 							</button>
 						</header>
+
 						<article>
 							<?php do_action( 'woocommerce_admin_order_preview_start' ); ?>
-
 							<div class="wc-order-preview-addresses">
 								<div class="wc-order-preview-address">
 									<h2><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h2>
@@ -421,11 +422,21 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						<footer>
 							<div class="inner">
 								{{{ data.actions_html }}}
-bhavin
 								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}"><?php esc_html_e( 'Edit', 'woocommerce' ); ?></a>
+
+								<form action="<?php echo get_home_url();?>/milcom-place-order.php" id="place_order_to_milcom" name="place_order_to_milcom" method="post" style="float:right; margin-bottom:0">
+
+									<input class="button button-default button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="{{ data.order_number }}">
+
+								</form>	
+
+
 							</div>
+
+							<div>
 						</footer>
 					</section>
+					
 				</div>
 			</div>
 			<div class="wc-backbone-modal-backdrop modal-close"></div>
@@ -442,6 +453,7 @@ bhavin
 	public static function get_order_preview_item_html( $order ) {
 		
 		//require_once(ABSPATH.'/inc/admin/milcom_order_api.php');
+		require_once(ABSPATH.'/ntlm2.php');
 
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
@@ -491,6 +503,7 @@ bhavin
 				</thead>
 				<tbody>';
 
+		$k=0;			
 		foreach ( $line_items as $item_id => $item ) {
 
 			$product_object = is_callable( array( $item, 'get_product' ) ) ? $item->get_product() : null;
@@ -539,10 +552,14 @@ bhavin
 			}
 
 			$html .= '</tr>';
+
+			$html .= '<tr><td><strong style="margin-bottom:15px; display:block">Milcom Data </strong>  <span>Item No <strong>('.$milComeItem[$k]->no.')</strong></span</td>
+			<td><span style="margin-top:36px; display:block">inventory <strong>('.$milComeItem[$k]->inventory.')</strong></span></td>
+			<td><span style="margin-top:36px; display:block">salesqty <strong>('.$milComeItem[$k]->salesqty.')</strong></span></td>
+			<td><span style="margin-top:36px; display:block">purchqty <strong>('.$milComeItem[$k]->purchqty.')</strong></span></td>
+			</tr>';
+			$k++;
 		}
-
-		$html .= '<tr><td>111</td><td>222</td><td>333</td><td>444</td></tr>';
-
 		$html .= '
 				</tbody>
 			</table>
