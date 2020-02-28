@@ -109,3 +109,12 @@ Feb 27, 2020 11.53.20: Uncaught Error: Call to a member function date() on null 
 Stack trace:
 #0 {main}
   thrown
+
+Feb 28, 2020 04.16.06: Allowed memory size of 134217728 bytes exhausted (tried to allocate 28672 bytes)
+
+Feb 28, 2020 04.18.10: Out of memory (allocated 23068672) (tried to allocate 32768 bytes)
+
+Feb 28, 2020 09.56.15: Uncaught Error: Call to a member function get_data() on boolean in C:\xampp\htdocs\newnordichome\milcom-place-order.php:198
+Stack trace:
+#0 {main}
+  thrown

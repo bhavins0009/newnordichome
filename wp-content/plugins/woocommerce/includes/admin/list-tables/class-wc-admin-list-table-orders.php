@@ -426,10 +426,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 
 								<form action="<?php echo get_home_url();?>/milcom-place-order.php" id="place_order_to_milcom" name="place_order_to_milcom" method="post" style="float:right; margin-bottom:0">
 
-									<input class="button button-default button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="{{ data.order_number }}">
+									<input type="hidden" id="order_id" name="order_id" value="{{ data.order_number }}">
 
-								</form>	
+									<input class="button button-primary button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="Place order to Milcom">
 
+								</form>
 
 							</div>
 
@@ -453,7 +454,9 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	public static function get_order_preview_item_html( $order ) {
 		
 		//require_once(ABSPATH.'/inc/admin/milcom_order_api.php');
-		require_once(ABSPATH.'/ntlm2.php');
+		//require_once(ABSPATH.'milcomitemlist.php');
+		require_once(ABSPATH.'ntlm2.php');
+		
 
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
@@ -518,8 +521,14 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						$html .= wp_kses_post( $item->get_name() );
 
 						if ( $product_object ) {
-							$html .= '<div class="wc-order-item-sku">' . esc_html( $product_object->get_sku() ) . '</div>';
+							$html .= ' (' . esc_html( $product_object->get_sku() ) . ')';
 						}
+
+						$milcomItemId = "milcom_item_".$item_id;
+
+						$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+										<div> <strong>Milcom Product:</strong> inventory (10), salesqty (3), purchqty (1) </div>
+								  </div>';
 
 						$meta_data = $item->get_formatted_meta_data( '' );
 
@@ -553,11 +562,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 
 			$html .= '</tr>';
 
-			$html .= '<tr><td><strong style="margin-bottom:15px; display:block">Milcom Data </strong>  <span>Item No <strong>('.$milComeItem[$k]->no.')</strong></span</td>
+			/*$html .= '<tr><td><strong style="margin-bottom:15px; display:block">Milcom Data </strong>  <span>Item No <strong>('.$milComeItem[$k]->no.')</strong></span</td>
 			<td><span style="margin-top:36px; display:block">inventory <strong>('.$milComeItem[$k]->inventory.')</strong></span></td>
 			<td><span style="margin-top:36px; display:block">salesqty <strong>('.$milComeItem[$k]->salesqty.')</strong></span></td>
 			<td><span style="margin-top:36px; display:block">purchqty <strong>('.$milComeItem[$k]->purchqty.')</strong></span></td>
-			</tr>';
+			</tr>'; */
 			$k++;
 		}
 		$html .= '

@@ -191,14 +191,15 @@ stream_wrapper_register('http', 'NTLMStream') or die("Failed to register protoco
 $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';
 $soap = $client = new NTLMSoapClient($baseURL);
 
-$order_id = $_POST['place_order_milcome'];
+$order_id = $_POST['order_id'];
+
 
 // Get an instance of the WC_Order object
 $order = wc_get_order( $order_id );
 $order_data = $order->get_data();
 
-echo '<pre>';
-//print_r($order->order_date);
+// echo '<pre>';
+// print_r($order->order_date);
 // print_r($order);
 // exit();
 
@@ -283,15 +284,20 @@ try {
     $out = new SoapVar($parm, SOAP_ENC_OBJECT);
 
     echo '<pre>';
-    print_r($out);
-    exit;
-       
-    // $result = $client->__soapCall('CreateSalesOrder', array('parameters' => array('order' => $out) )  );
-    exit("I am with success in try");
+    print_r($out);   
+    exit();
+
+    $result = $client->__soapCall('CreateSalesOrder', array('parameters' => array('order' => $out) )  );
+    // echo 'I am in try';
+    
+    
 } catch(SoapFault $e) {
-    print_r($e);
-    exit("I am in error with catch");
+    // echo 'I am in catch';
+    // echo '<pre>';
+    // print_r($e);   
 }
+// exit();
 
 stream_wrapper_restore('http');
 
+header('Location: ' . $_SERVER['HTTP_REFERER']);

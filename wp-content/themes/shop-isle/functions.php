@@ -114,3 +114,13 @@ function custom_orders_list_column_content( $column, $post_id )
 }
 
 */
+
+/**
+ * Enqueue a script in the WordPress admin, excluding edit.php.
+ *
+ * @param int $hook Hook suffix for the current admin page.
+ */
+function Milcom_widget_enqueue_script() {   
+    wp_enqueue_script( 'my_custom_script', get_site_url() . '/js/milcom-order-ajax.js', array('jquery'), '1.0' );
+}
+add_action('admin_enqueue_scripts', 'Milcom_widget_enqueue_script');
