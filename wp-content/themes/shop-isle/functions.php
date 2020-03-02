@@ -37,8 +37,9 @@ require get_template_directory() . '/inc/init.php';
  * http://codex.wordpress.org/Child_Themes
  */
 
-/*
+// SOFTINFORM: Added new code
 // ADDING 2 NEW COLUMNS WITH THEIR TITLES (keeping "Total" and "Actions" columns at the end)
+
 add_filter( 'manage_edit-shop_order_columns', 'custom_shop_order_column', 20 );
 function custom_shop_order_column($columns)
 {
@@ -49,26 +50,26 @@ function custom_shop_order_column($columns)
         $reordered_columns[$key] = $column;
         if( $key ==  'order_status' ){
             // Inserting after "Status" column
-            $reordered_columns['my-column1'] = __( 'Milcom Item (Qty)','theme_domain');
-            $reordered_columns['my-column2'] = __( 'Milcom Order','theme_domain');
+            $reordered_columns['my-column1'] = __( 'Milcom Status','theme_domain');
+            // $reordered_columns['my-column2'] = __( 'Milcom Order Status','theme_domain');
         }
     }
     return $reordered_columns;
 }
 
+/*
 function wc_new_order_column( $columns ) {
 	$columns['approve_btn_column'] = 'Approve';
 	return $columns;
-
 }
 add_filter( 'manage_edit-shop_order_columns', 'wc_new_order_column' );
+*/
 
 // Adding custom fields meta data for each new column (example)
 add_action( 'manage_shop_order_posts_custom_column' , 'custom_orders_list_column_content', 20, 2 );
 function custom_orders_list_column_content( $column, $post_id )
 {
-
-	require_once(get_template_directory().'/inc/admin/milcom_order_api.php');
+    require_once(get_template_directory().'/inc/admin/milcom_order_api.php');
 	$objMilcomOrder = new Milcom_Order_Table();
 
     switch ( $column )
@@ -81,7 +82,7 @@ function custom_orders_list_column_content( $column, $post_id )
 
             // Testing (to be removed) - Empty value case
             else
-                echo '<small>(<em>no value - '.$post_id.'</em>)</small>';
+                echo $objMilcomOrder->getMilcomeOrderStatus($post_id);
 
             break;
 
@@ -93,12 +94,11 @@ function custom_orders_list_column_content( $column, $post_id )
 
             // Testing (to be removed) - Empty value case
             else
-                echo '<small>(<em>no value - '.$post_id.' </em>)</small>';
-
+                echo 'Second Column';
             break;
 
         case 'approve_btn_column' :
-            echo "1-" .$post_id ."-1";
+            
             // Get custom post meta data
             $my_var_three = get_post_meta( $post_id, '_the_meta_key3', true );
             if(!empty($my_var_three))
@@ -106,14 +106,11 @@ function custom_orders_list_column_content( $column, $post_id )
 
             // Testing (to be removed) - Empty value case
             else
-            	echo $objMilcomOrder->getMilcomeOrderStatus($post_id);
+            	echo 'Second Column';
                 //echo '<mark class="order-status status-processing tips"><span>Approve '.get_theme_file_uri().' </span></mark>';
-
             break;    
     }
 }
-
-*/
 
 /**
  * Enqueue a script in the WordPress admin, excluding edit.php.

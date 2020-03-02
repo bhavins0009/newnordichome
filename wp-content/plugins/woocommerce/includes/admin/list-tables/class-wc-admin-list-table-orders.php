@@ -526,9 +526,29 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 
 						$milcomItemId = "milcom_item_".$item_id;
 
-						$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-										<div> <strong>Milcom Product:</strong> inventory (10), salesqty (3), purchqty (1) </div>
+						$ourParamsArray = array('items' => array('Item' => ''), 'no' => '2' );
+						$response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+
+						$milComeItem = array();
+						if(!empty($response->items->Item->no)) {
+						    $milComeItem = $response->items->Item;
+						    $isMilcomItem = "Yes";
+						} else {
+						    $isMilcomItem = "No";
+						}
+
+						if($isMilcomItem == "Yes"){
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+										<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
 								  </div>';
+						} else {
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+										<div align="center" style="color:red;"> 
+											<strong>Item is not available into Milcom Webshop</strong></strong> 
+										</div>
+								  </div>';
+						}
+						
 
 						$meta_data = $item->get_formatted_meta_data( '' );
 

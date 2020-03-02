@@ -18,27 +18,22 @@ class Milcom_Order_Table extends WP_List_Table
 
 		global $wpdb;
 		$sql = "SELECT is_milcom_approved FROM `clk_42491aa6f3_wp_wc_order_stats` where order_id=".$postId." ";
-		
 		$result = $wpdb->get_results($sql);
 		
-		$approved = '';
+		$milcomOrderStatus = '<a href="'.get_theme_file_uri().'/inc/admin/update_milcom_order.php?orderId='.$postId.'"> 
+								<mark class="order-status status-on-hold ">
+									<span> Not Approved </span>	
+								</mark>
+							 </a>';
+
 		if(!empty($result)){
 			$approved = $result[0]->is_milcom_approved;
-			if($approved == 'No') {
-				$approvedBtn = '<mark class="order-status status-processing tips">
-					<span> 
-						<a href="'.get_theme_file_uri().'/inc/admin/update_milcom_order.php?orderId='.$postId.'"> 
-							Approve
-						</a>
-					</span>	
-				</mark>';
-			} else {
-				$approvedBtn = '';
-			}
-		} else {
-			$approvedBtn = '';
-		}
-		return $approvedBtn;
+			if($approved == 'No') {				
+				$milcomOrderStatus = '<mark class="order-status status-processing">
+										<span> Approved	</span>	</mark>';
+			} 
+		} 
+		return $milcomOrderStatus;
 	}	
 
 }

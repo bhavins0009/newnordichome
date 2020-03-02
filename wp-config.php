@@ -22,6 +22,7 @@
 //define( 'WPCACHEHOME', '/var/www/newnordichome.dk/public_html/wp-content/plugins/wp-super-cache/' );
 define('WP_CACHE', true);
 define('DB_NAME', 'newnordichome_local');
+// define('DB_NAME', 'newnordichomenew');
 /** MySQL database username */
 define('DB_USER', 'root');
 /** MySQL database password */

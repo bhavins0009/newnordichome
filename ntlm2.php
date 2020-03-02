@@ -185,13 +185,13 @@ stream_wrapper_register('http', 'NTLMStream') or die("Failed to register protoco
 $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';
 $client = new NTLMSoapClient($baseURL);
 
-$ourParamsArray = array('items' => array('Item' => ''), 'no' => '' );
-$response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+// $ourParamsArray = array('items' => array('Item' => ''), 'no' => '' );
+// $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
 
-$milComeItem = array();
-if(count($response->items->Item) > 0) {
-    $milComeItem = $response->items->Item;
-}
+// $milComeItem = array();
+// if(count($response->items->Item) > 0) {
+//     $milComeItem = $response->items->Item;
+// }
 
 stream_wrapper_restore('http');
 
