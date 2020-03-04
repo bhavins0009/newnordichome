@@ -10,13 +10,15 @@ Template Name: Insert;
 ?>
 
 <?php
-	    echo '<pre>';
-		print_r($_POST);
-		exit;
-
 		global $wpdb;
-		$sql = $wpdb->insert("milcom_approve", array('milcom_column' => $customerId, 'webshop_column' => $userId));
-	
+	    echo '<pre>';
+		//print_r($_POST);
+		$items = $_POST;
+		$wpdb->query('TRUNCATE TABLE milcom_mapping');
+
+		foreach($items as $milcomColumn => $webshopColumnn) {
+			$sql = $wpdb->insert("milcom_mapping", array('milcom_column' => $milcomColumn, 'webshop_column' => $webshopColumnn));
+		}
 	header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>
 

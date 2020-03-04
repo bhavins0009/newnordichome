@@ -20,7 +20,8 @@ Sql Changes:
 Table => clk_42491aa6f3_wp_wc_order_stats
      Field => `is_milcom_approved` enum('Yes','No') 
 	 
-2) CREATE TABLE `newnordichome_local`.`milcom_approve`( `id` INT(11) NOT NULL AUTO_INCREMENT, `milcom_column` VARCHAR(255), `webshop_column` VARCHAR(255), PRIMARY KEY (`id`) ); 	 
+2) CREATE TABLE `newnordichome_local`.`milcom_approve`( `id` INT(11) NOT NULL AUTO_INCREMENT, `milcom_column` VARCHAR(255), `webshop_column` VARCHAR(255), PRIMARY KEY (`id`) ); 
+3) RENAME TABLE `newnordichome_local`.`milcom_approve` TO `newnordichome_local`.`milcom_mapping`; 	 
 
 
 
