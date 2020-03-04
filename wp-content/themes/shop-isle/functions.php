@@ -82,7 +82,7 @@ function custom_orders_list_column_content( $column, $post_id )
 
             // Testing (to be removed) - Empty value case
             else
-                echo $objMilcomOrder->getMilcomeOrderStatus($post_id);
+                echo '<span style="color:red">Item no missing</span>';//$objMilcomOrder->getMilcomeOrderStatus($post_id);
 
             break;
 
@@ -121,3 +121,17 @@ function Milcom_widget_enqueue_script() {
     wp_enqueue_script( 'my_custom_script', get_site_url() . '/js/milcom-order-ajax.js', array('jquery'), '1.0' );
 }
 add_action('admin_enqueue_scripts', 'Milcom_widget_enqueue_script');
+
+ function my_admin_menu() 
+{
+    add_menu_page('Milcom mapping','Milcom mapping','manage_options','std-regd','registration_callback','dashicons-welcome-write-blog',98);
+    //add_submenu_page('std-regd','Event Registration', 'Event Registration', 'manage_options', 'std-regd','registration_callback');
+    //add_submenu_page('std-regd','Course Registration', 'Course Registration', 'manage_options', 'course-registration','course_reg_callback'); 
+}
+add_action('admin_menu','my_admin_menu');
+
+function registration_callback()
+{
+ require_once(get_template_directory().'/inc/admin/milcom_mapping.php');
+}
+

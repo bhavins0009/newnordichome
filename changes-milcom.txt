@@ -1,0 +1,40 @@
+================================================================================================================================
+newnordichome:
+================================================================================================================================
+Used As of now:
+1. C:\xampp\htdocs\newnordichome\milcom-order-info-wordpress-function.php
+2. C:\xampp\htdocs\newnordichome\ntlm2.php
+3. C:\xampp\htdocs\newnordichome\milcom-place-order.php
+4. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order_api.php
+5. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\update_milcom_order.php
+6. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_mapping.php
+7. C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php
+8. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php
+
+Not Used As of now:
+1. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order.php
+================================================================================================================================
+
+Sql Changes:
+1)
+Table => clk_42491aa6f3_wp_wc_order_stats
+     Field => `is_milcom_approved` enum('Yes','No') 
+	 
+2) CREATE TABLE `newnordichome_local`.`milcom_approve`( `id` INT(11) NOT NULL AUTO_INCREMENT, `milcom_column` VARCHAR(255), `webshop_column` VARCHAR(255), PRIMARY KEY (`id`) ); 	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
