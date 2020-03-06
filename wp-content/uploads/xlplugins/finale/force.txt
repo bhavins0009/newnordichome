@@ -146550,3 +146550,1329 @@ Mar 06, 2020 12.02.20: Product id 13898
 
  wcct_backorders_allowed 
 yes
+Mar 06, 2020 13.17.02: Product id 1288 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.17.02: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.17.02: Product id 577 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.17.02: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [7967] => Array
+                (
+                    [campaign_id] => 7967
+                    [start_time] => 1574722800
+                    [end_time] => 1574808900
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 7967
+            [3] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.17.02: Product id 13898 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.17.02: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.17.02: Product id 13898 : function  wcct_woocommerce_product_is_in_stock yes
+Mar 06, 2020 13.17.02: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.17.02: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.23.17: Product id 1288 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.23.17: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.23.17: Product id 577 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.23.17: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [7967] => Array
+                (
+                    [campaign_id] => 7967
+                    [start_time] => 1574722800
+                    [end_time] => 1574808900
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 7967
+            [3] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.23.17: Product id 13898 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.23.17: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.23.17: Product id 13898 : function  wcct_woocommerce_product_is_in_stock yes
+Mar 06, 2020 13.23.17: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.23.17: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.39.37: Product id 1288 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.39.37: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.39.37: Product id 1288 : wcct_trigger_get_price Before Price: 120
+Mar 06, 2020 13.39.37: Product id 1288 : wcct_trigger_get_price After Price: 120
+Mar 06, 2020 13.39.37: Product id 577 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.39.37: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [7967] => Array
+                (
+                    [campaign_id] => 7967
+                    [start_time] => 1574722800
+                    [end_time] => 1574808900
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 7967
+            [3] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.39.37: Product id 577 : wcct_trigger_get_price Before Price: 79
+Mar 06, 2020 13.39.37: Product id 577 : wcct_trigger_get_price After Price: 79
+Mar 06, 2020 13.46.23: Product id 1288 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.46.23: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.46.23: Product id 577 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.46.23: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [7967] => Array
+                (
+                    [campaign_id] => 7967
+                    [start_time] => 1574722800
+                    [end_time] => 1574808900
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 7967
+            [3] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.46.23: Product id 13898 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.46.23: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.46.23: Product id 13898 : function  wcct_woocommerce_product_is_in_stock yes
+Mar 06, 2020 13.46.23: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.46.23: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.47.11: Product id 1288 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.47.11: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.47.11: Product id 577 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.47.11: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [7967] => Array
+                (
+                    [campaign_id] => 7967
+                    [start_time] => 1574722800
+                    [end_time] => 1574808900
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 7967
+            [3] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.47.12: Product id 13898 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.47.12: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.12: Product id 13898 : function  wcct_woocommerce_product_is_in_stock yes
+Mar 06, 2020 13.47.12: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.47.12: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.47.56: Product id 1288 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.47.56: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.47.57: Product id 577 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.47.57: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [7967] => Array
+                (
+                    [campaign_id] => 7967
+                    [start_time] => 1574722800
+                    [end_time] => 1574808900
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 7967
+            [3] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.47.57: Product id 13898 : DATA SET UP : CHECK DATA BELOW
+Mar 06, 2020 13.47.57: Array
+(
+    [campaign_meta] => Array
+        (
+            [10391] => Array
+                (
+                    [campaign_id] => 10391
+                    [start_time] => 1576364400
+                    [end_time] => 1579560900
+                )
+
+            [11282] => Array
+                (
+                    [campaign_id] => 11282
+                    [start_time] => 1577055600
+                    [end_time] => 1578869700
+                )
+
+            [8542] => Array
+                (
+                    [campaign_id] => 8542
+                    [start_time] => 1574964000
+                    [end_time] => 1575327300
+                )
+
+        )
+
+    [grid_bar] => Array
+        (
+        )
+
+    [single_bar] => Array
+        (
+        )
+
+    [show_on_cart] => Array
+        (
+        )
+
+    [grid_timer] => Array
+        (
+        )
+
+    [single_timer] => Array
+        (
+        )
+
+    [goals] => 
+    [deals] => 
+    [misc] => Array
+        (
+        )
+
+    [expired] => Array
+        (
+            [0] => 10391
+            [1] => 11282
+            [2] => 8542
+        )
+
+    [running] => Array
+        (
+        )
+
+)
+
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_sale_price Before Price: 
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_sale_price After Price: 
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price Before Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : wcct_trigger_get_price After Price: 399
+Mar 06, 2020 13.47.57: Product id 13898 : function  wcct_woocommerce_product_is_in_stock yes
+Mar 06, 2020 13.47.57: Product id 13898 
+
+ wcct_backorders_allowed 
+yes
+Mar 06, 2020 13.47.57: Product id 13898 
+
+ wcct_backorders_allowed 
+yes

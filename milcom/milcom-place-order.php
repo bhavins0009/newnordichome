@@ -17,7 +17,7 @@ if(count($result)>0){
             $column = explode("-", $value->webshop_column);
             switch ($column[0]) {
                 case 'external':
-                    $mappingData[$value->milcom_column] = !empty($_POST[$value->milcom_column]) ? $_POST[$value->milcom_column] : 'notImportant';
+                    $mappingData[$value->milcom_column] = $_POST[$value->milcom_column];
                     break;
                 case 'orderdata':
                     $mappingData[$value->milcom_column] = $order_data[$column[1]];
@@ -109,6 +109,12 @@ $order = $orderArray;
 $obj1 = new \stdClass;
 $obj1->orderLine = $orderLine;
 
+////////////////////////////
+//SOAP CLASS
+///////////////////////////
+include_once('soap-common-class.php');
+
+
 try {
     //$parm = array();
     $parm['header'] = new SoapVar($headerArray, SOAP_ENC_OBJECT, null, 'tns', 'header', null );
@@ -122,7 +128,7 @@ try {
 
     echo '<pre>';
     print_r($out);   
-    exit('99999');
+    exit('Root checking by bhavin');
 
     // Initialize Soap Client
     $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';

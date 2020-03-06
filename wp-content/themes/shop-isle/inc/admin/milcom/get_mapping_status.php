@@ -18,9 +18,9 @@ function getMappingValStatus($milcomColumn, $dropdownValue){
 // My data = Mine data
 function getMappingDropdownValues($milcomColumn){
 	$dropdown_value = '
-		  <optgroup label="Mine Data"> 
-			    <option value="blank-field" '. getMappingValStatus($milcomColumn, "blank-field").'> Not Important </option>
-			    <option value="external-field" '. getMappingValStatus($milcomColumn, "external-field").'> External field </option>
+		  <optgroup label="Min data"> 
+			    <option value="blank-field" '. getMappingValStatus($milcomColumn, "blank-field").'> Ikke vigtigt </option>
+			    <option value="external-field" '. getMappingValStatus($milcomColumn, "external-field").'> Specificeres manuelt på ordren </option>
 		  </optgroup>
 		  <optgroup label="Order Data">
 			    <option value="orderdata-status" '. getMappingValStatus($milcomColumn, "orderdata-status").'>status</option>

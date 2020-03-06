@@ -451,7 +451,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 * @return string
 	 */
 	public static function get_order_preview_item_html( $order ) {
-		// require_once(get_template_directory().'/inc/admin/milcom/ntlm2.php');
+		require_once( ABSPATH.'milcom/ntlm2.php');
 
 		global $wpdb;
 		$result = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE webshop_column="external-field" ');
@@ -540,30 +540,30 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 							$html .= ' (' . esc_html( $product_object->get_sku() ) . ')';
 						}
 
-						// $milcomItemId = "milcom_item_".$item_id;
+						$milcomItemId = "milcom_item_".$item_id;
 
-						// $ourParamsArray = array('items' => array('Item' => ''), 'no' => '2' );
-						// $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+						$ourParamsArray = array('items' => array('Item' => ''), 'no' => $product_object->get_sku() );
+						$response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
 
-						// $milComeItem = array();
-						// if(!empty($response->items->Item->no)) {
-						//     $milComeItem = $response->items->Item;
-						//     $isMilcomItem = "Yes";
-						// } else {
-						//     $isMilcomItem = "No";
-						// }
+						$milComeItem = array();
+						if(!empty($response->items->Item->no)) {
+						    $milComeItem = $response->items->Item;
+						    $isMilcomItem = "Yes";
+						} else {
+						    $isMilcomItem = "No";
+						}
 
-						// if($isMilcomItem == "Yes"){
-						// 	$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-						// 				<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
-						// 		  </div>';
-						// } else {
-						// 	$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-						// 				<div align="center" style="color:red;"> 
-						// 					<strong>Item is not available into Milcom Webshop</strong></strong> 
-						// 				</div>
-						// 		  </div>';
-						// }
+						if($isMilcomItem == "Yes"){
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+										<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
+								  </div>';
+						} else {
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+										<div align="center" style="color:red;"> 
+											<strong>Item is not available into Milcom Webshop</strong></strong> 
+										</div>
+								  </div>';
+						}
 						
 
 						$meta_data = $item->get_formatted_meta_data( '' );

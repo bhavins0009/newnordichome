@@ -44,11 +44,11 @@ C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom:
    - New Column name is 'Milcom status'
    - include 
    - include soap get item files into Header of function.php
-     require(ABSPATH.'ntlm2.php');
+     require_once(get_template_directory().'/inc/admin/milcom/ntlm2.php');
 	 require_once(ABSPATH .'/Milcom/milcom_order_status.php');
 	 require_once(ABSPATH .'/Milcom/milcom_mapping.php');
 
-================================================================================================================================
+
 Not Used As of now:
 1. C:\xampp\htdocs\newnordichome\milcom-order-info-wordpress-function.php
 2. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order.php
