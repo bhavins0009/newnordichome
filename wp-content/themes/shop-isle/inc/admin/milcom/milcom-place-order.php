@@ -7,7 +7,6 @@ $order_id = $_POST['order_id'];
 $order = wc_get_order( $order_id );
 $order_data = $order->get_data();
 
-
 $result = $wpdb->get_results('SELECT * FROM milcom_mapping');
 $mappingData = array();
 
@@ -109,6 +108,12 @@ $order = $orderArray;
 
 $obj1 = new \stdClass;
 $obj1->orderLine = $orderLine;
+
+////////////////////////////
+//SOAP CLASS
+///////////////////////////
+include_once('soap-common-class.php');
+
 
 try {
     //$parm = array();

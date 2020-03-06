@@ -1,5 +1,4 @@
 <?php
-
 function getMappingValStatus($milcomColumn, $dropdownValue){
 	global $wpdb;
 	$result = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE milcom_column="'.$milcomColumn.'" ');
@@ -16,10 +15,12 @@ function getMappingValStatus($milcomColumn, $dropdownValue){
 	}
 }
 
+// My data = Mine data
 function getMappingDropdownValues($milcomColumn){
 	$dropdown_value = '
-		  <optgroup label="External Data">
-			    <option value="external-field">External field</option>
+		  <optgroup label="Mine Data"> 
+			    <option value="blank-field" '. getMappingValStatus($milcomColumn, "blank-field").'> Not Important </option>
+			    <option value="external-field" '. getMappingValStatus($milcomColumn, "external-field").'> External field </option>
 		  </optgroup>
 		  <optgroup label="Order Data">
 			    <option value="orderdata-status" '. getMappingValStatus($milcomColumn, "orderdata-status").'>status</option>

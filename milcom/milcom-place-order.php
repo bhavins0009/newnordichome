@@ -7,7 +7,6 @@ $order_id = $_POST['order_id'];
 $order = wc_get_order( $order_id );
 $order_data = $order->get_data();
 
-
 $result = $wpdb->get_results('SELECT * FROM milcom_mapping');
 $mappingData = array();
 
@@ -15,10 +14,10 @@ $mappingData = array();
 if(count($result)>0){
     foreach ($result as $key => $value) {
         
-            $column = explode("-", $value->webshop_column); 
+            $column = explode("-", $value->webshop_column);
             switch ($column[0]) {
                 case 'external':
-                    $mappingData[$value->milcom_column] = $_POST[$value->milcom_column];
+                    $mappingData[$value->milcom_column] = !empty($_POST[$value->milcom_column]) ? $_POST[$value->milcom_column] : 'notImportant';
                     break;
                 case 'orderdata':
                     $mappingData[$value->milcom_column] = $order_data[$column[1]];

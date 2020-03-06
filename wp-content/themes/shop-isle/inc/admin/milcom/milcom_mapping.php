@@ -138,6 +138,6 @@
 		</tr>
 
 	</table>
-	<div class="bottom-btn"><input class="button-primary" type="submit" id="save" name="save" value="Save"></div>
+	<div class="bottom-btn"><input class="button-primary" type="submit" id="save" name="save" value="Gem"></div>
 </form>	
 	
