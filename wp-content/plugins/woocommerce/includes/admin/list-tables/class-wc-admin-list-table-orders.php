@@ -454,7 +454,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		require_once( ABSPATH.'milcom/ntlm2.php');
 
 		global $wpdb;
-		$result = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE webshop_column="external-field" ');
+		$milcomTableResult = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE webshop_column="external-field" ');
 		
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
@@ -490,12 +490,12 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		}
 
 		///////////////////////////////
-		if(!empty($result) && count($result)>0){
+		if(!empty($milcomTableResult) && count($milcomTableResult)>0){
 			$html = '
 				<table cellspacing="0" cellspadding="0" class="wc-order-preview-table wp-list-table widefat fixed striped posts" style="border:1px solid #eee">
 					<thead>';
 					$i=0;
-					foreach ($result as $key => $value) {
+					foreach ($milcomTableResult as $key => $value) {
 						
 						$color = ($i%2==0) ? 'background-color:#f9f9f9' : '';
 
