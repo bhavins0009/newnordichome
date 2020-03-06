@@ -1,4 +1,5 @@
 <?php
+require('../wp-load.php');
 
 define('USERPWD', 'NNH1:N3wN0rdiCHow3');
 
@@ -183,14 +184,17 @@ stream_wrapper_register('http', 'NTLMStream') or die("Failed to register protoco
 
 // Initialize Soap Client
 $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';
-$client = new NTLMSoapClient($baseURL);
+$ntlmclient = new NTLMSoapClient($baseURL);
 
 // $ourParamsArray = array('items' => array('Item' => ''), 'no' => '' );
 // $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
 
 // $milComeItem = array();
-// if(count($response->items->Item) > 0) {
+// if(!empty($response->items->Item->no)) {
 //     $milComeItem = $response->items->Item;
+//     $isMilcomItem = "Yes";
+// } else {
+//     $isMilcomItem = "No";
 // }
 
 stream_wrapper_restore('http');

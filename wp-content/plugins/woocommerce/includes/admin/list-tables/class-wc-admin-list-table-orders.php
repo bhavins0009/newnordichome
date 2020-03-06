@@ -356,6 +356,8 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	public function order_preview_template() {
 		?>
 		<script type="text/template" id="tmpl-wc-modal-view-order">
+			<form action="<?php echo get_site_url().'/milcom/milcom-place-order.php';?>" id="place_order_to_milcom" name="place_order_to_milcom" method="post" style="float:right; margin-bottom:0">
+
 			<div class="wc-backbone-modal wc-order-preview">
 				<div class="wc-backbone-modal-content">
 					
@@ -424,14 +426,10 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 								{{{ data.actions_html }}}
 								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}"><?php esc_html_e( 'Edit', 'woocommerce' ); ?></a>
 
-								<form action="<?php echo get_home_url();?>/milcom-place-order.php" id="place_order_to_milcom" name="place_order_to_milcom" method="post" style="float:right; margin-bottom:0">
-
 									<input type="hidden" id="order_id" name="order_id" value="{{ data.order_number }}">
 
-									<input class="button button-primary button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="Place order to Milcom">
-
-								</form>
-
+									<input class="button button-primary button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="Place order to Milcom">								
+									
 							</div>
 
 							<div>
@@ -441,6 +439,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 				</div>
 			</div>
 			<div class="wc-backbone-modal-backdrop modal-close"></div>
+			</form>
 		</script>
 		<?php
 	}
@@ -452,12 +451,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 * @return string
 	 */
 	public static function get_order_preview_item_html( $order ) {
-		
-		//require_once(ABSPATH.'/inc/admin/milcom_order_api.php');
-		//require_once(ABSPATH.'milcomitemlist.php');
-		require_once(ABSPATH.'ntlm2.php');
-		
+		// require_once(get_template_directory().'/inc/admin/milcom/ntlm2.php');
 
+		global $wpdb;
+		$result = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE webshop_column="external-field" ');
+		
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
 			array(
@@ -491,7 +489,25 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 			unset( $columns['tax'] );
 		}
 
-		$html = '
+		///////////////////////////////
+		if(!empty($result) && count($result)>0){
+			$html = '
+				<table cellspacing="0" cellspadding="0" class="wc-order-preview-table wp-list-table widefat fixed striped posts" style="border:1px solid #eee">
+					<thead>';
+					$i=0;
+					foreach ($result as $key => $value) {
+						
+						$color = ($i%2==0) ? 'background-color:#f9f9f9' : '';
+
+						$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span> <input type="text" id="'.$value->milcom_column.'" name="'.$value->milcom_column.'"> </td></tr>';
+						$i++;
+					}
+			$html .= '</thead>
+				</table>';		
+		}
+		///////////////////////////
+
+		$html .= '
 		<div class="wc-order-preview-table-wrapper">
 			<table cellspacing="0" class="wc-order-preview-table">
 				<thead>
@@ -524,30 +540,30 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 							$html .= ' (' . esc_html( $product_object->get_sku() ) . ')';
 						}
 
-						$milcomItemId = "milcom_item_".$item_id;
+						// $milcomItemId = "milcom_item_".$item_id;
 
-						$ourParamsArray = array('items' => array('Item' => ''), 'no' => '2' );
-						$response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+						// $ourParamsArray = array('items' => array('Item' => ''), 'no' => '2' );
+						// $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
 
-						$milComeItem = array();
-						if(!empty($response->items->Item->no)) {
-						    $milComeItem = $response->items->Item;
-						    $isMilcomItem = "Yes";
-						} else {
-						    $isMilcomItem = "No";
-						}
+						// $milComeItem = array();
+						// if(!empty($response->items->Item->no)) {
+						//     $milComeItem = $response->items->Item;
+						//     $isMilcomItem = "Yes";
+						// } else {
+						//     $isMilcomItem = "No";
+						// }
 
-						if($isMilcomItem == "Yes"){
-							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-										<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
-								  </div>';
-						} else {
-							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-										<div align="center" style="color:red;"> 
-											<strong>Item is not available into Milcom Webshop</strong></strong> 
-										</div>
-								  </div>';
-						}
+						// if($isMilcomItem == "Yes"){
+						// 	$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+						// 				<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
+						// 		  </div>';
+						// } else {
+						// 	$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+						// 				<div align="center" style="color:red;"> 
+						// 					<strong>Item is not available into Milcom Webshop</strong></strong> 
+						// 				</div>
+						// 		  </div>';
+						// }
 						
 
 						$meta_data = $item->get_formatted_meta_data( '' );

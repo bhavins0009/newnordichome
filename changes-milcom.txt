@@ -2,26 +2,60 @@
 newnordichome:
 ================================================================================================================================
 Used As of now:
-1. C:\xampp\htdocs\newnordichome\milcom-order-info-wordpress-function.php
-2. C:\xampp\htdocs\newnordichome\ntlm2.php
-3. C:\xampp\htdocs\newnordichome\milcom-place-order.php
-4. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order_api.php
-5. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\update_milcom_order.php
-6. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_mapping.php
-7. C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php
-8. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php
-
-Not Used As of now:
-1. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order.php
 ================================================================================================================================
+C:\xampp\htdocs\newnordichome\milcom:
+================================================================================================================================
+1. C:\xampp\htdocs\newnordichome\milcom\ntlm2.php
+	- This file is executing SOAP call and get the Data by using Milcom Webservice
+	- This file is included into class-wc-admin-list-table-orders.php for set error message in order detail popup that
+	"Item no is correct or not"
 
-Sql Changes:
-1)
-Table => clk_42491aa6f3_wp_wc_order_stats
-     Field => `is_milcom_approved` enum('Yes','No') 
-	 
-2) CREATE TABLE `newnordichome_local`.`milcom_approve`( `id` INT(11) NOT NULL AUTO_INCREMENT, `milcom_column` VARCHAR(255), `webshop_column` VARCHAR(255), PRIMARY KEY (`id`) ); 
-3) RENAME TABLE `newnordichome_local`.`milcom_approve` TO `newnordichome_local`.`milcom_mapping`; 	 
+2. C:\xampp\htdocs\newnordichome\milcom\insertMappingData.php
+	- Insert the mapping data.
+================================================================================================================================
+C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom:
+================================================================================================================================
+3. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\milcom-place-order.php
+	- This is used to place the order into Milcom webshop
+	- Form is submitting from Order Popup and this is coming into milcom-place-order.php file after that.
+	- Update the 'is_milcom_approved' status as 'Yes' after place the order into Milcom.
+
+4. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\milcom_order_status.php
+	- Display the Milcom order status into new added order Column
+
+5. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\milcom_mapping.php
+	- Display the milcom mapping into Page
+	- include_once('get_mapping_status.php');
+
+6. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\get_mapping_status.php
+	- Create My Webshop dropdown data.
+	
+================================================================================================================================
+7. C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php
+   - This file is used for changes into Order detail popup
+   - Changes into Below functions
+   - get_order_preview_item_html( $order ){
+		require(ABSPATH.'ntlm2.php');
+   }
+   - order_preview_template()
+
+8. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php
+   - Created new column Order List into wordpress admin
+   - New Column name is 'Milcom status'
+   - include 
+   - include soap get item files into Header of function.php
+     require(ABSPATH.'ntlm2.php');
+	 require_once(ABSPATH .'/Milcom/milcom_order_status.php');
+	 require_once(ABSPATH .'/Milcom/milcom_mapping.php');
+
+================================================================================================================================
+Not Used As of now:
+1. C:\xampp\htdocs\newnordichome\milcom-order-info-wordpress-function.php
+2. C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order.php
+================================================================================================================================
+SQL Changes:
+1) ALTER TABLE `clk_42491aa6f3_wp_wc_order_stats` ADD COLUMN `is_milcom_approved` ENUM('Yes','No') DEFAULT 'No' NULL AFTER `date_created_gmt`;
+2) CREATE TABLE `milcom_mapping`( `id` INT(11) NOT NULL AUTO_INCREMENT, `milcom_column` VARCHAR(255), `webshop_column` VARCHAR(255), PRIMARY KEY (`id`) );
 
 
 

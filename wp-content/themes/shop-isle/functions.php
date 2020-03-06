@@ -31,6 +31,7 @@ function shopisle_load_sdk( $products ) {
  * Initialize all the things.
  */
 require get_template_directory() . '/inc/init.php';
+//require_once(get_template_directory().'/inc/admin/milcom/ntlm2.php');
 
 /**
  * Note: Do not add any custom code here. Please use a child theme so that your customizations aren't lost during updates.
@@ -39,7 +40,7 @@ require get_template_directory() . '/inc/init.php';
 
 // SOFTINFORM: Added new code
 // ADDING 2 NEW COLUMNS WITH THEIR TITLES (keeping "Total" and "Actions" columns at the end)
-
+// Added new column 'Milcom Status' into order list
 add_filter( 'manage_edit-shop_order_columns', 'custom_shop_order_column', 20 );
 function custom_shop_order_column($columns)
 {
@@ -66,24 +67,57 @@ add_filter( 'manage_edit-shop_order_columns', 'wc_new_order_column' );
 */
 
 // Adding custom fields meta data for each new column (example)
+// Added values of new column 'Milcom Status' into order list
 add_action( 'manage_shop_order_posts_custom_column' , 'custom_orders_list_column_content', 20, 2 );
 function custom_orders_list_column_content( $column, $post_id )
 {
-    require_once(get_template_directory().'/inc/admin/milcom_order_api.php');
-	$objMilcomOrder = new Milcom_Order_Table();
-
     switch ( $column )
     {
         case 'my-column1' :
+            require_once(get_template_directory().'/inc/admin/milcom/milcom_order_status.php');
+            $objMilcomOrder = new Milcom_Order_Table();
+
             // Get custom post meta data
             $my_var_one = get_post_meta( $post_id, '_the_meta_key1', true );
-            if(!empty($my_var_one))
+            if(!empty($my_var_one)){
                 echo $my_var_one;
+            } else {
+                // $isMilcomItem = "No";
+                // // SOAP
+                // $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';
+                // $client = new NTLMSoapClient($baseURL);
 
-            // Testing (to be removed) - Empty value case
-            else
-                echo '<span style="color:red">Item no missing</span>';//$objMilcomOrder->getMilcomeOrderStatus($post_id);
+                // $order_id = $post_id;
+                // $order = wc_get_order( $order_id );
+                // $order_data = $order->get_data();
+                // $isMilcomItem = '';
+                // if(!empty($order->get_items())){
+                //     foreach ($order->get_items() as $item_key => $item ) {
+                //         $product = $item->get_product();
+                //         $product_sku    = $product->get_sku();
 
+                //         // SOAP
+                //         $ourParamsArray = array('items' => array('Item' => ''), 'no' => $product_sku );
+                //         $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+
+                //         $milComeItem = array();
+                //         if(!empty($response->items->Item->no)) {
+                //             $isMilcomItem = "Yes";
+                //         } else {
+                //             $isMilcomItem = "No";
+                //             break;
+                //         }
+
+                //     }
+                // }
+                
+                // if($isMilcomItem == "No"){
+                //     echo "<span style='color:red'> Item no missing </span>";
+                // } else {
+                //     echo $test." - " .$objMilcomOrder->getMilcomeOrderStatus($post_id);
+                // }
+                echo $objMilcomOrder->getMilcomeOrderStatus($post_id);
+            }    
             break;
 
         case 'my-column2' :
@@ -112,17 +146,8 @@ function custom_orders_list_column_content( $column, $post_id )
     }
 }
 
-/**
- * Enqueue a script in the WordPress admin, excluding edit.php.
- *
- * @param int $hook Hook suffix for the current admin page.
- */
-function Milcom_widget_enqueue_script() {   
-    wp_enqueue_script( 'my_custom_script', get_site_url() . '/js/milcom-order-ajax.js', array('jquery'), '1.0' );
-}
-add_action('admin_enqueue_scripts', 'Milcom_widget_enqueue_script');
-
- function my_admin_menu() 
+// Below is creating New Admin menu 'Milcom mapping'
+function my_admin_menu() 
 {
     add_menu_page('Milcom mapping','Milcom mapping','manage_options','std-regd','registration_callback','dashicons-welcome-write-blog',98);
     //add_submenu_page('std-regd','Event Registration', 'Event Registration', 'manage_options', 'std-regd','registration_callback');
@@ -130,8 +155,11 @@ add_action('admin_enqueue_scripts', 'Milcom_widget_enqueue_script');
 }
 add_action('admin_menu','my_admin_menu');
 
+// Below is display the page content of Milcom Mapping
+// registration_callback() called into my_admin_menu()
+// Added template directory into this registration callback
 function registration_callback()
 {
- require_once(get_template_directory().'/inc/admin/milcom_mapping.php');
+    require_once(get_template_directory().'/inc/admin/milcom/milcom_mapping.php');
 }
 
