@@ -375,11 +375,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 							<?php do_action( 'woocommerce_admin_order_preview_start' ); ?>
 							<div class="wc-order-preview-addresses">
 								<div class="wc-order-preview-address">
-									<h2><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h2>
+									<h2><?php esc_html_e( 'Kundeoplysninger', 'woocommerce' ); ?></h2>
 									{{{ data.formatted_billing_address }}}
 
 									<# if ( data.data.billing.email ) { #>
-										<strong><?php esc_html_e( 'Email', 'woocommerce' ); ?></strong>
+										<strong><?php echo 'Email';//esc_html_e( 'Email', 'woocommerce' ); ?></strong>
 										<a href="mailto:{{ data.data.billing.email }}">{{ data.data.billing.email }}</a>
 									<# } #>
 
@@ -389,22 +389,31 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 									<# } #>
 
 									<# if ( data.payment_via ) { #>
-										<strong><?php esc_html_e( 'Payment via', 'woocommerce' ); ?></strong>
+										<strong>Betaling med<?php //esc_html_e( 'Payment via', 'woocommerce' ); ?></strong>
 										{{{ data.payment_via }}}
 									<# } #>
 								</div>
 								<# if ( data.needs_shipping ) { #>
 									<div class="wc-order-preview-address">
-										<h2><?php esc_html_e( 'Shipping details', 'woocommerce' ); ?></h2>
+										<h2>Leveringsoplysninger <?php //esc_html_e( 'Shipping details', 'woocommerce' ); ?></h2>
+										<?php /* ?>
 										<# if ( data.ship_to_billing ) { #>
 											{{{ data.formatted_billing_address }}}
 										<# } else { #>
 											<a href="{{ data.shipping_address_map_url }}" target="_blank">{{{ data.formatted_shipping_address }}}</a>
-										<# } #>
+										<# } #> 
+										<?php */ ?>
+										
+										<a href="{{ data.shipping_address_map_url }}" target="_blank">
+											{{ data.data.shipping.company }} <br/>
+											{{ data.data.shipping.address_1 }} <br/>
+											{{ data.data.shipping.postcode }} {{ data.data.shipping.city }} 
+										</a>
 
 										<# if ( data.shipping_via ) { #>
 											<strong><?php esc_html_e( 'Shipping method', 'woocommerce' ); ?></strong>
-											{{ data.shipping_via }}
+											{{ data.shipping_via }} <br/>
+											{{ data.data.shipping.address_2 }}
 										<# } #>
 									</div>
 								<# } #>
@@ -424,11 +433,12 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						<footer>
 							<div class="inner">
 								{{{ data.actions_html }}}
-								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}"><?php esc_html_e( 'Edit', 'woocommerce' ); ?></a>
+								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}">
+									Rediger <?php //esc_html_e( 'Edit', 'woocommerce' ); ?></a>
 
 									<input type="hidden" id="order_id" name="order_id" value="{{ data.order_number }}">
 
-									<input class="button button-primary button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="Place order to Milcom">								
+									<input class="button button-primary button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="Send ordre til Milcom">								
 									
 							</div>
 
@@ -452,9 +462,21 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 */
 	public static function get_order_preview_item_html( $order ) {
 		require_once( ABSPATH.'milcom/ntlm2.php');
+		require_once( ABSPATH.'milcom/test.php');
 
 		global $wpdb;
-		$milcomTableResult = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE webshop_column="external-field" ');
+		$milcomTableResult = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE ( (webshop_column="external-field") OR (webshop_column="shipping-agent") )');
+		$shippingAgentResult = $wpdb->get_results('SELECT DISTINCT shipping_agent_name FROM shipping_agent ORDER BY display_order ASC');
+		$shippingAgentDropdown = '<select id="shippingAgentServiceCode" name="shippingAgentServiceCode">';
+		foreach($shippingAgentResult as $shippingAgent) {
+		     $shippingAgentDropdown  .= '<optgroup label="'.$shippingAgent->shipping_agent_name.'">';
+		             $shippingAgentServiceCodeResult = $wpdb->get_results('SELECT * FROM shipping_agent WHERE shipping_agent_name="'.$shippingAgent->shipping_agent_name.'" ');
+		             foreach($shippingAgentServiceCodeResult as $shippingAgentServiceCode) {
+		                 $shippingAgentDropdown .= '<option value="'.$shippingAgentServiceCode->shipping_agent_servicecode.'">'.$shippingAgentServiceCode->shipping_agent_servicecode.'</option>';
+		             }
+		     $shippingAgentDropdown .= '</optgroup>';
+		}
+		$shippingAgentDropdown .= '</select>';
 		
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
@@ -499,7 +521,13 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						
 						$color = ($i%2==0) ? 'background-color:#f9f9f9' : '';
 
-						$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span> <input type="text" id="'.$value->milcom_column.'" name="'.$value->milcom_column.'"> </td></tr>';
+						if('shipping-agent' == $value->webshop_column) {
+							$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="color:red">*</span><span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span>&nbsp;&nbsp; '.$shippingAgentDropdown.' </td></tr>';
+						} else {
+							$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="color:red">*</span><span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span> <input type="text" id="'.$value->milcom_column.'" name="'.$value->milcom_column.'"> </td></tr>';
+						}
+
+
 						$i++;
 					}
 			$html .= '</thead>
@@ -526,7 +554,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		foreach ( $line_items as $item_id => $item ) {
 
 			$product_object = is_callable( array( $item, 'get_product' ) ) ? $item->get_product() : null;
-			$row_class      = apply_filters( 'woocommerce_admin_html_order_preview_item_class', '', $item, $order );
+			$row_class = apply_filters( 'woocommerce_admin_html_order_preview_item_class', '', $item, $order );
 
 			$html .= '<tr class="wc-order-preview-table__item wc-order-preview-table__item--' . esc_attr( $item_id ) . ( $row_class ? ' ' . esc_attr( $row_class ) : '' ) . '">';
 
@@ -554,19 +582,17 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						}
 
 						if($isMilcomItem == "Yes"){
-							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
 										<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
 								  </div>';
 						} else {
-							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-										<div align="center" style="color:red;"> 
-											<strong>Item is not available into Milcom Webshop</strong></strong> 
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
+										<div style="color:red;"> 
+											<strong>Varenr. er ikke oprettet hos Milcom</strong></strong> 
 										</div>
 								  </div>';
-						}
-						
-
-						$meta_data = $item->get_formatted_meta_data( '' );
+						}						
+						$meta_data = $item->get_formatted_meta_data('');
 
 						if ( $meta_data ) {
 							$html .= '<table cellspacing="0" class="wc-order-item-meta">';
@@ -598,11 +624,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 
 			$html .= '</tr>';
 
-			/*$html .= '<tr><td><strong style="margin-bottom:15px; display:block">Milcom Data </strong>  <span>Item No <strong>('.$milComeItem[$k]->no.')</strong></span</td>
-			<td><span style="margin-top:36px; display:block">inventory <strong>('.$milComeItem[$k]->inventory.')</strong></span></td>
-			<td><span style="margin-top:36px; display:block">salesqty <strong>('.$milComeItem[$k]->salesqty.')</strong></span></td>
-			<td><span style="margin-top:36px; display:block">purchqty <strong>('.$milComeItem[$k]->purchqty.')</strong></span></td>
-			</tr>'; */
+			$html .= '<tr><td> '.ABSPATH.' - '.$test.'  </td></tr>'; 
 			$k++;
 		}
 		$html .= '

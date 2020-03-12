@@ -75,6 +75,7 @@ function custom_orders_list_column_content( $column, $post_id )
     {
         case 'my-column1' :
             require_once(get_template_directory().'/inc/admin/milcom/milcom_order_status.php');
+            require_once(get_template_directory().'/inc/admin/milcom/soap-common-class.php');
             $objMilcomOrder = new Milcom_Order_Table();
 
             // Get custom post meta data
@@ -112,11 +113,13 @@ function custom_orders_list_column_content( $column, $post_id )
                 // }
                 
                 // if($isMilcomItem == "No"){
-                //     echo "<span style='color:red'> Item no missing </span>";
+                //     echo "<span style='color:red'> Mangler varenr. <!-- Item no missing --> </span>";
                 // } else {
-                //     echo $test." - " .$objMilcomOrder->getMilcomeOrderStatus($post_id);
+                //     echo $objMilcomOrder->getMilcomeOrderStatus($post_id);
                 // }
+
                 echo $objMilcomOrder->getMilcomeOrderStatus($post_id);
+                
             }    
             break;
 

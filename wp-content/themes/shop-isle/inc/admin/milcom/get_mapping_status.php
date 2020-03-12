@@ -21,8 +21,10 @@ function getMappingDropdownValues($milcomColumn){
 		  <optgroup label="Min data"> 
 			    <option value="blank-field" '. getMappingValStatus($milcomColumn, "blank-field").'> Ikke vigtigt </option>
 			    <option value="external-field" '. getMappingValStatus($milcomColumn, "external-field").'> Specificeres manuelt på ordren </option>
+			    <option value="shipping-agent" '. getMappingValStatus($milcomColumn, "shipping-agent").'> Shipping Agent Service Code Dropdown</option>
 		  </optgroup>
 		  <optgroup label="Order Data">
+			    <option value="orderdata-id" '. getMappingValStatus($milcomColumn, "orderdata-id").'>Order No</option>
 			    <option value="orderdata-status" '. getMappingValStatus($milcomColumn, "orderdata-status").'>status</option>
 			    <option value="orderdata-currency" '. getMappingValStatus($milcomColumn, "orderdata-currency").'> currency</option>
 			    <option value="orderdata-prices_include_tax" '. getMappingValStatus($milcomColumn, "orderdata-prices_include_tax").'>prices_include_tax</option>

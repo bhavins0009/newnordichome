@@ -24,9 +24,9 @@ class Milcom_Order_Table extends WP_List_Table
 		if(!empty($result)){
 			$approved = $result[0]->is_milcom_approved;
 			if($approved == 'No') {				
-				$milcomOrderStatus = "<span style='color:orange'> <strong> Not approved </strong></span>";
+				$milcomOrderStatus = "<span style='color:orange'> <strong> Ikke godkendt </strong></span>"; // Not approved
 			} else if($approved == 'Yes') {				
-				$milcomOrderStatus = "<span style='color:green'> <strong> Approved </strong> </span>";
+				$milcomOrderStatus = "<span style='color:green'> <strong> Godkendt </strong> </span>"; // Approved
 			}
 		} 
 		return $milcomOrderStatus;

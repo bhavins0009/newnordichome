@@ -43,18 +43,23 @@
 				<?php echo '<select id="sellToCustomerNo" name="sellToCustomerNo">' . ''. getMappingDropdownValues('sellToCustomerNo'). ''. $dropdown_end;?>
 			</td>
 		</tr>
-		<tr>
-			<td align="left" class="mapping-td width50">shippingAgent</td>
-			<td class="mapping-td width50">
-				<?php echo '<select id="shippingAgent" name="shippingAgent">' . ''. getMappingDropdownValues('shippingAgent'). ''. $dropdown_end;?>
-			</td>
-		</tr>
+
+		<!--
+			<tr>
+				<td align="left" class="mapping-td width50">shippingAgent</td>
+				<td class="mapping-td width50">
+					<?php echo '<select id="shippingAgent" name="shippingAgent">' . ''. getMappingDropdownValues('shippingAgent'). ''. $dropdown_end;?>
+				</td>
+			</tr>
+		-->
+
 		<tr>
 			<td align="left" class="mapping-td width50">shippingAgentServiceCode</td>
 			<td class="mapping-td width50">
 				<?php echo '<select id="shippingAgentServiceCode" name="shippingAgentServiceCode">' . ''. getMappingDropdownValues('shippingAgentServiceCode'). ''. $dropdown_end;?>
 			</td>
 		</tr>
+
 		<tr>
 			<td align="left" class="mapping-td width50">orderDate</td>
 			<td class="mapping-td width50">
