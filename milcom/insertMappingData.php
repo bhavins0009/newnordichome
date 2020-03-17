@@ -4,6 +4,7 @@
 	global $wpdb;
 
 	$items = $_POST;
+
 	$wpdb->query('TRUNCATE TABLE milcom_mapping');
 
 	foreach($items as $milcomColumn => $webshopColumnn) {

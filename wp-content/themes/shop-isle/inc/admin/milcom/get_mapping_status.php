@@ -16,13 +16,19 @@ function getMappingValStatus($milcomColumn, $dropdownValue){
 }
 
 // My data = Mine data
-function getMappingDropdownValues($milcomColumn){
-	$dropdown_value = '
+function getMappingDropdownValues($milcomColumn, $part=''){
+
+	$dropdown_value = '';
+	if('orderline' != $part){
+		$dropdown_value .= '
 		  <optgroup label="Min data"> 
-			    <option value="blank-field" '. getMappingValStatus($milcomColumn, "blank-field").'> Ikke vigtigt </option>
+			    <option value="blank-field" '. getMappingValStatus($milcomColumn, "blank-field").'>Ikke vigtigt </option>
 			    <option value="external-field" '. getMappingValStatus($milcomColumn, "external-field").'> Specificeres manuelt på ordren </option>
-			    <option value="shipping-agent" '. getMappingValStatus($milcomColumn, "shipping-agent").'> Shipping Agent Service Code Dropdown</option>
-		  </optgroup>
+			    <option value="shipping-agent" '. getMappingValStatus($milcomColumn, "shipping-agent").'> Forsendelse </option>
+		  </optgroup>';	
+	}
+
+	$dropdown_value .= '
 		  <optgroup label="Order Data">
 			    <option value="orderdata-id" '. getMappingValStatus($milcomColumn, "orderdata-id").'>Order No</option>
 			    <option value="orderdata-status" '. getMappingValStatus($milcomColumn, "orderdata-status").'>status</option>
@@ -64,23 +70,12 @@ function getMappingDropdownValues($milcomColumn){
 			    <option value="shipping-postcode" '. getMappingValStatus($milcomColumn, "shipping-postcode").'>postcode</option>
 			    <option value="shipping-country" '. getMappingValStatus($milcomColumn, "shipping-country").'>country</option>
 		  </optgroup>
-		  <optgroup label="Line Items">
-			    <option value="lineitem-name" '. getMappingValStatus($milcomColumn, "lineitem-name").'>name</option>
-			    <option value="lineitem-product_id" '. getMappingValStatus($milcomColumn, "lineitem-product_id").'>product_id</option>
-			    <option value="lineitem-variation_id" '. getMappingValStatus($milcomColumn, "lineitem-variation_id").'>variation_id</option>
-			    <option value="lineitem-quantity" '. getMappingValStatus($milcomColumn, "lineitem-quantity").'>quantity</option>
-			    <option value="lineitem-tax_class" '. getMappingValStatus($milcomColumn, "lineitem-tax_class").'>tax_class</option>
-			    <option value="lineitem-subtotal" '. getMappingValStatus($milcomColumn, "lineitem-subtotal").'>subtotal</option>
-			    <option value="lineitem-subtotal_tax" '. getMappingValStatus($milcomColumn, "lineitem-subtotal_tax").'>subtotal_tax</option>
-			    <option value="lineitem-total" '. getMappingValStatus($milcomColumn, "lineitem-total").'>total</option>
-			    <option value="lineitem-total_tax" '. getMappingValStatus($milcomColumn, "lineitem-total_tax").'>total_tax</option>
-			    <option value="lineitem-taxes" '. getMappingValStatus($milcomColumn, "lineitem-taxes").'>taxes</option>
-		  </optgroup>
-		  <optgroup label="Product">
-			    <option value="product-type" '. getMappingValStatus($milcomColumn, "product-type").'>Product type</option>
-			    <option value="product-sku" '. getMappingValStatus($milcomColumn, "product-sku").'>Product sku</option>
-			    <option value="product-price" '. getMappingValStatus($milcomColumn, "product-price").'>Product price</option>
-			    <option value="product-stock_quantity" '. getMappingValStatus($milcomColumn, "product-stock_quantity").'>Product stock quantity</option>
+		  <optgroup label="Ordre linie">
+		  		<option value="item-sku" '. getMappingValStatus($milcomColumn, "item-sku").'>Item No</option>
+		  		<option value="item-name" '. getMappingValStatus($milcomColumn, "item-name").'>Item Name</option>
+			    <option value="item-price" '. getMappingValStatus($milcomColumn, "item-price").'>Item price</option>
+			    <option value="item-quantity" '. getMappingValStatus($milcomColumn, "item-quantity").'>Item quantity</option>
+			    <option value="item-total" '. getMappingValStatus($milcomColumn, "item-total").'>Item total</option>
 		  </optgroup>';
 	return $dropdown_value;	  
 }

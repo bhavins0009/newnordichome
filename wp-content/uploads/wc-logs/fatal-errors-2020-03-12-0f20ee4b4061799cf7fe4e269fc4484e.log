@@ -1,0 +1,6 @@
+2020-03-12T13:40:49+00:00 CRITICAL Uncaught TypeError: SimpleXMLElement::__construct() expects parameter 1 to be string, array given in C:\xampp\htdocs\newnordichome\milcom\milcom-place-order.php:185
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\milcom\milcom-place-order.php(185): SimpleXMLElement->__construct(Array)
+#1 {main}
+  thrown i C:\xampp\htdocs\newnordichome\milcom\milcom-place-order.php på linje 185
+

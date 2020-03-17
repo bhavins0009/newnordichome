@@ -1,0 +1,415 @@
+
+Mar 02, 2020 09.43.24: Maximum execution time of 600 seconds exceeded
+
+Mar 02, 2020 09.44.40: Maximum execution time of 600 seconds exceeded
+
+Mar 02, 2020 09.44.59: Maximum execution time of 600 seconds exceeded
+
+Mar 02, 2020 09.54.58: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\jetpack\modules\sitemaps\sitemap-librarian.php(94): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\jetpack\modules\sitemaps\sitemap-builder.php(714): Jetpack_Sitemap_Librarian->store_sitemap_data(1, 'jp_sitemap', '<?
+
+Mar 02, 2020 10.00.31: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.02.03: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.02.30: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.02.34: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.02.49: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.04.38: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.06.40: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.07.47: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.08.02: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 02, 2020 10.08.53: Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo
+
+Mar 05, 2020 05.58.23: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\get_mapping_status.php:16
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_mapping.php(29): getMappingDropdownValues('externalDocNo')
+#1 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(135): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): registration_callback('')
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\admin.php(254): do_action('toplevel_page_s...')
+#6 {main}
+  thrown
+
+Mar 05, 2020 07.09.35: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : Document is empty
+ in C:\xampp\htdocs\newnordichome\ntlm2.php:186
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\ntlm2.php(186): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order_api.php(2): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(71): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_
+
+Mar 05, 2020 07.11.49: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : Document is empty
+ in C:\xampp\htdocs\newnordichome\ntlm2.php:186
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\ntlm2.php(186): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order_api.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(84): Milcom_Order_Table->getMilcomeOrderStatus(13993)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('my-column1', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_acti
+
+Mar 05, 2020 07.23.00: Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom_order_api.php:49
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(84): Milcom_Order_Table->getMilcomeOrderStatus(13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('my-column1', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'my-column1', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'my-column1')
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_co
+
+Mar 05, 2020 07.34.46: Uncaught Error: Call to a member function get_data() on boolean in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:74
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_ro
+
+Mar 05, 2020 07.35.25: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:81
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_date', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_date', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_date')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Objec
+
+Mar 05, 2020 07.41.14: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:82
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_date', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_date', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_date')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Objec
+
+Mar 05, 2020 08.24.35: Uncaught Error: Call to undefined function test() in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:74
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Object(WP_Po
+
+Mar 05, 2020 08.33.19: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:85
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_date', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_date', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_date')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Objec
+
+Mar 05, 2020 08.40.12: Uncaught ArgumentCountError: Too few arguments to function isMilcomItem(), 1 passed in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php on line 84 and exactly 2 expected in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\get-milcom-item-info.php:203
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(84): isMilcomItem('MKDA031/3078700...')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order
+
+Mar 05, 2020 08.53.03: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(76): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\incl
+
+Mar 05, 2020 08.54.35: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(76): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\incl
+
+Mar 05, 2020 09.01.20: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(76): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\incl
+
+Mar 05, 2020 09.08.52: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\get-milcom-item-info.php:209
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(84): isMilcomItem('MKDA031/3078700...')
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 C:\xampp\htdocs\
+
+Mar 05, 2020 09.18.06: Uncaught ArgumentCountError: Too few arguments to function isMilcomItem(), 0 passed in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php on line 75 and exactly 1 expected in C:\xampp\htdocs\newnordichome\get-milcom-item-info.php:207
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(75): isMilcomItem()
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includ
+
+Mar 05, 2020 09.18.51: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\get-milcom-item-info.php:209
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(75): isMilcomItem()
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 C:\xampp\htdocs\newnordichome\wp-adm
+
+Mar 05, 2020 09.19.58: Uncaught Error: Call to undefined function isMilcomItem() in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:75
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('order_number', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'order_number', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'order_number')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Obje
+
+Mar 05, 2020 09.59.28: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:37
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\newnordichome\wp-config.php(85): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown
+
+Mar 05, 2020 09.59.31: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:37
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\newnordichome\wp-config.php(85): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\newnordichome\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+Mar 05, 2020 09.59.31: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:37
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\newnordichome\wp-config.php(85): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\newnordichome\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+Mar 05, 2020 09.59.37: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:37
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\newnordichome\wp-config.php(85): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\newnordichome\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+Mar 05, 2020 09.59.37: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:37
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\newnordichome\wp-config.php(85): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\newnordichome\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+Mar 05, 2020 09.59.39: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:37
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-settings.php(497): include()
+#1 C:\xampp\htdocs\newnordichome\wp-config.php(85): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\newnordichome\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\newnordichome\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+Mar 05, 2020 10.01.18: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:99
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('my-column1', 13993)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1265): do_action('manage_shop_ord...', 'my-column1', 13993)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-list-table.php(1361): WP_Posts_List_Table->column_default(Object(WP_Post), 'my-column1')
+#5 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(1298): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 C:\xampp\htdocs\newnordichome\wp-admin\includes\class-wp-posts-list-table.php(741): WP_Posts_List_Table->single_row(Object(WP_Pos
+
+Mar 05, 2020 10.48.11: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:530
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(682): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_AJAX::get_order_details('')
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\admin-ajax.php(175): do_acti
+
+Mar 05, 2020 10.49.19: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:530
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(682): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_AJAX::get_order_details('')
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\admin-ajax.php(175): do_acti
+
+Mar 06, 2020 06.25.51: Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_is_milcom_approved() in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:709
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_AJAX::get_order_details('')
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\admin-ajax.php(175): do_action('wp_ajax_woocomm...')
+#5 {main}
+  thrown
+
+Mar 06, 2020 09.15.15: Uncaught Error: Call to undefined function het_home_path() in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\milcom_mapping.php:24
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(163): require_once()
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): registration_callback('')
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\newnordichome\wp-admin\admin.php(254): do_action('toplevel_page_s...')
+#5 {main}
+  thrown
+
+Mar 06, 2020 12.40.26: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\milcom\ntlm2.php:7
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\milcom\ntlm2.php(7): SoapClient->SoapClient('http://83.91.84...')
+#1 {main}
+  thrown
+
+Mar 12, 2020 13.40.49: Uncaught TypeError: SimpleXMLElement::__construct() expects parameter 1 to be string, array given in C:\xampp\htdocs\newnordichome\milcom\milcom-place-order.php:185
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\milcom\milcom-place-order.php(185): SimpleXMLElement->__construct(Array)
+#1 {main}
+  thrown
+
+Mar 13, 2020 10.04.04: Uncaught Error: Call to a member function get_stock_quantity() on null in C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php:585
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(719): WC_Admin_List_Table_Orders::get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): WC_AJAX::get_order_details('')
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-admin\admin-ajax.php(175):
+
+Mar 13, 2020 10.59.28: Uncaught Error: Call to a member function get_data() on boolean in C:\xampp\htdocs\newnordichome\milcom\milcom-place-order.php:20
+Stack trace:
+#0 {main}
+  thrown
+
+Mar 16, 2020 12.01.22: Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes)

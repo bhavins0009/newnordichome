@@ -72,6 +72,7 @@
 				<?php echo '<select id="currency" name="currency">' . ''. getMappingDropdownValues('currency'). ''. $dropdown_end;?>
 			</td>
 		</tr>
+		
 		<tr>
 			<td align="left" class="mapping-td width50">phoneNo</td>
 			<td class="mapping-td width50">
@@ -139,6 +140,41 @@
 			<td align="left" class="mapping-td width50">pakkeShopID</td>
 			<td class="mapping-td width50">
 				<?php echo '<select id="pakkeShopID" name="pakkeShopID">' . ''. getMappingDropdownValues('pakkeShopID'). ''. $dropdown_end;?>
+			</td>
+		</tr>
+
+		<tr>
+			<td class="mapping-td width50 heading" colspan="2">Ordre linie</td></tr>
+		
+		<tr>
+			<td align="left" class="mapping-td width50">itemNo</td>
+			<td class="mapping-td width50">
+				<?php echo '<select id="itemNo" name="itemNo">' . ''. getMappingDropdownValues('itemNo', 'orderline'). ''. $dropdown_end;?>
+			</td>
+		</tr>
+		
+		<tr>
+			<td align="left" class="mapping-td width50">itemName</td>
+			<td class="mapping-td width50">
+				<?php echo '<select id="itemName" name="itemName">' . ''. getMappingDropdownValues('itemName', 'orderline'). ''. $dropdown_end;?>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" class="mapping-td width50">quantity</td>
+			<td class="mapping-td width50">
+				<?php echo '<select id="quantity" name="quantity">' . ''. getMappingDropdownValues('quantity', 'orderline'). ''. $dropdown_end;?>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" class="mapping-td width50">price</td>
+			<td class="mapping-td width50">
+				<?php echo '<select id="price" name="price">' . ''. getMappingDropdownValues('price', 'orderline'). ''. $dropdown_end;?>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" class="mapping-td width50">total</td>
+			<td class="mapping-td width50">
+				<?php echo '<select id="total" name="total">' . ''. getMappingDropdownValues('total', 'orderline'). ''. $dropdown_end;?>
 			</td>
 		</tr>
 

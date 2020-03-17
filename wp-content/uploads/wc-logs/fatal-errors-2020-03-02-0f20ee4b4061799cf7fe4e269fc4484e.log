@@ -1,0 +1,105 @@
+2020-03-02T09:43:24+00:00 CRITICAL Maximum execution time of 600 seconds exceeded i C:\xampp\htdocs\newnordichome\wp-includes\wp-db.php på linje 2030
+
+2020-03-02T09:44:40+00:00 CRITICAL Maximum execution time of 600 seconds exceeded i C:\xampp\htdocs\newnordichome\wp-includes\wp-db.php på linje 2030
+
+2020-03-02T09:44:59+00:00 CRITICAL Maximum execution time of 600 seconds exceeded i C:\xampp\htdocs\newnordichome\wp-includes\wp-db.php på linje 2030
+
+2020-03-02T09:54:58+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\jetpack\modules\sitemaps\sitemap-librarian.php(94): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\jetpack\modules\sitemaps\sitemap-builder.php(714): Jetpack_Sitemap_Librarian->store_sitemap_data(1, 'jp_sitemap', '<? i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:00:31+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:02:03+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:02:30+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:02:34+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:02:49+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:04:38+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:06:40+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:07:47+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:08:02+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
+2020-03-02T10:08:53+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(0, NULL)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPo i C:\xampp\htdocs\newnordichome\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php på linje 47
+
