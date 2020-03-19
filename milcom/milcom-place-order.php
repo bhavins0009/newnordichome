@@ -1,10 +1,14 @@
+<?php
+ob_start();
+?>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <?php
-error_reporting(0);
-ini_set("display_errors", 0);
+// error_reporting(0);
+// ini_set("display_errors", 0);
 
 require('../wp-load.php');
 global $wpdb;
+
 define('USERPWD', 'NNH1:N3wN0rdiCHow3');
 
 $order_id = $_POST['order_id'];
@@ -240,6 +244,3 @@ Swal.fire({
 </script>
 
 <?php }  ?>
-
-
-

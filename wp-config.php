@@ -19,8 +19,6 @@
  */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-//define( 'WPCACHEHOME', '/var/www/newnordichome.dk/public_html/wp-content/plugins/wp-super-cache/' );
-define('WP_CACHE', true);
 define('DB_NAME', 'newnordichome_local');
 // define('DB_NAME', 'newnordichomenew');
 /** MySQL database username */
@@ -37,7 +35,7 @@ define('DB_COLLATE', '');
 define('FORCE_SSL', false);
 define('FORCE_SSL_ADMIN', false);
 
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /**#@+
  * Authentication Unique Keys and Salts.

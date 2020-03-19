@@ -348,6 +348,42 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		}
 	}
 
+	public function getItemErrorStatus() {
+		require_once( ABSPATH.'milcom/ntlm2.php');
+		$order_id = $this->object->get_order_number();
+		$isError = false;
+		if(!empty($order_id)) {
+		    // Get an instance of the WC_Order object
+		    $order = wc_get_order( $order_id );
+		    $order_data = $order->get_data();
+		    foreach ($order->get_items() as $item_key => $item ) {
+
+		    	$item_data    = $item->get_data();
+		    	$product_object = $item->get_product(); // Get the WC_Product object
+
+				$ourParamsArray = array('items' => array('Item' => ''), 'no' => $product_object->get_sku() );
+				$response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+
+				$milComeItem = array();
+				if(!empty($response->items->Item->no)) {
+				    $milComeItem = $response->items->Item;
+				    $isMilcomItem = "Yes";
+				} else {
+				    $isMilcomItem = "No";
+				}
+
+				if($isMilcomItem == "Yes"){
+					if((int) $milComeItem->inventory < (int) $item->get_quantity()){
+						$isError = true;
+					} 	  
+				} else {
+					$isError = true;
+				}
+		    }
+		}
+		return $isError;
+	}
+
 	/**
 	 * Template for order preview.
 	 *
@@ -356,6 +392,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	public function order_preview_template() {
 		?>
 		<script type="text/template" id="tmpl-wc-modal-view-order">
+
 			<form action="<?php echo get_site_url().'/milcom/milcom-place-order.php';?>" id="place_order_to_milcom" name="place_order_to_milcom" method="post" style="float:right; margin-bottom:0">
 
 			<div class="wc-backbone-modal wc-order-preview">
@@ -365,7 +402,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						<header class="wc-backbone-modal-header">
 							<mark class="order-status status-{{ data.status }}"><span>{{ data.status_name }}</span></mark>
 							<?php /* translators: %s: order ID */ ?>
-							<h1><?php echo esc_html( sprintf( __( 'Order #%s', 'woocommerce' ), '{{ data.order_number }}' ) ); ?></h1>
+							<h1>Ordrenr. {{ data.order_number }}<?php //echo esc_html( sprintf( __( 'Order #%s', 'woocommerce' ), '{{ data.order_number }}' ) ); ?></h1>
 							<button class="modal-close modal-close-link dashicons dashicons-no-alt">
 								<span class="screen-reader-text"><?php esc_html_e( 'Close modal panel', 'woocommerce' ); ?></span>
 							</button>
@@ -375,11 +412,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 							<?php do_action( 'woocommerce_admin_order_preview_start' ); ?>
 							<div class="wc-order-preview-addresses">
 								<div class="wc-order-preview-address">
-									<h2><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h2>
+									<h2><?php esc_html_e( 'Kundeoplysninger', 'woocommerce' ); ?></h2>
 									{{{ data.formatted_billing_address }}}
 
 									<# if ( data.data.billing.email ) { #>
-										<strong><?php esc_html_e( 'Email', 'woocommerce' ); ?></strong>
+										<strong><?php echo 'Email';//esc_html_e( 'Email', 'woocommerce' ); ?></strong>
 										<a href="mailto:{{ data.data.billing.email }}">{{ data.data.billing.email }}</a>
 									<# } #>
 
@@ -389,22 +426,31 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 									<# } #>
 
 									<# if ( data.payment_via ) { #>
-										<strong><?php esc_html_e( 'Payment via', 'woocommerce' ); ?></strong>
+										<strong>Betaling med<?php //esc_html_e( 'Payment via', 'woocommerce' ); ?></strong>
 										{{{ data.payment_via }}}
 									<# } #>
 								</div>
 								<# if ( data.needs_shipping ) { #>
 									<div class="wc-order-preview-address">
-										<h2><?php esc_html_e( 'Shipping details', 'woocommerce' ); ?></h2>
+										<h2>Leveringsoplysninger <?php //esc_html_e( 'Shipping details', 'woocommerce' ); ?></h2>
+										<?php /* ?>
 										<# if ( data.ship_to_billing ) { #>
 											{{{ data.formatted_billing_address }}}
 										<# } else { #>
 											<a href="{{ data.shipping_address_map_url }}" target="_blank">{{{ data.formatted_shipping_address }}}</a>
-										<# } #>
+										<# } #> 
+										<?php */ ?>
+										
+										<a href="{{ data.shipping_address_map_url }}" target="_blank">
+											{{ data.data.shipping.company }} <br/>
+											{{ data.data.shipping.address_1 }} <br/>
+											{{ data.data.shipping.postcode }} {{ data.data.shipping.city }} 
+										</a>
 
 										<# if ( data.shipping_via ) { #>
 											<strong><?php esc_html_e( 'Shipping method', 'woocommerce' ); ?></strong>
-											{{ data.shipping_via }}
+											{{ data.shipping_via }} <br/>
+											{{ data.data.shipping.address_2 }}
 										<# } #>
 									</div>
 								<# } #>
@@ -424,12 +470,11 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						<footer>
 							<div class="inner">
 								{{{ data.actions_html }}}
-								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}"><?php esc_html_e( 'Edit', 'woocommerce' ); ?></a>
+								<a class="button button-primary button-large" aria-label="<?php esc_attr_e( 'Edit this order', 'woocommerce' ); ?>" href="<?php echo esc_url( admin_url( 'post.php?action=edit' ) ); ?>&post={{ data.data.id }}">
+									Rediger <?php //esc_html_e( 'Edit', 'woocommerce' ); ?></a>
 
 									<input type="hidden" id="order_id" name="order_id" value="{{ data.order_number }}">
-
-									<input class="button button-primary button-large" type="submit" id="place_order_milcome" name="place_order_milcome" value="Place order to Milcom">								
-									
+									<input class="button button-primary button-large" type="button" id="place_order_milcome" name="place_order_milcome" value="Send ordre til Milcom" onClick="place_order_milcome()">	
 							</div>
 
 							<div>
@@ -440,6 +485,17 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 			</div>
 			<div class="wc-backbone-modal-backdrop modal-close"></div>
 			</form>
+			<script> 
+				jQuery("#place_order_milcome").on('click', function () {
+					    var code = jQuery("#shippingAgentServiceCode").val();
+					    if(code == ""){
+					    	alert("Husk at vælge forsendelse");
+						} else {
+							jQuery("#place_order_to_milcom").submit();
+						}
+
+				});
+			</script>
 		</script>
 		<?php
 	}
@@ -451,10 +507,25 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 	 * @return string
 	 */
 	public static function get_order_preview_item_html( $order ) {
+		//////////////////// BHAVIN ///////////////////////////////////
 		require_once( ABSPATH.'milcom/ntlm2.php');
-
 		global $wpdb;
-		$milcomTableResult = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE webshop_column="external-field" ');
+		$milcomTableResult = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE ( (webshop_column="external-field") OR (webshop_column="shipping-agent") )');
+		$shippingAgentResult = $wpdb->get_results('SELECT DISTINCT shipping_agent_name FROM shipping_agent ORDER BY display_order ASC');
+		$shippingAgentDropdown = '<select id="shippingAgentServiceCode" name="shippingAgentServiceCode">';
+		
+		$shippingAgentDropdown .= '<option value="" selected>Vælg forsendelse</option>';
+
+		foreach($shippingAgentResult as $shippingAgent) {
+		     $shippingAgentDropdown  .= '<optgroup label="'.$shippingAgent->shipping_agent_name.'">';
+		             $shippingAgentServiceCodeResult = $wpdb->get_results('SELECT * FROM shipping_agent WHERE shipping_agent_name="'.$shippingAgent->shipping_agent_name.'" ');
+		             foreach($shippingAgentServiceCodeResult as $shippingAgentServiceCode) {
+		                 $shippingAgentDropdown .= '<option value="'.$shippingAgentServiceCode->shipping_agent_servicecode.'">'.$shippingAgentServiceCode->shipping_agent_servicecode.'</option>';
+		             }
+		     $shippingAgentDropdown .= '</optgroup>';
+		}
+		$shippingAgentDropdown .= '</select>';
+		//////////////////// BHAVIN ///////////////////////////////////
 		
 		$hidden_order_itemmeta = apply_filters(
 			'woocommerce_hidden_order_itemmeta',
@@ -489,7 +560,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 			unset( $columns['tax'] );
 		}
 
-		///////////////////////////////
+		//////////////////// BHAVIN ///////////////////////////////////
 		if(!empty($milcomTableResult) && count($milcomTableResult)>0){
 			$html = '
 				<table cellspacing="0" cellspadding="0" class="wc-order-preview-table wp-list-table widefat fixed striped posts" style="border:1px solid #eee">
@@ -499,13 +570,17 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						
 						$color = ($i%2==0) ? 'background-color:#f9f9f9' : '';
 
-						$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span> <input type="text" id="'.$value->milcom_column.'" name="'.$value->milcom_column.'"> </td></tr>';
+						if('shipping-agent' == $value->webshop_column) {
+							$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="color:red">*</span><span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span>&nbsp;&nbsp; '.$shippingAgentDropdown.' </td></tr>';
+						} else {
+							$html .= '<tr style="'.$color.'"><td style="border-bottom:1px solid #eee"> <span style="color:red">*</span><span style="max-width:190px; margin-top:px; width:100%; float:left">'.$value->milcom_column.'</span> <input type="text" id="'.$value->milcom_column.'" name="'.$value->milcom_column.'"> </td></tr>';
+						}
 						$i++;
 					}
 			$html .= '</thead>
 				</table>';		
 		}
-		///////////////////////////
+		//////////////////// BHAVIN ///////////////////////////////////
 
 		$html .= '
 		<div class="wc-order-preview-table-wrapper">
@@ -526,7 +601,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		foreach ( $line_items as $item_id => $item ) {
 
 			$product_object = is_callable( array( $item, 'get_product' ) ) ? $item->get_product() : null;
-			$row_class      = apply_filters( 'woocommerce_admin_html_order_preview_item_class', '', $item, $order );
+			$row_class = apply_filters( 'woocommerce_admin_html_order_preview_item_class', '', $item, $order );
 
 			$html .= '<tr class="wc-order-preview-table__item wc-order-preview-table__item--' . esc_attr( $item_id ) . ( $row_class ? ' ' . esc_attr( $row_class ) : '' ) . '">';
 
@@ -540,6 +615,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 							$html .= ' (' . esc_html( $product_object->get_sku() ) . ')';
 						}
 
+						//////////////////// BHAVIN ///////////////////////////////////
 						$milcomItemId = "milcom_item_".$item_id;
 
 						$ourParamsArray = array('items' => array('Item' => ''), 'no' => $product_object->get_sku() );
@@ -554,19 +630,30 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 						}
 
 						if($isMilcomItem == "Yes"){
-							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-										<div> <strong>Milcom Product:</strong> inventory ('.$milComeItem->inventory.') </strong> </div>
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
+										<div> Lager = '.$milComeItem->inventory.' </div>
 								  </div>';
-						} else {
-							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'"> 
-										<div align="center" style="color:red;"> 
-											<strong>Item is not available into Milcom Webshop</strong></strong> 
+
+							if((int) $milComeItem->inventory < (int) $item->get_quantity()){
+								$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
+										<div style="color:red;"> 
+											<strong> Der mangler varer på lager</strong>
 										</div>
 								  </div>';
-						}
-						
+							} 	  
 
-						$meta_data = $item->get_formatted_meta_data( '' );
+
+						} else {
+							$html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
+										<div style="color:red;"> 
+											<strong>Varenr. er ikke oprettet hos Milcom</strong>
+										</div>
+								  </div>';
+						}	
+						//////////////////// BHAVIN ///////////////////////////////////
+
+
+						$meta_data = $item->get_formatted_meta_data('');
 
 						if ( $meta_data ) {
 							$html .= '<table cellspacing="0" class="wc-order-item-meta">';
@@ -597,12 +684,8 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 			}
 
 			$html .= '</tr>';
+			//$html .= '<tr><td> '.ABSPATH.' - '.$test.'  </td></tr>'; 
 
-			/*$html .= '<tr><td><strong style="margin-bottom:15px; display:block">Milcom Data </strong>  <span>Item No <strong>('.$milComeItem[$k]->no.')</strong></span</td>
-			<td><span style="margin-top:36px; display:block">inventory <strong>('.$milComeItem[$k]->inventory.')</strong></span></td>
-			<td><span style="margin-top:36px; display:block">salesqty <strong>('.$milComeItem[$k]->salesqty.')</strong></span></td>
-			<td><span style="margin-top:36px; display:block">purchqty <strong>('.$milComeItem[$k]->purchqty.')</strong></span></td>
-			</tr>'; */
 			$k++;
 		}
 		$html .= '
@@ -635,7 +718,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		if ( $order->has_status( array( 'pending', 'on-hold' ) ) ) {
 			$status_actions['processing'] = array(
 				'url'    => wp_nonce_url( admin_url( 'admin-ajax.php?action=woocommerce_mark_order_status&status=processing&order_id=' . $order->get_id() ), 'woocommerce-mark-order-status' ),
-				'name'   => __( 'Processing', 'woocommerce' ),
+				'name'   => 'Igang',//__( 'Processing', 'woocommerce' ),
 				'title'  => __( 'Change order status to processing', 'woocommerce' ),
 				'action' => 'processing',
 			);
@@ -644,7 +727,7 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 		if ( $order->has_status( array( 'pending', 'on-hold', 'processing' ) ) ) {
 			$status_actions['complete'] = array(
 				'url'    => wp_nonce_url( admin_url( 'admin-ajax.php?action=woocommerce_mark_order_status&status=completed&order_id=' . $order->get_id() ), 'woocommerce-mark-order-status' ),
-				'name'   => __( 'Completed', 'woocommerce' ),
+				'name'   => 'Gennemfør',//__( 'Completed', 'woocommerce' ),
 				'title'  => __( 'Change order status to completed', 'woocommerce' ),
 				'action' => 'complete',
 			);

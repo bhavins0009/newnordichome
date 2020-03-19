@@ -12,12 +12,12 @@
 </style>
 <?php
 	include_once('get_mapping_status.php');
-	$insertMappingUrl = get_site_url().'/milcom/insertMappingData.php';
+	$insertMappingUrl = get_stylesheet_directory_uri().'/milcom/insertMappingData.php';
 	$key = '';
     $dropdown_end = '</select>';
 ?>
 
-<form action="<?php echo $insertMappingUrl; ?>" id="frmMilcomMapping" name="frmMilcomMapping" method="POST">
+<form action="" id="frmMilcomMapping" name="frmMilcomMapping" method="POST">
 
 	<table  class="mapping-table wp-list-table widefat fixed striped posts">
 		<thead>

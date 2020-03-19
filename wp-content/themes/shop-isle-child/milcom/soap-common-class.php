@@ -1,7 +1,6 @@
 <?php
 define('USERPWD', 'NNH1:N3wN0rdiCHow3');
 
-
 class NTLMStream
 {
     private $path;

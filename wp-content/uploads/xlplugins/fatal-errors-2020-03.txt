@@ -413,3 +413,145 @@ Stack trace:
   thrown
 
 Mar 16, 2020 12.01.22: Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes)
+
+Mar 18, 2020 08.48.36: Class 'WC_Admin_List_Table' not found
+
+Mar 18, 2020 11.32.43: Uncaught ArgumentCountError: Too few arguments to function admin_order_preview_add_custom_meta_data(), 2 passed in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:3
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\
+
+Mar 18, 2020 11.34.16: Uncaught ArgumentCountError: Too few arguments to function admin_order_preview_add_custom_meta_data(), 2 passed in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:3
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\
+
+Mar 18, 2020 11.35.52: Uncaught ArgumentCountError: Too few arguments to function admin_order_preview_add_custom_meta_data(), 1 passed in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and exactly 2 expected in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:3
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): admin_order_preview_add_custom_meta_data(Array)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288
+
+Mar 18, 2020 11.36.21: Uncaught ArgumentCountError: Too few arguments to function admin_order_preview_add_custom_meta_data(), 1 passed in C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php on line 290 and exactly 2 expected in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:3
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(290): admin_order_preview_add_custom_meta_data(Array)
+#1 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288
+
+Mar 18, 2020 12.13.06: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.13.43: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.19.43: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.21.27: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.22.11: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.23.16: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.25.40: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.27.41: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.29.29: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:121
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.35.06: Uncaught Error: Call to a member function __soapCall() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:122
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(793): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Orde
+
+Mar 18, 2020 12.51.11: Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome' : failed to load external entity "http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome"
+ in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\soap-common-class.php:180
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\inc\admin\milcom\soap-common-class.php(180): SoapClient->SoapClient('http://83.91.84...')
+#1 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(282): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): custom_orders_list_column_content('my-column1', 14123)
+#3 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\ne
+
+Mar 18, 2020 13.25.40: Uncaught Error: Class 'NTLMSoapClient' not found in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 C:\xampp
+
+Mar 18, 2020 13.26.20: Uncaught Error: Class 'NTLMSoapClient' not found in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 C:\xampp
