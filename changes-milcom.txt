@@ -57,7 +57,8 @@ SQL Changes:
 1) ALTER TABLE `clk_42491aa6f3_wp_wc_order_stats` ADD COLUMN `is_milcom_approved` ENUM('Yes','No') DEFAULT 'No' NULL AFTER `date_created_gmt`;
 2) CREATE TABLE `milcom_mapping`( `id` INT(11) NOT NULL AUTO_INCREMENT, `milcom_column` VARCHAR(255), `webshop_column` VARCHAR(255), PRIMARY KEY (`id`) );
 3) CREATE TABLE `shipping_agent`( `id` INT(11) NOT NULL AUTO_INCREMENT, `shipping_agent_name` VARCHAR(255), `shipping_agent_servicecode` VARCHAR(255), `display_order` INT(11), PRIMARY KEY (`id`) ); 
-
+4) ALTER TABLE `shipping_agent` ADD COLUMN `shipping_agent_desc` VARCHAR(255) NULL AFTER `shipping_agent_servicecode`; 
+5) ALTER TABLE `shipping_agent` ADD COLUMN `shipping_agent_display_name` VARCHAR(255) NULL AFTER `shipping_agent_desc`; 
 
 
 

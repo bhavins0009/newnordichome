@@ -9,6 +9,7 @@
 	.mapping-table th { border-right:0;}
 	.bottom-btn { width: 60%; float: left; text-align: center }
 	.bottom-btn .button-primary{ padding-left: 40px; min-height: 35px; margin-left: 107px;  padding-right:40px; float: none }
+	.wp-core-ui select { max-width:240px; width: 100% }
 </style>
 <?php
 	include_once('get_mapping_status.php');
@@ -16,7 +17,6 @@
 	$key = '';
     $dropdown_end = '</select>';
 ?>
-
 <form action="" id="frmMilcomMapping" name="frmMilcomMapping" method="POST">
 
 	<table  class="mapping-table wp-list-table widefat fixed striped posts">

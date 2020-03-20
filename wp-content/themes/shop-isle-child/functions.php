@@ -2,7 +2,54 @@
 add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
 function admin_order_preview_add_custom_meta_data( $data, $order ) {
    $data['item_html'] = get_order_preview_item_html($order);
-    return $data;
+   $data['isMilcomApproved'] = getIsMilcomStatus($order->get_order_number());
+   $data['isItemCorrected'] = isItemCorrected($order->get_order_number());
+   return $data;
+}
+
+function isItemCorrected($order_id){
+
+    if(empty($order_id)) {
+        return false;
+    }
+
+    //////////////////// BHAVIN ///////////////////////////////////
+    require_once(get_stylesheet_directory().'/milcom/soap-common-class.php');
+    
+    // require_once(get_template_directory_uri().'/inc/admin/milcom/ntlm2.php');
+    $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';
+    $client = new NTLMSoapClient($baseURL);  
+
+    $order = wc_get_order( $order_id );
+    $order_data = $order->get_data();
+
+    foreach ($order->get_items() as $item_key => $item ) {
+
+            $item_data    = $item->get_data();
+            $product      = $item->get_product(); 
+
+            $ourParamsArray = array('items' => array('Item' => ''), 'no' => $product->get_sku() );
+            $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+
+            $milComeItem = array();
+            if(!empty($response->items->Item->no)) {
+                $milComeItem = $response->items->Item;
+                $isMilcomItem = "Yes";
+            } else {
+                $isMilcomItem = "No";
+            }
+
+            if($isMilcomItem == "Yes"){
+                if((int) $milComeItem->inventory < (int) $item->get_quantity()){
+                    return false;
+                    break;
+                }  
+            } else {
+                return false;
+                break;
+            }    
+    }
+    return true;
 }
 
 function get_order_preview_item_html( $order ) {
@@ -14,20 +61,38 @@ function get_order_preview_item_html( $order ) {
         $baseURL = 'http://83.91.84.146:7049/DynamicsNAV/WS/7000%20New%20Nordic%20Home/Codeunit/NewNordicHome';
         $client = new NTLMSoapClient($baseURL);
          
+        $shippingMethod = trim(strtolower($order->get_shipping_method()));
+        
         global $wpdb;
+        $shippingAgentCommonServiceCodeResult = $wpdb->get_results('SELECT shipping_agent_servicecode FROM shipping_agent WHERE shipping_agent_desc="'.$shippingMethod.'" ');
+        if(count($shippingAgentCommonServiceCodeResult) > 0) {
+            $commonCode = $shippingAgentCommonServiceCodeResult[0]->shipping_agent_servicecode;
+        } else {
+            $commonCode = "";
+        }
+
+        
+        $isMilcomApproved = getIsMilcomStatus($order->get_order_number());
     
         $milcomTableResult = $wpdb->get_results('SELECT * FROM milcom_mapping WHERE ( (webshop_column="external-field") OR (webshop_column="shipping-agent") )');
         $shippingAgentResult = $wpdb->get_results('SELECT DISTINCT shipping_agent_name FROM shipping_agent ORDER BY display_order ASC');
         
         $shippingAgentDropdown = '<select id="shippingAgentServiceCode" name="shippingAgentServiceCode">';
-        
         $shippingAgentDropdown .= '<option value="" selected>Vælg forsendelse</option>';
-
         foreach($shippingAgentResult as $shippingAgent) {
              $shippingAgentDropdown  .= '<optgroup label="'.$shippingAgent->shipping_agent_name.'">';
-                     $shippingAgentServiceCodeResult = $wpdb->get_results('SELECT * FROM shipping_agent WHERE shipping_agent_name="'.$shippingAgent->shipping_agent_name.'" ');
+                     $shippingAgentServiceCodeResult = $wpdb->get_results('SELECT DISTINCT shipping_agent_servicecode FROM shipping_agent WHERE shipping_agent_name="'.$shippingAgent->shipping_agent_name.'" ');
                      foreach($shippingAgentServiceCodeResult as $shippingAgentServiceCode) {
-                         $shippingAgentDropdown .= '<option value="'.$shippingAgentServiceCode->shipping_agent_servicecode.'">'.$shippingAgentServiceCode->shipping_agent_servicecode.'</option>';
+
+                            if(trim($commonCode) == trim($shippingAgentServiceCode->shipping_agent_servicecode)) {
+                            $shippingAgentDropdown .= 
+                            '<option value="'.$shippingAgentServiceCode->shipping_agent_servicecode.'" Selected>'.$shippingAgentServiceCode->shipping_agent_servicecode.'</option>';
+                        } else {
+                            $shippingAgentDropdown .= 
+                            '<option value="'.$shippingAgentServiceCode->shipping_agent_servicecode.'">'.$shippingAgentServiceCode->shipping_agent_servicecode.'</option>';
+                        }
+                        
+
                      }
              $shippingAgentDropdown .= '</optgroup>';
         }
@@ -123,40 +188,43 @@ function get_order_preview_item_html( $order ) {
                         }
 
                         //////////////////// BHAVIN ///////////////////////////////////
-                        $milcomItemId = "milcom_item_".$item_id;
+                        if($isMilcomApproved == "No") {
 
-                        $ourParamsArray = array('items' => array('Item' => ''), 'no' => $product_object->get_sku() );
-                        $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
+                            $milcomItemId = "milcom_item_".$item_id;
 
-                        $milComeItem = array();
-                        if(!empty($response->items->Item->no)) {
-                            $milComeItem = $response->items->Item;
-                            $isMilcomItem = "Yes";
-                        } else {
-                            $isMilcomItem = "No";
-                        }
+                            $ourParamsArray = array('items' => array('Item' => ''), 'no' => $product_object->get_sku() );
+                            $response = $client->__soapCall('GetItems', array('parameters' => $ourParamsArray));
 
-                        if($isMilcomItem == "Yes"){
-                            $html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
-                                        <div> Lager = '.$milComeItem->inventory.' </div>
-                                  </div>';
+                            $milComeItem = array();
+                            if(!empty($response->items->Item->no)) {
+                                $milComeItem = $response->items->Item;
+                                $isMilcomItem = "Yes";
+                            } else {
+                                $isMilcomItem = "No";
+                            }
 
-                            if((int) $milComeItem->inventory < (int) $item->get_quantity()){
+                            if($isMilcomItem == "Yes"){
                                 $html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
-                                        <div style="color:red;"> 
-                                            <strong> Der mangler varer på lager</strong>
-                                        </div>
-                                  </div>';
-                            }     
+                                            <div> Lager = '.$milComeItem->inventory.' </div>
+                                      </div>';
+
+                                if((int) $milComeItem->inventory < (int) $item->get_quantity()){
+                                    $html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
+                                            <div style="color:red;"> 
+                                                <strong> Der mangler varer på lager</strong>
+                                            </div>
+                                      </div>';
+                                }     
 
 
-                        } else {
-                            $html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
-                                        <div style="color:red;"> 
-                                            <strong>Varenr. er ikke oprettet hos Milcom</strong>
-                                        </div>
-                                  </div>';
-                        }   
+                            } else {
+                                $html .= '<div class="wc-order-item-sku" id="milcom_item_'.$item_id.'" style="text-align:left"> 
+                                            <div style="color:red;"> 
+                                                <strong>Varenr. er ikke oprettet hos Milcom</strong>
+                                            </div>
+                                      </div>';
+                            }   
+                        }    
                         //////////////////// BHAVIN ///////////////////////////////////
 
                         $meta_data = $item->get_formatted_meta_data('');
@@ -206,10 +274,16 @@ if(isset($_GET['post_type']) && $_GET['post_type'] == 'shop_order'){
     add_action( 'admin_footer', 'order_preview_template');
 }
 
+function getIsMilcomStatus($orderNo){
+    global $wpdb;
+    $result = $wpdb->get_results('SELECT is_milcom_approved FROM clk_42491aa6f3_wp_wc_order_stats WHERE order_id='.$orderNo.' '); 
+    $isMilcomApproved = (!empty($result)) ? $result[0]->is_milcom_approved : 'No';
+    return $isMilcomApproved;
+}
+
 function order_preview_template() {
         ?>
         <script type="text/template" id="tmpl-wc-modal-view-order">
-            <?php $customOrderId = '{{ data.order_number }}'; ?>
             <form action="<?php echo get_site_url().'/milcom/milcom-place-order.php';?>" id="place_order_to_milcom" name="place_order_to_milcom" method="post" style="float:right; margin-bottom:0">
 
             <div class="wc-backbone-modal wc-order-preview">
@@ -291,7 +365,11 @@ function order_preview_template() {
                                     Rediger <?php //esc_html_e( 'Edit', 'woocommerce' ); ?></a>
 
                                     <input type="hidden" id="order_id" name="order_id" value="{{ data.order_number }}">
-                                    <input class="button button-primary button-large" type="button" id="place_order_milcome" name="place_order_milcome" value="Send ordre til Milcom" onClick="place_order_milcome()">  
+                                    
+                                    <# if ( data.isMilcomApproved == 'No') { #>
+                                    <input class="button button-primary button-large " type="button" id="place_order_milcome" name="place_order_milcome" value="Send ordre til Milcom" onClick="place_order_milcome()"> 
+                                    <# } #>
+                                    
                             </div>
 
                             <div>
@@ -303,6 +381,7 @@ function order_preview_template() {
             <div class="wc-backbone-modal-backdrop modal-close"></div>
             </form>
             <script> 
+
                 jQuery("#place_order_milcome").on('click', function () {
                         var code = jQuery("#shippingAgentServiceCode").val();
                         if(code == ""){
@@ -310,8 +389,8 @@ function order_preview_template() {
                         } else {
                             jQuery("#place_order_to_milcom").submit();
                         }
-
                 });
+
             </script>
         </script>
         <?php
@@ -331,8 +410,8 @@ function custom_shop_order_column($columns)
         $reordered_columns[$key] = $column;
         if( $key ==  'order_status' ){
             // Inserting after "Status" column
-            $reordered_columns['my-column1'] = __( 'order','woocommerce');
-            // $reordered_columns['my-column1'] = __( 'Milcom Status','theme_domain');
+            
+            $reordered_columns['my-column1'] = __( 'Milcom Status','theme_domain');
             // $reordered_columns['my-column2'] = __( 'Milcom Order Status','theme_domain');
         }
     }

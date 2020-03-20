@@ -1,0 +1,40 @@
+2020-03-20T13:36:57+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php:65
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Ov i C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php på linje 65
+
+2020-03-20T13:38:38+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Ov i C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php på linje 66
+
+2020-03-20T13:41:17+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Ov i C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php på linje 66
+
+2020-03-20T13:51:56+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Ov i C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php på linje 66
+
+2020-03-20T13:52:15+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php:66
+Stack trace:
+#0 C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php(4): get_order_preview_item_html(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 C:\xampp\htdocs\newnordichome\wp-includes\class-wp-hook.php(288): admin_order_preview_add_custom_meta_data(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#2 C:\xampp\htdocs\newnordichome\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(643): apply_filters('woocommerce_adm...', Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 C:\xampp\htdocs\newnordichome\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(551): WC_Admin_List_Table_Orders::order_preview_get_order_details(Object(Automattic\WooCommerce\Admin\Ov i C:\xampp\htdocs\newnordichome\wp-content\themes\shop-isle-child\functions.php på linje 66
+
